@@ -1,0 +1,5 @@
+[Default Applications]
+application/x-executable=code.desktop
+
+[Added Associations]
+application/x-executable=code.desktop;

@@ -1,0 +1,3 @@
+nerd-fonts-complete-starship
+siji-git
+ttf-font-awesome-5
