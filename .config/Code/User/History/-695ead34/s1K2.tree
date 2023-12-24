@@ -1,0 +1,13 @@
+\title{Constraining Additive Log Ratio Transform}
+\tag{private}
+\author{meenaljhajharia}
+\texpackage{amsmath}
+\import{basic-macros}
+
+\p{The inverse ALR transformation maps values in
+#{\R^{N-1}} to #{\simplex{N-1}} defined for #{y \in
+\R^{N-1}} by
+##{
+  \operatorname{alr}^{-1}(y)
+  = \softmax\left(\begin{bmatrix} y \\  0 \end{bmatrix}\right).
+}}

@@ -1,0 +1,4 @@
+\ProvidesFile{avnr.fd}
+\DeclareFontFamily{T1}{AvenirNextLTPro}{}
+\DeclareFontShape{T1}{AvenirNextLTPro}{m}{n}{ <-> <font_name>.<internal_font_name}{}
+% Add similar lines for other font variations

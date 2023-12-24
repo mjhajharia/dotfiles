@@ -1,0 +1,13 @@
+\title{Unconstraining - Stickbreaking CDF Transform}
+\tag{private}
+\author{meenaljhajharia}
+\texpackage{preamble}
+\import{basic-macros}
+
+Let $\phi_i = \arccos(\sqrt{z_i}) \in \big[0, \frac{\pi}{2}\big)$.
+Then the angles $\phi_i$ are hyperspherical coordinates for the unit vector $u$ where $u_i = x_i^2 > 0$ \cite{betancourt2012cruising}.
+The angles $\phi_i$ are further unconstrained with a logit transform.
+The resulting $g_i$ is
+\[
+  g_i(z_i) = \logit\left(\frac{2}{\pi} \arccos(\sqrt{z_i})\right).
+\]

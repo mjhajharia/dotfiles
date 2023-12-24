@@ -1,0 +1,9 @@
+\title{Jacobian - Stickbreaking Transform}
+\tag{private}
+\author{meenaljhajharia}
+\texpackage{preamble}
+
+\p{The absolute determinant of the Jacobian of the constraining transformation is ##{
+    \absdet{\jac_{f_1^{-1}}} = \prod_{k=1}^{N-2} (1-z_k)^{N-1-k}
+}
+}

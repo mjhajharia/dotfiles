@@ -1,0 +1,5 @@
+\title{Transforms Paper}
+\tag{private}
+\author{meenaljhajharia}
+
+\p{We consider the task of sampling on a unit simplex using Hamiltonian Monte Carlo. In Bayesian computation, parameters are often constrained on a simplex, e.g. for modelling categorical data. Unconstraining transforms mapping a unit #{N}-Simplex to are used to avoid the challenges of constructing HMC samplers for a constrained space. Arbitrary transformations can be used, but not all of them are useful for reasons including sampling due to weak convexity, incompatible posterior geometry, and numerical instability. In this paper we evaluate the statistical properties,  computational efficiency and geometry for unconstraining transforms between a unit #{N}-simplex and}

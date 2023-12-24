@@ -1,0 +1,16 @@
+\title{Constraining Isometric Log Ratio Transform}
+\tag{private}
+\author{meenaljhajharia}
+\texpackage{amsmath}
+\import{basic-macros}
+\meta{source}{\citek{tsagris2011data}}
+
+\p{The inverse isometric log ratio transformation maps values in
+#{\R^{N-1}} to #{\simplex{N-1}} defined for #{y \in
+\R^{N-1}} by
+##{
+  \operatorname{ilr}^{-1}(y) = \softmax(V y).
+}}
+
+\p{The affine transformation of the multiplication by the inverse unitary matrix does not change
+the calculation of the change of variables adjustment proceeds similarly to the ALR case. In fact, any affine transformation may be completed at this stage which generalizes the ILR to power transformations as in ["[1]"](tsagris2011data)}

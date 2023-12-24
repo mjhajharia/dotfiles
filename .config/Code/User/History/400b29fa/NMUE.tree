@@ -1,0 +1,23 @@
+\title{Stickbreaking Transform}
+\tag{private}
+\author{meenaljhajharia}
+
+\p{Unconstraining transform}
+The unconstraining transformation $f_1 \colon \simplex{N-1} \to (0, 1]^{N-1}$ is defined so that if $z = f_1(x)$, then
+\[
+  z_i = \frac{x_i}{1 - \sum_{k = 1}^{i-1} x_{k}}.
+\]
+
+\paragraph{Constraining transform}
+The inverse transformation $f_1^{-1}$ is
+\[
+  x_i = z_i \left( 1 - \sum_{k=1}^{i-1} x_k \right).
+\]
+                                            
+\paragraph{Change-of-variables adjustment} The absolute determinant of the Jacobian of the constraining transformation is
+\[
+  \absdet{\jac_{f_1^{-1}}} = \prod_{k=1}^{N-2} (1-z_k)^{N-1-k}
+\]
+
+To complete the unconstraining transform, we must select a collection of $N-1$ independent transforms $g_i \colon (0, 1] \to \R$, where we define $g\colon (0, 1]^{N-1} \to \R^{N-1}$ as the elementwise application of each function $g_i$.
+Then the combined unconstraining transform is $f = g \circ f_1 \colon x \mapsto y \in \R^{N-1}$.

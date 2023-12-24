@@ -1,0 +1,12 @@
+\subsubsection{Stick-breaking angular transform}
+
+\paragraph{Unconstraining transformation}
+
+
+
+\paragraph{Constraining transformation} 
+
+\paragraph{Change-of-variables adjustment} The combined absolute Jacobian determinant is
+\[
+  \absdet{J_{f^{-1}}} = 2^{N-1} \prod_{k=1}^{N-1} \phi_k \left(1 - \frac{2}{\pi} \phi_k\right) \cos(\phi_k) \sin^{2(N-k)-1}(\phi_k).
+\]

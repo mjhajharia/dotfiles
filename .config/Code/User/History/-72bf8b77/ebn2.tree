@@ -1,0 +1,26 @@
+\title{Stickbreaking CDF Transform}
+\tag{private}
+\author{meenaljhajharia}
+\texpackage{preamble}
+\import{basic-macros}
+
+\p{For this family of transforms, let #{H_i} be the CDF of any continuous distribution supported on the entire real line, #{H_i^{-1}} be its quantile function, and #{h_i} be its density function.}
+
+
+
+\paragraph{Change-of-variables adjustment} 
+The combined Jacobian determinant is
+\[
+    \absdet{J_{f^{-1}}} = \prod_{k=1}^{N-1} (1 - H_k(y_k))^{N-1-k} h_k(y_k).
+\]
+For the \emph{stick-breaking normal} transform,
+\[
+  h_i(y_i) = \mathcal{N}(y_i \mid \frac{1}{2}\log(N - i), 1), \qquad H_i(y_i) = \invprobit(y_i - \frac{1}{2}\log(N - i)),
+\]
+while for the \emph{stick-breaking logistic} transform,
+\[
+  h_i(y_i) = \mathrm{Logistic}(y_i \mid \log(N-i), 1), \qquad H_i(y_i) = \logistic(y_i - \log(N-i)).
+\]
+This choice is particularly convenient, since for all Dirichlet distributions with a scalar concentration parameter $\alpha = \alpha_0 \onevec{N}$, the corresponding unconstrained distribution has a single mode at $y^* = 0_{N-1}$.
+This is the transform used by Stan \cite{stan2022ref}.
+

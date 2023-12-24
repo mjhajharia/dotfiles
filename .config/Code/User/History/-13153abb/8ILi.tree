@@ -1,0 +1,27 @@
+\title{Uniform and Exponential Spacings}
+\author{devroye_uniform_1986}
+\taxon{reference}
+\meta{address}{New York, NY}
+\meta{isbn}{978-1-4613-8643-8}
+\meta{url}{https://doi.org/10.1007/978-1-4613-8643-8_5}
+\meta{abstract}{The goal of this book is to demonstrate that random variates with various distributions can be obtained by cleverly manipulating iid uniform [0,1] random variates. As we will see in this chapter, normal, exponential, beta, gamma, and t-distributed random variates can be obtained by manipulation of the order statistics or spacings defined by samples of iid uniform [0,1] random variates. For example, the celebrated polar method or Box-Muller method for normal random variates will be derived in this manner (Box and Muller, 1958).}
+\meta{booktitle}{Non-Uniform Random Variate Generation}
+\meta{publisher}{Springer New York}
+\meta{author}{Devroye, Luc}
+\meta{year}{1986}
+\meta{doi}{10.1007/978-1-4613-8643-8_5}
+\meta{pages}{206--245}
+\code{@incollection{devroye_uniform_1986,
+	address = {New York, NY},
+	title = {Uniform and {Exponential} {Spacings}},
+	isbn = {978-1-4613-8643-8},
+	url = {https://doi.org/10.1007/978-1-4613-8643-8_5},
+	abstract = {The goal of this book is to demonstrate that random varlates with various distributions can be obtained by cleverly manipulating iid uniform [0,1] random varlates. As we will see in this chapter, normal, exponential, beta, gamma and t distributed random varlates can be obtained by manipulation of the order statistics or spaclngs defined by samples of iid uniform [0,1] random varlates. For example, the celebrated polar method or Box-Muller method for normal random varlates will be derived in this manner (Box and Muller, 1958).},
+	booktitle = {Non-{Uniform} {Random} {Variate} {Generation}},
+	publisher = {Springer New York},
+	author = {Devroye, Luc},
+	year = {1986},
+	doi = {10.1007/978-1-4613-8643-8_5},
+	pages = {206--245},
+}
+}

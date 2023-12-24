@@ -1,0 +1,11 @@
+\title{Jacobian - Stickbreaking Transform}
+\tag{private}
+\author{meenaljhajharia}
+\texpackage{preamble}
+\texpackage{amsmath}
+
+\tex{The absolute determinant of the Jacobian of the constraining transformation is 
+\begin{equation*}
+  m=k
+\end{equation}
+}

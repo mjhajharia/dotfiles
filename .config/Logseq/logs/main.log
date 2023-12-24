@@ -1,0 +1,319 @@
+[2023-04-06 01:21:46.600] [info] Logseq App(0.9.1) Starting... 
+[2023-04-06 01:21:46.606] [info] restore proxy settings {:type "system"}
+[2023-04-06 01:21:46.607] [info] set proxy to {:type "system"}
+[2023-04-06 01:21:49.027] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/.logseq/config"}
+[2023-04-06 01:21:56.362] [info] :electron.handler/open-dir open folder selection dialog
+[2023-04-06 01:22:05.596] [debug] :electron.handler/open-dir {:path "/home/meenaljhajharia/github/mjhajharia/math"}
+[2023-04-06 01:22:06.629] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/github/mjhajharia/math"}
+[2023-04-06 01:28:00.147] [debug] window-all-closed Quitting...
+[2023-04-06 01:28:03.785] [info] Logseq App(0.9.1) Starting... 
+[2023-04-06 01:28:03.789] [info] restore proxy settings {:type "system"}
+[2023-04-06 01:28:03.790] [info] set proxy to {:type "system"}
+[2023-04-06 01:28:06.426] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/.logseq/config"}
+[2023-04-06 01:28:06.443] [debug] :electron.handler/unwatch-dir {:path "/home/meenaljhajharia/github/mjhajharia/math"}
+[2023-04-06 01:28:06.444] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/github/mjhajharia/math"}
+[2023-04-06 01:28:45.421] [info] :electron.handler/backup backup db file logseq/custom.css
+[2023-04-06 01:29:19.424] [info] :electron.handler/backup backup db file logseq/custom.css
+[2023-04-06 01:30:01.549] [info] :electron.handler/backup backup db file logseq/custom.css
+[2023-04-06 01:30:39.485] [debug] window-all-closed Quitting...
+[2023-04-12 01:55:40.180] [info] Logseq App(0.9.1) Starting... 
+[2023-04-12 01:55:40.185] [info] restore proxy settings {:type "system"}
+[2023-04-12 01:55:40.186] [info] set proxy to {:type "system"}
+[2023-04-12 01:55:42.569] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/.logseq/config"}
+[2023-04-12 01:55:42.601] [debug] :electron.handler/unwatch-dir {:path "/home/meenaljhajharia/github/mjhajharia/math"}
+[2023-04-12 01:55:42.603] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/github/mjhajharia/math"}
+[2023-04-12 01:56:35.625] [debug] window-all-closed Quitting...
+[2023-04-13 06:33:08.907] [info] Logseq App(0.9.1) Starting... 
+[2023-04-13 06:33:08.910] [info] restore proxy settings {:type "system"}
+[2023-04-13 06:33:08.912] [info] set proxy to {:type "system"}
+[2023-04-13 06:33:11.342] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/.logseq/config"}
+[2023-04-13 06:33:11.377] [debug] :electron.handler/unwatch-dir {:path "/home/meenaljhajharia/github/mjhajharia/math"}
+[2023-04-13 06:33:11.378] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/github/mjhajharia/math"}
+[2023-04-13 06:48:01.437] [debug] window-all-closed Quitting...
+[2023-04-13 07:05:05.499] [info] Logseq App(0.9.1) Starting... 
+[2023-04-13 07:05:05.503] [info] restore proxy settings {:type "system"}
+[2023-04-13 07:05:05.503] [info] set proxy to {:type "system"}
+[2023-04-13 07:05:07.902] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/.logseq/config"}
+[2023-04-13 07:05:07.935] [debug] :electron.handler/unwatch-dir {:path "/home/meenaljhajharia/github/mjhajharia/math"}
+[2023-04-13 07:05:07.937] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/github/mjhajharia/math"}
+[2023-04-13 07:05:18.959] [info] :electron.handler/open-dir open folder selection dialog
+[2023-04-13 07:05:21.509] [debug] :electron.handler/open-dir {:path "/home/meenaljhajharia/logseq-home"}
+[2023-04-13 07:05:22.123] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/logseq-home"}
+[2023-04-13 07:05:35.259] [debug] [Marketplace] [Uninstall] /home/meenaljhajharia/.logseq/plugins/logseq-theme
+[2023-04-13 07:08:12.056] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/.logseq/config"}
+[2023-04-13 07:08:12.072] [debug] :electron.handler/unwatch-dir {:path "/home/meenaljhajharia/logseq-home"}
+[2023-04-13 07:08:12.073] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/logseq-home"}
+[2023-04-13 07:08:19.954] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/github/mjhajharia/math"}
+[2023-04-13 07:08:41.624] [debug] [Marketplace] [Uninstall] /home/meenaljhajharia/.logseq/plugins/logseq-theme
+[2023-04-13 07:08:48.756] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/.logseq/config"}
+[2023-04-13 07:08:48.764] [debug] :electron.handler/unwatch-dir {:path "/home/meenaljhajharia/github/mjhajharia/math"}
+[2023-04-13 07:08:48.765] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/github/mjhajharia/math"}
+[2023-04-13 07:09:36.470] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/.logseq/config"}
+[2023-04-13 07:09:36.479] [debug] :electron.handler/unwatch-dir {:path "/home/meenaljhajharia/github/mjhajharia/math"}
+[2023-04-13 07:09:36.481] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/github/mjhajharia/math"}
+[2023-04-13 07:09:41.617] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/logseq-home"}
+[2023-04-13 07:09:49.509] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/github/mjhajharia/math"}
+[2023-04-13 07:10:53.744] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/.logseq/config"}
+[2023-04-13 07:10:53.755] [debug] :electron.handler/unwatch-dir {:path "/home/meenaljhajharia/github/mjhajharia/math"}
+[2023-04-13 07:10:53.756] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/github/mjhajharia/math"}
+[2023-04-13 07:12:38.291] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/.logseq/config"}
+[2023-04-13 07:12:38.300] [debug] :electron.handler/unwatch-dir {:path "/home/meenaljhajharia/github/mjhajharia/math"}
+[2023-04-13 07:12:38.301] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/github/mjhajharia/math"}
+[2023-04-13 07:12:56.294] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/logseq-home"}
+[2023-04-13 07:13:31.569] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/github/mjhajharia/math"}
+[2023-04-13 07:14:01.936] [info] :electron.handler/backup backup db file logseq/custom.css
+[2023-04-13 07:14:05.461] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/.logseq/config"}
+[2023-04-13 07:14:05.494] [debug] :electron.handler/unwatch-dir {:path "/home/meenaljhajharia/github/mjhajharia/math"}
+[2023-04-13 07:14:05.495] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/github/mjhajharia/math"}
+[2023-04-13 07:14:05.639] [info] :electron.handler/backup backup db file logseq/custom.css
+[2023-04-13 07:14:07.221] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/logseq-home"}
+[2023-04-13 08:10:29.057] [info] :electron.handler/unlink {:path "/home/meenaljhajharia/logseq-home/pages/To Look Into.md"}
+[2023-04-13 08:10:29.058] [debug] :electron.handler/unlink recycle to /home/meenaljhajharia/logseq-home/logseq/.recycle/pages_To Look Into.md
+[2023-04-13 08:10:29.193] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/logseq-home/pages/To Look Into.md"}
+[2023-04-13 08:10:35.476] [info] :electron.handler/backup backup db file logseq/config.edn
+[2023-04-13 08:11:51.394] [error] Search blocks failed:  SqliteError: fts5: syntax error near ""
+[2023-04-13 08:11:51.397] [error] Search page failed:  SqliteError: fts5: syntax error near ""
+[2023-04-13 08:11:52.223] [error] Search blocks failed:  SqliteError: fts5: syntax error near ""
+[2023-04-13 08:11:52.226] [error] Search page failed:  SqliteError: fts5: syntax error near ""
+[2023-04-13 08:11:53.127] [error] Search blocks failed:  SqliteError: fts5: syntax error near ""
+[2023-04-13 08:11:53.130] [error] Search page failed:  SqliteError: fts5: syntax error near ""
+[2023-04-13 08:11:54.294] [error] Search blocks failed:  SqliteError: fts5: syntax error near ""
+[2023-04-13 08:11:54.296] [error] Search page failed:  SqliteError: fts5: syntax error near ""
+[2023-04-13 08:11:54.857] [error] Search blocks failed:  SqliteError: fts5: syntax error near "work"
+[2023-04-13 08:11:54.860] [error] Search page failed:  SqliteError: fts5: syntax error near "work"
+[2023-04-13 08:13:24.862] [info] :electron.handler/backup backup db file logseq/config.edn
+[2023-04-13 08:16:41.660] [info] :electron.handler/backup backup db file logseq/config.edn
+[2023-04-13 08:27:10.805] [info] :electron.handler/backup backup db file logseq/config.edn
+[2023-04-13 08:27:32.482] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/.logseq/config"}
+[2023-04-13 08:27:32.496] [debug] :electron.handler/unwatch-dir {:path "/home/meenaljhajharia/logseq-home"}
+[2023-04-13 08:27:32.498] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/logseq-home"}
+[2023-04-13 08:27:32.595] [info] :electron.handler/backup backup db file logseq/config.edn
+[2023-04-13 08:27:32.596] [info] :electron.handler/backup backup db file pages/Brain Dump - Work.md
+[2023-04-13 08:27:32.598] [info] :electron.handler/backup backup db file pages/Chores.md
+[2023-04-13 08:27:32.667] [info] :electron.handler/backup backup db file pages/Work.md
+[2023-04-13 08:27:58.528] [warn] :electron.fs-watcher/on-unlink-dir {:path "/home/meenaljhajharia/logseq-home/journals"}
+[2023-04-13 08:31:23.128] [info] :electron.handler/backup backup db file logseq/config.edn
+[2023-04-13 08:32:22.549] [info] :electron.handler/backup backup db file logseq/config.edn
+[2023-04-13 08:32:27.497] [debug] :electron.handler/get-files {:path "/home/meenaljhajharia/logseq-home"}
+[2023-04-13 08:32:27.920] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/logseq-home"}
+[2023-04-13 08:32:57.083] [info] :electron.handler/backup backup db file pages/journals/2023_04_13.md
+[2023-04-13 08:32:58.704] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/logseq-home/pages/journals/2023_04_13.md"}
+[2023-04-13 08:40:09.608] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/.logseq/config"}
+[2023-04-13 08:40:09.639] [debug] :electron.handler/unwatch-dir {:path "/home/meenaljhajharia/logseq-home"}
+[2023-04-13 08:40:09.640] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/logseq-home"}
+[2023-04-13 08:40:09.784] [info] :electron.handler/backup backup db file pages/journals/2023_04_13.md
+[2023-04-13 08:40:23.342] [info] :electron.handler/backup backup db file logseq/config.edn
+[2023-04-15 03:28:07.782] [debug] window-all-closed Quitting...
+[2023-04-18 13:30:33.730] [info] Logseq App(0.9.1) Starting... 
+[2023-04-18 13:30:33.735] [info] restore proxy settings {:type "system"}
+[2023-04-18 13:30:33.735] [info] set proxy to {:type "system"}
+[2023-04-18 13:30:36.188] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/.logseq/config"}
+[2023-04-18 13:30:36.222] [debug] :electron.handler/unwatch-dir {:path "/home/meenaljhajharia/logseq-home"}
+[2023-04-18 13:30:36.223] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/logseq-home"}
+[2023-04-18 14:08:59.714] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/github/mjhajharia/math"}
+[2023-04-18 14:09:08.246] [debug] :electron.handler/get-files {:path "/home/meenaljhajharia/github/mjhajharia/math"}
+[2023-04-18 14:09:08.368] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/github/mjhajharia/math"}
+[2023-04-18 14:09:09.800] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/logseq-home"}
+[2023-04-18 14:09:14.176] [debug] :electron.handler/get-files {:path "/home/meenaljhajharia/logseq-home"}
+[2023-04-18 14:09:14.560] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/logseq-home"}
+[2023-04-18 14:09:39.735] [info] :electron.handler/backup backup db file logseq/config.edn
+[2023-04-18 14:09:44.386] [debug] :electron.handler/get-files {:path "/home/meenaljhajharia/logseq-home"}
+[2023-04-18 14:09:44.782] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/logseq-home"}
+[2023-04-18 14:10:14.115] [debug] :electron.handler/get-files {:path "/home/meenaljhajharia/logseq-home"}
+[2023-04-18 14:10:14.510] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/logseq-home"}
+[2023-04-18 14:10:37.030] [info] :electron.handler/backup backup db file logseq/config.edn
+[2023-04-18 14:10:41.930] [debug] :electron.handler/get-files {:path "/home/meenaljhajharia/logseq-home"}
+[2023-04-18 14:10:42.266] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/logseq-home"}
+[2023-04-18 14:10:52.493] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/github/mjhajharia/math"}
+[2023-04-18 14:10:58.736] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/logseq-home"}
+[2023-04-18 14:14:01.338] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/github/mjhajharia/math"}
+[2023-04-18 14:14:22.063] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/logseq-home"}
+[2023-04-18 14:14:26.155] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/github/mjhajharia/math"}
+[2023-04-18 14:14:28.169] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/logseq-home"}
+[2023-04-18 14:15:04.967] [debug] window-all-closed Quitting...
+[2023-04-18 14:15:20.527] [info] Logseq App(0.9.1) Starting... 
+[2023-04-18 14:15:20.532] [info] restore proxy settings {:type "system"}
+[2023-04-18 14:15:20.533] [info] set proxy to {:type "system"}
+[2023-04-18 14:15:23.044] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/.logseq/config"}
+[2023-04-18 14:15:23.067] [debug] :electron.handler/unwatch-dir {:path "/home/meenaljhajharia/logseq-home"}
+[2023-04-18 14:15:23.068] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/logseq-home"}
+[2023-04-18 14:15:27.374] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/github/mjhajharia/math"}
+[2023-04-18 14:16:08.538] [info] :electron.handler/unlink {:path "/home/meenaljhajharia/github/mjhajharia/math/logseq-home/pages/despite despite despite.md"}
+[2023-04-18 14:16:08.539] [debug] :electron.handler/unlink recycle to /home/meenaljhajharia/github/mjhajharia/math/logseq/.recycle/logseq-home_pages_despite despite despite.md
+[2023-04-18 14:16:08.649] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/github/mjhajharia/math/logseq-home/pages/despite despite despite.md"}
+[2023-04-18 14:17:02.699] [warn] :electron.fs-watcher/on-unlink-dir {:path "/home/meenaljhajharia/github/mjhajharia/math/logseq-home/assets"}
+[2023-04-18 14:17:02.699] [warn] :electron.fs-watcher/on-unlink-dir {:path "/home/meenaljhajharia/github/mjhajharia/math/logseq-home/journals"}
+[2023-04-18 14:17:02.700] [warn] :electron.fs-watcher/on-unlink-dir {:path "/home/meenaljhajharia/github/mjhajharia/math/logseq-home/logseq/bak"}
+[2023-04-18 14:17:02.700] [warn] :electron.fs-watcher/on-unlink-dir {:path "/home/meenaljhajharia/github/mjhajharia/math/logseq-home/logseq"}
+[2023-04-18 14:17:02.702] [warn] :electron.fs-watcher/on-unlink-dir {:path "/home/meenaljhajharia/github/mjhajharia/math/logseq-home/pages/journals"}
+[2023-04-18 14:17:02.703] [warn] :electron.fs-watcher/on-unlink-dir {:path "/home/meenaljhajharia/github/mjhajharia/math/logseq-home/pages"}
+[2023-04-18 14:17:02.703] [warn] :electron.fs-watcher/on-unlink-dir {:path "/home/meenaljhajharia/github/mjhajharia/math/logseq-home"}
+[2023-04-18 14:17:02.799] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/github/mjhajharia/math/logseq-home/assets/image_1681614708018_0.png"}
+[2023-04-18 14:17:02.799] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/github/mjhajharia/math/logseq-home/logseq/config.edn"}
+[2023-04-18 14:17:02.799] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/github/mjhajharia/math/logseq-home/logseq/custom.css"}
+[2023-04-18 14:17:02.800] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/github/mjhajharia/math/logseq-home/pages/Applying to Stuff.md"}
+[2023-04-18 14:17:02.800] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/github/mjhajharia/math/logseq-home/pages/BDA.md"}
+[2023-04-18 14:17:02.800] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/github/mjhajharia/math/logseq-home/pages/Brain Dump - Personal.md"}
+[2023-04-18 14:17:02.800] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/github/mjhajharia/math/logseq-home/pages/Chores.md"}
+[2023-04-18 14:17:02.800] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/github/mjhajharia/math/logseq-home/pages/Conferences.md"}
+[2023-04-18 14:17:02.800] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/github/mjhajharia/math/logseq-home/pages/Cool People - Work.md"}
+[2023-04-18 14:17:02.800] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/github/mjhajharia/math/logseq-home/pages/Emailing.md"}
+[2023-04-18 14:17:02.801] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/github/mjhajharia/math/logseq-home/pages/GRE Math.md"}
+[2023-04-18 14:17:02.801] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/github/mjhajharia/math/logseq-home/pages/GRE.md"}
+[2023-04-18 14:17:02.801] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/github/mjhajharia/math/logseq-home/pages/HMC Curvature.md"}
+[2023-04-18 14:17:02.801] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/github/mjhajharia/math/logseq-home/pages/LATER.md"}
+[2023-04-18 14:17:02.801] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/github/mjhajharia/math/logseq-home/pages/Link Dump for HMC Curvature.md"}
+[2023-04-18 14:17:02.801] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/github/mjhajharia/math/logseq-home/pages/Literature Link Dump.md"}
+[2023-04-18 14:17:02.801] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/github/mjhajharia/math/logseq-home/pages/Math.md"}
+[2023-04-18 14:17:02.801] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/github/mjhajharia/math/logseq-home/pages/Open Source.md"}
+[2023-04-18 14:17:02.802] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/github/mjhajharia/math/logseq-home/pages/PyOpenSci.md"}
+[2023-04-18 14:17:02.802] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/github/mjhajharia/math/logseq-home/pages/Stuff AI sent.md"}
+[2023-04-18 14:17:02.802] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/github/mjhajharia/math/logseq-home/pages/TODO.md"}
+[2023-04-18 14:17:02.802] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/github/mjhajharia/math/logseq-home/pages/To Read.md"}
+[2023-04-18 14:17:02.802] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/github/mjhajharia/math/logseq-home/pages/Transforms.md"}
+[2023-04-18 14:17:02.802] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/github/mjhajharia/math/logseq-home/pages/contents.md"}
+[2023-04-18 14:17:02.802] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/github/mjhajharia/math/logseq-home/pages/journals/2023_04_13.md"}
+[2023-04-18 14:17:02.803] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/github/mjhajharia/math/logseq-home/pages/journals/2023_04_16.md"}
+[2023-04-18 14:17:25.540] [warn] :electron.fs-watcher/on-unlink-dir {:path "/home/meenaljhajharia/github/mjhajharia/math/logseq-home/logseq/bak"}
+[2023-04-18 14:17:25.542] [warn] :electron.fs-watcher/on-unlink-dir {:path "/home/meenaljhajharia/github/mjhajharia/math/logseq-home/assets"}
+[2023-04-18 14:17:25.542] [warn] :electron.fs-watcher/on-unlink-dir {:path "/home/meenaljhajharia/github/mjhajharia/math/logseq-home/logseq"}
+[2023-04-18 14:17:25.543] [warn] :electron.fs-watcher/on-unlink-dir {:path "/home/meenaljhajharia/github/mjhajharia/math/logseq-home/pages"}
+[2023-04-18 14:17:25.544] [warn] :electron.fs-watcher/on-unlink-dir {:path "/home/meenaljhajharia/github/mjhajharia/math/logseq-home"}
+[2023-04-18 14:20:00.822] [warn] :electron.fs-watcher/on-unlink-dir {:path "/home/meenaljhajharia/github/mjhajharia/math/logseq-home/assets"}
+[2023-04-18 14:20:00.822] [warn] :electron.fs-watcher/on-unlink-dir {:path "/home/meenaljhajharia/github/mjhajharia/math/logseq-home/logseq"}
+[2023-04-18 14:20:00.823] [warn] :electron.fs-watcher/on-unlink-dir {:path "/home/meenaljhajharia/github/mjhajharia/math/logseq-home/pages"}
+[2023-04-18 14:20:00.824] [warn] :electron.fs-watcher/on-unlink-dir {:path "/home/meenaljhajharia/github/mjhajharia/math/logseq-home"}
+[2023-04-18 14:22:49.479] [debug] :electron.handler/get-files {:path "/home/meenaljhajharia/github/mjhajharia/math"}
+[2023-04-18 14:22:50.117] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/github/mjhajharia/math"}
+[2023-04-18 14:22:56.213] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/logseq-home"}
+[2023-04-18 14:23:10.163] [debug] :electron.handler/get-files {:path "/home/meenaljhajharia/logseq-home"}
+[2023-04-18 14:23:10.570] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/logseq-home"}
+[2023-04-18 14:24:13.104] [info] :electron.handler/unlink {:path "/home/meenaljhajharia/logseq-home/pages/home.md"}
+[2023-04-18 14:24:13.105] [debug] :electron.handler/unlink recycle to /home/meenaljhajharia/logseq-home/logseq/.recycle/pages_home.md
+[2023-04-18 14:24:13.212] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/logseq-home/pages/home.md"}
+[2023-04-18 14:24:13.216] [info] :electron.handler/backup backup db file logseq/config.edn
+[2023-04-18 14:25:31.315] [info] :electron.handler/unlink {:path "/home/meenaljhajharia/logseq-home/pages/lookout.md"}
+[2023-04-18 14:25:31.316] [debug] :electron.handler/unlink recycle to /home/meenaljhajharia/logseq-home/logseq/.recycle/pages_lookout.md
+[2023-04-18 14:25:31.415] [info] :electron.handler/backup backup db file logseq/config.edn
+[2023-04-18 14:25:31.423] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/logseq-home/pages/lookout.md"}
+[2023-04-18 14:25:39.318] [info] :electron.handler/backup backup db file logseq/config.edn
+[2023-04-18 14:25:48.912] [info] :electron.handler/backup backup db file logseq/config.edn
+[2023-04-18 14:25:53.504] [info] :electron.handler/backup backup db file logseq/config.edn
+[2023-04-18 14:26:01.524] [debug] window-all-closed Quitting...
+[2023-05-04 06:42:10.131] [info] Logseq App(0.9.1) Starting... 
+[2023-05-04 06:42:10.135] [info] restore proxy settings {:type "system"}
+[2023-05-04 06:42:10.136] [info] set proxy to {:type "system"}
+[2023-05-04 06:42:12.714] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/.logseq/config"}
+[2023-05-04 06:42:12.757] [debug] :electron.handler/unwatch-dir {:path "/home/meenaljhajharia/logseq-home"}
+[2023-05-04 06:42:12.758] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/logseq-home"}
+[2023-05-04 06:42:16.265] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/github/mjhajharia/math"}
+[2023-05-04 06:47:16.140] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/logseq-home"}
+[2023-05-04 06:47:16.286] [info] :electron.handler/backup backup db file logseq/config.edn
+[2023-05-04 06:47:16.289] [info] :electron.handler/backup backup db file pages/Applying to Stuff.md
+[2023-05-04 06:47:16.290] [info] :electron.handler/backup backup db file pages/BDA.md
+[2023-05-04 06:47:16.290] [info] :electron.handler/backup backup db file pages/Chores.md
+[2023-05-04 06:47:16.291] [info] :electron.handler/backup backup db file pages/Conferences.md
+[2023-05-04 06:47:16.292] [info] :electron.handler/backup backup db file pages/Emailing.md
+[2023-05-04 06:47:16.358] [info] :electron.handler/backup backup db file pages/PyOpenSci.md
+[2023-05-04 06:56:23.115] [warn] :electron.fs-watcher/on-unlink-dir {:path "/home/meenaljhajharia/logseq-home/pages/journals"}
+[2023-05-04 06:56:23.118] [warn] :electron.fs-watcher/on-unlink-dir {:path "/home/meenaljhajharia/logseq-home/assets"}
+[2023-05-04 06:56:23.119] [warn] :electron.fs-watcher/on-unlink-dir {:path "/home/meenaljhajharia/logseq-home/journals"}
+[2023-05-04 06:56:23.120] [warn] :electron.fs-watcher/on-unlink-dir {:path "/home/meenaljhajharia/logseq-home/logseq"}
+[2023-05-04 06:56:23.120] [warn] :electron.fs-watcher/on-unlink-dir {:path "/home/meenaljhajharia/logseq-home/pages"}
+[2023-05-04 06:56:23.122] [warn] :electron.fs-watcher/on-unlink-dir {:path "/home/meenaljhajharia/logseq-home"}
+[2023-05-04 06:56:23.211] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/logseq-home/assets/image_1681614708018_0.png"}
+[2023-05-04 06:56:23.212] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/logseq-home/pages/contents.md"}
+[2023-05-04 06:56:23.212] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/logseq-home/pages/Applying to Stuff.md"}
+[2023-05-04 06:56:23.213] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/logseq-home/pages/BDA.md"}
+[2023-05-04 06:56:23.213] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/logseq-home/pages/Brain Dump - Personal.md"}
+[2023-05-04 06:56:23.214] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/logseq-home/pages/Brain Dump - Work.md"}
+[2023-05-04 06:56:23.214] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/logseq-home/pages/Chores.md"}
+[2023-05-04 06:56:23.215] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/logseq-home/pages/Conferences.md"}
+[2023-05-04 06:56:23.215] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/logseq-home/pages/Cool People - Work.md"}
+[2023-05-04 06:56:23.215] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/logseq-home/pages/Emailing.md"}
+[2023-05-04 06:56:23.216] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/logseq-home/pages/GRE Math.md"}
+[2023-05-04 06:56:23.216] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/logseq-home/pages/GRE.md"}
+[2023-05-04 06:56:23.217] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/logseq-home/pages/HMC Curvature.md"}
+[2023-05-04 06:56:23.217] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/logseq-home/pages/LATER.md"}
+[2023-05-04 06:56:23.217] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/logseq-home/pages/Link Dump for HMC Curvature.md"}
+[2023-05-04 06:56:23.218] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/logseq-home/pages/Literature Link Dump.md"}
+[2023-05-04 06:56:23.218] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/logseq-home/pages/Math.md"}
+[2023-05-04 06:56:23.218] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/logseq-home/pages/Open Source.md"}
+[2023-05-04 06:56:23.219] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/logseq-home/pages/PyOpenSci.md"}
+[2023-05-04 06:56:23.219] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/logseq-home/pages/Stuff AI sent.md"}
+[2023-05-04 06:56:23.220] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/logseq-home/pages/TODO.md"}
+[2023-05-04 06:56:23.220] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/logseq-home/pages/To Read.md"}
+[2023-05-04 06:56:23.220] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/logseq-home/pages/Transforms.md"}
+[2023-05-04 06:56:23.221] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/logseq-home/pages/Work (Later).md"}
+[2023-05-04 06:56:23.222] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/logseq-home/pages/Work.md"}
+[2023-05-04 06:56:23.223] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/logseq-home/pages/despite despite despite.md"}
+[2023-05-04 06:56:23.223] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/logseq-home/pages/journals/2023_04_13.md"}
+[2023-05-04 06:56:23.223] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/logseq-home/pages/journals/2023_04_16.md"}
+[2023-05-04 06:56:23.224] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/logseq-home/pages/journals/2023_04_19.md"}
+[2023-05-04 06:56:23.224] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/logseq-home/logseq/config.edn"}
+[2023-05-04 06:56:23.224] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/logseq-home/logseq/custom.css"}
+[2023-05-04 06:56:35.474] [debug] window-all-closed Quitting...
+[2023-05-04 06:56:39.303] [info] Logseq App(0.9.1) Starting... 
+[2023-05-04 06:56:39.307] [info] restore proxy settings {:type "system"}
+[2023-05-04 06:56:39.308] [info] set proxy to {:type "system"}
+[2023-05-04 06:56:41.867] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/.logseq/config"}
+[2023-05-04 06:56:41.887] [debug] :electron.handler/unwatch-dir {:path "/home/meenaljhajharia/logseq-home"}
+[2023-05-04 06:56:41.889] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/logseq-home"}
+[2023-05-04 06:56:41.893] [error] IPC error:  {:event #object[Object [object Object]], :args #js ["readdir" "/home/meenaljhajharia/logseq-home"]} Error: ENOENT: no such file or directory, scandir '/home/meenaljhajharia/logseq-home'
+    at Object.readdirSync (node:fs:1405:3)
+    at e.readdirSync (node:electron/js2c/asar_bundle:5:10830)
+    at /tmp/.mount_LogseqpHn7EJ/resources/app/electron.js:15054:64
+    at /tmp/.mount_LogseqpHn7EJ/resources/app/electron.js:5005:275
+    at $JSCompiler_StaticMethods_sval$$ (/tmp/.mount_LogseqpHn7EJ/resources/app/electron.js:3257:301)
+    at $JSCompiler_prototypeAlias$$.$cljs$core$ISeqable$_seq$arity$1$ (/tmp/.mount_LogseqpHn7EJ/resources/app/electron.js:3331:3)
+    at $cljs$core$seq$$ (/tmp/.mount_LogseqpHn7EJ/resources/app/electron.js:1528:40)
+    at /tmp/.mount_LogseqpHn7EJ/resources/app/electron.js:4976:54
+    at $JSCompiler_StaticMethods_sval$$ (/tmp/.mount_LogseqpHn7EJ/resources/app/electron.js:3257:301)
+    at $JSCompiler_prototypeAlias$$.$cljs$core$ISeqable$_seq$arity$1$ (/tmp/.mount_LogseqpHn7EJ/resources/app/electron.js:3331:3)
+[2023-05-04 06:56:47.706] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/github/mjhajharia/math"}
+[2023-05-04 06:56:57.027] [info] Delete search indice:  /home/meenaljhajharia/.config/Logseq/search/logseq_local__home_meenaljhajharia_logseq-home
+[2023-05-04 06:57:51.066] [debug] window-all-closed Quitting...
+[2023-05-04 06:57:59.317] [info] Logseq App(0.9.1) Starting... 
+[2023-05-04 06:57:59.321] [info] restore proxy settings {:type "system"}
+[2023-05-04 06:57:59.322] [info] set proxy to {:type "system"}
+[2023-05-04 06:58:01.783] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/.logseq/config"}
+[2023-05-04 06:58:01.818] [debug] :electron.handler/unwatch-dir {:path "/home/meenaljhajharia/github/mjhajharia/math"}
+[2023-05-04 06:58:01.819] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/github/mjhajharia/math"}
+[2023-05-04 07:50:22.723] [debug] window-all-closed Quitting...
+[2023-06-08 21:56:26.932] [info] Logseq App(0.9.1) Starting... 
+[2023-06-08 21:56:26.938] [info] restore proxy settings {:type "system"}
+[2023-06-08 21:56:26.939] [info] set proxy to {:type "system"}
+[2023-06-08 21:56:29.562] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/.logseq/config"}
+[2023-06-08 21:56:29.597] [debug] :electron.handler/unwatch-dir {:path "/home/meenaljhajharia/github/mjhajharia/math"}
+[2023-06-08 21:56:29.599] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/github/mjhajharia/math"}
+[2023-06-08 22:03:53.268] [debug] window-all-closed Quitting...
+[2023-06-08 22:10:41.174] [info] Logseq App(0.9.1) Starting... 
+[2023-06-08 22:10:41.178] [info] restore proxy settings {:type "system"}
+[2023-06-08 22:10:41.179] [info] set proxy to {:type "system"}
+[2023-06-08 22:10:43.674] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/.logseq/config"}
+[2023-06-08 22:10:43.712] [debug] :electron.handler/unwatch-dir {:path "/home/meenaljhajharia/github/mjhajharia/math"}
+[2023-06-08 22:10:43.713] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/github/mjhajharia/math"}
+[2023-06-08 22:10:50.985] [info] :electron.handler/open-dir open folder selection dialog
+[2023-06-08 22:10:54.852] [debug] :electron.handler/open-dir {:path "/home/meenaljhajharia/logseq/personal"}
+[2023-06-08 22:10:55.714] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/logseq/personal"}
+[2023-06-09 01:17:11.805] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/github/mjhajharia/math"}
+[2023-06-09 01:18:33.402] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/logseq/personal"}
+[2023-06-09 01:56:38.177] [debug] window-all-closed Quitting...
+[2023-06-09 20:52:34.669] [info] Logseq App(0.9.1) Starting... 
+[2023-06-09 20:52:34.673] [info] restore proxy settings {:type "system"}
+[2023-06-09 20:52:34.674] [info] set proxy to {:type "system"}
+[2023-06-09 20:52:37.204] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/.logseq/config"}
+[2023-06-09 20:52:37.244] [debug] :electron.handler/unwatch-dir {:path "/home/meenaljhajharia/logseq/personal"}
+[2023-06-09 20:52:37.245] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/logseq/personal"}
+[2023-06-09 20:52:37.529] [info] :electron.handler/backup backup db file journals/2023_06_09.md
+[2023-06-09 20:52:37.533] [info] :electron.handler/backup backup db file logseq/config.edn
+[2023-06-09 20:52:37.809] [info] :electron.handler/backup backup db file pages/big diary entry, circa dengue.md
+[2023-06-09 20:52:37.866] [info] :electron.handler/backup backup db file pages/note to self.md
+[2023-06-09 20:52:37.916] [info] :electron.handler/backup backup db file pages/social behaviour autism twitter.md
+[2023-06-09 20:59:21.964] [debug] :electron.handler/get-files {:path "/home/meenaljhajharia/logseq/personal"}
+[2023-06-09 20:59:50.236] [info] :electron.handler/unlink {:path "/home/meenaljhajharia/logseq/personal/pages/declutter.md"}
+[2023-06-09 20:59:50.237] [debug] :electron.handler/unlink recycle to /home/meenaljhajharia/logseq/personal/logseq/.recycle/pages_declutter.md
+[2023-06-09 20:59:50.347] [debug] :electron.fs-watcher/on-unlink {:path "/home/meenaljhajharia/logseq/personal/pages/declutter.md"}
+[2023-06-09 21:04:06.904] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/github/mjhajharia/math"}
+[2023-06-09 21:22:55.101] [debug] :electron.handler/watch-dir {:path "/home/meenaljhajharia/logseq/personal"}
+[2023-06-09 23:00:47.992] [debug] window-all-closed Quitting...

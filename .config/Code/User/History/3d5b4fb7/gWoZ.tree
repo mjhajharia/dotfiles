@@ -1,0 +1,1 @@
+The normalized gamma transform is a parameterized transform based on the expanded-softmax transform and related to a classical approach for drawing samples from a Dirichlet distribution \cite[Theorem 4.1]{devroye_uniform_1986}.

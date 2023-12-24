@@ -1,0 +1,99 @@
+[23:11:11.060][Logger] New log placeholder %WS1% registered for /home/meenaljhajharia/Dropbox/Journal .
+[23:11:11.060][Server] Creating LaTeX Workshop http and websocket server.
+[23:11:11.206][Server] Server successfully started: {"address":"127.0.0.1","family":"IPv4","port":45621} .
+[23:11:11.253][Extension] Initializing LaTeX Workshop.
+[23:11:11.253][Extension] Extension root: /home/meenaljhajharia/.vscode/extensions/james-yu.latex-workshop-9.15.3
+[23:11:11.253][Extension] $PATH: /usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/var/lib/flatpak/exports/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin:/home/meenaljhajharia/bin:/usr/local/texlive/2023/bin/x86_64-linux:/home/meenaljhajharia/bin
+[23:11:11.254][Extension] $SHELL: /usr/bin/zsh
+[23:11:11.254][Extension] $LANG: C.UTF-8
+[23:11:11.254][Extension] $LC_ALL: undefined
+[23:11:11.255][Extension] process.platform: linux
+[23:11:11.255][Extension] process.arch: x64
+[23:11:11.255][Extension] vscode.env.appName: Visual Studio Code
+[23:11:11.256][Extension] vscode.env.remoteName: undefined
+[23:11:11.256][Extension] vscode.env.uiKind: 1
+[23:11:11.315][Extension] LaTeX Workshop initialized.
+[23:11:11.322][Format][Bib] Bibtex format config: {"tab":"  ","case":"lowercase","left":"{","right":"}","trailingComma":false,"sort":["key"],"alignOnEqual":true,"sortFields":false,"fieldsOrder":[],"firstEntries":["string","xdata"]}
+[23:11:11.324][Extension] Trigger characters for intellisense of LaTeX documents: ["\\",",","{"]
+[23:11:11.327][Root] Current workspace folders: ["file://%WS1%"]
+[23:11:11.329][Root] Found root file from active editor: %WS1%/main.tex
+[23:11:11.329][Root] Root file changed: from %WS1%/main.tex to %WS1%/main.tex, langID latex . Refresh dependencies
+[23:11:11.330][Event] ROOT_FILE_CHANGED: "%WS1%/main.tex"
+[23:11:11.330][Cacher][Watcher] Reset.
+[23:11:11.330][Cacher][Watcher] Reset.
+[23:11:11.331][Cacher][Watcher] Reset.
+[23:11:11.335][Cacher] Adding %WS1%/main.tex .
+[23:11:11.335][Cacher][Watcher] Watched %WS1%/main.tex with a new watcher on %WS1% .
+[23:11:11.336][Event] FILE_WATCHED: "%WS1%/main.tex"
+[23:11:11.338][Cacher] Caching %WS1%/main.tex .
+[23:11:11.340][Cacher] Input %WS1%/toggle.tex from %WS1%/main.tex .
+[23:11:11.341][Cacher] Adding %WS1%/toggle.tex .
+[23:11:11.341][Cacher][Watcher] Watched %WS1%/toggle.tex .
+[23:11:11.342][Event] FILE_WATCHED: "%WS1%/toggle.tex"
+[23:11:11.342][Cacher] Caching %WS1%/toggle.tex .
+[23:11:11.351][Cacher] Updated inputs of %WS1%/toggle.tex .
+[23:11:11.351][Cacher] Parse LaTeX AST: %WS1%/toggle.tex .
+[23:11:11.352][Cacher] Updated inputs of %WS1%/main.tex .
+[23:11:11.352][Cacher] Parse LaTeX AST: %WS1%/main.tex .
+[23:11:11.353][Event] ROOT_FILE_SEARCHED
+[23:11:11.368][Cacher] Parsed LaTeX AST: %WS1%/toggle.tex .
+[23:11:11.370][Cacher] Updated elements in 1.47 ms: %WS1%/toggle.tex .
+[23:11:11.371][Event] FILE_PARSED: "%WS1%/toggle.tex"
+[23:11:11.373][Server] valdOrigin is http://127.0.0.1:45621
+[23:11:11.447][Cacher] Parsed LaTeX AST: %WS1%/main.tex .
+[23:11:11.448][File] Calling kpsewhich to resolve tufte-handout.cls .
+[23:11:11.594][Cacher] Bib %WS1%/references.bib from %WS1%/main.tex .
+[23:11:11.595][Intelli][Citation] Parsing .bib entries from %WS1%/references.bib
+[23:11:11.597][Intelli][Citation] Parse BibTeX AST from %WS1%/references.bib .
+[23:11:11.597][Cacher][Watcher] Watched %WS1%/references.bib with a new watcher on %WS1% .
+[23:11:11.597][Event] FILE_WATCHED: "%WS1%/references.bib"
+[23:11:11.598][Cacher] Updated elements in 149.80 ms: %WS1%/main.tex .
+[23:11:11.598][Event] FILE_PARSED: "%WS1%/main.tex"
+[23:11:11.600][Cacher] Parsing .fls %WS1%/main.fls .
+[23:11:11.605][Cacher] Adding %WS1%/tufte-handout.cls .
+[23:11:11.605][Cacher][Watcher] Watched %WS1%/tufte-handout.cls .
+[23:11:11.605][Event] FILE_WATCHED: "%WS1%/tufte-handout.cls"
+[23:11:11.629][Cacher] Adding %WS1%/2023/December/5_work.tex .
+[23:11:11.630][Cacher][Watcher] Watched %WS1%/2023/December/5_work.tex with a new watcher on %WS1%/2023/December .
+[23:11:11.630][Event] FILE_WATCHED: "%WS1%/2023/December/5_work.tex"
+[23:11:11.630][Cacher] Found %WS1%/2023/December/5_work.tex from .fls %WS1%/main.fls , caching.
+[23:11:11.631][Cacher] Caching %WS1%/2023/December/5_work.tex .
+[23:11:11.632][Cacher] Updated inputs of %WS1%/2023/December/5_work.tex .
+[23:11:11.632][Cacher] Parse LaTeX AST: %WS1%/2023/December/5_work.tex .
+[23:11:11.633][Cacher] Adding %WS1%/2023/December/4_work.tex .
+[23:11:11.633][Cacher][Watcher] Watched %WS1%/2023/December/4_work.tex .
+[23:11:11.633][Event] FILE_WATCHED: "%WS1%/2023/December/4_work.tex"
+[23:11:11.634][Cacher] Found %WS1%/2023/December/4_work.tex from .fls %WS1%/main.fls , caching.
+[23:11:11.634][Cacher] Caching %WS1%/2023/December/4_work.tex .
+[23:11:11.635][Cacher] Updated inputs of %WS1%/2023/December/4_work.tex .
+[23:11:11.635][Cacher] Parse LaTeX AST: %WS1%/2023/December/4_work.tex .
+[23:11:11.637][Cacher] Adding %WS1%/books.tex .
+[23:11:11.637][Cacher][Watcher] Watched %WS1%/books.tex .
+[23:11:11.637][Event] FILE_WATCHED: "%WS1%/books.tex"
+[23:11:11.637][Cacher] Found %WS1%/books.tex from .fls %WS1%/main.fls , caching.
+[23:11:11.638][Cacher] Caching %WS1%/books.tex .
+[23:11:11.639][Cacher] Updated inputs of %WS1%/books.tex .
+[23:11:11.639][Cacher] Parse LaTeX AST: %WS1%/books.tex .
+[23:11:11.639][Cacher] Found .aux %WS1%/main.tex from .fls %WS1%/main.fls , parsing.
+[23:11:11.640][Cacher] Parsed .aux %WS1%/main.tex .
+[23:11:11.640][Cacher] Parsed .fls %WS1%/main.fls .
+[23:11:11.642][Intelli][Citation] Parsed 1 bib entries from %WS1%/references.bib .
+[23:11:11.643][Event] FILE_PARSED: "%WS1%/references.bib"
+[23:11:11.644][Cacher] Parsed LaTeX AST: %WS1%/2023/December/5_work.tex .
+[23:11:11.645][Cacher] Updated elements in 0.34 ms: %WS1%/2023/December/5_work.tex .
+[23:11:11.645][Event] FILE_PARSED: "%WS1%/2023/December/5_work.tex"
+[23:11:11.686][Cacher] Parsed LaTeX AST: %WS1%/2023/December/4_work.tex .
+[23:11:11.687][Cacher] Updated elements in 0.24 ms: %WS1%/2023/December/4_work.tex .
+[23:11:11.687][Event] FILE_PARSED: "%WS1%/2023/December/4_work.tex"
+[23:11:11.704][Cacher] Parsed LaTeX AST: %WS1%/books.tex .
+[23:11:11.705][Cacher] Updated elements in 0.28 ms: %WS1%/books.tex .
+[23:11:11.705][Event] FILE_PARSED: "%WS1%/books.tex"
+[23:11:11.706][Structure] Structure force updated with 0 root sections for %WS1%/main.tex .
+[23:11:11.707][Structure] Structure force updated with 0 root sections for %WS1%/main.tex .
+[23:11:11.707][Event] STRUCTURE_UPDATED
+[23:11:11.708][Event] STRUCTURE_UPDATED
+[23:11:11.709][Structure] Structure force updated with 0 root sections for %WS1%/main.tex .
+[23:11:11.709][Event] STRUCTURE_UPDATED
+[03:39:48.478][Cacher][Watcher] Reset.
+[03:39:48.479][Cacher][Watcher] Reset.
+[03:39:48.479][Cacher][Watcher] Reset.

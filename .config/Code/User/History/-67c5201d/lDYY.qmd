@@ -1,0 +1,33 @@
+---
+title: "Index"
+version: 0.0
+author: ""
+date: ""
+execute: 
+  enabled: true
+  daemon: 99999
+  cache: false
+toc: true
+monobackgroundcolor: "#FFFFFF"
+mainfont: "Palatino"
+---
+
+** Goal of this Project**: Diagnostics for sampling problems in Hamiltonian Monte Carlo, specially in regions of high curvature.
+
+### Stuff
+- Whitening transformations on Hessians
+- Condition Number of Hessians
+- Absolute Error (AdvancedHMC.jl)
+- Funnels -- grad vs sigma, hiding the funnel with linear transformations on samples
+- Distances to Normality
+- Initial Momentum
+- Experimenting with Metric Tensors
+- Monge Metric for HMC instead of LMC
+
+
+
+
+
+
+#### Pathfinder Models
+

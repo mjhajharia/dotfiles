@@ -1,0 +1,12 @@
+account meenal@mjhajharia.com
+host smtp.gmail.com
+port 465
+from meenal@mjhajharia.com
+user meenal@mjhajharia.com
+passwordeval "pass meenal@mjhajharia.com"
+auth on
+tls on
+tls_trust_file	/etc/ssl/certs/ca-certificates.crt
+logfile /home/meenaljhajharia/.config/msmtp/msmtp.log
+tls_starttls off
+

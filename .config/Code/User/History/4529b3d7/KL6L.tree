@@ -1,0 +1,6 @@
+\title{Jacobian - Stickbreaking Transform}
+\tag{private}
+\author{meenaljhajharia}
+\texpackage{amsmath}
+
+\p{The absolute determinant of the Jacobian of the constraining transformation is #{\abs{\J_{f_1^{-1}}}}}

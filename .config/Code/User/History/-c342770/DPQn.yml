@@ -1,0 +1,30 @@
+
+
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Diagnosing HMC"
+  reader-mode: true
+  repo-branch: main
+  page-navigation: true
+  navbar:
+    background: light
+    search: true
+
+  # sidebar:
+  #   - title: "Home"
+  #     style: "floating"
+  #     collapse-level: 3
+  #     align: left
+  #     contents: auto
+
+format:
+  html:
+    theme: default
+    mainfont: "Palatino"
+    toc: true
+  pdf:
+    latex-engine: xelatex
+    toc: true

@@ -1,0 +1,4 @@
+Trying to locate Julia binary...
+Juliaup not found, locating Julia by other means.
+The identified Julia executable is "julia" with args "".
+The current PATH environment variable is "/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/var/lib/flatpak/exports/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin:/home/meenaljhajharia/bin:/usr/local/texlive/2023/bin/x86_64-linux:/home/meenaljhajharia/bin".

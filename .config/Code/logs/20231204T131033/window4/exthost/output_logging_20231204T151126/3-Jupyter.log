@@ -1,0 +1,10 @@
+Visual Studio Code (1.77.1, undefined, desktop)
+Jupyter Extension Version: 2023.3.1201040234.
+Python Extension Version: 2023.6.1.
+Workspace folder /home/meenaljhajharia/github/mjhajharia/diagnosing-hmc
+info 15:11:27.708: LSP Notebooks experiment is enabled
+info 15:11:32.791: Process Execution: > ~/anaconda3/envs/stan/bin/python -m pip list
+> ~/anaconda3/envs/stan/bin/python -m pip list
+info 02:50:15.355: Shutting down notebooks for 0184e11a-9f18-41c2-8cce-9911504b97f6
+info 02:50:15.355: Disposing HostJupyterExecution eaaa6b88-aa3a-488c-aaef-020578698441
+info 02:50:15.355: Disposing HostJupyterExecution eaaa6b88-aa3a-488c-aaef-020578698441

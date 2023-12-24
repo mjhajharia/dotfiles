@@ -1,0 +1,39 @@
+2023-12-12 23:10:53.892 [info] Log level: Info
+2023-12-12 23:10:53.892 [info] Validating found git in: "git"
+2023-12-12 23:10:53.892 [info] Using git "2.43.0" from "git"
+2023-12-12 23:10:53.892 [info] > git rev-parse --show-toplevel [11ms]
+2023-12-12 23:10:53.980 [info] > git rev-parse --git-dir --git-common-dir [81ms]
+2023-12-12 23:10:53.984 [info] Open repository: /home/meenaljhajharia/github/mjhajharia/forester
+2023-12-12 23:10:54.556 [info] > git rev-parse --show-toplevel [563ms]
+2023-12-12 23:10:54.597 [info] > git rev-parse --show-toplevel [30ms]
+2023-12-12 23:10:54.608 [info] > git config --get commit.template [52ms]
+2023-12-12 23:10:54.643 [info] > git rev-parse --show-toplevel [35ms]
+2023-12-12 23:10:54.674 [info] > git rev-parse --show-toplevel [20ms]
+2023-12-12 23:10:54.688 [info] > git rev-parse --show-toplevel [2ms]
+2023-12-12 23:10:54.699 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [26ms]
+2023-12-12 23:10:54.714 [info] > git rev-parse --show-toplevel [15ms]
+2023-12-12 23:10:54.726 [info] > git rev-parse --show-toplevel [2ms]
+2023-12-12 23:10:54.740 [info] > git rev-parse --show-toplevel [2ms]
+2023-12-12 23:10:54.754 [info] > git rev-parse --show-toplevel [1ms]
+2023-12-12 23:10:54.780 [info] > git rev-parse --show-toplevel [13ms]
+2023-12-12 23:10:54.813 [info] > git status -z -uall [103ms]
+2023-12-12 23:10:54.813 [info] > git show --textconv :trees/nodes/transforms/alr-0001.tree [20ms]
+2023-12-12 23:10:54.813 [info] > git ls-files --stage -- /home/meenaljhajharia/github/mjhajharia/forester/trees/nodes/transforms/alr-0001.tree [7ms]
+2023-12-12 23:10:54.846 [info] > git cat-file -s 2f696ece98c1a1ea25e345de7feff4885c86cc32 [21ms]
+2023-12-12 23:10:54.848 [info] > git config --get commit.template [3ms]
+2023-12-12 23:10:54.865 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2023-12-12 23:10:54.980 [info] > git status -z -uall [102ms]
+2023-12-12 23:10:55.090 [info] > git check-ignore -v -z --stdin [5ms]
+2023-12-12 23:10:55.494 [info] > git rev-parse --show-toplevel [1ms]
+2023-12-12 23:10:57.178 [info] > git check-ignore -v -z --stdin [1ms]
+2023-12-12 23:11:11.776 [info] Log level: Info
+2023-12-12 23:11:11.776 [info] Validating found git in: "git"
+2023-12-12 23:11:11.776 [info] Using git "2.43.0" from "git"
+2023-12-12 23:11:11.776 [info] > git rev-parse --show-toplevel [9ms]
+2023-12-12 23:11:11.776 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-12 23:11:11.776 [info] > git rev-parse --show-toplevel [11ms]
+2023-12-12 23:11:11.776 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-12 23:11:11.843 [info] > git rev-parse --show-toplevel [57ms]
+2023-12-12 23:11:11.843 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-12 23:11:12.370 [info] > git rev-parse --show-toplevel [517ms]
+2023-12-12 23:11:12.370 [info] fatal: not a git repository (or any of the parent directories): .git

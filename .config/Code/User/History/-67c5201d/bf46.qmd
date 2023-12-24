@@ -1,0 +1,58 @@
+---
+title: "Index"
+version: 0.0
+author: ""
+date: ""
+execute: 
+  enabled: true
+  daemon: 99999
+  cache: false
+toc: true
+monobackgroundcolor: "#FFFFFF"
+mainfont: "Palatino"
+---
+### Stuff
+- Whitening transformations on Hessians
+- Condition Number of Hessians
+- Absolute Error (AdvancedHMC.jl)
+- Funnels -- grad vs sigma, hiding the funnel with linear transformations on samples
+- Distances to Normality
+- Initial Momentum
+- Experimenting with Metric Tensors
+- Monge Metric for HMC instead of LMC
+
+
+#### Whitening Hessians
+- Sample Covariance Matrix: $\Sigma$
+- Eigendecomposition: $\Sigma = U\Lambda U^{H}$, where $U$,  $\Lambda$ consist of eigenvectors and eigenvalues of $\Sigma$.
+- Cholesky Decomposition: $\Sigma^{-1} = LL^{H}$, where ^{H} is the conjugate transpose or adjoint, for real matrices this is just $^{T}$
+- Also, $\Sigma^{-1} = U \Lambda^{-1} U^{-1}$, so the unique inverse matrix square root of $\Sigma$ is defined as  $\Sigma^{−\frac{1}{2}} = U\Lambda^{-\frac{1}{2}}U^{T}$
+- We assume that the eigenvalues are sorted in order from largest to smallest value
+- For a whitening matrix $W$, the Transformed Hessian is constructed as $H_{T} = W^{T}HW$
+- $W_{ZCA} = \Sigma^{\frac{1}{2}}$, can also be rewritten as $(\Sigma^{\frac{1}{2}} L) L^{T}$ (QR Decomposition)
+- $W_{PCA} = \Lambda^{\frac{1}{2}}U_{T}$
+- $W_{Cholesky} = L$
+
+
+
+#### Pathfinder Models
+Models pathfinder uses from posteriordb for experiments:
+
+- generalized linear models: `nes2000−nes`, `earnings−logearn_interaction`, `dogs-dogs`, `dogs−dogs_log`, `diamonds−diamondsb`, `sblrc-blr`
+
+- hierarchical meta-analysis models: `eight_schools_noncentered`, `eight_schools_centered`
+
+- gaussian processes: `gp_pois_regr−gp_regr`, `gp_pois_regr−gp_pois_regr`, `mcycle_gp−accel_gp`
+
+- mixtures: `low_dim_gauss_mix`
+
+- differential equation dynamics models: `hudson_lynx_hare−lotka_volterra`, `one_comp_mm_elim_abs`
+
+- hidden Markov models: `bball_drive_event_1−hmm_drive_1`, `bball_drive_event_0−hmm_drive_0`, `hmm_example-hmm_example`
+
+- time-series models: `arma−arma11`, `arK-arK`, `garch−garch11`
+
+
+```julia
+
+```

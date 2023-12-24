@@ -1,0 +1,30 @@
+---
+title: "Diagnosing HMC"
+author: ""
+date: ""
+format:
+  html:
+    code-fold: true
+execute: 
+  daemon: 99999
+  cache: false
+toc: true
+monobackgroundcolor: "#FFFFFF"
+mainfont: "Palatino Linotype"
+---
+
+Models pathfinder uses from posteriordb for experiments:
+
+- generalized linear models: `nes2000−nes`, `earnings−logearn_interaction`, `dogs-dogs`, `dogs−dogs_log`, `diamonds−diamondsb`, `sblrc-blr`
+
+- hierarchical meta-analysis models: `eight_schools_noncentered`, `eight_schools_centered`
+
+- gaussian processes: `gp_pois_regr−gp_regr`, `mcycle_gp−accel_gp`
+
+- mixtures: `low_dim_gauss_mix`
+
+- differential equation dynamics models: `hudson_lynx_hare−lotka_volterra`, `one_comp_mm_elim_abs`
+
+- hidden Markov models: `bball_drive_event_1−hmm_drive_1`, `bball_drive_event_0−hmm_drive_0`, `hmm_example-hmm_example`
+
+- time-series models: `arma−arma11`, `arK-arK`, `garch−garch11`

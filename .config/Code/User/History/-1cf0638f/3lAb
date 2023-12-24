@@ -1,0 +1,13 @@
+.DS_Store
+tex/*pdf
+*.hpp
+utils/__pycache__/*
+utils/.ipynb_checkpoints/*
+sampling_results/*
+.ipynb_checkpoints/*
+__pycache__/*
+*.slurm
+*.nc
+*.log
+/stan_models/**
+.vscode/**

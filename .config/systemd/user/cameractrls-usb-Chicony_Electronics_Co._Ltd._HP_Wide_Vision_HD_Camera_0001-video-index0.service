@@ -1,0 +1,9 @@
+[Unit]
+Description=Restore usb-Chicony_Electronics_Co._Ltd._HP_Wide_Vision_HD_Camera_0001-video-index0 controls
+
+[Service]
+Type=oneshot
+ExecStart=/usr/lib/python3.11/site-packages/CameraCtrls/cameractrls.py -d /dev/v4l/by-id/usb-Chicony_Electronics_Co._Ltd._HP_Wide_Vision_HD_Camera_0001-video-index0 -c brightness=5,hue=-5,backlight_compensation=2,pixelformat=MJPG,card=HP Wide Vision HD Camera: HP Wi,driver=uvcvideo,path=/dev/v4l/by-id/usb-Chicony_Electronics_Co._Ltd._HP_Wide_Vision_HD_Camera_0001-video-index0,real_path=/dev/video0,resolution=1280x720,fps=30
+
+[Install]
+WantedBy=graphical-session.target

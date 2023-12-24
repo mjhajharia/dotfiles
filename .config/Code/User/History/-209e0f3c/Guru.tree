@@ -1,0 +1,10 @@
+\title{Constraining - Stickbreaking Angular Transform}
+\tag{private}
+\author{meenaljhajharia}
+\texpackage{preamble}
+\import{basic-macros}
+
+\p{The inverse transform is
+##{
+  g_i^{-1}(y_i) = \cos^2\left(\frac{\pi}{2}\logistic(y_i)\right).
+}}

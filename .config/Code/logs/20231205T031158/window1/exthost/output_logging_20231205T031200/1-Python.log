@@ -1,0 +1,8 @@
+Experiment 'pythonRecommendTensorboardExtcf' is active
+Experiment 'pythonREPLSmartSend' is active
+Experiment 'pythonTestAdapter' is active
+Python interpreter path: ~/anaconda3/envs/stan/bin/python
+Starting Jedi language server for diagnosing-hmc.
+> conda info --json
+> ~/.conda/bin/conda info --json
+> ~/anaconda3/bin/conda info --json

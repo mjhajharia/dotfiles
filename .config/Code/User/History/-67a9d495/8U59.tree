@@ -1,0 +1,10 @@
+\title{Jacobian - Additive Log Ratio Transform}
+\tag{private}
+\author{meenaljhajharia}
+\texpackage{preamble}
+\import{basic-macros}
+
+\p{The Jacobian determinant of the constraining transform is
+##{
+    \absdet{\jac_{\operatorname{alr}^{-1}}} = \prod_{k=1}^N x_k = \left(1 + \sum_{k=1}^{N-1} \exp(y_k) \right)^{-N} \exp\left(1 + \sum_{k=1}^{N-1} y_k\right).
+}}

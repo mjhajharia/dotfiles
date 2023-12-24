@@ -1,0 +1,61 @@
+{
+    "python.pythonPath": "/Users/almostmeenal/opt/anaconda3/envs/pymc/bin/python",
+    "python.defaultInterpreterPath": "/Users/meenaljhajharia/anaconda3/envs/stan/bin/python",
+    "editor.inlineSuggest.enabled": true,
+    "terminal.integrated.inheritEnv": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "github.copilot.enable": {
+        "quarto": false,
+        "*": false,
+        "yaml": true,
+        "plaintext": true,
+        "markdown": true
+    },
+    "workbench.startupEditor": "none",
+    "extensions.ignoreRecommendations": true,
+    "explorer.confirmDelete": false,
+    "workbench.editorAssociations": {
+        "*.json": "default"
+    },
+    "redhat.telemetry.enabled": true,
+    "git.ignoreRebaseWarning": true,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "explorer.confirmDragAndDrop": false,
+    "editor.minimap.enabled": false,
+    "remote.SSH.useLocalServer": false,
+    "remote.SSH.remotePlatform": {
+        "popeye": "linux"
+    },
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "editor.renderWhitespace": "all",
+    "terminal.integrated.commandsToSkipShell": [
+        "language-julia.interrupt"
+    ],
+    "julia.symbolCacheDownload": true,
+    "julia.enableTelemetry": true,
+    "julia.environmentPath": "$HOME/.julia/environments/v1.6",
+    "quarto.render.renderOnSave": true,
+    "terminal.external.linuxExec": "kitty",
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "jupyter.allowUnauthorizedRemoteConnection": true,
+    "[quarto]": {
+        "editor.wordWrap": "on",
+        "editor.quickSuggestions": {
+            "comments": "on",
+            "other": "on",
+            "strings": "on"
+        },
+        "editor.quickSuggestionsDelay": 250,
+        "editor.snippetSuggestions": "none",
+        "editor.wordBasedSuggestions": false,
+        "editor.suggestOnTriggerCharacters": true,
+        "editor.unicodeHighlight.ambiguousCharacters": false,
+        "editor.unicodeHighlight.invisibleCharacters": false
+    },
+    "files.autoSave": "afterDelay",
+    "workbench.colorCustomizations": {
+    
+    }
+}

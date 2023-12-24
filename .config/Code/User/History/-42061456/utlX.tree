@@ -1,0 +1,7 @@
+\title{Stickbreaking Unconstraining Transform}
+\tag{private}
+\author{meenaljhajharia}
+\texpackage{amsmath}
+
+\p{The unconstraining transformation #{f_1 \colon \Delta{N-1} \to (0, 1\]^{N-1}} is defined so that if \#{z = f_1(x)}, then
+##{z_i = \frac{x_i}{1 - \sum_{k = 1}^{i-1} x_{k}}}}

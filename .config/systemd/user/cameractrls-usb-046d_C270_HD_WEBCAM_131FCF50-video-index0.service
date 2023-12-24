@@ -1,0 +1,9 @@
+[Unit]
+Description=Restore usb-046d_C270_HD_WEBCAM_131FCF50-video-index0 controls
+
+[Service]
+Type=oneshot
+ExecStart=/usr/lib/python3.11/site-packages/CameraCtrls/cameractrls.py -d /dev/v4l/by-id/usb-046d_C270_HD_WEBCAM_131FCF50-video-index0 -c auto_exposure=manual_mode,exposure_time_absolute=666,pixelformat=YUYV,card=C270 HD WEBCAM,driver=uvcvideo,path=/dev/v4l/by-id/usb-046d_C270_HD_WEBCAM_131FCF50-video-index0,real_path=/dev/video2,resolution=1280x720,fps=10,logitech_led1_mode=on,logitech_led1_frequency=255
+
+[Install]
+WantedBy=graphical-session.target

@@ -1,0 +1,6 @@
+
+\paragraph{Constraining transform} For $y \in \R^N$, $x \in \simplex{N-1}$, $r \in \R$, and $\alpha \in \Rpos^{N}$, the normalized gamma transform $f_\alpha$ is defined as $f_\alpha = \operatorname{expsoftmax} \circ\ h_{\alpha}$, where $h_\alpha$ is a function defined by
+$$
+    z_i = h_\alpha(y)_i = \log(G_{\alpha_i}^{-1}(\invprobit(y_i))),
+$$
+and $G_\alpha(\cdot)$ is the CDF of $g_\alpha(\cdot) = \mathrm{Gamma}(\cdot \mid \alpha, 1)$.

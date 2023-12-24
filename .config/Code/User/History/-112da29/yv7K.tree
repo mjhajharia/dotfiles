@@ -1,0 +1,18 @@
+\title{Jacobian - Stickbreaking Power CDF Transform}
+\tag{private}
+\author{meenaljhajharia}
+\texpackage{preamble}
+\import{basic-macros}
+
+\p{The combined Jacobian determinant is
+##{
+  \absdet{J_{f^{-1}}} = \frac{1}{(N-1)!} \prod_{k=1}^{N-1} h(y_k).
+}
+For the \em{stick-breaking power-normal} transform,
+##{
+  h(y_i) = \mathcal{N}(y_i \mid 0, 1), \qquad H(y_i) = \invprobit(y_i),
+}
+while for the \em{stick-breaking power-logistic} transform,
+##{
+  h(y_i) = \mathrm{Logistic}(y_i \mid 0, 1), \qquad H(y_i) = \logistic(y_i).
+}}

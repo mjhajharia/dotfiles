@@ -1,0 +1,33 @@
+# vim: filetype=neomuttrc
+# muttrc file for account meenal@mjhajharia.com
+set realname = "Meenal Jhajharia"
+set from = "meenal@mjhajharia.com"
+set sendmail = "msmtp -a meenal@mjhajharia.com"
+alias me meenal <meenal@mjhajharia.com>
+#set folder = "/home/meenaljhajharia/.local/share/mail/meenal@mjhajharia.com"
+set folder = "imaps://imap.gmail.com:993"
+set header_cache = /home/meenaljhajharia/.cache/mutt-wizard/meenal@mjhajharia.com/headers
+set message_cachedir = /home/meenaljhajharia/.cache/mutt-wizard/meenal@mjhajharia.com/bodies
+set certificate_file = /home/meenaljhajharia/.cache/mutt-wizard/meenal@mjhajharia.com/certificates
+set mbox_type = Maildir
+set hostname = "mjhajharia.com"
+source /usr/share/mutt-wizard/switch.muttrc
+set spoolfile = +INBOX
+set postponed = +[Gmail]/Drafts
+set trash = +Trash
+set record = +Sent
+
+set sort=reverse-threads
+set sort_aux=date-received
+bind index + entire-thread
+
+mailboxes  "=INBOX" "=Trash" "=[Gmail]/all_mail"  "=[Gmail]/Starred" "=[Gmail]/Drafts"  "=[Gmail]/Sent \Mail" "=[Gmail]/Spam" 
+
+macro index o "<shell-escape>mw -y meenal@mjhajharia.com<enter>" "run mbsync to sync meenal@mjhajharia.com"
+macro index \eg "<enter-command>unset wait_key<enter><shell-escape>gpg --list-secret-keys; printf 'Enter email ID of user to publish: '; read eID; printf 'Enter fingerprint of GPG key to publish: '; read eFGPT; /usr/libexec/gpg-wks-client --create \$eFGPT \$eID | msmtp --read-envelope-from --read-recipients -a meenal@mjhajharia.com<enter>"  "publish GPG key to WKS provider"
+macro index \eh "<pipe-message>/usr/libexec/gpg-wks-client --receive | msmtp --read-envelope-from --read-recipients -a meenal@mjhajharia.com<enter>" "confirm GPG publication"
+
+set timeout=300
+timeout-hook 'exec sync-mailbox'
+startup-hook 'exec sync-mailbox'
+shutdown-hook 'exec sync-mailbox'

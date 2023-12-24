@@ -1,0 +1,11 @@
+\title{Normalized Gamma and Exponential transforms}
+\tag{private}
+\author{meenaljhajharia}
+\import{basic-macros}
+\meta{reference}{\citek{devroye_uniform_1986}}
+
+\p{The normalized gamma transform is a parameterized transform based on the expanded-softmax transform and related to a classical approach for drawing samples from a Dirichlet distribution [Theorem 4.1](devroye_uniform_1986).}
+
+\transclude{normalizedgamma-0001}
+\transclude{normalizedgamma-0002}
+\transclude{normalizedgamma-0003}

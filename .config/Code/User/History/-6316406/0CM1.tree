@@ -1,0 +1,11 @@
+\title{Stickbreaking Power CDF Transform}
+\tag{private}
+\author{meenaljhajharia}
+\texpackage{preamble}
+\import{basic-macros}
+
+\p{Let #{H} be the CDF of any continuous distribution supported on the entire real line, #{H^{-1}} be its quantile function, and #{h} be its density function.}
+
+\transclude{stickbreakingpowercdf-0001}
+\transclude{stickbreakingpowercdf-0002}
+\transclude{stickbreakingpowercdf-0003}

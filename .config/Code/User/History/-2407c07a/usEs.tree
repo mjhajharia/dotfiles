@@ -1,0 +1,21 @@
+\subsubsection{Stick-breaking angular transform}
+
+\paragraph{Unconstraining transformation}
+
+Let $\phi_i = \arccos(\sqrt{z_i}) \in \big[0, \frac{\pi}{2}\big)$.
+Then the angles $\phi_i$ are hyperspherical coordinates for the unit vector $u$ where $u_i = x_i^2 > 0$ \cite{betancourt2012cruising}.
+The angles $\phi_i$ are further unconstrained with a logit transform.
+The resulting $g_i$ is
+\[
+  g_i(z_i) = \logit\left(\frac{2}{\pi} \arccos(\sqrt{z_i})\right).
+\]
+
+\paragraph{Constraining transformation} The inverse transform is
+\[
+  g_i^{-1}(y_i) = \cos^2\left(\frac{\pi}{2}\logistic(y_i)\right).
+\]
+
+\paragraph{Change-of-variables adjustment} The combined absolute Jacobian determinant is
+\[
+  \absdet{J_{f^{-1}}} = 2^{N-1} \prod_{k=1}^{N-1} \phi_k \left(1 - \frac{2}{\pi} \phi_k\right) \cos(\phi_k) \sin^{2(N-k)-1}(\phi_k).
+\]

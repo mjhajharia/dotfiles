@@ -1,0 +1,15 @@
+\title{Jacobian - Normalized Gamma and Exponential transforms}
+\tag{private}
+\author{meenaljhajharia}
+\texpackage{preamble}
+\import{basic-macros}
+
+\p{The Jacobian determinant is
+
+##{
+    \absdet{\jac_{f_\alpha}} = \mathrm{Gamma}(e^r \mid \sum_{i=1}^N \alpha_i, 1)^{-1}e^{-r} \mathrm{Dirichlet}(x \mid \alpha)^{-1} \prod_{i=1}^N \mathcal{N}(y_i).
+}}
+\p{To complete the transform, we select the default prior {\Exp(r) \sim \mathrm{Gamma}\left(\cdot \mid \sum_{i=1}^{N} \alpha_i, 1\right)}, so that the complete correction is
+##{\mathcal{R}(r) \absdet{\jac_{f_\alpha}} = \mathrm{Dirichlet}(x \mid \alpha)^{-1} \prod_{i=1}^{N}\mathcal{N}(y_i).
+}}
+\p{The special case when #{\alpha = \alpha_0 \onevec{N}} for #{\alpha_0 \in \Rpos} is called the normalized exponential transform.}

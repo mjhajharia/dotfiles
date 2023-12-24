@@ -1,0 +1,3 @@
+\ProvidesFile{AvenirNextLTPro.fd}
+\DeclareFontFamily{T1}{AvenirNextLTPro}{}
+\DeclareFontShape{T1}{AvenirNextLTPro}{m}{n}{ <-> AvenirNextLTPro}{}

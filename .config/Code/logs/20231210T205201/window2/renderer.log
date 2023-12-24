@@ -1,0 +1,12 @@
+2023-12-11 01:32:45.565 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'testContinuousRun' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-12-11 01:32:45.575 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.remote-repositories' wants API proposal 'contribEditorGutterMenu' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-12-11 01:32:45.575 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.vscode-pull-request-github' wants API proposal 'contribEditorGutterMenu' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-12-11 01:32:45.576 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.jupyter' wants API proposal 'notebookControllerKind' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-12-11 01:32:46.155 [error] Extension 'ms-vsliveshare.vsliveshare' wants API proposal 'contribStatusBarItems' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-12-11 01:32:48.671 [info] [perf] Render performance baseline is 29ms
+2023-12-11 01:32:57.095 [error] Can't install 'github.copilot-chat' extension because it is not compatible with the current version of Visual Studio Code (version 1.77.1).: Incompatible: Can't install 'github.copilot-chat' extension because it is not compatible with the current version of Visual Studio Code (version 1.77.1).
+    at Y.G (/home/meenaljhajharia/opt/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:90:83572)
+    at async A (/home/meenaljhajharia/opt/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:90:82213)
+    at async Y.F (/home/meenaljhajharia/opt/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:90:82572)
+    at async Y.z (/home/meenaljhajharia/opt/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:90:76833)
+    at async Y.installFromGallery (/home/meenaljhajharia/opt/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:90:75312)

@@ -1,0 +1,7 @@
+\title{Unconstraining - Stickbreaking Power CDF Transform}
+\tag{private}
+\author{meenaljhajharia}
+\texpackage{preamble}
+\import{basic-macros}
+
+\p{#{g_i^{-1}(y_i) = 1 - H(y_i)^{1/(N-i)}}}

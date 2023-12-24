@@ -1,0 +1,49 @@
+\Section{Flatiron Transforms}
+
+\subsection\*{Simplex Paper}
+\* - (func exists)\\
+\*\* - implemented\\
+(b) - to implement from beginning\\
+\textbf{quantities}
+\begin{itemize}
+\item ess \*\*\\
+\item rmse \*\*\\
+\item leapfrog steps \*\*\\
+\item hessian - cn, condition number \*\\
+\item kl divergence \*\*\\
+\item iters to 95 percent density \*\\
+\item autocorrelation time (b)\\
+\end{itemize}
+
+\textbf{plots}
+
+- ess - cdf, density\\
+- rmse plot\\
+- spectra plot\\
+- metric geometry plot replica\\
+
+\textbf{models}
+- Dirichlet Symmetric\\
+- Skewed Dirichlet (Ascending and Descending)\\
+- Log Normal Distribution\\
+
+
+\subsection{Notes}
+probitprd, hyperspherical angular 3,6,9 draws failed. other missing stuff
+\begin{itemize}
+
+\item ALR - 369 ess and cond
+\item Augmented ilr 369 ess and cond
+\item Augmented softmax 369 ess and cond
+\item HypLogit 369 ess and cond
+\item HypProbit ess 369
+
+\item probitproduct ess 8
+\item stanstickbreaking ess 9 (cond??)
+\item stickbreaking ess 9 (cond??)
+\end{itemize}
+
+
+Bob: transient bias (iterations to reach central interval of log density)
+autocorrelation time at stationarity using NUTS
+approximation quality of Laplace at mode in unconstrained space measured by projecting back to constrained space. This is where smaller is better, but we can also plot the inverse, which is ESS / iteration. I'd rather not frame purely as transforms because we have the suriective case where it's transform plus identifying distribution. So I suggest we use "parameterization" instead for a bit more generality. I think any theoretical properties of the parameterizations can go into the section on that parameterization following the definitions. I think we should reproduce (and of course site) the figure on isometry-that's super helpful.

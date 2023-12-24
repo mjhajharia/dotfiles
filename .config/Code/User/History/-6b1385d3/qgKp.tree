@@ -1,0 +1,18 @@
+\title{Unconstraining Additive Log Ratio Transform}
+\tag{private}
+\author{meenaljhajharia}
+\texpackage{amsmath}
+\import{basic-macros}
+\meta{source}{\citek{aitchison1982statistical}}
+
+\p{The unconstraining transformation for the identified softmax is known as
+the additive log ratio (ALR) parametrization
+(["The statistical analysis of compositional data, John Aitchison"](aitchison1982statistical)), which is a bijection
+#{\operatorname{alr}:\simplex{N-1} \rightarrow \R^{N-1}} defined for
+#{x \in \simplex{N-1}} by
+##{
+  \operatorname{alr}(x)
+  = \trans{\begin{bmatrix}
+    \log \frac{x_1}{x_N}, \cdots , \log \frac{x_{N-1}}{x_N}
+  \end{bmatrix}}.}
+ALR transforms a logistic-normal random variable to a normal random variable.}

@@ -1,0 +1,17 @@
+/.quarto/
+/_*.local
+python_files/**
+.jupyter_cache/**
+gr-temp/**
+src/.ipynb_checkpoints/
+src/.jupyter_cache/
+.vscode/
+**/*.ipynb
+src/gr-temp/**
+**/.jupyter_cache/**
+**/*_files/
+src/*.html
+*.hpp
+*.DS_Store
+!_site/**
+**/.jupyter_cache/**

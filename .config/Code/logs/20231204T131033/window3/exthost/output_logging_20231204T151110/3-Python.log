@@ -1,0 +1,5 @@
+Experiment 'pythonRecommendTensorboardExtcf' is active
+Experiment 'pythonREPLSmartSend' is active
+Experiment 'pythonTestAdapter' is active
+> conda info --json
+Python interpreter path: ~/anaconda3/envs/stan/bin/python

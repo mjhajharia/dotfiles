@@ -1,0 +1,53 @@
+{
+   "background": {
+      "scripts": [ "src/shared/min/utils.min.js", "src/background/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icons/favicon-192x192.png",
+      "default_popup": "src/popup/min/popup.min.html",
+      "default_title": "PaperMemory"
+   },
+   "commands": {
+      "_execute_browser_action": {
+         "description": "Open PaperMemory's Popup",
+         "suggested_key": {
+            "default": "Ctrl+Shift+E"
+         }
+      },
+      "downloadPdf": {
+         "description": "Download the pdf file for the current paper into your PaperMemoryStore",
+         "suggested_key": {
+            "default": "Ctrl+Shift+S"
+         }
+      },
+      "manualParsing": {
+         "description": "Manually trigger the parsing of a paper; only available if you have disabled auto-parsing in the menu",
+         "suggested_key": {
+            "default": "Ctrl+Shift+P"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "css": [ "src/shared/css/loader.css", "src/content_scripts/content_script.css" ],
+      "js": [ "src/shared/min/jquery.min.js", "src/shared/js/utils/logTrace.js", "src/shared/js/utils/miniquery.js", "src/shared/js/utils/config.js", "src/shared/js/utils/functions.js", "src/shared/js/utils/gist.js", "src/shared/js/utils/sync.js", "src/shared/js/utils/data.js", "src/shared/js/utils/paper.js", "src/shared/js/utils/state.js", "src/shared/js/utils/bibtexParser.js", "src/shared/js/utils/parsers.js", "src/content_scripts/content_script.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+   "description": "Automatically record papers and their codes from Arxiv, OpenReview & more! Organize your library with tags, links and quick notes.",
+   "homepage_url": "https://github.com/vict0rsch/PaperMemory",
+   "icons": {
+      "192": "icons/favicon-192x192.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiSct1fHseoURaURBosGu0nEgldj+ksxfGuYQ45uZnZ1FtoJo4pdNB4Kusr3dkgVVtOaXxxIuSrLhb65qb5SGjib9mQQk+hNoe7CZQYgzRYKrTae0N3OHWys9fRIeckPh/eU8+9c1fPixFookaUr5ae2ByeiHzOUi1CaKAw5GH8zzJfsynQ1RuE4vuscgYC22fbh2SMQP+QQgkQqXn0u23rSSOa6JrmIBcucKDWA1pc76pPw5qYbtS2qMn5ojpzq8ndvNn3w7XiQiZvR8VDXND9RYgkiKWv29Fx2nOfi8mrjz3JPO2VfRN1ihwR2bDxkrcIpC3pHQl3UXnTnZW7fckQIDAQAB",
+   "manifest_version": 2,
+   "name": "Paper Memory",
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "src/options/options.html"
+   },
+   "permissions": [ "\u003Call_urls>", "activeTab", "storage", "unlimitedStorage", "downloads", "downloads.open" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.5.9",
+   "web_accessible_resources": [ "src/data/*.json" ]
+}

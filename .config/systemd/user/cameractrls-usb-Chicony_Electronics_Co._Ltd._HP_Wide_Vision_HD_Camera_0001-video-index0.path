@@ -1,0 +1,8 @@
+[Unit]
+Description=Watch /dev/v4l/by-id/usb-Chicony_Electronics_Co._Ltd._HP_Wide_Vision_HD_Camera_0001-video-index0 and restore controls
+
+[Path]
+PathExists=/dev/v4l/by-id/usb-Chicony_Electronics_Co._Ltd._HP_Wide_Vision_HD_Camera_0001-video-index0
+
+[Install]
+WantedBy=paths.target

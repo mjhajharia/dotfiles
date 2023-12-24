@@ -1,0 +1,30 @@
+---
+title: "Funnel et al"
+author: ""
+date: ""
+format:
+  html:
+    code-fold: true
+execute: 
+  daemon: 99999
+  cache: false
+figures:
+  fig-format: png
+toc: false
+monobackgroundcolor: "#FFFFFF"
+mainfont: "Palatino Linotype"
+---
+
+```{julia}
+using Revise, DynamicHMC, PosteriorDB, Random, StanLogDensityProblems, JSON, BridgeStan, DataFrames, LinearAlgebra, StatsBase, Distributions
+using Plots, ColorSchemes, LaTeXStrings, Statistics, CSV, AdvancedHMC
+Plots.theme(:default)
+const BS = BridgeStan;
+```
+```{julia}
+fullpath = abspath∘expanduser
+BS.set_bridgestan_path!(fullpath("~/github/roualdes/bridgestan"))
+bs_model = BS.StanModel(stan_file="funnel.stan", data="data_funnel.json");
+
+
+```

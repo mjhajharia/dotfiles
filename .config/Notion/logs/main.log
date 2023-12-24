@@ -1,0 +1,2033 @@
+[2023-11-29 06:33:32.114] [info]                  Not checking for update (disabled: true, available: false, dev: false)
+[2023-11-29 06:33:32.119] [info]                  App starting with version 2.3.2 { system: 'linux x64', electron: '25.9.4' }
+[2023-11-29 06:33:32.272] [debug] (AssetCache)    Latest version {
+  latestVersionPath: '/home/meenaljhajharia/.config/Notion/notionAssetCache-v2/latestVersion.json'
+}
+[2023-11-29 06:33:32.282] [error] (AssetCache)    Error reading and parsing JSON {
+  error: "Error: ENOENT: no such file or directory, open '/home/meenaljhajharia/.config/Notion/notionAssetCache-v2/latestVersion.json'",
+  absolutePath: '/home/meenaljhajharia/.config/Notion/notionAssetCache-v2/latestVersion.json'
+}
+[2023-11-29 06:33:32.283] [debug] (AssetCache)    Current version loaded {}
+[2023-11-29 06:33:32.283] [debug] (AssetCache)    Sync version: No last version
+[2023-11-29 06:33:32.284] [debug] (AssetCache)    Current synced assets.json {}
+[2023-11-29 06:33:32.287] [info]                  {
+  os: 'unknown',
+  platform: 'electron',
+  desktopVersion: '2.3.2',
+  desktopCPU: 'AMD Ryzen 5 5500U with Radeon Graphics',
+  desktopRAM: '15G',
+  environment: 'production',
+  level: 'error',
+  from: 'AssetCache',
+  type: 'failedToReadDir',
+  error: {
+    name: 'Error',
+    message: "ENOENT: no such file or directory, scandir '/home/meenaljhajharia/.config/Notion/notionAssetCache-v2'",
+    stack: "Error: ENOENT: no such file or directory, scandir '/home/meenaljhajharia/.config/Notion/notionAssetCache-v2'",
+    miscDataString: '{"dirPath":"/home/meenaljhajharia/.config/Notion/notionAssetCache-v2"}'
+  }
+}
+[2023-11-29 06:33:32.344] [info]  (Sqlite)        Child process running on 41405
+[2023-11-29 06:33:32.369] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:33:32.378] [debug] (browserView-2) did-start-loading
+[2023-11-29 06:33:32.404] [info]                  App is visible: true
+[2023-11-29 06:33:32.409] [debug] (browserView-4) did-start-loading
+[2023-11-29 06:33:32.438] [debug]                 App focused
+[2023-11-29 06:33:32.491] [debug] (window-5)      did-start-loading
+[2023-11-29 06:33:32.553] [info]  (Sqlite (Child)) Websocket listening on 41405...
+[2023-11-29 06:33:32.556] [info]  (Sqlite (Child)) Setting up up server listeners with auth (0d18a835e808daa47e846bb6a4430c4df78254c1)...
+[2023-11-29 06:33:32.557] [info]  (Sqlite (Child)) Server up and running
+[2023-11-29 06:33:32.570] [debug] (browserView-4) dom-ready
+[2023-11-29 06:33:32.572] [debug] (browserView-4) did-stop-loading
+[2023-11-29 06:33:32.594] [debug] (browserView-4) console-message: Electron Security Warning (Insecure Content-Security-Policy) font-weight: bold; This renderer process has either no Content Security
+  Policy set or a policy with "unsafe-eval" enabled. This exposes users of
+  this app to unnecessary security risks.
+
+For more information and help, consult
+https://electronjs.org/docs/tutorial/security.
+This warning will not show up
+once the app is packaged.
+[2023-11-29 06:33:32.595] [debug] (browserView-2) dom-ready
+[2023-11-29 06:33:32.611] [debug] (browserView-2) did-stop-loading
+[2023-11-29 06:33:32.627] [debug] (browserView-2) console-message: Electron Security Warning (Insecure Content-Security-Policy) font-weight: bold; This renderer process has either no Content Security
+  Policy set or a policy with "unsafe-eval" enabled. This exposes users of
+  this app to unnecessary security risks.
+
+For more information and help, consult
+https://electronjs.org/docs/tutorial/security.
+This warning will not show up
+once the app is packaged.
+[2023-11-29 06:33:33.375] [debug] (browserView-1) dom-ready
+[2023-11-29 06:33:33.864] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:33:33.865] [debug] (browserView-1) console-message: Electron Security Warning (Insecure Content-Security-Policy) font-weight: bold; This renderer process has either no Content Security
+  Policy set or a policy with "unsafe-eval" enabled. This exposes users of
+  this app to unnecessary security risks.
+
+For more information and help, consult
+https://electronjs.org/docs/tutorial/security.
+This warning will not show up
+once the app is packaged.
+[2023-11-29 06:33:34.111] [debug] (window-5)      dom-ready
+[2023-11-29 06:33:34.143] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:33:34.145] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:33:34.510] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:33:34.512] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:33:34.591] [debug] (window-5)      did-stop-loading
+[2023-11-29 06:33:34.593] [debug] (window-5)      console-message: Electron Security Warning (Insecure Content-Security-Policy) font-weight: bold; This renderer process has either no Content Security
+  Policy set or a policy with "unsafe-eval" enabled. This exposes users of
+  this app to unnecessary security risks.
+
+For more information and help, consult
+https://electronjs.org/docs/tutorial/security.
+This warning will not show up
+once the app is packaged.
+[2023-11-29 06:33:34.703] [debug] (window-5)      did-start-loading
+[2023-11-29 06:33:34.704] [debug] (window-5)      did-stop-loading
+[2023-11-29 06:33:35.093] [debug] (browserView-1) console-message: [GSI_LOGGER]: The given origin is not allowed for the given client ID. {
+  line: 1,
+  sourceId: 'notion://www.notion.so/_assets/51-3783436a3f5768d6.js'
+}
+[2023-11-29 06:33:35.795] [debug] (window-5)      did-start-loading
+[2023-11-29 06:33:35.797] [debug] (window-5)      did-stop-loading
+[2023-11-29 06:33:42.236] [debug] (browserView-1) console-message: Refused to load the font 'https://fonts.intercomcdn.com/messenger-m4/proximanova-regular.woff' because it violates the following Content Security Policy directive: "font-src 'self' data: https://cdnjs.cloudflare.com https://js.intercomcdn.com https://cdn01.boxcdn.net".
+ {
+  line: 8,
+  sourceId: 'https://js.intercomcdn.com/app-modern.0d26ca31.js'
+}
+[2023-11-29 06:33:42.237] [debug] (browserView-1) console-message: Refused to load the font 'https://fonts.intercomcdn.com/messenger-m4/proximanova-semibold.woff' because it violates the following Content Security Policy directive: "font-src 'self' data: https://cdnjs.cloudflare.com https://js.intercomcdn.com https://cdn01.boxcdn.net".
+ {
+  line: 8,
+  sourceId: 'https://js.intercomcdn.com/app-modern.0d26ca31.js'
+}
+[2023-11-29 06:33:42.237] [debug] (browserView-1) console-message: Refused to load the font 'https://fonts.intercomcdn.com/messenger-m4/proximanova-regular-italic.woff' because it violates the following Content Security Policy directive: "font-src 'self' data: https://cdnjs.cloudflare.com https://js.intercomcdn.com https://cdn01.boxcdn.net".
+ {
+  line: 8,
+  sourceId: 'https://js.intercomcdn.com/app-modern.0d26ca31.js'
+}
+[2023-11-29 06:33:42.238] [debug] (browserView-1) console-message: Refused to load the font 'https://fonts.intercomcdn.com/messenger-m4/proximanova-semibold-italic.woff' because it violates the following Content Security Policy directive: "font-src 'self' data: https://cdnjs.cloudflare.com https://js.intercomcdn.com https://cdn01.boxcdn.net".
+ {
+  line: 8,
+  sourceId: 'https://js.intercomcdn.com/app-modern.0d26ca31.js'
+}
+[2023-11-29 06:33:42.936] [debug] (window-5)      console-message: Refused to load the font 'https://fonts.intercomcdn.com/messenger-m4/proximanova-regular.woff' because it violates the following Content Security Policy directive: "font-src 'self' data: https://cdnjs.cloudflare.com https://js.intercomcdn.com https://cdn01.boxcdn.net".
+ {
+  line: 8,
+  sourceId: 'https://js.intercomcdn.com/app-modern.0d26ca31.js'
+}
+[2023-11-29 06:33:42.936] [debug] (window-5)      console-message: Refused to load the font 'https://fonts.intercomcdn.com/messenger-m4/proximanova-semibold.woff' because it violates the following Content Security Policy directive: "font-src 'self' data: https://cdnjs.cloudflare.com https://js.intercomcdn.com https://cdn01.boxcdn.net".
+ {
+  line: 8,
+  sourceId: 'https://js.intercomcdn.com/app-modern.0d26ca31.js'
+}
+[2023-11-29 06:33:42.937] [debug] (window-5)      console-message: Refused to load the font 'https://fonts.intercomcdn.com/messenger-m4/proximanova-regular-italic.woff' because it violates the following Content Security Policy directive: "font-src 'self' data: https://cdnjs.cloudflare.com https://js.intercomcdn.com https://cdn01.boxcdn.net".
+ {
+  line: 8,
+  sourceId: 'https://js.intercomcdn.com/app-modern.0d26ca31.js'
+}
+[2023-11-29 06:33:42.937] [debug] (window-5)      console-message: Refused to load the font 'https://fonts.intercomcdn.com/messenger-m4/proximanova-semibold-italic.woff' because it violates the following Content Security Policy directive: "font-src 'self' data: https://cdnjs.cloudflare.com https://js.intercomcdn.com https://cdn01.boxcdn.net".
+ {
+  line: 8,
+  sourceId: 'https://js.intercomcdn.com/app-modern.0d26ca31.js'
+}
+[2023-11-29 06:33:47.701] [debug] (window-5)      did-start-loading
+[2023-11-29 06:33:48.305] [debug] (window-5)      dom-ready
+[2023-11-29 06:33:48.447] [debug] (window-5)      did-stop-loading
+[2023-11-29 06:33:48.448] [debug] (window-5)      console-message: Electron Security Warning (Insecure Content-Security-Policy) font-weight: bold; This renderer process has either no Content Security
+  Policy set or a policy with "unsafe-eval" enabled. This exposes users of
+  this app to unnecessary security risks.
+
+For more information and help, consult
+https://electronjs.org/docs/tutorial/security.
+This warning will not show up
+once the app is packaged.
+[2023-11-29 06:33:48.631] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:33:48.633] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:33:49.362] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:33:49.364] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:33:49.436] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:33:49.438] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:33:50.239] [debug] (window-5)      did-start-loading
+[2023-11-29 06:33:50.241] [debug] (window-5)      did-stop-loading
+[2023-11-29 06:33:51.152] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:33:51.364] [debug]                 App blurred
+[2023-11-29 06:33:51.694] [debug]                 App focused
+[2023-11-29 06:33:52.093] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:33:53.868] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:33:54.926] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:33:55.758] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:33:55.760] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:33:55.783] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:33:55.785] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:33:55.786] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:33:55.788] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:33:55.789] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:33:55.790] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:33:55.791] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:33:55.793] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:33:55.801] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:33:55.803] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:33:55.811] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:33:55.812] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:33:55.814] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:33:55.815] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:33:55.817] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:33:55.818] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:33:55.820] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:33:55.821] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:33:55.823] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:33:55.824] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:33:55.826] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:33:55.827] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:33:55.828] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:33:55.829] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:33:55.830] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:33:55.831] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:33:55.833] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:33:55.834] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:33:55.947] [debug]                 App blurred
+[2023-11-29 06:33:56.305] [debug] (window-5)      did-start-loading
+[2023-11-29 06:33:56.953] [debug] (window-5)      did-stop-loading
+[2023-11-29 06:33:57.414] [debug]                 App focused
+[2023-11-29 06:33:57.717] [debug] (window-5)      did-start-loading
+[2023-11-29 06:33:57.718] [debug] (window-5)      did-stop-loading
+[2023-11-29 06:33:57.747] [debug] (window-5)      did-start-loading
+[2023-11-29 06:33:57.748] [debug] (window-5)      did-stop-loading
+[2023-11-29 06:33:57.749] [debug] (window-5)      did-start-loading
+[2023-11-29 06:33:57.750] [debug] (window-5)      did-stop-loading
+[2023-11-29 06:33:57.751] [debug] (window-5)      did-start-loading
+[2023-11-29 06:33:57.752] [debug] (window-5)      did-stop-loading
+[2023-11-29 06:33:57.752] [debug] (window-5)      did-start-loading
+[2023-11-29 06:33:57.753] [debug] (window-5)      did-stop-loading
+[2023-11-29 06:33:58.548] [debug]                 App blurred
+[2023-11-29 06:33:58.854] [debug]                 App focused
+[2023-11-29 06:34:00.206] [debug]                 App blurred
+[2023-11-29 06:34:00.208] [debug]                 App focused
+[2023-11-29 06:34:06.162] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:34:06.164] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:34:06.186] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:34:06.188] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:34:09.516] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:34:09.519] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:34:09.536] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:34:09.538] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:34:24.027] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:34:24.029] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:34:24.048] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:34:24.051] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:34:27.202] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:34:27.204] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:34:27.218] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:34:27.220] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:34:42.157] [debug]                 App blurred
+[2023-11-29 06:34:42.248] [debug]                 App focused
+[2023-11-29 06:34:42.857] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:34:42.860] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:34:42.876] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:34:42.878] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:34:50.599] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:34:50.602] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:34:50.637] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:34:50.640] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:35:00.306] [debug]                 App blurred
+[2023-11-29 06:35:02.807] [debug]                 App focused
+[2023-11-29 06:35:29.464] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:35:29.466] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:35:29.487] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:35:29.490] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:35:39.717] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:35:39.719] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:35:39.742] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:35:39.744] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:35:42.582] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:35:42.584] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:35:42.601] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:35:42.603] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:37:48.881] [debug]                 App blurred
+[2023-11-29 06:37:49.037] [debug]                 App focused
+[2023-11-29 06:37:49.897] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:37:49.899] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:37:49.913] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:37:49.915] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:37:50.338] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:37:50.340] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:37:50.853] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:37:50.857] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:37:53.802] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:37:53.804] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:37:53.818] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:37:53.821] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:37:59.045] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:37:59.047] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:37:59.064] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:37:59.067] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:38:00.494] [debug]                 App blurred
+[2023-11-29 06:38:42.455] [debug]                 App focused
+[2023-11-29 06:38:45.329] [debug]                 App blurred
+[2023-11-29 06:38:48.504] [debug]                 App focused
+[2023-11-29 06:39:22.628] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:39:22.630] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:39:22.655] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:39:22.657] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:39:29.763] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:39:29.765] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:39:30.617] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:39:30.619] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:40:58.419] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:40:58.422] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:40:58.442] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:40:58.445] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:41:08.962] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:41:08.964] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:41:08.979] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:41:08.981] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:43:32.165] [debug] (AssetCache)    Enqueue update
+[2023-11-29 06:43:32.166] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 06:43:32.705] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 539 }
+[2023-11-29 06:43:33.388] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 682 }
+[2023-11-29 06:43:33.388] [debug] (AssetCache)    App update available { version: '23.13.0.25' }
+[2023-11-29 06:43:33.391] [info]  (AssetCache)    performance.assetJson { duration: 3 }
+[2023-11-29 06:43:38.823] [info]  (AssetCache)    performance.prepare { duration: 5432 }
+[2023-11-29 06:43:38.838] [debug] (AssetCache)    Checking for app.js update (2)
+[2023-11-29 06:43:38.838] [info]  (AssetCache)    App.js update download complete { version: '23.13.0.25' }
+[2023-11-29 06:43:38.839] [info]  (AssetCache)    Installing app.js update { version: '23.13.0.25' }
+[2023-11-29 06:43:38.840] [info]  (AssetCache)    performance.download { duration: 17 }
+[2023-11-29 06:43:38.840] [info]  (AssetCache)    performance.checkForUpdatesNow { duration: 6674 }
+[2023-11-29 06:43:42.893] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:43:42.895] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:43:43.979] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:43:43.981] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:44:20.461] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:44:20.463] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:44:20.476] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:44:20.478] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:44:23.886] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:44:23.888] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:44:24.403] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:44:24.405] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:44:24.472] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:44:24.475] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:44:26.092] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:44:26.094] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:44:26.116] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:44:26.119] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:44:26.592] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:44:26.594] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:44:27.424] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:44:27.426] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:44:30.748] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:44:30.751] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:44:30.767] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:44:30.770] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:44:36.263] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:44:36.265] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:44:36.272] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:44:36.274] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:44:38.387] [debug]                 App blurred
+[2023-11-29 06:44:38.536] [debug]                 App focused
+[2023-11-29 06:44:39.338] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:44:39.340] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:44:39.348] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:44:39.351] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:44:41.822] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:44:41.824] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:44:41.932] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:44:41.934] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:44:43.085] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:44:43.087] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:44:43.415] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:44:43.417] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:44:44.322] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:44:44.324] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:44:45.418] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:44:45.421] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:44:45.433] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:44:45.435] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:44:46.528] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:44:46.532] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:44:46.545] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:44:46.548] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:45:11.406] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:45:11.408] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:45:11.430] [debug] (browserView-1) did-start-loading
+[2023-11-29 06:45:11.433] [debug] (browserView-1) did-stop-loading
+[2023-11-29 06:45:13.502] [debug]                 App blurred
+[2023-11-29 06:45:47.408] [debug]                 App focused
+[2023-11-29 06:45:48.350] [debug]                 App blurred
+[2023-11-29 06:45:48.696] [debug]                 App focused
+[2023-11-29 06:45:50.217] [debug]                 App blurred
+[2023-11-29 06:46:07.808] [debug]                 App focused
+[2023-11-29 06:46:07.813] [debug]                 App blurred
+[2023-11-29 06:46:21.100] [debug]                 App focused
+[2023-11-29 06:46:21.493] [debug]                 App blurred
+[2023-11-29 06:46:22.340] [debug]                 App focused
+[2023-11-29 06:46:22.414] [debug]                 App blurred
+[2023-11-29 06:46:25.070] [debug]                 App focused
+[2023-11-29 06:46:25.083] [debug]                 App blurred
+[2023-11-29 06:49:01.138] [debug]                 App focused
+[2023-11-29 06:49:01.504] [debug]                 App blurred
+[2023-11-29 06:49:02.040] [debug]                 App focused
+[2023-11-29 06:49:03.137] [debug]                 App blurred
+[2023-11-29 06:49:07.289] [debug]                 App focused
+[2023-11-29 06:49:07.460] [debug]                 App blurred
+[2023-11-29 06:53:32.169] [debug] (AssetCache)    Enqueue update
+[2023-11-29 06:53:32.169] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 06:53:32.513] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 343 }
+[2023-11-29 06:53:32.514] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-11-29 06:53:32.515] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 06:56:10.864] [debug]                 App focused
+[2023-11-29 06:56:13.254] [debug]                 App blurred
+[2023-11-29 06:56:18.071] [debug]                 App focused
+[2023-11-29 06:56:29.021] [debug]                 App blurred
+[2023-11-29 07:03:32.172] [debug] (AssetCache)    Enqueue update
+[2023-11-29 07:03:32.173] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 07:03:32.833] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 660 }
+[2023-11-29 07:03:32.834] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 07:03:32.834] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 07:03:54.778] [debug]                 App focused
+[2023-11-29 07:03:55.587] [debug]                 App blurred
+[2023-11-29 07:13:32.185] [debug] (AssetCache)    Enqueue update
+[2023-11-29 07:13:32.185] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 07:13:33.140] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 954 }
+[2023-11-29 07:13:33.141] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 07:13:33.142] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 07:22:26.798] [debug]                 App focused
+[2023-11-29 07:22:27.087] [debug]                 App blurred
+[2023-11-29 07:23:32.195] [debug] (AssetCache)    Enqueue update
+[2023-11-29 07:23:32.195] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 07:23:32.648] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 452 }
+[2023-11-29 07:23:32.649] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 07:23:32.649] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 07:26:15.833] [debug]                 App focused
+[2023-11-29 07:26:15.874] [debug]                 App blurred
+[2023-11-29 07:33:32.196] [debug] (AssetCache)    Enqueue update
+[2023-11-29 07:33:32.197] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 07:33:32.653] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 456 }
+[2023-11-29 07:33:32.654] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 07:33:32.654] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 07:35:34.774] [debug]                 App focused
+[2023-11-29 07:35:35.014] [debug]                 App blurred
+[2023-11-29 07:42:02.793] [debug]                 App focused
+[2023-11-29 07:42:06.576] [debug]                 App blurred
+[2023-11-29 07:42:07.543] [debug]                 App focused
+[2023-11-29 07:42:07.573] [debug]                 App blurred
+[2023-11-29 07:43:32.209] [debug] (AssetCache)    Enqueue update
+[2023-11-29 07:43:32.209] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 07:43:32.832] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 622 }
+[2023-11-29 07:43:32.832] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 07:43:32.833] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 07:53:32.221] [debug] (AssetCache)    Enqueue update
+[2023-11-29 07:53:32.222] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 07:53:32.720] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 498 }
+[2023-11-29 07:53:32.721] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-11-29 07:53:32.722] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 08:03:32.231] [debug] (AssetCache)    Enqueue update
+[2023-11-29 08:03:32.232] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 08:03:32.593] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 361 }
+[2023-11-29 08:03:32.593] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 08:03:32.594] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 08:13:32.242] [debug] (AssetCache)    Enqueue update
+[2023-11-29 08:13:32.242] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 08:13:32.585] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 343 }
+[2023-11-29 08:13:32.586] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 08:13:32.587] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 08:22:29.767] [debug]                 App focused
+[2023-11-29 08:22:30.017] [debug]                 App blurred
+[2023-11-29 08:23:13.185] [info]                  App is visible: false
+[2023-11-29 08:23:13.187] [info]                  App is visible: true
+[2023-11-29 08:23:13.390] [info]                  App is visible: false
+[2023-11-29 08:23:32.251] [debug] (AssetCache)    Enqueue update
+[2023-11-29 08:23:32.252] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 08:23:33.471] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 1219 }
+[2023-11-29 08:23:33.472] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 08:23:33.473] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 08:25:16.797] [debug]                 App focused
+[2023-11-29 08:25:18.102] [debug]                 Window close { lastWindow: true, isQuitting: false, isHideDisabled: false }
+[2023-11-29 08:25:18.103] [info]                  Preventing closure for window with id 1, hiding
+[2023-11-29 08:25:18.111] [debug]                 App blurred
+[2023-11-29 08:33:32.263] [debug] (AssetCache)    Enqueue update
+[2023-11-29 08:33:32.263] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 08:33:32.619] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 355 }
+[2023-11-29 08:33:32.620] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 08:33:32.620] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 08:43:32.271] [debug] (AssetCache)    Enqueue update
+[2023-11-29 08:43:32.272] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 08:43:32.870] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 598 }
+[2023-11-29 08:43:32.871] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-11-29 08:43:32.871] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 08:53:32.281] [debug] (AssetCache)    Enqueue update
+[2023-11-29 08:53:32.282] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 08:53:32.679] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 397 }
+[2023-11-29 08:53:32.679] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 08:53:32.679] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 09:03:32.291] [debug] (AssetCache)    Enqueue update
+[2023-11-29 09:03:32.299] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 09:03:32.860] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 560 }
+[2023-11-29 09:03:32.860] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 09:03:32.861] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 09:13:32.300] [debug] (AssetCache)    Enqueue update
+[2023-11-29 09:13:32.300] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 09:13:32.899] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 599 }
+[2023-11-29 09:13:32.900] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 09:13:32.900] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 09:23:32.307] [debug] (AssetCache)    Enqueue update
+[2023-11-29 09:23:32.308] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 09:23:33.000] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 691 }
+[2023-11-29 09:23:33.001] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-11-29 09:23:33.001] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 09:33:32.315] [debug] (AssetCache)    Enqueue update
+[2023-11-29 09:33:32.315] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 09:33:32.878] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 563 }
+[2023-11-29 09:33:32.879] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 09:33:32.879] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 09:43:32.322] [debug] (AssetCache)    Enqueue update
+[2023-11-29 09:43:32.330] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 09:43:33.667] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 1336 }
+[2023-11-29 09:43:33.668] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 09:43:33.668] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 09:53:32.329] [debug] (AssetCache)    Enqueue update
+[2023-11-29 09:53:32.329] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 09:53:32.946] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 616 }
+[2023-11-29 09:53:32.947] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-11-29 09:53:32.947] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 10:03:32.334] [debug] (AssetCache)    Enqueue update
+[2023-11-29 10:03:32.335] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 10:03:32.772] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 437 }
+[2023-11-29 10:03:32.773] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-11-29 10:03:32.773] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 10:13:32.340] [debug] (AssetCache)    Enqueue update
+[2023-11-29 10:13:32.341] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 10:13:32.719] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 378 }
+[2023-11-29 10:13:32.719] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 10:13:32.720] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 10:17:18.313] [info]                  Not checking for update (disabled: true, available: false, dev: false)
+[2023-11-29 10:17:18.318] [info]                  App starting with version 2.3.2 { system: 'linux x64', electron: '25.9.4' }
+[2023-11-29 10:17:18.363] [info]                  Quitting...
+[2023-11-29 10:17:18.365] [debug]                 App focused
+[2023-11-29 10:17:18.366] [info]                  App is visible: true
+[2023-11-29 10:17:18.367] [info]                  App is visible: false
+[2023-11-29 10:17:18.453] [debug] (AssetCache)    Latest version {
+  latestVersionPath: '/home/meenaljhajharia/.config/Notion/notionAssetCache-v2/latestVersion.json'
+}
+[2023-11-29 10:17:18.462] [debug] (AssetCache)    Current version loaded { version: '23.13.0.25', hash: '04d91b20ab33037f06ce66160133716f' }
+[2023-11-29 10:17:18.463] [info]  (AssetCache)    Sync version {
+  assetsJsonPath: '/home/meenaljhajharia/.config/Notion/notionAssetCache-v2/23.13.0.25/assets.json',
+  headersJsonPath: '/home/meenaljhajharia/.config/Notion/notionAssetCache-v2/23.13.0.25/headers.json'
+}
+[2023-11-29 10:17:24.899] [debug] (browserView-1) did-start-loading
+[2023-11-29 10:17:24.901] [debug] (browserView-1) did-stop-loading
+[2023-11-29 10:17:25.409] [debug] (browserView-1) did-start-loading
+[2023-11-29 10:17:25.412] [debug] (browserView-1) did-stop-loading
+[2023-11-29 10:17:25.440] [debug] (browserView-1) did-start-loading
+[2023-11-29 10:17:25.443] [debug] (browserView-1) did-stop-loading
+[2023-11-29 10:18:23.419] [debug]                 App blurred
+[2023-11-29 10:18:25.070] [debug]                 App focused
+[2023-11-29 10:18:26.003] [debug]                 App blurred
+[2023-11-29 10:18:27.229] [debug]                 App focused
+[2023-11-29 10:20:59.547] [debug]                 App blurred
+[2023-11-29 10:20:59.801] [debug]                 App focused
+[2023-11-29 10:22:56.366] [debug]                 App blurred
+[2023-11-29 10:22:56.782] [debug]                 App focused
+[2023-11-29 10:22:59.174] [debug] (browserView-1) did-start-loading
+[2023-11-29 10:22:59.176] [debug] (browserView-1) did-stop-loading
+[2023-11-29 10:22:59.576] [debug] (browserView-1) console-message: HttpRequestError: Received HTTP 400 {
+  line: 1,
+  sourceId: 'notion://www.notion.so/_assets/51-3783436a3f5768d6.js'
+}
+[2023-11-29 10:23:01.188] [debug] (browserView-1) did-start-loading
+[2023-11-29 10:23:01.192] [debug] (browserView-1) did-stop-loading
+[2023-11-29 10:23:02.928] [debug] (browserView-1) did-start-loading
+[2023-11-29 10:23:02.932] [debug] (browserView-1) did-stop-loading
+[2023-11-29 10:23:03.400] [debug] (browserView-1) console-message: HttpRequestError: Received HTTP 400 {
+  line: 1,
+  sourceId: 'notion://www.notion.so/_assets/51-3783436a3f5768d6.js'
+}
+[2023-11-29 10:23:05.474] [debug] (browserView-1) did-start-loading
+[2023-11-29 10:23:05.476] [debug] (browserView-1) did-stop-loading
+[2023-11-29 10:23:05.488] [debug] (browserView-1) did-start-loading
+[2023-11-29 10:23:05.490] [debug] (browserView-1) did-stop-loading
+[2023-11-29 10:23:32.346] [debug] (AssetCache)    Enqueue update
+[2023-11-29 10:23:32.347] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 10:23:33.152] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 805 }
+[2023-11-29 10:23:33.153] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-11-29 10:23:33.153] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 10:24:33.319] [debug]                 App blurred
+[2023-11-29 10:24:36.183] [debug]                 App focused
+[2023-11-29 10:24:38.102] [debug]                 Window close { lastWindow: true, isQuitting: false, isHideDisabled: false }
+[2023-11-29 10:24:38.103] [info]                  Preventing closure for window with id 1, hiding
+[2023-11-29 10:24:38.109] [debug]                 App blurred
+[2023-11-29 10:33:32.352] [debug] (AssetCache)    Enqueue update
+[2023-11-29 10:33:32.352] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 10:33:32.677] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 324 }
+[2023-11-29 10:33:32.678] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-11-29 10:33:32.678] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 10:43:32.354] [debug] (AssetCache)    Enqueue update
+[2023-11-29 10:43:32.354] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 10:43:33.027] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 673 }
+[2023-11-29 10:43:33.028] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 10:43:33.029] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 10:53:32.357] [debug] (AssetCache)    Enqueue update
+[2023-11-29 10:53:32.358] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 10:53:32.695] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 337 }
+[2023-11-29 10:53:32.696] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 10:53:32.696] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 11:03:32.360] [debug] (AssetCache)    Enqueue update
+[2023-11-29 11:03:32.361] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 11:03:32.919] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 558 }
+[2023-11-29 11:03:32.920] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-11-29 11:03:32.920] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 11:13:32.363] [debug] (AssetCache)    Enqueue update
+[2023-11-29 11:13:32.364] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 11:13:32.705] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 341 }
+[2023-11-29 11:13:32.705] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 11:13:32.706] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 11:23:32.366] [debug] (AssetCache)    Enqueue update
+[2023-11-29 11:23:32.367] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 11:23:32.723] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 356 }
+[2023-11-29 11:23:32.724] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 11:23:32.724] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 11:33:32.367] [debug] (AssetCache)    Enqueue update
+[2023-11-29 11:33:32.367] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 11:33:33.743] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 1376 }
+[2023-11-29 11:33:33.744] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 11:33:33.744] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 11:43:32.367] [debug] (AssetCache)    Enqueue update
+[2023-11-29 11:43:32.367] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 11:43:33.043] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 676 }
+[2023-11-29 11:43:33.044] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 11:43:33.044] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 11:53:32.368] [debug] (AssetCache)    Enqueue update
+[2023-11-29 11:53:32.369] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 11:53:33.606] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 1237 }
+[2023-11-29 11:53:33.607] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-11-29 11:53:33.607] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 12:03:32.369] [debug] (AssetCache)    Enqueue update
+[2023-11-29 12:03:32.370] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 12:03:32.985] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 615 }
+[2023-11-29 12:03:32.986] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 12:03:32.986] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 12:13:32.370] [debug] (AssetCache)    Enqueue update
+[2023-11-29 12:13:32.378] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 12:13:32.877] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 499 }
+[2023-11-29 12:13:32.878] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 12:13:32.878] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 12:23:32.383] [debug] (AssetCache)    Enqueue update
+[2023-11-29 12:23:32.384] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 12:23:32.875] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 491 }
+[2023-11-29 12:23:32.876] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 12:23:32.876] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 12:33:32.397] [debug] (AssetCache)    Enqueue update
+[2023-11-29 12:33:32.398] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 12:33:32.768] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 370 }
+[2023-11-29 12:33:32.769] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 12:33:32.769] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 12:43:31.970] [debug] (browserView-1) console-message: Failed to connect to splunk server TypeError: Failed to fetch {
+  line: 1,
+  sourceId: 'notion://www.notion.so/_assets/51-3783436a3f5768d6.js'
+}
+[2023-11-29 12:43:31.970] [debug] (window-5)      console-message: Failed to connect to splunk server TypeError: Failed to fetch {
+  line: 1,
+  sourceId: 'notion://www.notion.so/_assets/51-3783436a3f5768d6.js'
+}
+[2023-11-29 12:43:32.398] [debug] (AssetCache)    Enqueue update
+[2023-11-29 12:43:32.399] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 12:43:32.402] [debug] (AssetCache)    no app.js update available (because offline) {
+  error: 'TypeError: fetch failed\n' +
+    '    at Object.fetch (node:internal/deps/undici/undici:11413:11)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async t.raceWithTimeout (/usr/lib/notion-app/.webpack/main/index.js:14:522396)\n' +
+    '    at async t.AssetCache.checkForUpdatesNow (/usr/lib/notion-app/.webpack/main/index.js:2:19521)\n' +
+    '    at async Timeout._onTimeout (/usr/lib/notion-app/.webpack/main/index.js:2:102720)'
+}
+[2023-11-29 12:53:32.412] [debug] (AssetCache)    Enqueue update
+[2023-11-29 12:53:32.413] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 12:53:32.764] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 351 }
+[2023-11-29 12:53:32.765] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-11-29 12:53:32.765] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 13:03:32.420] [debug] (AssetCache)    Enqueue update
+[2023-11-29 13:03:32.420] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 13:03:32.838] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 417 }
+[2023-11-29 13:03:32.839] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 13:03:32.839] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 13:13:32.432] [debug] (AssetCache)    Enqueue update
+[2023-11-29 13:13:32.432] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 13:13:32.922] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 489 }
+[2023-11-29 13:13:32.923] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 13:13:32.924] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 13:23:32.443] [debug] (AssetCache)    Enqueue update
+[2023-11-29 13:23:32.443] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 13:23:33.340] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 897 }
+[2023-11-29 13:23:33.341] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 13:23:33.341] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 13:33:32.453] [debug] (AssetCache)    Enqueue update
+[2023-11-29 13:33:32.453] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 13:33:33.732] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 1279 }
+[2023-11-29 13:33:33.734] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-11-29 13:33:33.734] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 13:43:32.463] [debug] (AssetCache)    Enqueue update
+[2023-11-29 13:43:32.463] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 13:43:33.001] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 538 }
+[2023-11-29 13:43:33.002] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 13:43:33.003] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 13:53:32.472] [debug] (AssetCache)    Enqueue update
+[2023-11-29 13:53:32.473] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 13:53:32.865] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 392 }
+[2023-11-29 13:53:32.866] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 13:53:32.867] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 14:03:32.482] [debug] (AssetCache)    Enqueue update
+[2023-11-29 14:03:32.483] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 14:03:33.024] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 541 }
+[2023-11-29 14:03:33.025] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 14:03:33.025] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 14:13:32.493] [debug] (AssetCache)    Enqueue update
+[2023-11-29 14:13:32.493] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 14:13:33.064] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 570 }
+[2023-11-29 14:13:33.065] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-11-29 14:13:33.065] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 14:23:32.501] [debug] (AssetCache)    Enqueue update
+[2023-11-29 14:23:32.502] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 14:23:33.006] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 504 }
+[2023-11-29 14:23:33.007] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 14:23:33.007] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 14:33:32.509] [debug] (AssetCache)    Enqueue update
+[2023-11-29 14:33:32.510] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 14:33:32.863] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 353 }
+[2023-11-29 14:33:32.864] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 14:33:32.865] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 14:43:32.516] [debug] (AssetCache)    Enqueue update
+[2023-11-29 14:43:32.516] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 14:43:32.858] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 342 }
+[2023-11-29 14:43:32.859] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 14:43:32.859] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 14:53:32.522] [debug] (AssetCache)    Enqueue update
+[2023-11-29 14:53:32.523] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 14:53:32.949] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 426 }
+[2023-11-29 14:53:32.949] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 14:53:32.949] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 15:03:32.529] [debug] (AssetCache)    Enqueue update
+[2023-11-29 15:03:32.529] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 15:03:32.869] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 339 }
+[2023-11-29 15:03:32.870] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-11-29 15:03:32.870] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 15:13:32.532] [debug] (AssetCache)    Enqueue update
+[2023-11-29 15:13:32.533] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 15:13:33.077] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 544 }
+[2023-11-29 15:13:33.078] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-11-29 15:13:33.078] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 15:23:32.539] [debug] (AssetCache)    Enqueue update
+[2023-11-29 15:23:32.539] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 15:23:33.084] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 544 }
+[2023-11-29 15:23:33.085] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-11-29 15:23:33.085] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 15:33:32.543] [debug] (AssetCache)    Enqueue update
+[2023-11-29 15:33:32.543] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 15:33:32.898] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 354 }
+[2023-11-29 15:33:32.899] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 15:33:32.899] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 15:43:32.545] [debug] (AssetCache)    Enqueue update
+[2023-11-29 15:43:32.546] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 15:43:32.891] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 345 }
+[2023-11-29 15:43:32.891] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 15:43:32.892] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 15:53:32.551] [debug] (AssetCache)    Enqueue update
+[2023-11-29 15:53:32.551] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 15:53:32.918] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 366 }
+[2023-11-29 15:53:32.919] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-11-29 15:53:32.919] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 16:03:32.555] [debug] (AssetCache)    Enqueue update
+[2023-11-29 16:03:32.555] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 16:03:32.944] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 389 }
+[2023-11-29 16:03:32.945] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 16:03:32.945] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 16:13:32.558] [debug] (AssetCache)    Enqueue update
+[2023-11-29 16:13:32.559] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 16:13:33.443] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 884 }
+[2023-11-29 16:13:33.444] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 16:13:33.444] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 16:23:32.562] [debug] (AssetCache)    Enqueue update
+[2023-11-29 16:23:32.562] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 16:23:33.162] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 600 }
+[2023-11-29 16:23:33.163] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 16:23:33.163] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 16:33:32.564] [debug] (AssetCache)    Enqueue update
+[2023-11-29 16:33:32.564] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 16:33:32.912] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 348 }
+[2023-11-29 16:33:32.913] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 16:33:32.914] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 16:43:32.566] [debug] (AssetCache)    Enqueue update
+[2023-11-29 16:43:32.566] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 16:43:32.928] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 361 }
+[2023-11-29 16:43:32.929] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 16:43:32.930] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 16:53:32.567] [debug] (AssetCache)    Enqueue update
+[2023-11-29 16:53:32.568] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 16:53:32.918] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 350 }
+[2023-11-29 16:53:32.918] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 16:53:32.919] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 17:03:32.567] [debug] (AssetCache)    Enqueue update
+[2023-11-29 17:03:32.568] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 17:03:32.902] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 334 }
+[2023-11-29 17:03:32.902] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 17:03:32.903] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 17:13:32.568] [debug] (AssetCache)    Enqueue update
+[2023-11-29 17:13:32.569] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 17:13:32.933] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 364 }
+[2023-11-29 17:13:32.934] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 17:13:32.934] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 17:23:32.569] [debug] (AssetCache)    Enqueue update
+[2023-11-29 17:23:32.569] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 17:23:33.760] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 1190 }
+[2023-11-29 17:23:33.760] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 17:23:33.761] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 17:33:32.584] [debug] (AssetCache)    Enqueue update
+[2023-11-29 17:33:32.584] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 17:33:33.153] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 568 }
+[2023-11-29 17:33:33.153] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 17:33:33.154] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 17:43:32.598] [debug] (AssetCache)    Enqueue update
+[2023-11-29 17:43:32.598] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 17:43:33.085] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 486 }
+[2023-11-29 17:43:33.085] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 17:43:33.086] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 17:53:32.613] [debug] (AssetCache)    Enqueue update
+[2023-11-29 17:53:32.614] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 17:53:32.965] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 351 }
+[2023-11-29 17:53:32.966] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-11-29 17:53:32.966] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 18:03:32.627] [debug] (AssetCache)    Enqueue update
+[2023-11-29 18:03:32.627] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 18:03:33.035] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 408 }
+[2023-11-29 18:03:33.036] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 18:03:33.036] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 18:13:32.638] [debug] (AssetCache)    Enqueue update
+[2023-11-29 18:13:32.638] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 18:13:32.956] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 318 }
+[2023-11-29 18:13:32.957] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 18:13:32.957] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 18:23:32.651] [debug] (AssetCache)    Enqueue update
+[2023-11-29 18:23:32.651] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 18:23:33.045] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 393 }
+[2023-11-29 18:23:33.046] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 18:23:33.046] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 18:33:32.653] [debug] (AssetCache)    Enqueue update
+[2023-11-29 18:33:32.653] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 18:33:33.009] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 356 }
+[2023-11-29 18:33:33.009] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 18:33:33.010] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 18:43:32.664] [debug] (AssetCache)    Enqueue update
+[2023-11-29 18:43:32.665] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 18:43:33.866] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 1201 }
+[2023-11-29 18:43:33.867] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 18:43:33.867] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 18:53:32.676] [debug] (AssetCache)    Enqueue update
+[2023-11-29 18:53:32.677] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 18:53:33.045] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 368 }
+[2023-11-29 18:53:33.046] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 18:53:33.046] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 19:03:32.677] [debug] (AssetCache)    Enqueue update
+[2023-11-29 19:03:32.678] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 19:03:33.193] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 515 }
+[2023-11-29 19:03:33.194] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-11-29 19:03:33.194] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 19:13:32.682] [debug] (AssetCache)    Enqueue update
+[2023-11-29 19:13:32.683] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 19:13:33.061] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 378 }
+[2023-11-29 19:13:33.062] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 19:13:33.062] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 19:22:54.154] [debug] (browserView-1) console-message: Failed to connect to splunk server TypeError: Failed to fetch {
+  line: 1,
+  sourceId: 'notion://www.notion.so/_assets/51-3783436a3f5768d6.js'
+}
+[2023-11-29 19:22:54.154] [debug] (window-5)      console-message: Failed to connect to splunk server TypeError: Failed to fetch {
+  line: 1,
+  sourceId: 'notion://www.notion.so/_assets/51-3783436a3f5768d6.js'
+}
+[2023-11-29 19:23:32.687] [debug] (AssetCache)    Enqueue update
+[2023-11-29 19:23:32.687] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 19:23:33.120] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 432 }
+[2023-11-29 19:23:33.121] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 19:23:33.121] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 19:33:32.694] [debug] (AssetCache)    Enqueue update
+[2023-11-29 19:33:32.695] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 19:33:33.192] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 497 }
+[2023-11-29 19:33:33.193] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 19:33:33.193] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 19:43:32.695] [debug] (AssetCache)    Enqueue update
+[2023-11-29 19:43:32.695] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 19:43:33.151] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 455 }
+[2023-11-29 19:43:33.152] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-11-29 19:43:33.152] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 19:53:32.701] [debug] (AssetCache)    Enqueue update
+[2023-11-29 19:53:32.701] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 19:53:33.242] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 541 }
+[2023-11-29 19:53:33.243] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 19:53:33.243] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 20:03:32.709] [debug] (AssetCache)    Enqueue update
+[2023-11-29 20:03:32.709] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 20:03:33.308] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 598 }
+[2023-11-29 20:03:33.309] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 20:03:33.309] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 20:13:32.717] [debug] (AssetCache)    Enqueue update
+[2023-11-29 20:13:32.717] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 20:13:34.203] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 1485 }
+[2023-11-29 20:13:34.203] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 20:13:34.203] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 20:23:32.723] [debug] (AssetCache)    Enqueue update
+[2023-11-29 20:23:32.724] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 20:23:33.041] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 317 }
+[2023-11-29 20:23:33.042] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-11-29 20:23:33.042] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 20:26:41.154] [debug] (window-5)      console-message: Failed to connect to splunk server TypeError: Failed to fetch {
+  line: 1,
+  sourceId: 'notion://www.notion.so/_assets/51-3783436a3f5768d6.js'
+}
+[2023-11-29 20:26:41.155] [debug] (browserView-1) console-message: Failed to connect to splunk server TypeError: Failed to fetch {
+  line: 1,
+  sourceId: 'notion://www.notion.so/_assets/51-3783436a3f5768d6.js'
+}
+[2023-11-29 20:33:32.730] [debug] (AssetCache)    Enqueue update
+[2023-11-29 20:33:32.731] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 20:33:33.271] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 540 }
+[2023-11-29 20:33:33.272] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 20:33:33.273] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 20:43:32.733] [debug] (AssetCache)    Enqueue update
+[2023-11-29 20:43:32.734] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 20:43:33.434] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 700 }
+[2023-11-29 20:43:33.434] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 20:43:33.434] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 20:53:32.736] [debug] (AssetCache)    Enqueue update
+[2023-11-29 20:53:32.737] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 20:53:33.488] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 751 }
+[2023-11-29 20:53:33.488] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 20:53:33.489] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 21:03:32.740] [debug] (AssetCache)    Enqueue update
+[2023-11-29 21:03:32.741] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 21:03:33.155] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 414 }
+[2023-11-29 21:03:33.155] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 21:03:33.155] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 21:13:32.743] [debug] (AssetCache)    Enqueue update
+[2023-11-29 21:13:32.744] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 21:13:33.238] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 494 }
+[2023-11-29 21:13:33.239] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 21:13:33.239] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 21:23:32.748] [debug] (AssetCache)    Enqueue update
+[2023-11-29 21:23:32.749] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 21:23:33.116] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 367 }
+[2023-11-29 21:23:33.117] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 21:23:33.118] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 21:33:13.105] [debug] (browserView-1) console-message: Failed to connect to splunk server TypeError: Failed to fetch {
+  line: 1,
+  sourceId: 'notion://www.notion.so/_assets/51-3783436a3f5768d6.js'
+}
+[2023-11-29 21:33:13.123] [debug] (window-5)      console-message: Failed to connect to splunk server TypeError: Failed to fetch {
+  line: 1,
+  sourceId: 'notion://www.notion.so/_assets/51-3783436a3f5768d6.js'
+}
+[2023-11-29 21:33:32.752] [debug] (AssetCache)    Enqueue update
+[2023-11-29 21:33:32.753] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 21:33:33.093] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 340 }
+[2023-11-29 21:33:33.094] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 21:33:33.094] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 21:43:32.753] [debug] (AssetCache)    Enqueue update
+[2023-11-29 21:43:32.754] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 21:43:33.171] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 417 }
+[2023-11-29 21:43:33.172] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-11-29 21:43:33.172] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 21:53:32.756] [debug] (AssetCache)    Enqueue update
+[2023-11-29 21:53:32.757] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 21:53:33.255] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 498 }
+[2023-11-29 21:53:33.256] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 21:53:33.256] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 22:03:32.759] [debug] (AssetCache)    Enqueue update
+[2023-11-29 22:03:32.759] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 22:03:34.618] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 1859 }
+[2023-11-29 22:03:34.619] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 22:03:34.619] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 22:13:32.759] [debug] (AssetCache)    Enqueue update
+[2023-11-29 22:13:32.760] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 22:13:33.317] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 557 }
+[2023-11-29 22:13:33.318] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 22:13:33.318] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 22:23:32.761] [debug] (AssetCache)    Enqueue update
+[2023-11-29 22:23:32.762] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 22:23:33.588] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 826 }
+[2023-11-29 22:23:33.589] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 22:23:33.589] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 22:33:32.762] [debug] (AssetCache)    Enqueue update
+[2023-11-29 22:33:32.763] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 22:33:33.519] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 756 }
+[2023-11-29 22:33:33.520] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 22:33:33.520] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 22:43:32.763] [debug] (AssetCache)    Enqueue update
+[2023-11-29 22:43:32.763] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 22:43:33.247] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 483 }
+[2023-11-29 22:43:33.248] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 22:43:33.248] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 22:53:32.776] [debug] (AssetCache)    Enqueue update
+[2023-11-29 22:53:32.777] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 22:53:33.354] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 577 }
+[2023-11-29 22:53:33.355] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-11-29 22:53:33.355] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 23:02:37.221] [debug] (window-5)      console-message: Failed to connect to splunk server TypeError: Failed to fetch {
+  line: 1,
+  sourceId: 'notion://www.notion.so/_assets/51-3783436a3f5768d6.js'
+}
+[2023-11-29 23:02:37.236] [debug] (browserView-1) console-message: Failed to connect to splunk server TypeError: Failed to fetch {
+  line: 1,
+  sourceId: 'notion://www.notion.so/_assets/51-3783436a3f5768d6.js'
+}
+[2023-11-29 23:03:32.791] [debug] (AssetCache)    Enqueue update
+[2023-11-29 23:03:32.792] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 23:03:33.728] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 936 }
+[2023-11-29 23:03:33.729] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 23:03:33.729] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 23:13:32.806] [debug] (AssetCache)    Enqueue update
+[2023-11-29 23:13:32.806] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 23:13:33.479] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 672 }
+[2023-11-29 23:13:33.479] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 23:13:33.480] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 23:23:32.816] [debug] (AssetCache)    Enqueue update
+[2023-11-29 23:23:32.817] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 23:23:33.238] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 421 }
+[2023-11-29 23:23:33.239] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-11-29 23:23:33.239] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 23:33:32.829] [debug] (AssetCache)    Enqueue update
+[2023-11-29 23:33:32.830] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 23:33:33.636] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 806 }
+[2023-11-29 23:33:33.637] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 23:33:33.638] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 23:43:32.842] [debug] (AssetCache)    Enqueue update
+[2023-11-29 23:43:32.842] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 23:43:33.339] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 496 }
+[2023-11-29 23:43:33.340] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-29 23:43:33.340] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-29 23:53:32.852] [debug] (AssetCache)    Enqueue update
+[2023-11-29 23:53:32.853] [debug] (AssetCache)    Checking for app.js update
+[2023-11-29 23:53:33.875] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 1022 }
+[2023-11-29 23:53:33.876] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-11-29 23:53:33.876] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 00:03:32.854] [debug] (AssetCache)    Enqueue update
+[2023-11-30 00:03:32.855] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 00:03:34.360] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 1505 }
+[2023-11-30 00:03:34.360] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 00:03:34.361] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 00:13:32.862] [debug] (AssetCache)    Enqueue update
+[2023-11-30 00:13:32.863] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 00:13:33.169] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 306 }
+[2023-11-30 00:13:33.170] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 00:13:33.170] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 00:23:32.872] [debug] (AssetCache)    Enqueue update
+[2023-11-30 00:23:32.873] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 00:23:33.656] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 783 }
+[2023-11-30 00:23:33.657] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-11-30 00:23:33.657] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 00:33:32.883] [debug] (AssetCache)    Enqueue update
+[2023-11-30 00:33:32.883] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 00:33:33.346] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 463 }
+[2023-11-30 00:33:33.347] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 00:33:33.347] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 00:34:03.809] [debug] (browserView-1) console-message: Failed to connect to splunk server TypeError: Failed to fetch {
+  line: 1,
+  sourceId: 'notion://www.notion.so/_assets/51-3783436a3f5768d6.js'
+}
+[2023-11-30 00:34:03.811] [debug] (window-5)      console-message: Failed to connect to splunk server TypeError: Failed to fetch {
+  line: 1,
+  sourceId: 'notion://www.notion.so/_assets/51-3783436a3f5768d6.js'
+}
+[2023-11-30 00:43:32.892] [debug] (AssetCache)    Enqueue update
+[2023-11-30 00:43:32.892] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 00:43:33.233] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 340 }
+[2023-11-30 00:43:33.234] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 00:43:33.234] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 00:53:32.902] [debug] (AssetCache)    Enqueue update
+[2023-11-30 00:53:32.903] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 00:53:34.132] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 1229 }
+[2023-11-30 00:53:34.132] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 00:53:34.133] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 01:03:32.908] [debug] (AssetCache)    Enqueue update
+[2023-11-30 01:03:32.909] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 01:03:33.227] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 318 }
+[2023-11-30 01:03:33.227] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 01:03:33.228] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 01:13:32.917] [debug] (AssetCache)    Enqueue update
+[2023-11-30 01:13:32.917] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 01:13:33.512] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 594 }
+[2023-11-30 01:13:33.513] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 01:13:33.513] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 01:23:32.924] [debug] (AssetCache)    Enqueue update
+[2023-11-30 01:23:32.925] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 01:23:33.242] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 317 }
+[2023-11-30 01:23:33.243] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 01:23:33.243] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 01:33:32.932] [debug] (AssetCache)    Enqueue update
+[2023-11-30 01:33:32.933] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 01:33:33.327] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 394 }
+[2023-11-30 01:33:33.328] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-11-30 01:33:33.328] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 01:43:32.939] [debug] (AssetCache)    Enqueue update
+[2023-11-30 01:43:32.940] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 01:43:33.262] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 322 }
+[2023-11-30 01:43:33.262] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 01:43:33.263] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 01:53:32.945] [debug] (AssetCache)    Enqueue update
+[2023-11-30 01:53:32.946] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 01:53:33.270] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 324 }
+[2023-11-30 01:53:33.271] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-11-30 01:53:33.271] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 02:03:32.952] [debug] (AssetCache)    Enqueue update
+[2023-11-30 02:03:32.952] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 02:03:33.282] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 330 }
+[2023-11-30 02:03:33.283] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 02:03:33.283] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 02:13:32.955] [debug] (AssetCache)    Enqueue update
+[2023-11-30 02:13:32.955] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 02:13:33.309] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 353 }
+[2023-11-30 02:13:33.310] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 02:13:33.310] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 02:23:32.958] [debug] (AssetCache)    Enqueue update
+[2023-11-30 02:23:32.958] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 02:23:34.274] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 1315 }
+[2023-11-30 02:23:34.274] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 02:23:34.275] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 02:33:32.961] [debug] (AssetCache)    Enqueue update
+[2023-11-30 02:33:32.962] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 02:33:34.081] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 1119 }
+[2023-11-30 02:33:34.082] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-11-30 02:33:34.082] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 02:43:32.964] [debug] (AssetCache)    Enqueue update
+[2023-11-30 02:43:32.965] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 02:43:33.446] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 480 }
+[2023-11-30 02:43:33.446] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 02:43:33.446] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 02:53:32.965] [debug] (AssetCache)    Enqueue update
+[2023-11-30 02:53:32.965] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 02:53:33.854] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 888 }
+[2023-11-30 02:53:33.854] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 02:53:33.854] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 03:03:32.964] [debug] (AssetCache)    Enqueue update
+[2023-11-30 03:03:32.965] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 03:03:33.458] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 493 }
+[2023-11-30 03:03:33.459] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 03:03:33.459] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 03:13:32.964] [debug] (AssetCache)    Enqueue update
+[2023-11-30 03:13:32.965] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 03:13:34.083] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 1118 }
+[2023-11-30 03:13:34.083] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 03:13:34.084] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 03:23:32.964] [debug] (AssetCache)    Enqueue update
+[2023-11-30 03:23:32.965] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 03:23:33.328] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 363 }
+[2023-11-30 03:23:33.329] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-11-30 03:23:33.329] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 03:32:58.607] [debug] (window-5)      console-message: Failed to connect to splunk server TypeError: Failed to fetch {
+  line: 1,
+  sourceId: 'notion://www.notion.so/_assets/51-3783436a3f5768d6.js'
+}
+[2023-11-30 03:32:58.610] [debug] (browserView-1) console-message: Failed to connect to splunk server TypeError: Failed to fetch {
+  line: 1,
+  sourceId: 'notion://www.notion.so/_assets/51-3783436a3f5768d6.js'
+}
+[2023-11-30 03:33:32.967] [debug] (AssetCache)    Enqueue update
+[2023-11-30 03:33:32.967] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 03:33:33.679] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 711 }
+[2023-11-30 03:33:33.680] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 03:33:33.680] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 03:43:32.967] [debug] (AssetCache)    Enqueue update
+[2023-11-30 03:43:32.968] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 03:43:34.100] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 1132 }
+[2023-11-30 03:43:34.356] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 255 }
+[2023-11-30 03:43:34.357] [debug] (AssetCache)    App update available { version: '23.13.0.26' }
+[2023-11-30 03:43:34.358] [info]  (AssetCache)    performance.assetJson { duration: 1 }
+[2023-11-30 03:43:36.075] [info]  (AssetCache)    performance.prepare { duration: 1717 }
+[2023-11-30 03:43:36.088] [debug] (AssetCache)    Checking for app.js update (2)
+[2023-11-30 03:43:36.088] [info]  (AssetCache)    App.js update download complete { version: '23.13.0.26' }
+[2023-11-30 03:43:36.089] [info]  (AssetCache)    Installing app.js update { version: '23.13.0.26' }
+[2023-11-30 03:43:36.090] [info]  (AssetCache)    performance.download { duration: 15 }
+[2023-11-30 03:43:36.090] [info]  (AssetCache)    performance.checkForUpdatesNow { duration: 3122 }
+[2023-11-30 03:53:32.968] [debug] (AssetCache)    Enqueue update
+[2023-11-30 03:53:32.968] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 03:53:34.122] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 1154 }
+[2023-11-30 03:53:34.122] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 03:53:34.123] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 04:02:38.922] [debug] (browserView-1) console-message: Failed to connect to splunk server TypeError: Failed to fetch {
+  line: 1,
+  sourceId: 'notion://www.notion.so/_assets/51-3783436a3f5768d6.js'
+}
+[2023-11-30 04:02:38.939] [debug] (window-5)      console-message: Failed to connect to splunk server TypeError: Failed to fetch {
+  line: 1,
+  sourceId: 'notion://www.notion.so/_assets/51-3783436a3f5768d6.js'
+}
+[2023-11-30 04:03:32.983] [debug] (AssetCache)    Enqueue update
+[2023-11-30 04:03:32.983] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 04:03:33.304] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 320 }
+[2023-11-30 04:03:33.304] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 04:03:33.304] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 04:13:32.997] [debug] (AssetCache)    Enqueue update
+[2023-11-30 04:13:32.998] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 04:13:33.478] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 480 }
+[2023-11-30 04:13:33.479] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 04:13:33.479] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 04:23:33.011] [debug] (AssetCache)    Enqueue update
+[2023-11-30 04:23:33.012] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 04:23:33.324] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 312 }
+[2023-11-30 04:23:33.325] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 04:23:33.326] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 04:33:33.025] [debug] (AssetCache)    Enqueue update
+[2023-11-30 04:33:33.025] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 04:33:33.477] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 451 }
+[2023-11-30 04:33:33.477] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 04:33:33.478] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 04:43:33.025] [debug] (AssetCache)    Enqueue update
+[2023-11-30 04:43:33.026] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 04:43:33.386] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 360 }
+[2023-11-30 04:43:33.387] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 04:43:33.388] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 04:53:33.037] [debug] (AssetCache)    Enqueue update
+[2023-11-30 04:53:33.038] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 04:53:33.545] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 507 }
+[2023-11-30 04:53:33.546] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 04:53:33.546] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 05:03:33.040] [debug] (AssetCache)    Enqueue update
+[2023-11-30 05:03:33.041] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 05:03:33.360] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 319 }
+[2023-11-30 05:03:33.360] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 05:03:33.361] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 05:13:33.052] [debug] (AssetCache)    Enqueue update
+[2023-11-30 05:13:33.052] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 05:13:33.583] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 530 }
+[2023-11-30 05:13:33.584] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-11-30 05:13:33.584] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 05:23:33.063] [debug] (AssetCache)    Enqueue update
+[2023-11-30 05:23:33.064] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 05:23:33.437] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 373 }
+[2023-11-30 05:23:33.438] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-11-30 05:23:33.438] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 05:33:33.074] [debug] (AssetCache)    Enqueue update
+[2023-11-30 05:33:33.074] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 05:33:33.611] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 536 }
+[2023-11-30 05:33:33.612] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-11-30 05:33:33.612] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 05:43:33.084] [debug] (AssetCache)    Enqueue update
+[2023-11-30 05:43:33.084] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 05:43:33.397] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 313 }
+[2023-11-30 05:43:33.398] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 05:43:33.398] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 05:53:33.091] [debug] (AssetCache)    Enqueue update
+[2023-11-30 05:53:33.091] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 05:53:33.667] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 576 }
+[2023-11-30 05:53:33.668] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 05:53:33.668] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 06:03:33.097] [debug] (AssetCache)    Enqueue update
+[2023-11-30 06:03:33.097] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 06:03:33.567] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 469 }
+[2023-11-30 06:03:33.567] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 06:03:33.568] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 06:13:33.103] [debug] (AssetCache)    Enqueue update
+[2023-11-30 06:13:33.104] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 06:13:33.573] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 469 }
+[2023-11-30 06:13:33.574] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 06:13:33.574] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 06:23:33.110] [debug] (AssetCache)    Enqueue update
+[2023-11-30 06:23:33.110] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 06:23:33.433] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 322 }
+[2023-11-30 06:23:33.433] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 06:23:33.434] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 06:33:32.123] [info]                  Not checking for update (disabled: true, available: false, dev: false)
+[2023-11-30 06:33:33.111] [debug] (AssetCache)    Enqueue update
+[2023-11-30 06:33:33.111] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 06:33:33.526] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 415 }
+[2023-11-30 06:33:33.526] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 06:33:33.527] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 06:43:33.118] [debug] (AssetCache)    Enqueue update
+[2023-11-30 06:43:33.119] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 06:43:33.509] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 390 }
+[2023-11-30 06:43:33.509] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 06:43:33.509] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 06:53:33.125] [debug] (AssetCache)    Enqueue update
+[2023-11-30 06:53:33.126] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 06:53:34.362] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 1235 }
+[2023-11-30 06:53:34.522] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 160 }
+[2023-11-30 06:53:34.522] [debug] (AssetCache)    App update available { version: '23.13.0.27' }
+[2023-11-30 06:53:34.525] [info]  (AssetCache)    performance.assetJson { duration: 2 }
+[2023-11-30 06:53:45.707] [info]  (AssetCache)    performance.prepare { duration: 11182 }
+[2023-11-30 06:53:45.723] [debug] (AssetCache)    Checking for app.js update (2)
+[2023-11-30 06:53:45.723] [info]  (AssetCache)    App.js update download complete { version: '23.13.0.27' }
+[2023-11-30 06:53:45.724] [info]  (AssetCache)    Installing app.js update { version: '23.13.0.27' }
+[2023-11-30 06:53:45.724] [info]  (AssetCache)    performance.download { duration: 17 }
+[2023-11-30 06:53:45.725] [info]  (AssetCache)    performance.checkForUpdatesNow { duration: 12599 }
+[2023-11-30 07:03:33.133] [debug] (AssetCache)    Enqueue update
+[2023-11-30 07:03:33.133] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 07:03:34.235] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 1101 }
+[2023-11-30 07:03:34.236] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 07:03:34.237] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 07:13:33.139] [debug] (AssetCache)    Enqueue update
+[2023-11-30 07:13:33.140] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 07:13:33.472] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 332 }
+[2023-11-30 07:13:33.473] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 07:13:33.473] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 07:23:33.145] [debug] (AssetCache)    Enqueue update
+[2023-11-30 07:23:33.146] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 07:23:33.481] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 335 }
+[2023-11-30 07:23:33.481] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 07:23:33.482] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 07:33:33.152] [debug] (AssetCache)    Enqueue update
+[2023-11-30 07:33:33.152] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 07:33:33.468] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 315 }
+[2023-11-30 07:33:33.469] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 07:33:33.470] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 07:43:33.156] [debug] (AssetCache)    Enqueue update
+[2023-11-30 07:43:33.157] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 07:43:34.174] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 1017 }
+[2023-11-30 07:43:34.175] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 07:43:34.175] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 07:53:33.159] [debug] (AssetCache)    Enqueue update
+[2023-11-30 07:53:33.160] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 07:53:33.614] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 454 }
+[2023-11-30 07:53:33.615] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 07:53:33.615] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 08:03:33.161] [debug] (AssetCache)    Enqueue update
+[2023-11-30 08:03:33.161] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 08:03:33.495] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 333 }
+[2023-11-30 08:03:33.496] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 08:03:33.496] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 08:06:30.882] [debug] (window-5)      console-message: Failed to connect to splunk server TypeError: Failed to fetch {
+  line: 1,
+  sourceId: 'notion://www.notion.so/_assets/51-3783436a3f5768d6.js'
+}
+[2023-11-30 08:06:30.883] [debug] (browserView-1) console-message: Failed to connect to splunk server TypeError: Failed to fetch {
+  line: 1,
+  sourceId: 'notion://www.notion.so/_assets/51-3783436a3f5768d6.js'
+}
+[2023-11-30 08:11:13.510] [debug] (browserView-1) console-message: Access to XMLHttpRequest at 'https://msgstore.www.notion.so/primus-v8/?sessionId=feadaad3-f6ec-40bc-b5a4-8b33ffd987fc&_primuscb=OmU6UEJ&EIO=4&transport=polling&t=OmU6URo&b64=1&sid=ER6fD-Q9C1cPne6LBAg2' from origin 'notion://www.notion.so' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. {
+  line: 0,
+  sourceId: 'notion://www.notion.so/f1e951dadf3c4999ae2e546f78fe5ff2'
+}
+[2023-11-30 08:11:14.272] [debug] (browserView-1) console-message: Access to XMLHttpRequest at 'https://msgstore.www.notion.so/primus-v8/?sessionId=feadaad3-f6ec-40bc-b5a4-8b33ffd987fc&_primuscb=OmU6UEJ&EIO=4&transport=polling&t=OmU6URp.0&b64=1&sid=ER6fD-Q9C1cPne6LBAg2' from origin 'notion://www.notion.so' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. {
+  line: 0,
+  sourceId: 'notion://www.notion.so/f1e951dadf3c4999ae2e546f78fe5ff2'
+}
+[2023-11-30 08:11:14.289] [debug] (window-5)      console-message: Access to XMLHttpRequest at 'https://msgstore.www.notion.so/primus-v8/?sessionId=4cd9676c-4c25-40a5-85ae-da762c360b2a&_primuscb=OmU6U2J&EIO=4&transport=polling&t=OmU6URp.0&b64=1&sid=dqHe9vVSmAO6BRpvBAg1' from origin 'notion://www.notion.so' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. { line: 0, sourceId: 'notion://www.notion.so/quick-search' }
+[2023-11-30 08:12:44.417] [debug] (browserView-1) console-message: Access to XMLHttpRequest at 'https://msgstore.www.notion.so/primus-v8/?sessionId=feadaad3-f6ec-40bc-b5a4-8b33ffd987fc&_primuscb=OmU6qSB&EIO=4&transport=polling&t=OmU6qSC&b64=1' from origin 'notion://www.notion.so' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. {
+  line: 0,
+  sourceId: 'notion://www.notion.so/f1e951dadf3c4999ae2e546f78fe5ff2'
+}
+[2023-11-30 08:13:33.163] [debug] (AssetCache)    Enqueue update
+[2023-11-30 08:13:33.163] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 08:13:33.518] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 355 }
+[2023-11-30 08:13:33.519] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-11-30 08:13:33.519] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 08:23:33.166] [debug] (AssetCache)    Enqueue update
+[2023-11-30 08:23:33.167] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 08:23:33.484] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 317 }
+[2023-11-30 08:23:33.485] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 08:23:33.485] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 08:33:33.169] [debug] (AssetCache)    Enqueue update
+[2023-11-30 08:33:33.169] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 08:33:33.749] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 579 }
+[2023-11-30 08:33:33.749] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 08:33:33.750] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 08:43:33.169] [debug] (AssetCache)    Enqueue update
+[2023-11-30 08:43:33.170] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 08:43:33.520] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 350 }
+[2023-11-30 08:43:33.520] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 08:43:33.520] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 08:53:33.172] [debug] (AssetCache)    Enqueue update
+[2023-11-30 08:53:33.172] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 08:53:33.493] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 320 }
+[2023-11-30 08:53:33.494] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 08:53:33.495] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 09:03:33.172] [debug] (AssetCache)    Enqueue update
+[2023-11-30 09:03:33.173] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 09:03:33.546] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 373 }
+[2023-11-30 09:03:33.547] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 09:03:33.547] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 09:13:33.173] [debug] (AssetCache)    Enqueue update
+[2023-11-30 09:13:33.174] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 09:13:33.534] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 360 }
+[2023-11-30 09:13:33.534] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 09:13:33.534] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 09:23:33.174] [debug] (AssetCache)    Enqueue update
+[2023-11-30 09:23:33.174] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 09:23:33.555] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 381 }
+[2023-11-30 09:23:33.556] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-11-30 09:23:33.556] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 09:33:33.185] [debug] (AssetCache)    Enqueue update
+[2023-11-30 09:33:33.186] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 09:33:33.529] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 343 }
+[2023-11-30 09:33:33.530] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-11-30 09:33:33.530] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 09:43:33.198] [debug] (AssetCache)    Enqueue update
+[2023-11-30 09:43:33.199] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 09:43:33.649] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 449 }
+[2023-11-30 09:43:33.649] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 09:43:33.649] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 09:53:33.202] [debug] (AssetCache)    Enqueue update
+[2023-11-30 09:53:33.203] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 09:53:33.551] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 348 }
+[2023-11-30 09:53:33.552] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 09:53:33.552] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 10:03:33.216] [debug] (AssetCache)    Enqueue update
+[2023-11-30 10:03:33.216] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 10:03:33.568] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 352 }
+[2023-11-30 10:03:33.569] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 10:03:33.569] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 10:13:33.219] [debug] (AssetCache)    Enqueue update
+[2023-11-30 10:13:33.219] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 10:13:33.561] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 342 }
+[2023-11-30 10:13:33.562] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-11-30 10:13:33.562] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 10:23:33.225] [debug] (AssetCache)    Enqueue update
+[2023-11-30 10:23:33.226] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 10:23:33.557] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 330 }
+[2023-11-30 10:23:33.558] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 10:23:33.559] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 10:33:33.235] [debug] (AssetCache)    Enqueue update
+[2023-11-30 10:33:33.236] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 10:33:33.583] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 347 }
+[2023-11-30 10:33:33.583] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 10:33:33.584] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 10:43:33.247] [debug] (AssetCache)    Enqueue update
+[2023-11-30 10:43:33.248] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 10:43:33.659] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 411 }
+[2023-11-30 10:43:33.660] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 10:43:33.660] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 10:53:33.259] [debug] (AssetCache)    Enqueue update
+[2023-11-30 10:53:33.260] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 10:53:33.643] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 383 }
+[2023-11-30 10:53:33.644] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-11-30 10:53:33.644] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 11:03:33.268] [debug] (AssetCache)    Enqueue update
+[2023-11-30 11:03:33.269] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 11:03:33.613] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 344 }
+[2023-11-30 11:03:33.614] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-11-30 11:03:33.614] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 11:13:33.278] [debug] (AssetCache)    Enqueue update
+[2023-11-30 11:13:33.279] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 11:13:33.854] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 575 }
+[2023-11-30 11:13:33.855] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 11:13:33.855] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 11:23:33.288] [debug] (AssetCache)    Enqueue update
+[2023-11-30 11:23:33.289] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 11:23:33.639] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 350 }
+[2023-11-30 11:23:33.639] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 11:23:33.640] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 11:33:33.295] [debug] (AssetCache)    Enqueue update
+[2023-11-30 11:33:33.296] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 11:33:33.850] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 554 }
+[2023-11-30 11:33:33.851] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 11:33:33.852] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 11:43:33.303] [debug] (AssetCache)    Enqueue update
+[2023-11-30 11:43:33.304] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 11:43:33.729] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 425 }
+[2023-11-30 11:43:33.730] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 11:43:33.730] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 11:53:33.311] [debug] (AssetCache)    Enqueue update
+[2023-11-30 11:53:33.312] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 11:53:33.672] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 360 }
+[2023-11-30 11:53:33.673] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 11:53:33.673] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 12:03:33.318] [debug] (AssetCache)    Enqueue update
+[2023-11-30 12:03:33.319] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 12:03:33.679] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 360 }
+[2023-11-30 12:03:33.680] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 12:03:33.680] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 12:13:33.324] [debug] (AssetCache)    Enqueue update
+[2023-11-30 12:13:33.325] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 12:13:33.892] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 567 }
+[2023-11-30 12:13:33.893] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 12:13:33.893] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 12:23:33.328] [debug] (AssetCache)    Enqueue update
+[2023-11-30 12:23:33.328] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 12:23:33.873] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 545 }
+[2023-11-30 12:23:33.873] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 12:23:33.874] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 12:33:33.331] [debug] (AssetCache)    Enqueue update
+[2023-11-30 12:33:33.332] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 12:33:33.728] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 396 }
+[2023-11-30 12:33:33.729] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-11-30 12:33:33.729] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 12:43:33.337] [debug] (AssetCache)    Enqueue update
+[2023-11-30 12:43:33.338] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 12:43:33.726] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 388 }
+[2023-11-30 12:43:33.727] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 12:43:33.727] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 12:53:33.341] [debug] (AssetCache)    Enqueue update
+[2023-11-30 12:53:33.341] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 12:53:33.794] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 452 }
+[2023-11-30 12:53:33.794] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 12:53:33.795] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 13:03:33.344] [debug] (AssetCache)    Enqueue update
+[2023-11-30 13:03:33.345] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 13:03:34.143] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 797 }
+[2023-11-30 13:03:34.143] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 13:03:34.144] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 13:13:33.349] [debug] (AssetCache)    Enqueue update
+[2023-11-30 13:13:33.349] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 13:13:33.728] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 379 }
+[2023-11-30 13:13:33.729] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 13:13:33.730] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 13:23:33.351] [debug] (AssetCache)    Enqueue update
+[2023-11-30 13:23:33.351] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 13:23:33.690] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 339 }
+[2023-11-30 13:23:33.691] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-11-30 13:23:33.691] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 13:33:33.351] [debug] (AssetCache)    Enqueue update
+[2023-11-30 13:33:33.351] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 13:33:33.945] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 594 }
+[2023-11-30 13:33:33.946] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 13:33:33.946] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 13:43:33.354] [debug] (AssetCache)    Enqueue update
+[2023-11-30 13:43:33.354] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 13:43:33.813] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 459 }
+[2023-11-30 13:43:33.814] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-11-30 13:43:33.814] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 13:53:33.355] [debug] (AssetCache)    Enqueue update
+[2023-11-30 13:53:33.356] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 13:53:33.723] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 367 }
+[2023-11-30 13:53:33.724] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 13:53:33.724] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 14:03:33.357] [debug] (AssetCache)    Enqueue update
+[2023-11-30 14:03:33.357] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 14:03:33.847] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 490 }
+[2023-11-30 14:03:33.847] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 14:03:33.847] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 14:13:33.357] [debug] (AssetCache)    Enqueue update
+[2023-11-30 14:13:33.358] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 14:13:33.718] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 360 }
+[2023-11-30 14:13:33.719] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-11-30 14:13:33.719] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 14:23:33.358] [debug] (AssetCache)    Enqueue update
+[2023-11-30 14:23:33.358] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 14:23:34.290] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 931 }
+[2023-11-30 14:23:34.290] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 14:23:34.291] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 14:33:33.373] [debug] (AssetCache)    Enqueue update
+[2023-11-30 14:33:33.373] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 14:33:33.807] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 434 }
+[2023-11-30 14:33:33.808] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 14:33:33.808] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 14:43:33.387] [debug] (AssetCache)    Enqueue update
+[2023-11-30 14:43:33.387] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 14:43:34.092] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 704 }
+[2023-11-30 14:43:34.092] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 14:43:34.093] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 14:53:33.398] [debug] (AssetCache)    Enqueue update
+[2023-11-30 14:53:33.398] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 14:53:33.896] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 498 }
+[2023-11-30 14:53:33.897] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 14:53:33.897] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 15:03:33.411] [debug] (AssetCache)    Enqueue update
+[2023-11-30 15:03:33.411] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 15:03:33.962] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 551 }
+[2023-11-30 15:03:33.963] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-11-30 15:03:33.963] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 15:08:00.973] [debug] (window-5)      console-message: Failed to connect to splunk server TypeError: Failed to fetch {
+  line: 1,
+  sourceId: 'notion://www.notion.so/_assets/51-3783436a3f5768d6.js'
+}
+[2023-11-30 15:08:00.976] [debug] (browserView-1) console-message: Failed to connect to splunk server TypeError: Failed to fetch {
+  line: 1,
+  sourceId: 'notion://www.notion.so/_assets/51-3783436a3f5768d6.js'
+}
+[2023-11-30 15:13:33.423] [debug] (AssetCache)    Enqueue update
+[2023-11-30 15:13:33.424] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 15:13:33.954] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 529 }
+[2023-11-30 15:13:33.954] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 15:13:33.955] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 15:23:33.436] [debug] (AssetCache)    Enqueue update
+[2023-11-30 15:23:33.437] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 15:23:33.807] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 370 }
+[2023-11-30 15:23:33.807] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 15:23:33.808] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 15:33:33.447] [debug] (AssetCache)    Enqueue update
+[2023-11-30 15:33:33.447] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 15:33:33.999] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 552 }
+[2023-11-30 15:33:34.001] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-11-30 15:33:34.001] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 15:43:33.457] [debug] (AssetCache)    Enqueue update
+[2023-11-30 15:43:33.466] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 15:43:34.023] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 557 }
+[2023-11-30 15:43:34.023] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 15:43:34.024] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 15:52:24.270] [debug] (browserView-1) console-message: Failed to connect to splunk server TypeError: Failed to fetch {
+  line: 1,
+  sourceId: 'notion://www.notion.so/_assets/51-3783436a3f5768d6.js'
+}
+[2023-11-30 15:52:24.287] [debug] (window-5)      console-message: Failed to connect to splunk server TypeError: Failed to fetch {
+  line: 1,
+  sourceId: 'notion://www.notion.so/_assets/51-3783436a3f5768d6.js'
+}
+[2023-11-30 15:53:33.468] [debug] (AssetCache)    Enqueue update
+[2023-11-30 15:53:33.469] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 15:53:34.195] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 726 }
+[2023-11-30 15:53:34.196] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 15:53:34.196] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 16:03:33.474] [debug] (AssetCache)    Enqueue update
+[2023-11-30 16:03:33.475] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 16:03:33.936] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 461 }
+[2023-11-30 16:03:33.937] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 16:03:33.938] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 16:13:33.483] [debug] (AssetCache)    Enqueue update
+[2023-11-30 16:13:33.484] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 16:13:33.821] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 337 }
+[2023-11-30 16:13:33.822] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-11-30 16:13:33.822] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 16:23:33.493] [debug] (AssetCache)    Enqueue update
+[2023-11-30 16:23:33.493] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 16:23:33.858] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 364 }
+[2023-11-30 16:23:33.858] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 16:23:33.859] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 16:33:33.500] [debug] (AssetCache)    Enqueue update
+[2023-11-30 16:33:33.500] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 16:33:33.895] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 394 }
+[2023-11-30 16:33:33.895] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 16:33:33.895] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 16:43:33.506] [debug] (AssetCache)    Enqueue update
+[2023-11-30 16:43:33.506] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 16:43:34.166] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 659 }
+[2023-11-30 16:43:34.167] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 16:43:34.167] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 16:53:33.516] [debug] (AssetCache)    Enqueue update
+[2023-11-30 16:53:33.525] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 16:53:34.201] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 676 }
+[2023-11-30 16:53:34.202] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-11-30 16:53:34.202] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 17:03:33.521] [debug] (AssetCache)    Enqueue update
+[2023-11-30 17:03:33.530] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 17:03:34.154] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 624 }
+[2023-11-30 17:03:34.155] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 17:03:34.155] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 17:13:33.529] [debug] (AssetCache)    Enqueue update
+[2023-11-30 17:13:33.529] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 17:13:34.264] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 734 }
+[2023-11-30 17:13:34.265] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-11-30 17:13:34.265] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 17:23:33.533] [debug] (AssetCache)    Enqueue update
+[2023-11-30 17:23:33.540] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 17:23:34.105] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 564 }
+[2023-11-30 17:23:34.106] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-11-30 17:23:34.106] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 17:33:33.539] [debug] (AssetCache)    Enqueue update
+[2023-11-30 17:33:33.540] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 17:33:34.363] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 823 }
+[2023-11-30 17:33:34.364] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 17:33:34.364] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 17:43:33.546] [debug] (AssetCache)    Enqueue update
+[2023-11-30 17:43:33.546] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 17:43:33.986] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 431 }
+[2023-11-30 17:43:33.987] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 17:43:33.987] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 17:53:33.549] [debug] (AssetCache)    Enqueue update
+[2023-11-30 17:53:33.550] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 17:53:34.160] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 610 }
+[2023-11-30 17:53:34.161] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-11-30 17:53:34.161] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 18:03:33.552] [debug] (AssetCache)    Enqueue update
+[2023-11-30 18:03:33.553] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 18:03:34.580] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 1027 }
+[2023-11-30 18:03:34.582] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-11-30 18:03:34.583] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 18:13:33.556] [debug] (AssetCache)    Enqueue update
+[2023-11-30 18:13:33.556] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 18:13:34.329] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 772 }
+[2023-11-30 18:13:34.330] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 18:13:34.338] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 18:23:33.559] [debug] (AssetCache)    Enqueue update
+[2023-11-30 18:23:33.559] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 18:23:33.999] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 432 }
+[2023-11-30 18:23:34.000] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 18:23:34.000] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 18:33:33.562] [debug] (AssetCache)    Enqueue update
+[2023-11-30 18:33:33.563] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 18:33:34.812] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 1249 }
+[2023-11-30 18:33:34.812] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 18:33:34.813] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 18:43:33.564] [debug] (AssetCache)    Enqueue update
+[2023-11-30 18:43:33.565] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 18:43:35.016] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 1451 }
+[2023-11-30 18:43:35.016] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 18:43:35.016] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 18:53:33.567] [debug] (AssetCache)    Enqueue update
+[2023-11-30 18:53:33.568] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 18:53:35.184] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 1615 }
+[2023-11-30 18:53:35.184] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 18:53:35.185] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 19:03:33.570] [debug] (AssetCache)    Enqueue update
+[2023-11-30 19:03:33.571] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 19:03:34.733] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 1162 }
+[2023-11-30 19:03:34.733] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 19:03:34.734] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 19:13:33.571] [debug] (AssetCache)    Enqueue update
+[2023-11-30 19:13:33.571] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 19:13:34.688] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 1116 }
+[2023-11-30 19:13:34.689] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 19:13:34.689] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 19:23:33.571] [debug] (AssetCache)    Enqueue update
+[2023-11-30 19:23:33.572] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 19:23:35.056] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 1484 }
+[2023-11-30 19:23:35.057] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-11-30 19:23:35.057] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 19:33:33.587] [debug] (AssetCache)    Enqueue update
+[2023-11-30 19:33:33.588] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 19:33:34.321] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 733 }
+[2023-11-30 19:33:34.322] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 19:33:34.330] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 19:43:33.601] [debug] (AssetCache)    Enqueue update
+[2023-11-30 19:43:33.602] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 19:43:34.776] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 1173 }
+[2023-11-30 19:43:34.777] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-11-30 19:43:34.777] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 19:53:33.616] [debug] (AssetCache)    Enqueue update
+[2023-11-30 19:53:33.616] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 19:53:34.706] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 1089 }
+[2023-11-30 19:53:34.707] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 19:53:34.707] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 20:03:33.626] [debug] (AssetCache)    Enqueue update
+[2023-11-30 20:03:33.627] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 20:03:34.372] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 745 }
+[2023-11-30 20:03:34.372] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 20:03:34.372] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 20:13:33.639] [debug] (AssetCache)    Enqueue update
+[2023-11-30 20:13:33.640] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 20:13:34.557] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 917 }
+[2023-11-30 20:13:34.558] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 20:13:34.559] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 20:23:33.653] [debug] (AssetCache)    Enqueue update
+[2023-11-30 20:23:33.654] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 20:23:34.206] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 552 }
+[2023-11-30 20:23:34.207] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 20:23:34.207] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 20:33:33.656] [debug] (AssetCache)    Enqueue update
+[2023-11-30 20:33:33.657] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 20:33:34.830] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 1173 }
+[2023-11-30 20:33:34.831] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 20:33:34.831] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 20:43:33.662] [debug] (AssetCache)    Enqueue update
+[2023-11-30 20:43:33.662] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 20:43:34.952] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 1282 }
+[2023-11-30 20:43:34.952] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 20:43:34.953] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 20:53:33.673] [debug] (AssetCache)    Enqueue update
+[2023-11-30 20:53:33.674] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 20:53:34.783] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 1108 }
+[2023-11-30 20:53:34.784] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-11-30 20:53:34.784] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 21:03:33.685] [debug] (AssetCache)    Enqueue update
+[2023-11-30 21:03:33.686] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 21:03:34.908] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 1222 }
+[2023-11-30 21:03:34.909] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 21:03:34.909] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 21:13:33.695] [debug] (AssetCache)    Enqueue update
+[2023-11-30 21:13:33.696] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 21:13:34.698] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 1002 }
+[2023-11-30 21:13:34.699] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-11-30 21:13:34.699] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 21:23:33.705] [debug] (AssetCache)    Enqueue update
+[2023-11-30 21:23:33.706] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 21:23:34.338] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 631 }
+[2023-11-30 21:23:34.338] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 21:23:34.339] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 21:33:33.715] [debug] (AssetCache)    Enqueue update
+[2023-11-30 21:33:33.716] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 21:33:34.707] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 991 }
+[2023-11-30 21:33:34.708] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 21:33:34.709] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 21:43:33.724] [debug] (AssetCache)    Enqueue update
+[2023-11-30 21:43:33.725] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 21:43:34.634] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 909 }
+[2023-11-30 21:43:34.634] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 21:43:34.635] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 21:53:33.733] [debug] (AssetCache)    Enqueue update
+[2023-11-30 21:53:33.734] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 21:53:35.223] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 1489 }
+[2023-11-30 21:53:35.224] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 21:53:35.224] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 22:03:33.740] [debug] (AssetCache)    Enqueue update
+[2023-11-30 22:03:33.741] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 22:03:34.913] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 1171 }
+[2023-11-30 22:03:34.914] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-11-30 22:03:34.914] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 22:13:33.747] [debug] (AssetCache)    Enqueue update
+[2023-11-30 22:13:33.748] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 22:13:34.653] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 904 }
+[2023-11-30 22:13:34.653] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 22:13:34.661] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 22:23:33.754] [debug] (AssetCache)    Enqueue update
+[2023-11-30 22:23:33.755] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 22:23:34.791] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 1036 }
+[2023-11-30 22:23:34.792] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 22:23:34.793] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 22:33:33.761] [debug] (AssetCache)    Enqueue update
+[2023-11-30 22:33:33.761] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 22:33:34.850] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 1089 }
+[2023-11-30 22:33:34.851] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 22:33:34.851] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 22:43:33.766] [debug] (AssetCache)    Enqueue update
+[2023-11-30 22:43:33.767] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 22:43:34.376] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 609 }
+[2023-11-30 22:43:34.376] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 22:43:34.377] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 22:53:33.771] [debug] (AssetCache)    Enqueue update
+[2023-11-30 22:53:33.772] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 22:53:34.684] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 912 }
+[2023-11-30 22:53:34.685] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 22:53:34.686] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 23:03:33.777] [debug] (AssetCache)    Enqueue update
+[2023-11-30 23:03:33.778] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 23:03:34.705] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 927 }
+[2023-11-30 23:03:34.705] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 23:03:34.706] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 23:13:33.781] [debug] (AssetCache)    Enqueue update
+[2023-11-30 23:13:33.782] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 23:13:34.676] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 894 }
+[2023-11-30 23:13:34.677] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-11-30 23:13:34.677] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 23:23:33.785] [debug] (AssetCache)    Enqueue update
+[2023-11-30 23:23:33.785] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 23:23:34.683] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 897 }
+[2023-11-30 23:23:34.683] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 23:23:34.684] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 23:33:33.788] [debug] (AssetCache)    Enqueue update
+[2023-11-30 23:33:33.789] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 23:33:34.627] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 838 }
+[2023-11-30 23:33:34.628] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 23:33:34.628] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 23:43:33.791] [debug] (AssetCache)    Enqueue update
+[2023-11-30 23:43:33.792] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 23:43:34.626] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 834 }
+[2023-11-30 23:43:34.627] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 23:43:34.627] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-11-30 23:50:46.236] [debug] (window-5)      console-message: Failed to connect to splunk server TypeError: Failed to fetch {
+  line: 1,
+  sourceId: 'notion://www.notion.so/_assets/51-3783436a3f5768d6.js'
+}
+[2023-11-30 23:50:46.238] [debug] (browserView-1) console-message: Failed to connect to splunk server TypeError: Failed to fetch {
+  line: 1,
+  sourceId: 'notion://www.notion.so/_assets/51-3783436a3f5768d6.js'
+}
+[2023-11-30 23:53:33.793] [debug] (AssetCache)    Enqueue update
+[2023-11-30 23:53:33.794] [debug] (AssetCache)    Checking for app.js update
+[2023-11-30 23:53:34.625] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 831 }
+[2023-11-30 23:53:34.625] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-11-30 23:53:34.626] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-12-01 00:03:33.795] [debug] (AssetCache)    Enqueue update
+[2023-12-01 00:03:33.796] [debug] (AssetCache)    Checking for app.js update
+[2023-12-01 00:03:34.434] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 638 }
+[2023-12-01 00:03:34.435] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-12-01 00:03:34.435] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-12-01 00:13:33.796] [debug] (AssetCache)    Enqueue update
+[2023-12-01 00:13:33.797] [debug] (AssetCache)    Checking for app.js update
+[2023-12-01 00:13:34.140] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 343 }
+[2023-12-01 00:13:34.141] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-12-01 00:13:34.141] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-12-01 00:23:33.797] [debug] (AssetCache)    Enqueue update
+[2023-12-01 00:23:33.797] [debug] (AssetCache)    Checking for app.js update
+[2023-12-01 00:23:35.371] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 1573 }
+[2023-12-01 00:23:35.372] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-12-01 00:23:35.372] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-12-01 00:33:33.803] [debug] (AssetCache)    Enqueue update
+[2023-12-01 00:33:33.803] [debug] (AssetCache)    Checking for app.js update
+[2023-12-01 00:33:34.134] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 330 }
+[2023-12-01 00:33:34.134] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-12-01 00:33:34.134] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-12-01 00:43:33.817] [debug] (AssetCache)    Enqueue update
+[2023-12-01 00:43:33.818] [debug] (AssetCache)    Checking for app.js update
+[2023-12-01 00:43:34.164] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 346 }
+[2023-12-01 00:43:34.165] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-12-01 00:43:34.165] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-12-01 00:53:33.820] [debug] (AssetCache)    Enqueue update
+[2023-12-01 00:53:33.820] [debug] (AssetCache)    Checking for app.js update
+[2023-12-01 00:53:34.125] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 304 }
+[2023-12-01 00:53:34.126] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-12-01 00:53:34.126] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-12-01 01:03:33.833] [debug] (AssetCache)    Enqueue update
+[2023-12-01 01:03:33.834] [debug] (AssetCache)    Checking for app.js update
+[2023-12-01 01:03:34.297] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 463 }
+[2023-12-01 01:03:34.298] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-12-01 01:03:34.298] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-12-01 01:13:33.834] [debug] (AssetCache)    Enqueue update
+[2023-12-01 01:13:33.835] [debug] (AssetCache)    Checking for app.js update
+[2023-12-01 01:13:34.281] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 446 }
+[2023-12-01 01:13:34.282] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-12-01 01:13:34.282] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-12-01 01:23:33.846] [debug] (AssetCache)    Enqueue update
+[2023-12-01 01:23:33.847] [debug] (AssetCache)    Checking for app.js update
+[2023-12-01 01:23:34.272] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 425 }
+[2023-12-01 01:23:34.272] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-12-01 01:23:34.273] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-12-01 01:33:33.857] [debug] (AssetCache)    Enqueue update
+[2023-12-01 01:33:33.857] [debug] (AssetCache)    Checking for app.js update
+[2023-12-01 01:33:34.295] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 438 }
+[2023-12-01 01:33:34.295] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-12-01 01:33:34.295] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-12-01 01:43:33.866] [debug] (AssetCache)    Enqueue update
+[2023-12-01 01:43:33.867] [debug] (AssetCache)    Checking for app.js update
+[2023-12-01 01:43:34.672] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 805 }
+[2023-12-01 01:43:34.673] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-12-01 01:43:34.673] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-12-01 01:53:33.876] [debug] (AssetCache)    Enqueue update
+[2023-12-01 01:53:33.877] [debug] (AssetCache)    Checking for app.js update
+[2023-12-01 01:53:34.703] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 826 }
+[2023-12-01 01:53:34.703] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-12-01 01:53:34.704] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-12-01 02:03:33.886] [debug] (AssetCache)    Enqueue update
+[2023-12-01 02:03:33.887] [debug] (AssetCache)    Checking for app.js update
+[2023-12-01 02:03:34.361] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 474 }
+[2023-12-01 02:03:34.362] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-12-01 02:03:34.362] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-12-01 02:13:33.896] [debug] (AssetCache)    Enqueue update
+[2023-12-01 02:13:33.897] [debug] (AssetCache)    Checking for app.js update
+[2023-12-01 02:13:34.315] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 418 }
+[2023-12-01 02:13:34.315] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-12-01 02:13:34.316] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-12-01 02:23:33.903] [debug] (AssetCache)    Enqueue update
+[2023-12-01 02:23:33.903] [debug] (AssetCache)    Checking for app.js update
+[2023-12-01 02:23:34.334] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 430 }
+[2023-12-01 02:23:34.335] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-12-01 02:23:34.342] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-12-01 02:33:33.910] [debug] (AssetCache)    Enqueue update
+[2023-12-01 02:33:33.910] [debug] (AssetCache)    Checking for app.js update
+[2023-12-01 02:33:35.266] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 1356 }
+[2023-12-01 02:33:35.267] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-12-01 02:33:35.267] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-12-01 02:43:33.918] [debug] (AssetCache)    Enqueue update
+[2023-12-01 02:43:33.918] [debug] (AssetCache)    Checking for app.js update
+[2023-12-01 02:43:34.397] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 471 }
+[2023-12-01 02:43:34.397] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-12-01 02:43:34.398] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-12-01 02:53:33.923] [debug] (AssetCache)    Enqueue update
+[2023-12-01 02:53:33.924] [debug] (AssetCache)    Checking for app.js update
+[2023-12-01 02:53:34.378] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 454 }
+[2023-12-01 02:53:34.379] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-12-01 02:53:34.379] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-12-01 03:03:33.929] [debug] (AssetCache)    Enqueue update
+[2023-12-01 03:03:33.930] [debug] (AssetCache)    Checking for app.js update
+[2023-12-01 03:03:34.344] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 414 }
+[2023-12-01 03:03:34.344] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-12-01 03:03:34.345] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-12-01 03:13:33.936] [debug] (AssetCache)    Enqueue update
+[2023-12-01 03:13:33.936] [debug] (AssetCache)    Checking for app.js update
+[2023-12-01 03:13:34.319] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 375 }
+[2023-12-01 03:13:34.320] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-12-01 03:13:34.320] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-12-01 03:23:33.942] [debug] (AssetCache)    Enqueue update
+[2023-12-01 03:23:33.943] [debug] (AssetCache)    Checking for app.js update
+[2023-12-01 03:23:35.031] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 1088 }
+[2023-12-01 03:23:35.032] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-12-01 03:23:35.032] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-12-01 03:33:33.947] [debug] (AssetCache)    Enqueue update
+[2023-12-01 03:33:33.948] [debug] (AssetCache)    Checking for app.js update
+[2023-12-01 03:33:34.292] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 344 }
+[2023-12-01 03:33:34.293] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-12-01 03:33:34.293] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-12-01 03:43:33.952] [debug] (AssetCache)    Enqueue update
+[2023-12-01 03:43:33.953] [debug] (AssetCache)    Checking for app.js update
+[2023-12-01 03:43:34.263] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 310 }
+[2023-12-01 03:43:34.264] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-12-01 03:43:34.264] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-12-01 03:53:33.955] [debug] (AssetCache)    Enqueue update
+[2023-12-01 03:53:33.956] [debug] (AssetCache)    Checking for app.js update
+[2023-12-01 03:53:35.232] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 1276 }
+[2023-12-01 03:53:35.233] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-12-01 03:53:35.233] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-12-01 04:03:33.959] [debug] (AssetCache)    Enqueue update
+[2023-12-01 04:03:33.959] [debug] (AssetCache)    Checking for app.js update
+[2023-12-01 04:03:35.056] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 1096 }
+[2023-12-01 04:03:35.057] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-12-01 04:03:35.057] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-12-01 04:13:33.962] [debug] (AssetCache)    Enqueue update
+[2023-12-01 04:13:33.962] [debug] (AssetCache)    Checking for app.js update
+[2023-12-01 04:13:34.970] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 1008 }
+[2023-12-01 04:13:34.970] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-12-01 04:13:34.971] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-12-01 04:23:33.963] [debug] (AssetCache)    Enqueue update
+[2023-12-01 04:23:33.964] [debug] (AssetCache)    Checking for app.js update
+[2023-12-01 04:23:34.319] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 355 }
+[2023-12-01 04:23:34.320] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-12-01 04:23:34.320] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-12-01 04:33:33.965] [debug] (AssetCache)    Enqueue update
+[2023-12-01 04:33:33.966] [debug] (AssetCache)    Checking for app.js update
+[2023-12-01 04:33:34.296] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 330 }
+[2023-12-01 04:33:34.297] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-12-01 04:33:34.297] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-12-01 04:43:33.968] [debug] (AssetCache)    Enqueue update
+[2023-12-01 04:43:33.969] [debug] (AssetCache)    Checking for app.js update
+[2023-12-01 04:43:34.288] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 319 }
+[2023-12-01 04:43:34.288] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-12-01 04:43:34.289] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-12-01 04:53:33.969] [debug] (AssetCache)    Enqueue update
+[2023-12-01 04:53:33.970] [debug] (AssetCache)    Checking for app.js update
+[2023-12-01 04:53:35.076] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 1106 }
+[2023-12-01 04:53:35.077] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-12-01 04:53:35.077] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-12-01 05:03:33.971] [debug] (AssetCache)    Enqueue update
+[2023-12-01 05:03:33.971] [debug] (AssetCache)    Checking for app.js update
+[2023-12-01 05:03:34.359] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 387 }
+[2023-12-01 05:03:34.360] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-12-01 05:03:34.361] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-12-01 05:13:33.972] [debug] (AssetCache)    Enqueue update
+[2023-12-01 05:13:33.972] [debug] (AssetCache)    Checking for app.js update
+[2023-12-01 05:13:34.311] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 339 }
+[2023-12-01 05:13:34.311] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-12-01 05:13:34.311] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-12-01 05:23:33.972] [debug] (AssetCache)    Enqueue update
+[2023-12-01 05:23:33.973] [debug] (AssetCache)    Checking for app.js update
+[2023-12-01 05:23:34.319] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 346 }
+[2023-12-01 05:23:34.320] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 1 }
+[2023-12-01 05:23:34.327] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-12-01 05:33:33.985] [debug] (AssetCache)    Enqueue update
+[2023-12-01 05:33:33.986] [debug] (AssetCache)    Checking for app.js update
+[2023-12-01 05:33:34.306] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 320 }
+[2023-12-01 05:33:34.307] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-12-01 05:33:34.308] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-12-01 05:43:33.988] [debug] (AssetCache)    Enqueue update
+[2023-12-01 05:43:33.989] [debug] (AssetCache)    Checking for app.js update
+[2023-12-01 05:43:34.340] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 351 }
+[2023-12-01 05:43:34.340] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-12-01 05:43:34.341] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-12-01 05:53:34.001] [debug] (AssetCache)    Enqueue update
+[2023-12-01 05:53:34.002] [debug] (AssetCache)    Checking for app.js update
+[2023-12-01 05:53:34.445] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 443 }
+[2023-12-01 05:53:34.446] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-12-01 05:53:34.446] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-12-01 06:03:34.015] [debug] (AssetCache)    Enqueue update
+[2023-12-01 06:03:34.015] [debug] (AssetCache)    Checking for app.js update
+[2023-12-01 06:03:34.437] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 421 }
+[2023-12-01 06:03:34.451] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 14 }
+[2023-12-01 06:03:34.451] [debug] (AssetCache)    App update available { version: '23.13.0.28' }
+[2023-12-01 06:03:34.453] [info]  (AssetCache)    performance.assetJson { duration: 2 }
+[2023-12-01 06:03:36.952] [info]  (AssetCache)    performance.prepare { duration: 2499 }
+[2023-12-01 06:03:36.966] [debug] (AssetCache)    Checking for app.js update (2)
+[2023-12-01 06:03:36.966] [info]  (AssetCache)    App.js update download complete { version: '23.13.0.28' }
+[2023-12-01 06:03:36.967] [info]  (AssetCache)    Installing app.js update { version: '23.13.0.28' }
+[2023-12-01 06:03:36.968] [info]  (AssetCache)    performance.download { duration: 15 }
+[2023-12-01 06:03:36.968] [info]  (AssetCache)    performance.checkForUpdatesNow { duration: 2953 }
+[2023-12-01 06:13:34.025] [debug] (AssetCache)    Enqueue update
+[2023-12-01 06:13:34.025] [debug] (AssetCache)    Checking for app.js update
+[2023-12-01 06:13:34.454] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 429 }
+[2023-12-01 06:13:34.455] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-12-01 06:13:34.455] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-12-01 06:23:34.035] [debug] (AssetCache)    Enqueue update
+[2023-12-01 06:23:34.035] [debug] (AssetCache)    Checking for app.js update
+[2023-12-01 06:23:35.133] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 1098 }
+[2023-12-01 06:23:35.134] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-12-01 06:23:35.134] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-12-01 06:33:32.135] [info]                  Not checking for update (disabled: true, available: false, dev: false)
+[2023-12-01 06:33:34.034] [debug] (AssetCache)    Enqueue update
+[2023-12-01 06:33:34.035] [debug] (AssetCache)    Checking for app.js update
+[2023-12-01 06:33:34.378] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 343 }
+[2023-12-01 06:33:34.379] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-12-01 06:33:34.387] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-12-01 06:43:34.036] [debug] (AssetCache)    Enqueue update
+[2023-12-01 06:43:34.037] [debug] (AssetCache)    Checking for app.js update
+[2023-12-01 06:43:35.099] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 1062 }
+[2023-12-01 06:43:35.099] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-12-01 06:43:35.100] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-12-01 06:53:34.047] [debug] (AssetCache)    Enqueue update
+[2023-12-01 06:53:34.047] [debug] (AssetCache)    Checking for app.js update
+[2023-12-01 06:53:34.388] [info]  (AssetCache)    performance.updateAssetsFetch { duration: 340 }
+[2023-12-01 06:53:34.389] [info]  (AssetCache)    performance.updateAssetsResponseParse { duration: 0 }
+[2023-12-01 06:53:34.389] [debug] (AssetCache)    No app update available (noAppUpdateAvailable2)
+[2023-12-01 06:54:37.183] [info]                  Quitting...
+[2023-12-01 06:54:37.183] [info]  (Sqlite)        Killing child process
+[2023-12-01 06:54:37.517] [debug]                 Window close { lastWindow: true, isQuitting: true, isHideDisabled: false }
+[2023-12-01 06:54:37.518] [info]                  Window with id 1 closed

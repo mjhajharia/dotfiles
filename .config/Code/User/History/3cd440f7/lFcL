@@ -1,0 +1,5 @@
+
+```{julia}
+funnel_plots(scatter(unc_sample_array[:, 1], unc_sample_array[:, end], alpha=0.1, label="log(Condition Number of Hessian)", 
+zcolor=log.(hessian_df_cholesky[!, "CN_Hessian"]);), "Centered Model")
+```

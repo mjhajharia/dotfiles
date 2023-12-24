@@ -1,0 +1,8 @@
+
+The expanded-softmax constraining transform consists of applying the usual softmax to unconstrained parameters.
+Without modification, this is non-bijective; however, if we augment the parameter space with logsumexp, then it can be made bijective.
+
+\paragraph{Constraining transform} Let $r = \logsumexp(y)$. Then the constraining transform is defined as
+\[
+    \operatorname{expsoftmax}(y) = (\logsumexp(y), \softmax(y)_-) = (r, x_-)
+\]

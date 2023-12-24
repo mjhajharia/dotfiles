@@ -1,0 +1,24 @@
+2023/10/08-12:31:07.021 c3e Reusing MANIFEST /home/meenaljhajharia/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
+2023/10/08-12:31:07.022 c3e Recovering log #15
+2023/10/08-12:31:07.022 c3e Reusing old log /home/meenaljhajharia/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000015.log 
+2023/10/08-12:31:43.796 c68 Level-0 table #20: started
+2023/10/08-12:31:43.801 c68 Level-0 table #20: 106446 bytes OK
+2023/10/08-12:31:43.803 c68 Delete type=0 #15
+2023/10/08-12:31:43.803 c3d Manual compaction at level-0 from '\x00\x0b\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0c\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0e\x02\x02\x01@\x00f\x00f\x00c\x007\x002\x002\x00a\x002\x00f\x001\x001\x009\x009\x00f\x001\x000\x004\x001\x007\x008\x006\x003\x003\x009\x00c\x003\x006\x00a\x009\x00c\x00c\x008\x008\x002\x007\x000\x00e\x007\x000\x001\x006\x004\x000\x009\x006\x004\x00d\x007\x005\x005\x00e\x000\x00c\x005\x00a\x004\x005\x002\x00f\x007\x007\x000\x004\x001' @ 43348 : 1
+2023/10/08-12:31:43.803 c3d Compacting 1@0 + 1@1 files
+2023/10/08-12:31:43.814 c3d Generated table #21@0: 6673 keys, 593208 bytes
+2023/10/08-12:31:43.814 c3d Compacted 1@0 + 1@1 files => 593208 bytes
+2023/10/08-12:31:43.816 c3d compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/10/08-12:31:43.816 c3d Delete type=2 #20
+2023/10/08-12:31:43.816 c3d Manual compaction at level-0 from '\x00\x0e\x02\x02\x01@\x00f\x00f\x00c\x007\x002\x002\x00a\x002\x00f\x001\x001\x009\x009\x00f\x001\x000\x004\x001\x007\x008\x006\x003\x003\x009\x00c\x003\x006\x00a\x009\x00c\x00c\x008\x008\x002\x007\x000\x00e\x007\x000\x001\x006\x004\x000\x009\x006\x004\x00d\x007\x005\x005\x00e\x000\x00c\x005\x00a\x004\x005\x002\x00f\x007\x007\x000\x004\x001' @ 43348 : 1 .. '\x00\x0c\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/10/08-12:31:43.819 c3d Level-0 table #23: started
+2023/10/08-12:31:43.821 c3d Level-0 table #23: 38696 bytes OK
+2023/10/08-12:31:43.823 c3d Delete type=0 #19
+2023/10/08-12:31:43.823 c3d Delete type=2 #17
+2023/10/08-12:31:43.824 c3d Manual compaction at level-0 from '\x00\x0c\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0d\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0c\x02\x02\x01@\x00f\x00f\x00c\x007\x002\x002\x00a\x002\x00f\x001\x001\x009\x009\x00f\x001\x000\x004\x001\x007\x008\x006\x003\x003\x009\x00c\x003\x006\x00a\x009\x00c\x00c\x008\x008\x002\x007\x000\x00e\x007\x000\x001\x006\x004\x000\x009\x006\x004\x00d\x007\x005\x005\x00e\x000\x00c\x005\x00a\x004\x005\x002\x00f\x007\x007\x000\x004\x001' @ 44824 : 0
+2023/10/08-12:31:43.824 c3d Compacting 1@0 + 1@1 files
+2023/10/08-12:31:43.832 c3d Generated table #24@0: 5997 keys, 424654 bytes
+2023/10/08-12:31:43.832 c3d Compacted 1@0 + 1@1 files => 424654 bytes
+2023/10/08-12:31:43.834 c3d compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/10/08-12:31:43.834 c3d Delete type=2 #23
+2023/10/08-12:31:43.834 c3d Manual compaction at level-0 from '\x00\x0c\x02\x02\x01@\x00f\x00f\x00c\x007\x002\x002\x00a\x002\x00f\x001\x001\x009\x009\x00f\x001\x000\x004\x001\x007\x008\x006\x003\x003\x009\x00c\x003\x006\x00a\x009\x00c\x00c\x008\x008\x002\x007\x000\x00e\x007\x000\x001\x006\x004\x000\x009\x006\x004\x00d\x007\x005\x005\x00e\x000\x00c\x005\x00a\x004\x005\x002\x00f\x007\x007\x000\x004\x001' @ 44824 : 0 .. '\x00\x0d\x00\x00\x00' @ 0 : 0; will stop at (end)

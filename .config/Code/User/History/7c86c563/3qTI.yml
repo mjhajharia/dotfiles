@@ -1,0 +1,39 @@
+project:
+  title: "Diagnosing HMC"
+  type: website
+  output-dir: _output 
+  render:
+  # - julia.qmd
+  # - comparing-whitening-transforms.qmd
+  # - diagnosing-hmc.qmd
+
+website:
+  title: "Diagnosing HMC"
+  page-navigation: true
+  navbar:
+    background: "#FFFFFF"
+    foreground: "#505B66"
+    search: true
+    right:
+      - text: Comparing Whitening Transforms
+        href: comparing-whitening-transforms.html
+      - text: Eight Schools
+        href: julia.html
+  comments:
+    hypothesis:
+      theme: clean
+      openSidebar: false
+
+toc: true
+toc-depth: 3
+number-sections: true
+bibliography: references.bib  
+  
+format:
+  html:
+    css: styles.css
+    html-math-method: katex
+  pdf:
+    documentclass: report
+    margin-left: 30mm
+    margin-right: 30mm

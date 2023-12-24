@@ -1,0 +1,30 @@
+2023-12-12 23:10:54.017 [info] Deleted from disk quarto.quarto /home/meenaljhajharia/.vscode/extensions/quarto.quarto-1.108.0
+2023-12-12 23:10:54.037 [info] Deleted from disk ms-vsliveshare.vsliveshare /home/meenaljhajharia/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.5896
+2023-12-12 23:10:59.046 [info] Getting Manifest... github.copilot
+2023-12-12 23:10:59.048 [info] Getting Manifest... james-yu.latex-workshop
+2023-12-12 23:10:59.298 [info] Installing extension: github.copilot
+2023-12-12 23:10:59.335 [info] Installing extension: james-yu.latex-workshop
+2023-12-12 23:11:01.001 [error] Error while preparing to install dependencies and extension packs of the extension: github.copilot
+2023-12-12 23:11:01.002 [error] Failed to install extension. github.copilot
+2023-12-12 23:11:01.002 [error] Incompatible: Can't install 'github.copilot-chat' extension because it is not compatible with the current version of Visual Studio Code (version 1.77.1).
+    at Y.G (/home/meenaljhajharia/opt/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:90:83572)
+    at async A (/home/meenaljhajharia/opt/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:90:82213)
+    at async Y.F (/home/meenaljhajharia/opt/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:90:82572)
+    at async Y.z (/home/meenaljhajharia/opt/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:90:76833)
+    at async Y.installFromGallery (/home/meenaljhajharia/opt/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:90:75312)
+2023-12-12 23:11:04.484 [info] Extension signature is verified: james-yu.latex-workshop
+2023-12-12 23:11:05.296 [info] Extracted extension to /home/meenaljhajharia/.vscode/extensions/.f7c3c597-aa2d-4f3e-81d5-28cd2d412ce0: james-yu.latex-workshop
+2023-12-12 23:11:05.310 [info] Renamed to /home/meenaljhajharia/.vscode/extensions/james-yu.latex-workshop-9.15.3
+2023-12-12 23:11:05.312 [info] Extracting extension completed. james-yu.latex-workshop
+2023-12-12 23:11:05.327 [info] Extension installed successfully: james-yu.latex-workshop
+2023-12-12 23:11:05.329 [info] Marked extension as uninstalled james-yu.latex-workshop-9.15.0
+2023-12-12 23:11:15.330 [info] Getting Manifest... github.copilot
+2023-12-12 23:11:15.337 [info] Installing extension: github.copilot
+2023-12-12 23:11:16.343 [error] Error while preparing to install dependencies and extension packs of the extension: github.copilot
+2023-12-12 23:11:16.343 [error] Failed to install extension. github.copilot
+2023-12-12 23:11:16.343 [error] Incompatible: Can't install 'github.copilot-chat' extension because it is not compatible with the current version of Visual Studio Code (version 1.77.1).
+    at Y.G (/home/meenaljhajharia/opt/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:90:83572)
+    at async A (/home/meenaljhajharia/opt/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:90:82213)
+    at async Y.F (/home/meenaljhajharia/opt/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:90:82572)
+    at async Y.z (/home/meenaljhajharia/opt/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:90:76833)
+    at async Y.installFromGallery (/home/meenaljhajharia/opt/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:90:75312)

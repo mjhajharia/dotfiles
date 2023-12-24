@@ -1,0 +1,219 @@
+{
+  "main": {
+    "id": "5f7f51f51c7a4974",
+    "type": "split",
+    "children": [
+      {
+        "id": "8d2a32f9d7baa18d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e9c548d03abe814c",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "4 weeks.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "1c14f3c5f5193745",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "info/arch.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e64489550bfdc765",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journal/2023-07-27.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6f47972956c4d3ef",
+    "type": "split",
+    "children": [
+      {
+        "id": "422fdba7a5ae40a1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1eadd2242da1f6d2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b5e09c234b779ac7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#urgent",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3810030d287bbdad",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 256.5
+  },
+  "right": {
+    "id": "85c414a21d583770",
+    "type": "split",
+    "children": [
+      {
+        "id": "61ab9a336382608d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9beedb212a9e87ae",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "journal/2023-07-27.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "93db275516b56f32",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "journal/2023-07-27.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "787c425694b31af9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ba2faddcc56ef4d2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "journal/2023-07-27.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": true,
+      "graph:Open graph view": true,
+      "canvas:Create new canvas": true,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": true,
+      "command-palette:Open command palette": true
+    }
+  },
+  "active": "e64489550bfdc765",
+  "lastOpenFiles": [
+    "info/transforms paper notes.md",
+    "research/Transforms.md",
+    "research/MIT ProbComp Group ??.md",
+    "journal/2023-07-27.md",
+    "transforms cleanup.md",
+    "journal/2023-07-17.md",
+    "info/Simplex paper experiments.md",
+    "4 weeks.md",
+    "info/arch.md",
+    "info/za19162@bristol.ac.uk.md",
+    "info/email debt.md",
+    "info/flatiron ssh.md",
+    "info/masters.md",
+    "info/some zotero export dump.md",
+    "journal/2023-07-16.md",
+    "journal/2023-07-14.md",
+    "math/math.md",
+    "journal/2023-07-13.md",
+    "math/math - study/Measure Theory.md",
+    "math/Differential Geometry and Metric Geometry.md",
+    "math/math - study/Probability and Statistics.md",
+    "math/math - study/Theory of Computation.md",
+    "math/math - study/Algorithms.md",
+    "math/math - study/Data Structures.md",
+    "math/math - study/Linear Algebra.md",
+    "Notes",
+    "math",
+    "everything/static/E75DDA6E-A3CD-4082-B85F-CD6606AF1A9A.jpeg",
+    "everything/static",
+    "everything/static/CF69BD6B-DC0D-4302-93B5-ADA50EE47652.jpeg",
+    "everything/static/Pasted image 20230713011455.png",
+    "everything/ibooks annotations/raw_data/ibooks_library_notes.csv",
+    "everything/ibooks annotations/raw_data/ibooks_library_books.csv",
+    "everything/ibooks annotations/raw_data",
+    "everything/ibooks annotations",
+    "everything/reminders",
+    "untitled folder",
+    "study",
+    "Untitled.canvas",
+    "Untitled 1.canvas"
+  ]
+}

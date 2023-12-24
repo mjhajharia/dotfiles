@@ -1,0 +1,157 @@
+{
+   "checksum": "9d9f6ef7e33c79435132fc55c808d58d",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13323808041000000",
+            "date_last_used": "13327788481701824",
+            "guid": "fcea88db-3e11-48fd-a9ad-15c7af72fbcb",
+            "id": "5",
+            "name": "mail",
+            "type": "url",
+            "url": "https://outlook.office365.com/mail/"
+         }, {
+            "date_added": "13323808089000000",
+            "date_last_used": "13327987263345641",
+            "guid": "b6047fb1-0115-4d3c-930d-8ae478784b01",
+            "id": "6",
+            "name": "mail",
+            "type": "url",
+            "url": "https://mail.google.com/mail/u/0/?pli=1#inbox"
+         }, {
+            "date_added": "13323808111000000",
+            "date_last_used": "13327952682199590",
+            "guid": "983fdaba-2264-42fa-ac91-bdcfb924fa88",
+            "id": "7",
+            "name": "cal",
+            "type": "url",
+            "url": "https://outlook.office365.com/calendar/view/month"
+         }, {
+            "date_added": "13323808140000000",
+            "date_last_used": "13327772547731697",
+            "guid": "60ccbbae-982f-45ca-99f5-b52fa86d5484",
+            "id": "8",
+            "name": "cal",
+            "type": "url",
+            "url": "https://calendar.google.com/calendar/u/0/r"
+         }, {
+            "date_added": "13327659017754918",
+            "date_last_used": "0",
+            "guid": "61113ee6-cfc2-48a9-834a-0ab203efade0",
+            "id": "10",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Pathfinder Parallel quasi-Newton variational inference - Arxiv-2108.03782",
+            "type": "url",
+            "url": "https://arxiv.org/pdf/2108.03782.pdf"
+         }, {
+            "date_added": "13327697909586311",
+            "date_last_used": "0",
+            "guid": "7e4a5783-a1b4-40a6-a442-7a8da0136fd4",
+            "id": "12",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "AdvancedHMC.jl/riemannian_hmc.ipynb at master · TuringLang/AdvancedHMC.jl · GitHub",
+            "type": "url",
+            "url": "https://github.com/TuringLang/AdvancedHMC.jl/blob/master/research/notebooks/riemannian_hmc.ipynb"
+         }, {
+            "date_added": "13327700445994823",
+            "date_last_used": "0",
+            "guid": "52dc9e96-2c31-4b73-a948-a55914015584",
+            "id": "13",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "piazzai/arguelles: Simple, typographic beamer theme",
+            "type": "url",
+            "url": "https://github.com/piazzai/arguelles"
+         }, {
+            "date_added": "13327700791465892",
+            "date_last_used": "0",
+            "guid": "0d8ea4f5-6692-4a5b-beb4-85d290ac7967",
+            "id": "14",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "mossr/julia-tufte-beamer: Tufte-style beamer template with Julia integration",
+            "type": "url",
+            "url": "https://github.com/mossr/julia-tufte-beamer"
+         }, {
+            "date_added": "13327937207805017",
+            "date_last_used": "0",
+            "guid": "c729704c-113f-43cf-84d7-6e84717b6adc",
+            "id": "15",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "(1) Marketplace – A room is available in Espoo Kivenlahti | Facebook",
+            "type": "url",
+            "url": "https://www.facebook.com/marketplace/item/1288035138781700/?ref=shops_pdp_share"
+         }, {
+            "date_added": "13327981632168243",
+            "date_last_used": "0",
+            "guid": "f2da5914-5dbd-4929-a77c-9dc9d17eef5f",
+            "id": "17",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Couples in very long term relationships, does the giddiness of love fade away? What replaces it? : AskReddit",
+            "type": "url",
+            "url": "https://www.reddit.com/r/AskReddit/comments/1baxjh/couples_in_very_long_term_relationships_does_the/"
+         }, {
+            "date_added": "13327984453168553",
+            "date_last_used": "0",
+            "guid": "9ef75927-7c4a-4fbd-8c27-85271f180ebe",
+            "id": "19",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Bayesian Estimation of Principal Components for Functional Data",
+            "type": "url",
+            "url": "file:///Users/meenaljhajharia/Downloads/16-BA1003.pdf"
+         }, {
+            "date_added": "13327984599444686",
+            "date_last_used": "0",
+            "guid": "150fb3b1-77da-47bd-b174-e89250f02482",
+            "id": "18",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "probabilistic PCA | Bits of DNA",
+            "type": "url",
+            "url": "https://liorpachter.wordpress.com/tag/probabilistic-pca/"
+         } ],
+         "date_added": "13326286796583147",
+         "date_last_used": "0",
+         "date_modified": "13327984599444686",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13326286796583149",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13326286796583149",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "Cu0BCswBCIiBAhLFARI8CAISOAoGCgJibRABEDMaEgmAbimFJfsFACGAbimFJfsFADIYChYIAhEO45OUJfsFABgAIQAAAAAAAAAAIACSAX0KNAoOY2hyb21lX3N5bmNfYm0SBTUxIWJtGhIJ/amUlCX7BQAR/amUlCX7BQAp9zKVlCX7BQAKRQoWYW5ub3RhdGlvbl9jaHJvbWVfc3luYxIFNTEhYmQaEgmAA+SPJfsFABGAA+SPJfsFACnwppSUJfsFADCAh5D/2OT+AroBAggBEgAgASoYMHdybVZBVFh3RlpTQWNrRzlsUlN4dz09EvQBCBMS7wEKHGk0NUhxSThuUnpNSVFZQ09rRjJ3U25TRDE3cz0SZlo6QURxdEFaeFRCY0RYUWNJUy95b1hCU0ZrSUZjaXN4MmFOK3dBWjJLUENBb1RVTWZnRURpa3VQYWdLMVd3MWpMSGlEUTVjamkwTDlueUpDZXkvZ0pIaktiNU1BUXVabVVnbmc9PRgAIAAoADDvkZPUzuT+Ajix/MPI/zBAsfzDyP8wShx6ZnEvNGF2d2V1MmRiNG9CbWliYkJaTWMvZjA9WiciJf////8AAAAGui9hZGY3M2wxY3E0a0g2ZUNPMkhleFRZYTd5bz1lAAAAABL0AQgSEu8BChx0K2JXTkNsMTVqWVlNRGFwclFNTk5TRzNjdUE9EmZaOkFEcXRBWnhUQmNEWFFjSVMveW9YQlNGa0lGY2lWdmlyL0NnZXNxRk1Xa2tiWUlGNnAzMGQvMlY3N1MxYm9yb3B0UTRMT28yYkY2ME1ta3QxanhhallnaHJPenJxd2ptcGl3PT0YACAAKAAw0Jfumc/k/gI4lfPMyP8wQJXzzMj/MEocMU1rVExmS1M1aGdiSTN3d1VGUWFhNU5kUm44PVonIiX/////AAAABt1vVWlIZmsyK2xMTkFRa1pEWFBCeGxUamxyL2M9ZYWYfJUS8wEIERLuAQocVEtVSEdNLzc1bkJadmh5VzZwQ0g0bzlIdldrPRJmWjpBRHF0QVp4VEJjRFhRY0lTL3lvWEJTRmtJRmNpZXlPRHFMSUJ2ZW9mU0s5dEhLZnJoUC9WdlZJeGxmSGpETlJqdkwzZ3VSbXJuSG9Ic3BnNjBsMC9hYU5aNEZVeFM4T0xsQT09GAAgACgAMIqA+ZLE5P4COKzll8f/MECs5ZfH/zBKHFZjaDdMRjBqUDNweFB2VHY2TS8vWVM4Q2VWdz1aJiIk/////wAAAAZ0YXZGVklWcXVVRjJuZmp4RHJtZWUyWkEzSms9ZXbRCQIS9AEIBxLvAQoceC80Q2lWNE5od2dpOENpcnBsRzdSU003alU0PRJmWjpBRHF0QVp4VEJjRFhRY0lTL3lvWEJTRmtJRmNpejNpSG41d1h4VGc2MDJ4Y0lPYXdKWjZ6QVd1UWhkb2hXWjFzUmtTWXVOR096TmZXMTFOVi94a2g4bEhWaXAwVTF1WVBHdz09GAAgAigCMNS06bHY4/4COJyr8ez3MECztLK5/zBKHDFxQzA5bjVVUURCZ2h5ajJGR1c0a1VNQ1FxMD1aJyIl/////wAAAAXOR294UGJRRWxnVWVZWlZsRGNScUVQRllwRDdNPWVZzrl5EvQBCAwS7wEKHFo2NjhPUlZnVHgzbWl3RXZHMFdqN0w5cGpEbz0SZlo6QURxdEFaeFRCY0RYUWNJUy95b1hCU0ZrSUZjaUhtOWZXTjVDb2I1YXI4akZtdWsrZHliL2JJOTJCejBFNUNIK2J6OGh0VDhNK0hrYkR2NEVDQ2FSRVhlZUx3N0JGZFB1dmc9PRgAIAIoAjD/7IONrd7+AjjS3vK//jBA4bb34f4wShxlcEs3RHhvV25xeWUxdFlnYWsxdHU1WHo1WUE9WiciJf////8AAAAF+UM0a01VM1FsejB1QnF0TEdYV2JaRVVxL3g3RT1lKNDhqRL0AQgGEu8BChxVekpQR2xoWFNoeHh4bDB3OFV6d3hjMi9qVDA9EmZaOkFEcXRBWnhUQmNEWFFjSVMveW9YQlNGa0lGY2lKaUhsS05pY1UwMyt3Qk5DK3BSZkp0VFlmbTRnYjBpNDRQMm5NeWlWM1QyeGhoUy9tZXNIQUgrb2k1VVhsSEFrbFl5QU9RPT0YACAEKAQwpcv+tNre/gI4nKvx7PcwQKXp3ef+MEocMFhMcFFPZGpRRllGRlNqL2dnRTYvemcvV2k0PVonIiX/////AAAABZwzMkRwOG5VeDBDSXNWdXRRY1J6c3NnMEVENTg9ZYugjNESqwEIARKmAQoceXhKLzZmdmtlY3I3a3A1RVF6QjR0V0xwZGJFPRJOWjpBRHF0QVp5eHpkWGovelRKUjJqSW9KRlIzSG5DcjVTUk5uaGsvQ2ZHRWRaM0YwRTNNaGhkb1BkbWtwWDZXRE1VU1ZyR2NJb29Pb0puGAAgACgAMIjrjLuas/4COABAAEocYVJDV0xnaEY5YjVJbnFLSUR2dUovanZRa0ZjPVoAZQAAAAAS9AEIDRLvAQocMG8yZ3dkZVM3SmlRUFRSOFhhanVxbk5vK1hjPRJmWjpBRHF0QVp4VEJjRFhRY0lTL3lvWEJTRmtJRmNpSU81ZTE1ZDI5UjdiZS9XNEl6T3dnNjhzR2FqdnEzcWxuRkdMdGJhazQ3bERJNjFuak5LYmdjbnZXOEVoRHpQUVhqUlREQT09GAAgAigCMP/sg42t3v4COKvGjcH+MEDhtvfh/jBKHC9sNUpySzFld3pLNkFjRGJ6QW16TEdBVjQzZz1aJyIl/////wAAAAX8QlpGZDlEMVBIa1NwOUtUbU9TNXV6R0pKNFFZPWUo0OGpEsMBCAISvgEKHFljU1RvbnZFU1B3cUNzNEwyY3JWaHY2OEw5OD0SZlo6QURxdEFaem1oNEk5TlUzZkpmWWdWWVh4TU9tZ0dvTzB2Zm9lVlpqVGJ1bDRsd05RTjJJN3o0SDlQT1VGUW9hbnFPODkwS25DZmRvbkVWN2dGV3hIMGpwd3pHQUFIWSt1K1E9PRgAIAAoADCI64y7mrP+AjgAQABKHG9QVmtod0JSYlY2NUtDV1IyK0lPTkhXb091OD1aAGUAAAAAEvMBCAUS7gEKHFhjaCthTGl3d2h5ZThVYmYyM1Yvdlpjcnozbz0SZlo6QURxdEFaeFRCY0RYUWNJUy95b1hCU0ZrSUZjaWJDcnVnR1BRaVlGQ0tMWWIzOC9Bd0RvdUw3a0hNczNtSUdqTmE2MCtNSElpNlVMQ0pjRWJ0YW41SlJzdzNYaHhmNmErZkE9PRgAIAYoBjDanv7N9N7+Ajibq/Hs9zBA5oCL6/4wShw3QmFoaWZOSnd0ZWFROWpNemJNMlpDa29PZ2M9WiYiJP////8AAAAFOGRTMThrY3o5V0I4bVNXbmxrOXB1aURyVGNJPWWnHNIZEsMBCAMSvgEKHG5qZ0R1ODhlQ3J2WHA4NnBEN2ZIR2NxRnA4OD0SZlo6QURxdEFaeWNiYWVPSTl5Q3F4bzBzODRNcjV5dGN6ZkhoRUlnOVgrcUovZjkrZVpqMHBOWVV6eDl6bVg2a2REU0pBeElmZ3RUVDEzMzNPS0dSWU9kQTZsVm01TVJiVmdGOGc9PRgAIAAoADCI64y7mrP+AjgAQABKHHl6TkIwMWNuNTRBN2NSVTB1VCsvUGdtVHRVbz1aAGUAAAAAEvQBCAgS7wEKHEJjYmhCNG5EVmc1Z1dWcnNvalZYVzBQUlNGcz0SZlo6QURxdEFaeFRCY0RYUWNJUy95b1hCU0ZrSUZjaTI2Q0JrSmFqZnRUb3VCTXJYZTROSXJ3WmxmZFRraSs2UmlVamg1cFdIbzNkT1hMenJIeVdJYUpiL2tTOUxUSXhzOURPdVE9PRgAIAYoBjCAtMqm2OP+Ajicq/Hs9zBAm/ywuf8wShxHRmhadEVxZ3M2bWIvWENyQnNPUVM0Q2NsM0k9WiciJf////8AAAAF50RNQ3NwQ2xxc0xPQm0zc0N1bzZSODFhR05Qaz1lvfTnMRL0AQgKEu8BChxlNnczNzltWkhLV2NvR094T080MWp6dTIwazA9EmZaOkFEcXRBWnhUQmNEWFFjSVMveW9YQlNGa0lGY2l4SWc1Q0J2REZ5Ukxrb0xUS3p1Q3NyNzVLaU15a0Qwb3czSnM4WEV1cUdOREF0eUJjeXJPZ2t0Tk81VHJJa3E2SGFNRUhRPT0YACACKAIw/+yDja3e/gI4m/ysrf4wQOG29+H+MEocdjlhTFNGeWNnQ3lkUkhxVW5rdUVPaUxzWmVBPVonIiX/////AAAABfNudVVmN3U3NzU0dEp0VFFPZ2ZwNXhiVWpFcTQ9ZSgZtbIS9AEIDhLvAQocdTJvLzhmRk50dk9WOTJZOW01YWZSNVowc0NNPRJmWjpBRHF0QVp4VEJjRFhRY0lTL3lvWEJTRmtJRmNpVUZRUGxrWXd6Y1Q2Nm43WElmOGRQT1hGZW9KNGpoUUl0MHMrVElFZWxLV1g3VmNyRHNpb01IZUxsZ05tNWhjYklSckhsQT09GAAgAigCMP/sg42t3v4COKvRosH+MEDhtvfh/jBKHHVJeHJkUGUybU8wWDUwbFFhQXlTWGZCQjFvdz1aJyIl/////wAAAAX+Q2hyeHhWalQ3ZFAxNVJWLzI4WVJqSlBTeW1jPWUo0OGpEvMBCA8S7gEKHExVbHZCNXl5eUh1TkQvOTlvZWp0dEh6eE5Fdz0SZlo6QURxdEFaeFRCY0RYUWNJUy95b1hCU0ZrSUZjaTV3V3BkL080V3pJUks5VXV3WEhnWG1Ha3UrTVowYmFyWS9LcEVyd0xzM1dXcWdWcGF1a1NONlNoQUd1N0I5RDdmd2N4SEE9PRgAIAIoAjDTkdai1+P+Ajj/q4Cy/zBAg4uguf8wShxqdWFIa1V4Y3plaU1LLzBYaWc2TkkwN1VqNlU9WiYiJP////8AAAAGV0ZvT2lHZVNJTEwxZ1JEMk9OcGxRWDl0UnVzPWXEkXbFMAE4BEDdkNj934X6Ag==",
+   "version": 1
+}

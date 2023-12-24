@@ -1,0 +1,75 @@
+---
+title: "Eight Schools"
+version: 0.0
+author: ""
+date: ""
+execute: 
+  daemon: 99999
+  cache: false
+toc: true
+monobackgroundcolor: "#FFFFFF"
+mainfont: "Palatino"
+---
+
+
+```{julia}
+using DataFrames, LinearAlgebra, Plots, ColorSchemes, LaTeXStrings, CSV
+Plots.theme(:mute)
+```
+
+
+```{julia}
+include("utils.jl")
+```
+
+
+```{julia}
+unc_sample_array, hessian_df_cholesky, hessian_df_ZCA, hessian_df_PCA = retrieve_data_all("eight_schools-eight_schools_centered");
+
+unc_sample_array_nc, hessian_df_cholesky_nc, hessian_df_ZCA_nc, hessian_df_PCA_nc = retrieve_data_all("eight_schools-eight_schools_noncentered");
+```
+
+
+```{julia}
+print(all(isapprox.(hessian_df_PCA_nc[:, 2], hessian_df_ZCA_nc[:, 2], atol=1e-5)))
+```
+
+
+```{julia}
+print(all(isapprox.(hessian_df_PCA_nc[:, 2], hessian_df_cholesky_nc[:, 2], atol=1e-5)))
+```
+
+
+```{julia}
+print(all(isapprox.(hessian_df_ZCA_nc[:, 2], hessian_df_cholesky_nc[:, 2], atol=1e-5)))
+```
+
+
+```{julia}
+print(all(isapprox.(hessian_df_PCA[:, 2], hessian_df_ZCA[:, 2], atol=1e-5)))
+```
+
+
+```{julia}
+print(all(isapprox.(hessian_df_PCA_nc[:, 2], hessian_df_cholesky_nc[:, 2], atol=1e-5)))
+```
+
+
+```{julia}
+print(all(isapprox.(hessian_df_ZCA_nc[:, 2], hessian_df_cholesky_nc[:, 2], atol=1e-5)))
+```
+
+
+```{julia}
+funnel_plots(scatter(unc_sample_array[:, 1], unc_sample_array[:, end], alpha=0.1, label="Centered"))
+```
+
+
+```{julia}
+funnel_plots(scatter(unc_sample_array_nc[:, 1], unc_sample_array_nc[:, end], alpha=0.1, label="Non-Centered"))
+```
+
+## Whitening Transform
+
+Transformation: $L^{T} H L$, where $\Sigma^{-1} = L L^{T}$
+

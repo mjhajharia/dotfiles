@@ -1,0 +1,33 @@
+
+
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Diagnosing HMC"
+  reader-mode: true
+  repo-branch: main
+  navbar:
+    background: light
+    search: true
+
+  sidebar:
+    - title: "Home"
+      style: "floating"
+      collapse-level: 3
+      align: left
+      contents: auto
+
+format:
+  html:
+    theme: theme.scsss
+    backgroundcolor: "#EDE8DD"
+    monobackgroundcolor: "#EDE8DD"
+    code-fold: true
+    mainfont: "Palatino"
+    toc: true
+  # pdf:
+  #   toc: true
+  #   code-fold: true
+  #   mainfont: "Palatino"

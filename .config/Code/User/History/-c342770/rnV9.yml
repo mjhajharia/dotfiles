@@ -1,0 +1,19 @@
+
+
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Diagnosing HMC"
+  sidebar:
+      contents: auto
+
+format:
+  html:
+    theme: default
+    css: styles.css
+    toc: true
+    page-footer: 
+    background: light
+editor: visual

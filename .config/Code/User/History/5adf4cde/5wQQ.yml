@@ -1,0 +1,42 @@
+on:
+  push:
+    branches:
+      - master
+    # paths: ['**.Rmd']
+
+
+name: render-rmdqmdfiles
+         
+jobs:
+  render-rmarkdown:
+    runs-on: ubuntu-latest
+    steps:
+          - name: Check out the repo
+            uses: actions/checkout@v3
+            with:
+              fetch-depth: 0
+            env:
+              GITHUB_PAT: ${{ secrets.GH_ACTION }}
+          - name: Run the build process with Docker
+            uses: addnab/docker-run-action@v3
+            with:
+                image: meenaljhajharia/bda-docker:latest
+                options: -v ${{ github.workspace }}:/work
+                shell: bash
+                run: |
+                  cd /work
+                  git config --global --add safe.directory /work
+                  git config --global user.name "mjhajharia"
+                  git config --global user.email "meenal@mjhajharia.com"
+                  git checkout master
+                  rmdfiles=$(git diff --name-only HEAD^ | grep '[.]*Rmd$')
+                  qmdfiles=$(git diff --name-only HEAD^ | grep '[.]*qmd$')
+                  while read -r filename; do   echo "$filename"; Rscript -e "rmarkdown::render('$filename')";   done < rmdfiles
+                  while read -r filename; do   echo "$filename"; quarto render $filename;   done < qmdfiles
+
+          - name: GitHub Pages action
+            uses: peaceiris/actions-gh-pages@v3.6.1
+            with:
+              github_token: ${{ secrets.GH_ACTION}}
+              publish_branch: gh-pages
+              publish_dir: docs

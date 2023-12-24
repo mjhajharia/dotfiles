@@ -1,0 +1,596 @@
+[2023-12-22 21:20:41.690] [76180] (engine.cpp:467): Created native Engine, time: Fri Dec 22 21:20:41 2023 IST, logPath: /home/meenaljhajharia/.config/discord/0.0.39/modules/discord_voice/, logLevel: 2
+[2023-12-22 21:20:41.691] [76180] (audio_processing_impl.cc:295): Injected APM submodules:
+Echo control factory: 0
+Echo detector: 0
+Capture analyzer: 0
+Capture post processor: 0
+Render pre processor: 0
+[2023-12-22 21:20:41.691] [76180] (audio_processing_impl.cc:304): Denormal disabler: supported
+[2023-12-22 21:20:41.691] [76180] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
+[2023-12-22 21:20:41.691] [76180] (audio_device_buffer.cc:66): AudioDeviceBuffer::ctor
+[2023-12-22 21:20:41.691] [76180] (audio_device_impl.cc:143): current platform is Linux
+[2023-12-22 21:20:41.691] [76180] (audio_device_impl.cc:162): CreatePlatformSpecificObjects
+[2023-12-22 21:20:41.691] [76180] (audio_device_impl.cc:991): PlatformAudioLayer
+[2023-12-22 21:20:41.692] [76180] (audio_device_impl.cc:298): PulseAudio support is enabled.
+[2023-12-22 21:20:41.692] [76180] (audio_device_impl.cc:303): Linux PulseAudio APIs will be utilized
+[2023-12-22 21:20:41.692] [76180] (audio_device_impl.cc:344): AttachAudioBuffer
+[2023-12-22 21:20:41.692] [76180] (audio_device_buffer.cc:183): SetRecordingSampleRate(0)
+[2023-12-22 21:20:41.692] [76180] (audio_device_buffer.cc:189): SetPlayoutSampleRate(0)
+[2023-12-22 21:20:41.692] [76180] (audio_device_buffer.cc:203): SetRecordingChannels(0)
+[2023-12-22 21:20:41.692] [76180] (audio_device_buffer.cc:209): SetPlayoutChannels(0)
+[2023-12-22 21:20:41.692] [76180] (audio_device_impl.cc:354): ActiveAudioLayer
+[2023-12-22 21:20:41.692] [76180] (audio_device_buffer.cc:66): AudioDeviceBuffer::ctor
+[2023-12-22 21:20:41.692] [76180] (audio_device_impl.cc:143): current platform is Linux
+[2023-12-22 21:20:41.692] [76180] (audio_device_impl.cc:162): CreatePlatformSpecificObjects
+[2023-12-22 21:20:41.692] [76180] (audio_device_impl.cc:991): PlatformAudioLayer
+[2023-12-22 21:20:41.692] [76180] (audio_device_impl.cc:298): PulseAudio support is enabled.
+[2023-12-22 21:20:41.692] [76180] (audio_device_impl.cc:303): Linux PulseAudio APIs will be utilized
+[2023-12-22 21:20:41.692] [76180] (audio_device_impl.cc:344): AttachAudioBuffer
+[2023-12-22 21:20:41.692] [76180] (audio_device_buffer.cc:183): SetRecordingSampleRate(0)
+[2023-12-22 21:20:41.692] [76180] (audio_device_buffer.cc:189): SetPlayoutSampleRate(0)
+[2023-12-22 21:20:41.692] [76180] (audio_device_buffer.cc:203): SetRecordingChannels(0)
+[2023-12-22 21:20:41.692] [76180] (audio_device_buffer.cc:209): SetPlayoutChannels(0)
+[2023-12-22 21:20:41.692] [76180] (audio_processing_impl.cc:295): Injected APM submodules:
+Echo control factory: 0
+Echo detector: 0
+Capture analyzer: 0
+Capture post processor: 0
+Render pre processor: 0
+[2023-12-22 21:20:41.692] [76180] (audio_processing_impl.cc:304): Denormal disabler: supported
+[2023-12-22 21:20:41.692] [76180] (audio_engine.cpp:400): Creating audio engine: standard
+[2023-12-22 21:20:41.692] [76180] (audio_device_impl.cc:364): Init
+[2023-12-22 21:20:41.698] [76180] (audio_device_impl.cc:364): Init
+[2023-12-22 21:20:41.701] [76180] (audio_coding.cpp:149): Using software Opus decoder
+[2023-12-22 21:20:41.702] [76180] (audio_coding.cpp:166): Using software Opus encoder
+[2023-12-22 21:20:41.702] [76180] (audio_device_impl.cc:895): RegisterAudioCallback
+[2023-12-22 21:20:41.702] [76180] (audio_device_impl.cc:547): SetMicrophoneVolume(100)
+[2023-12-22 21:20:41.702] [76180] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-12-22 21:20:41.702] [76180] (audio_device_impl.cc:895): RegisterAudioCallback
+[2023-12-22 21:20:41.702] [76180] (audio_engine.cpp:151): Setting audio input device: 'default'
+[2023-12-22 21:20:41.702] [76180] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2023-12-22 21:20:41.702] [76180] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2023-12-22 21:20:41.702] [76180] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2023-12-22 21:20:41.702] [76180] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2023-12-22 21:20:41.702] [76180] (audio_device_impl.cc:573): output: 1
+[2023-12-22 21:20:41.702] [76180] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2023-12-22 21:20:41.702] [76180] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2023-12-22 21:20:41.702] [76180] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2023-12-22 21:20:41.702] [76180] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2023-12-22 21:20:41.702] [76180] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-12-22 21:20:41.702] [76180] (audio_engine.cpp:168): Setting audio output device: 'default'
+[2023-12-22 21:20:41.702] [76180] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-12-22 21:20:41.703] [76180] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-12-22 21:20:41.703] [76180] (audio_device_impl.cc:619): output: 1
+[2023-12-22 21:20:41.703] [76180] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-12-22 21:20:41.703] [76180] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-12-22 21:20:41.703] [76180] (audio_device_impl.cc:911): BuiltInAECIsAvailable
+[2023-12-22 21:20:41.703] [76180] (audio_device_generic.cc:32): BuiltInAECIsAvailable: Not supported on this platform
+[2023-12-22 21:20:41.703] [76180] (audio_device_impl.cc:914): output: 0
+[2023-12-22 21:20:41.703] [76180] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
+[2023-12-22 21:20:41.703] [76180] (transparent_mode.cc:239): AEC3 Transparent Mode: Legacy
+[2023-12-22 21:20:41.704] [76180] (echo_canceller3.cc:793): AEC3 created with sample rate: 16000 Hz, num render channels: 1, num capture channels: 1
+[2023-12-22 21:20:41.704] [76180] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
+[2023-12-22 21:20:41.704] [76180] (clipping_predictor.cc:357): [agc] Clipping prediction disabled.
+[2023-12-22 21:20:41.704] [76180] (agc_manager_direct.cc:500): [agc] analog controller enabled: yes
+[2023-12-22 21:20:41.704] [76180] (agc_manager_direct.cc:503): [agc] Min mic level: 12 (overridden: no)
+[2023-12-22 21:20:41.704] [76180] (agc_manager_direct.cc:507): [agc] Startup min volume: 0
+[2023-12-22 21:20:41.704] [76180] (captured_audio_processor.cpp:115): SetNoiseCancellation: 0
+[2023-12-22 21:20:41.704] [76180] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 1, level: High }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
+[2023-12-22 21:20:41.704] [76180] (field_trial.cc:141): Setting field trial string:WebRTC-Audio-NetEqDecisionLogicConfig/reinit_after_expands:100/
+[2023-12-22 21:20:41.709] [76180] (engine.cpp:192): *** OnDevicesChanged:
+[2023-12-22 21:20:41.709] [76180] (engine.cpp:193): * audioInput:
+[2023-12-22 21:20:41.709] [76180] (engine.cpp:198): * audioOutput:
+[2023-12-22 21:20:41.709] [76180] (engine.cpp:192): *** OnDevicesChanged:
+[2023-12-22 21:20:41.709] [76180] (engine.cpp:193): * audioInput:
+[2023-12-22 21:20:41.709] [76180] (engine.cpp:196): - default: Family 17h/19h HD Audio Controller Digital Microphone ()
+[2023-12-22 21:20:41.709] [76180] (engine.cpp:196): - Family 17h/19h HD Audio Controller Headphones Stereo Microphone ()
+[2023-12-22 21:20:41.709] [76180] (engine.cpp:196): - Family 17h/19h HD Audio Controller Digital Microphone ()
+[2023-12-22 21:20:41.709] [76180] (engine.cpp:196): - Webcam C270 Mono ()
+[2023-12-22 21:20:41.709] [76180] (engine.cpp:198): * audioOutput:
+[2023-12-22 21:20:41.709] [76180] (engine.cpp:192): *** OnDevicesChanged:
+[2023-12-22 21:20:41.709] [76180] (engine.cpp:193): * audioInput:
+[2023-12-22 21:20:41.709] [76180] (engine.cpp:196): - default: Family 17h/19h HD Audio Controller Digital Microphone ()
+[2023-12-22 21:20:41.709] [76180] (engine.cpp:196): - Family 17h/19h HD Audio Controller Headphones Stereo Microphone ()
+[2023-12-22 21:20:41.709] [76180] (engine.cpp:196): - Family 17h/19h HD Audio Controller Digital Microphone ()
+[2023-12-22 21:20:41.709] [76180] (engine.cpp:196): - Webcam C270 Mono ()
+[2023-12-22 21:20:41.709] [76180] (engine.cpp:198): * audioOutput:
+[2023-12-22 21:20:41.709] [76180] (engine.cpp:201): - default: Family 17h/19h HD Audio Controller Speaker + Headphones ()
+[2023-12-22 21:20:41.709] [76180] (engine.cpp:201): - Renoir Radeon High Definition Audio Controller HDMI / DisplayPort 2 Output ()
+[2023-12-22 21:20:41.709] [76180] (engine.cpp:201): - Renoir Radeon High Definition Audio Controller HDMI / DisplayPort 1 Output ()
+[2023-12-22 21:20:41.709] [76180] (engine.cpp:201): - Family 17h/19h HD Audio Controller Speaker + Headphones ()
+[2023-12-22 21:20:41.855] [76180] (audio_engine.cpp:151): Setting audio input device: 'default'
+[2023-12-22 21:20:41.855] [76180] (audio_device_impl.cc:826): RecordingIsInitialized
+[2023-12-22 21:20:41.855] [76180] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2023-12-22 21:20:41.856] [76180] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2023-12-22 21:20:41.856] [76180] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2023-12-22 21:20:41.856] [76180] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2023-12-22 21:20:41.857] [76180] (audio_device_impl.cc:573): output: 1
+[2023-12-22 21:20:41.857] [76180] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2023-12-22 21:20:41.857] [76180] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2023-12-22 21:20:41.857] [76180] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2023-12-22 21:20:41.857] [76180] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2023-12-22 21:20:41.857] [76180] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-12-22 21:20:41.857] [76180] (audio_engine.cpp:168): Setting audio output device: 'default'
+[2023-12-22 21:20:41.857] [76180] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-12-22 21:20:41.857] [76180] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-12-22 21:20:41.857] [76180] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-12-22 21:20:41.857] [76180] (audio_device_impl.cc:619): output: 1
+[2023-12-22 21:20:41.857] [76180] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-12-22 21:20:41.857] [76180] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-12-22 21:20:41.857] [76180] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2023-12-22 21:20:41.858] [76180] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2023-12-22 21:20:41.858] [76180] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-12-22 21:20:41.859] [76115] (discord.cpp:763): JS console: ["%c[default]","[BUILD INFO] Release Channel: stable, Build Number: 256231, Version Hash: 96a39c57ea9aba237cc74ca68d021c676c06c41c"]
+[2023-12-22 21:20:41.931] [76115] (discord.cpp:763): JS console: ["%c[CloudSyncUtils]","CloudSync is not supported on this platform"]
+[2023-12-22 21:20:41.972] [76115] (discord.cpp:763): JS console: ["%c[default]","[NATIVE INFO] host 0.0.39, modules: discord_desktop_core: 1, discord_erlpack: 1, discord_spellcheck: 1, discord_utils: 1, discord_voice: 1, build: null"]
+[2023-12-22 21:20:42.022] [76115] (discord.cpp:763): JS console: ["[FAST CONNECT] connected in 1126ms"]
+[2023-12-22 21:20:42.024] [76180] (audio_engine.cpp:151): Setting audio input device: 'default'
+[2023-12-22 21:20:42.024] [76180] (audio_device_impl.cc:826): RecordingIsInitialized
+[2023-12-22 21:20:42.024] [76180] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2023-12-22 21:20:42.024] [76180] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2023-12-22 21:20:42.024] [76180] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2023-12-22 21:20:42.024] [76180] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2023-12-22 21:20:42.025] [76180] (audio_device_impl.cc:573): output: 1
+[2023-12-22 21:20:42.025] [76180] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2023-12-22 21:20:42.025] [76180] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2023-12-22 21:20:42.025] [76180] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2023-12-22 21:20:42.025] [76180] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2023-12-22 21:20:42.025] [76180] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-12-22 21:20:42.025] [76180] (audio_engine.cpp:168): Setting audio output device: 'default'
+[2023-12-22 21:20:42.025] [76180] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-12-22 21:20:42.025] [76180] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-12-22 21:20:42.025] [76180] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-12-22 21:20:42.026] [76180] (audio_device_impl.cc:619): output: 1
+[2023-12-22 21:20:42.026] [76180] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-12-22 21:20:42.026] [76180] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-12-22 21:20:42.031] [76115] (discord.cpp:763): JS console: ["%c[Spellchecker]","sh is not a valid locale."]
+[2023-12-22 21:20:42.055] [76115] (discord.cpp:763): JS console: ["%c[Spellchecker]","Switching to en-GB","(available)"]
+[2023-12-22 21:20:42.642] [76115] (discord.cpp:763): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-12-22 21:20:42.701] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-12-22 21:20:42.702] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[FAST CONNECT] successfully took over websocket, state:","[object Object]"]
+[2023-12-22 21:20:42.702] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 1 ms"]
+[2023-12-22 21:20:43.597] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[READY] took 895ms, as 7428615a6346c32c354e5ecb2d995bc5"]
+[2023-12-22 21:20:43.602] [76115] (discord.cpp:763): JS console: ["%c[Flux]","Dispatching CONNECTION_OPEN"]
+[2023-12-22 21:20:43.604] [76115] (discord.cpp:763): JS console: ["%c[DatabaseManager]","removing database (user: 698907526191906846, database: undefined)"]
+[2023-12-22 21:20:43.610] [76115] (discord.cpp:763): JS console: ["%c[NativeDispatchUtils]","Tried getting Dispatch instance before instantiated"]
+[2023-12-22 21:20:43.633] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[READY_SUPPLEMENTAL] took 932ms"]
+[2023-12-22 21:20:44.175] [76115] (discord.cpp:763): JS console: ["Initializing krisp module"]
+[2023-12-22 21:20:44.883] [76115] (discord.cpp:763): JS console: ["%c[RPCServer:WSS]","Starting on 6463"]
+[2023-12-22 21:20:44.886] [76115] (discord.cpp:763): JS console: ["%c[RPCServer:IPC]","Starting on /run/user/1000/discord-ipc-0"]
+[2023-12-22 21:20:45.729] [76115] (discord.cpp:763): JS console: ["%c[MessageActionCreators]","Fetching messages for 1031469676275957781 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2023-12-22 21:20:46.148] [76115] (discord.cpp:763): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 1031469676275957781 isBefore:false isAfter:false"]
+[2023-12-22 21:20:47.349] [76115] (discord.cpp:763): JS console: ["%c[CloudUpload.tsx]","Requesting upload url for upload3"]
+[2023-12-22 21:20:48.210] [76115] (discord.cpp:763): JS console: ["%c[CloudUpload.tsx]","Uploading upload3"]
+[2023-12-22 21:20:50.796] [76115] (discord.cpp:763): JS console: ["%c[CloudUpload.tsx]","Upload complete for upload3"]
+[2023-12-22 21:20:55.140] [76115] (discord.cpp:763): JS console: ["%c[CloudUploaderBase.tsx]","setUploadingTextForUI - total content: 73885 bytes and 1 attachments for Uploader5"]
+[2023-12-22 21:20:55.567] [76655] (region_latency_tester.cpp:72): Sending 5 latency test pings to region india
+[2023-12-22 21:20:55.567] [76655] (region_latency_tester.cpp:72): Sending 5 latency test pings to region hongkong
+[2023-12-22 21:20:55.567] [76655] (region_latency_tester.cpp:72): Sending 5 latency test pings to region singapore
+[2023-12-22 21:20:55.567] [76655] (region_latency_tester.cpp:72): Sending 5 latency test pings to region dubai
+[2023-12-22 21:20:55.567] [76655] (region_latency_tester.cpp:72): Sending 5 latency test pings to region japan
+[2023-12-22 21:20:55.726] [76115] (discord.cpp:763): JS console: ["%c[UploaderBase.tsx]","_handleComplete for Uploader5"]
+[2023-12-22 21:20:55.861] [76655] (region_latency_tester.cpp:271): Average RTT for region india is 38
+[2023-12-22 21:20:55.861] [76655] (region_latency_tester.cpp:271): Average RTT for region hongkong is 96
+[2023-12-22 21:20:55.861] [76655] (region_latency_tester.cpp:271): Average RTT for region singapore is 64
+[2023-12-22 21:20:55.861] [76655] (region_latency_tester.cpp:271): Average RTT for region dubai is 278
+[2023-12-22 21:20:55.861] [76655] (region_latency_tester.cpp:271): Average RTT for region japan is 146.5
+[2023-12-22 21:40:37.790] [76180] (engine.cpp:192): *** OnDevicesChanged:
+[2023-12-22 21:40:37.790] [76180] (engine.cpp:193): * audioInput:
+[2023-12-22 21:40:37.790] [76180] (engine.cpp:196): - default: Family 17h/19h HD Audio Controller Digital Microphone ()
+[2023-12-22 21:40:37.790] [76180] (engine.cpp:196): - Family 17h/19h HD Audio Controller Headphones Stereo Microphone ()
+[2023-12-22 21:40:37.790] [76180] (engine.cpp:196): - Family 17h/19h HD Audio Controller Digital Microphone ()
+[2023-12-22 21:40:37.790] [76180] (engine.cpp:196): - Webcam C270 Mono ()
+[2023-12-22 21:40:37.790] [76180] (engine.cpp:198): * audioOutput:
+[2023-12-22 21:40:37.790] [76180] (engine.cpp:201): - default: Family 17h/19h HD Audio Controller Speaker + Headphones ()
+[2023-12-22 21:40:37.790] [76180] (engine.cpp:201): - Family 17h/19h HD Audio Controller Speaker + Headphones ()
+[2023-12-22 21:40:37.796] [76180] (audio_engine.cpp:168): Setting audio output device: 'default'
+[2023-12-22 21:40:37.796] [76180] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-12-22 21:40:37.796] [76180] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-12-22 21:40:37.796] [76180] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-12-22 21:40:37.797] [76180] (audio_device_impl.cc:619): output: 1
+[2023-12-22 21:40:37.797] [76180] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-12-22 21:40:37.797] [76180] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-12-22 21:56:23.696] [76180] (engine.cpp:192): *** OnDevicesChanged:
+[2023-12-22 21:56:23.696] [76180] (engine.cpp:193): * audioInput:
+[2023-12-22 21:56:23.696] [76180] (engine.cpp:196): - default: Family 17h/19h HD Audio Controller Digital Microphone ()
+[2023-12-22 21:56:23.696] [76180] (engine.cpp:196): - Family 17h/19h HD Audio Controller Headphones Stereo Microphone ()
+[2023-12-22 21:56:23.696] [76180] (engine.cpp:196): - Family 17h/19h HD Audio Controller Digital Microphone ()
+[2023-12-22 21:56:23.696] [76180] (engine.cpp:196): - Webcam C270 Mono ()
+[2023-12-22 21:56:23.696] [76180] (engine.cpp:198): * audioOutput:
+[2023-12-22 21:56:23.696] [76180] (engine.cpp:201): - default: Family 17h/19h HD Audio Controller Speaker + Headphones ()
+[2023-12-22 21:56:23.696] [76180] (engine.cpp:201): - Family 17h/19h HD Audio Controller Speaker + Headphones ()
+[2023-12-22 21:56:23.696] [76180] (engine.cpp:201): - Renoir Radeon High Definition Audio Controller HDMI / DisplayPort 2 Output ()
+[2023-12-22 21:56:23.696] [76180] (engine.cpp:201): - Renoir Radeon High Definition Audio Controller HDMI / DisplayPort 1 Output ()
+[2023-12-22 21:56:23.697] [76180] (audio_engine.cpp:168): Setting audio output device: 'default'
+[2023-12-22 21:56:23.697] [76180] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-12-22 21:56:23.697] [76180] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-12-22 21:56:23.698] [76180] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-12-22 21:56:23.698] [76180] (audio_device_impl.cc:619): output: 1
+[2023-12-22 21:56:23.698] [76180] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-12-22 21:56:23.698] [76180] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-12-22 22:25:25.302] [76180] (engine.cpp:192): *** OnDevicesChanged:
+[2023-12-22 22:25:25.302] [76180] (engine.cpp:193): * audioInput:
+[2023-12-22 22:25:25.302] [76180] (engine.cpp:196): - default: Family 17h/19h HD Audio Controller Digital Microphone ()
+[2023-12-22 22:25:25.302] [76180] (engine.cpp:196): - Family 17h/19h HD Audio Controller Headphones Stereo Microphone ()
+[2023-12-22 22:25:25.302] [76180] (engine.cpp:196): - Family 17h/19h HD Audio Controller Digital Microphone ()
+[2023-12-22 22:25:25.302] [76180] (engine.cpp:196): - Webcam C270 Mono ()
+[2023-12-22 22:25:25.302] [76180] (engine.cpp:198): * audioOutput:
+[2023-12-22 22:25:25.302] [76180] (engine.cpp:201): - default: Family 17h/19h HD Audio Controller Speaker + Headphones ()
+[2023-12-22 22:25:25.302] [76180] (engine.cpp:201): - Family 17h/19h HD Audio Controller Speaker + Headphones ()
+[2023-12-22 22:25:25.302] [76180] (audio_engine.cpp:168): Setting audio output device: 'default'
+[2023-12-22 22:25:25.302] [76180] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-12-22 22:25:25.303] [76180] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-12-22 22:25:25.303] [76180] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-12-22 22:25:25.303] [76180] (audio_device_impl.cc:619): output: 1
+[2023-12-22 22:25:25.303] [76180] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-12-22 22:25:25.303] [76180] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-12-22 23:41:40.770] [76180] (engine.cpp:192): *** OnDevicesChanged:
+[2023-12-22 23:41:40.770] [76180] (engine.cpp:193): * audioInput:
+[2023-12-22 23:41:40.770] [76180] (engine.cpp:196): - default: Family 17h/19h HD Audio Controller Digital Microphone ()
+[2023-12-22 23:41:40.770] [76180] (engine.cpp:196): - Family 17h/19h HD Audio Controller Headphones Stereo Microphone ()
+[2023-12-22 23:41:40.770] [76180] (engine.cpp:196): - Family 17h/19h HD Audio Controller Digital Microphone ()
+[2023-12-22 23:41:40.770] [76180] (engine.cpp:196): - Webcam C270 Mono ()
+[2023-12-22 23:41:40.770] [76180] (engine.cpp:198): * audioOutput:
+[2023-12-22 23:41:40.770] [76180] (engine.cpp:201): - default: Family 17h/19h HD Audio Controller Speaker + Headphones ()
+[2023-12-22 23:41:40.770] [76180] (engine.cpp:201): - Family 17h/19h HD Audio Controller Speaker + Headphones ()
+[2023-12-22 23:41:40.770] [76180] (engine.cpp:201): - Renoir Radeon High Definition Audio Controller HDMI / DisplayPort 2 Output ()
+[2023-12-22 23:41:40.770] [76180] (engine.cpp:201): - Renoir Radeon High Definition Audio Controller HDMI / DisplayPort 1 Output ()
+[2023-12-22 23:41:40.771] [76180] (audio_engine.cpp:168): Setting audio output device: 'default'
+[2023-12-22 23:41:40.771] [76180] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-12-22 23:41:40.771] [76180] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-12-22 23:41:40.771] [76180] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-12-22 23:41:40.772] [76180] (audio_device_impl.cc:619): output: 1
+[2023-12-22 23:41:40.772] [76180] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-12-22 23:41:40.772] [76180] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-12-22 23:45:39.011] [76180] (engine.cpp:192): *** OnDevicesChanged:
+[2023-12-22 23:45:39.011] [76180] (engine.cpp:193): * audioInput:
+[2023-12-22 23:45:39.011] [76180] (engine.cpp:196): - default: Bose QC45 ()
+[2023-12-22 23:45:39.011] [76180] (engine.cpp:196): - Family 17h/19h HD Audio Controller Headphones Stereo Microphone ()
+[2023-12-22 23:45:39.011] [76180] (engine.cpp:196): - Family 17h/19h HD Audio Controller Digital Microphone ()
+[2023-12-22 23:45:39.011] [76180] (engine.cpp:196): - Webcam C270 Mono ()
+[2023-12-22 23:45:39.011] [76180] (engine.cpp:196): - Bose QC45 ()
+[2023-12-22 23:45:39.011] [76180] (engine.cpp:198): * audioOutput:
+[2023-12-22 23:45:39.011] [76180] (engine.cpp:201): - default: Family 17h/19h HD Audio Controller Speaker + Headphones ()
+[2023-12-22 23:45:39.011] [76180] (engine.cpp:201): - Family 17h/19h HD Audio Controller Speaker + Headphones ()
+[2023-12-22 23:45:39.011] [76180] (engine.cpp:201): - Renoir Radeon High Definition Audio Controller HDMI / DisplayPort 2 Output ()
+[2023-12-22 23:45:39.011] [76180] (engine.cpp:201): - Renoir Radeon High Definition Audio Controller HDMI / DisplayPort 1 Output ()
+[2023-12-22 23:45:39.011] [76180] (engine.cpp:192): *** OnDevicesChanged:
+[2023-12-22 23:45:39.011] [76180] (engine.cpp:193): * audioInput:
+[2023-12-22 23:45:39.011] [76180] (engine.cpp:196): - default: Bose QC45 ()
+[2023-12-22 23:45:39.011] [76180] (engine.cpp:196): - Family 17h/19h HD Audio Controller Headphones Stereo Microphone ()
+[2023-12-22 23:45:39.011] [76180] (engine.cpp:196): - Family 17h/19h HD Audio Controller Digital Microphone ()
+[2023-12-22 23:45:39.011] [76180] (engine.cpp:196): - Webcam C270 Mono ()
+[2023-12-22 23:45:39.011] [76180] (engine.cpp:196): - Bose QC45 ()
+[2023-12-22 23:45:39.011] [76180] (engine.cpp:198): * audioOutput:
+[2023-12-22 23:45:39.011] [76180] (engine.cpp:201): - default: Bose QC45 ()
+[2023-12-22 23:45:39.011] [76180] (engine.cpp:201): - Family 17h/19h HD Audio Controller Speaker + Headphones ()
+[2023-12-22 23:45:39.011] [76180] (engine.cpp:201): - Renoir Radeon High Definition Audio Controller HDMI / DisplayPort 2 Output ()
+[2023-12-22 23:45:39.011] [76180] (engine.cpp:201): - Renoir Radeon High Definition Audio Controller HDMI / DisplayPort 1 Output ()
+[2023-12-22 23:45:39.011] [76180] (engine.cpp:201): - Bose QC45 ()
+[2023-12-22 23:45:39.017] [76180] (audio_engine.cpp:151): Setting audio input device: 'default'
+[2023-12-22 23:45:39.017] [76180] (audio_device_impl.cc:826): RecordingIsInitialized
+[2023-12-22 23:45:39.017] [76180] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2023-12-22 23:45:39.017] [76180] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2023-12-22 23:45:39.017] [76180] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2023-12-22 23:45:39.018] [76180] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2023-12-22 23:45:39.019] [76180] (audio_device_impl.cc:573): output: 0
+[2023-12-22 23:45:39.019] [76180] (audio_device_impl.cc:578): SetStereoRecording(0)
+[2023-12-22 23:45:39.019] [76180] (audio_device_buffer.cc:203): SetRecordingChannels(1)
+[2023-12-22 23:45:39.019] [76180] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2023-12-22 23:45:39.019] [76180] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2023-12-22 23:45:39.019] [76180] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-12-22 23:45:39.019] [76180] (audio_engine.cpp:168): Setting audio output device: 'default'
+[2023-12-22 23:45:39.019] [76180] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-12-22 23:45:39.019] [76180] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-12-22 23:45:39.020] [76180] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-12-22 23:45:39.020] [76180] (audio_device_impl.cc:619): output: 0
+[2023-12-22 23:45:39.020] [76180] (audio_device_impl.cc:624): SetStereoPlayout(0)
+[2023-12-22 23:45:39.020] [76180] (audio_device_buffer.cc:209): SetPlayoutChannels(1)
+[2023-12-22 23:53:05.911] [76115] (discord.cpp:763): JS console: ["%c[MessageQueue]","Queueing message to be sent LogId:9236"]
+[2023-12-22 23:53:05.911] [76115] (discord.cpp:763): JS console: ["%c[MessageQueue]","Draining message from queue LogId:9236 QueueLength: 0"]
+[2023-12-22 23:53:05.911] [76115] (discord.cpp:763): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","0"]
+[2023-12-22 23:53:06.419] [76115] (discord.cpp:763): JS console: ["%c[MessageQueue]","Finished draining message from queue LogId:9236 QueueLength: 0"]
+[2023-12-22 23:54:10.931] [76115] (discord.cpp:763): JS console: ["%c[MessageQueue]","Queueing message to be sent LogId:2840"]
+[2023-12-22 23:54:10.931] [76115] (discord.cpp:763): JS console: ["%c[MessageQueue]","Draining message from queue LogId:2840 QueueLength: 0"]
+[2023-12-22 23:54:10.932] [76115] (discord.cpp:763): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","0"]
+[2023-12-22 23:54:11.550] [76115] (discord.cpp:763): JS console: ["%c[MessageQueue]","Finished draining message from queue LogId:2840 QueueLength: 0"]
+[2023-12-22 23:54:24.880] [76115] (discord.cpp:763): JS console: ["%c[MessageQueue]","Queueing message to be sent LogId:1517"]
+[2023-12-22 23:54:24.880] [76115] (discord.cpp:763): JS console: ["%c[MessageQueue]","Draining message from queue LogId:1517 QueueLength: 0"]
+[2023-12-22 23:54:24.880] [76115] (discord.cpp:763): JS console: ["%c[MessageQueue]","Draining Message Queue with: ","0"]
+[2023-12-22 23:54:25.350] [76115] (discord.cpp:763): JS console: ["%c[MessageQueue]","Finished draining message from queue LogId:1517 QueueLength: 0"]
+[2023-12-23 00:19:28.659] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-b.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-12-23 00:19:29.132] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-b.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 473 ms"]
+[2023-12-23 00:19:29.133] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[RESUME] resuming session 7428615a6346c32c354e5ecb2d995bc5, seq: 184"]
+[2023-12-23 00:19:29.453] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[RESUMED] took 794ms, replayed 1 events, new seq: 185"]
+[2023-12-23 00:19:29.492] [76115] (discord.cpp:763): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2023-12-23 00:39:28.629] [76115] (discord.cpp:763): JS console: ["%c[CloudUpload.tsx]","Requesting upload url for upload9"]
+[2023-12-23 00:39:29.065] [76115] (discord.cpp:763): JS console: ["%c[CloudUploaderBase.tsx]","setUploadingTextForUI - total content: 89709 bytes and 1 attachments for Uploader11"]
+[2023-12-23 00:39:29.109] [76115] (discord.cpp:763): JS console: ["%c[CloudUpload.tsx]","Uploading upload9"]
+[2023-12-23 00:39:31.812] [76115] (discord.cpp:763): JS console: ["%c[CloudUpload.tsx]","Upload complete for upload9"]
+[2023-12-23 00:39:32.438] [76115] (discord.cpp:763): JS console: ["%c[UploaderBase.tsx]","_handleComplete for Uploader11"]
+[2023-12-23 00:42:52.475] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 1006, ) retrying in 2.56 seconds."]
+[2023-12-23 00:42:55.035] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-b.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-12-23 00:42:55.516] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-b.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 481 ms"]
+[2023-12-23 00:42:55.517] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[RESUME] resuming session 7428615a6346c32c354e5ecb2d995bc5, seq: 208"]
+[2023-12-23 00:42:55.834] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[RESUMED] took 799ms, replayed 1 events, new seq: 209"]
+[2023-12-23 00:42:55.873] [76115] (discord.cpp:763): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2023-12-23 01:16:20.569] [76115] (discord.cpp:763): JS console: ["%c[CloudUpload.tsx]","Requesting upload url for upload12"]
+[2023-12-23 01:16:21.011] [76115] (discord.cpp:763): JS console: ["%c[CloudUploaderBase.tsx]","setUploadingTextForUI - total content: 32890 bytes and 1 attachments for Uploader14"]
+[2023-12-23 01:16:21.031] [76115] (discord.cpp:763): JS console: ["%c[CloudUpload.tsx]","Uploading upload12"]
+[2023-12-23 01:16:23.672] [76115] (discord.cpp:763): JS console: ["%c[CloudUpload.tsx]","Upload complete for upload12"]
+[2023-12-23 01:16:24.345] [76115] (discord.cpp:763): JS console: ["%c[UploaderBase.tsx]","_handleComplete for Uploader14"]
+[2023-12-23 01:39:00.935] [76180] (engine.cpp:192): *** OnDevicesChanged:
+[2023-12-23 01:39:00.935] [76180] (engine.cpp:193): * audioInput:
+[2023-12-23 01:39:00.935] [76180] (engine.cpp:196): - default: Bose QC45 ()
+[2023-12-23 01:39:00.935] [76180] (engine.cpp:196): - Family 17h/19h HD Audio Controller Headphones Stereo Microphone ()
+[2023-12-23 01:39:00.935] [76180] (engine.cpp:196): - Family 17h/19h HD Audio Controller Digital Microphone ()
+[2023-12-23 01:39:00.935] [76180] (engine.cpp:196): - Webcam C270 Mono ()
+[2023-12-23 01:39:00.935] [76180] (engine.cpp:196): -  ()
+[2023-12-23 01:39:00.935] [76180] (engine.cpp:198): * audioOutput:
+[2023-12-23 01:39:00.935] [76180] (engine.cpp:201): - default: Bose QC45 ()
+[2023-12-23 01:39:00.935] [76180] (engine.cpp:201): - Family 17h/19h HD Audio Controller Speaker + Headphones ()
+[2023-12-23 01:39:00.935] [76180] (engine.cpp:201): - Renoir Radeon High Definition Audio Controller HDMI / DisplayPort 2 Output ()
+[2023-12-23 01:39:00.935] [76180] (engine.cpp:201): - Renoir Radeon High Definition Audio Controller HDMI / DisplayPort 1 Output ()
+[2023-12-23 01:39:00.935] [76180] (engine.cpp:201): - Bose QC45 ()
+[2023-12-23 01:39:00.935] [76180] (engine.cpp:192): *** OnDevicesChanged:
+[2023-12-23 01:39:00.935] [76180] (engine.cpp:193): * audioInput:
+[2023-12-23 01:39:00.935] [76180] (engine.cpp:196): - default: Bose QC45 ()
+[2023-12-23 01:39:00.935] [76180] (engine.cpp:196): - Family 17h/19h HD Audio Controller Headphones Stereo Microphone ()
+[2023-12-23 01:39:00.935] [76180] (engine.cpp:196): - Family 17h/19h HD Audio Controller Digital Microphone ()
+[2023-12-23 01:39:00.935] [76180] (engine.cpp:196): - Webcam C270 Mono ()
+[2023-12-23 01:39:00.935] [76180] (engine.cpp:196): -  ()
+[2023-12-23 01:39:00.935] [76180] (engine.cpp:198): * audioOutput:
+[2023-12-23 01:39:00.935] [76180] (engine.cpp:201): - default: Family 17h/19h HD Audio Controller Speaker + Headphones ()
+[2023-12-23 01:39:00.935] [76180] (engine.cpp:201): - Family 17h/19h HD Audio Controller Speaker + Headphones ()
+[2023-12-23 01:39:00.935] [76180] (engine.cpp:201): - Renoir Radeon High Definition Audio Controller HDMI / DisplayPort 2 Output ()
+[2023-12-23 01:39:00.935] [76180] (engine.cpp:201): - Renoir Radeon High Definition Audio Controller HDMI / DisplayPort 1 Output ()
+[2023-12-23 01:39:00.941] [76180] (audio_engine.cpp:151): Setting audio input device: 'default'
+[2023-12-23 01:39:00.941] [76180] (audio_device_impl.cc:826): RecordingIsInitialized
+[2023-12-23 01:39:00.941] [76180] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2023-12-23 01:39:00.941] [76180] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2023-12-23 01:39:00.941] [76180] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2023-12-23 01:39:00.941] [76180] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2023-12-23 01:39:00.942] [76180] (audio_device_impl.cc:573): output: 1
+[2023-12-23 01:39:00.942] [76180] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2023-12-23 01:39:00.942] [76180] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2023-12-23 01:39:00.942] [76180] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2023-12-23 01:39:00.942] [76180] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2023-12-23 01:39:00.942] [76180] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-12-23 01:39:00.945] [76180] (audio_engine.cpp:168): Setting audio output device: 'default'
+[2023-12-23 01:39:00.945] [76180] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-12-23 01:39:00.945] [76180] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-12-23 01:39:00.946] [76180] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-12-23 01:39:00.947] [76180] (audio_device_impl.cc:619): output: 1
+[2023-12-23 01:39:00.947] [76180] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-12-23 01:39:00.947] [76180] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-12-23 01:39:01.936] [76180] (engine.cpp:192): *** OnDevicesChanged:
+[2023-12-23 01:39:01.936] [76180] (engine.cpp:193): * audioInput:
+[2023-12-23 01:39:01.936] [76180] (engine.cpp:196): - default: Family 17h/19h HD Audio Controller Digital Microphone ()
+[2023-12-23 01:39:01.936] [76180] (engine.cpp:196): - Family 17h/19h HD Audio Controller Headphones Stereo Microphone ()
+[2023-12-23 01:39:01.936] [76180] (engine.cpp:196): - Family 17h/19h HD Audio Controller Digital Microphone ()
+[2023-12-23 01:39:01.936] [76180] (engine.cpp:196): - Webcam C270 Mono ()
+[2023-12-23 01:39:01.936] [76180] (engine.cpp:198): * audioOutput:
+[2023-12-23 01:39:01.936] [76180] (engine.cpp:201): - default: Family 17h/19h HD Audio Controller Speaker + Headphones ()
+[2023-12-23 01:39:01.936] [76180] (engine.cpp:201): - Family 17h/19h HD Audio Controller Speaker + Headphones ()
+[2023-12-23 01:39:01.936] [76180] (engine.cpp:201): - Renoir Radeon High Definition Audio Controller HDMI / DisplayPort 2 Output ()
+[2023-12-23 01:39:01.936] [76180] (engine.cpp:201): - Renoir Radeon High Definition Audio Controller HDMI / DisplayPort 1 Output ()
+[2023-12-23 01:39:01.937] [76180] (audio_engine.cpp:151): Setting audio input device: 'default'
+[2023-12-23 01:39:01.937] [76180] (audio_device_impl.cc:826): RecordingIsInitialized
+[2023-12-23 01:39:01.937] [76180] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2023-12-23 01:39:01.937] [76180] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2023-12-23 01:39:01.937] [76180] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2023-12-23 01:39:01.937] [76180] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2023-12-23 01:39:01.938] [76180] (audio_device_impl.cc:573): output: 1
+[2023-12-23 01:39:01.938] [76180] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2023-12-23 01:39:01.938] [76180] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2023-12-23 01:39:01.938] [76180] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2023-12-23 01:39:01.938] [76180] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2023-12-23 01:39:01.938] [76180] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-12-23 01:48:26.489] [76180] (engine.cpp:192): *** OnDevicesChanged:
+[2023-12-23 01:48:26.489] [76180] (engine.cpp:193): * audioInput:
+[2023-12-23 01:48:26.489] [76180] (engine.cpp:196): - default: Family 17h/19h HD Audio Controller Digital Microphone ()
+[2023-12-23 01:48:26.489] [76180] (engine.cpp:196): - Family 17h/19h HD Audio Controller Headphones Stereo Microphone ()
+[2023-12-23 01:48:26.489] [76180] (engine.cpp:196): - Family 17h/19h HD Audio Controller Digital Microphone ()
+[2023-12-23 01:48:26.489] [76180] (engine.cpp:196): - Webcam C270 Mono ()
+[2023-12-23 01:48:26.489] [76180] (engine.cpp:198): * audioOutput:
+[2023-12-23 01:48:26.489] [76180] (engine.cpp:201): - default: Family 17h/19h HD Audio Controller Speaker + Headphones ()
+[2023-12-23 01:48:26.489] [76180] (engine.cpp:201): - Family 17h/19h HD Audio Controller Speaker + Headphones ()
+[2023-12-23 01:48:26.490] [76180] (audio_engine.cpp:168): Setting audio output device: 'default'
+[2023-12-23 01:48:26.490] [76180] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-12-23 01:48:26.490] [76180] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-12-23 01:48:26.490] [76180] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-12-23 01:48:26.491] [76180] (audio_device_impl.cc:619): output: 1
+[2023-12-23 01:48:26.491] [76180] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-12-23 01:48:26.491] [76180] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-12-23 01:48:30.495] [76180] (engine.cpp:192): *** OnDevicesChanged:
+[2023-12-23 01:48:30.495] [76180] (engine.cpp:193): * audioInput:
+[2023-12-23 01:48:30.495] [76180] (engine.cpp:196): - default: Family 17h/19h HD Audio Controller Digital Microphone ()
+[2023-12-23 01:48:30.495] [76180] (engine.cpp:196): - Family 17h/19h HD Audio Controller Headphones Stereo Microphone ()
+[2023-12-23 01:48:30.495] [76180] (engine.cpp:196): - Family 17h/19h HD Audio Controller Digital Microphone ()
+[2023-12-23 01:48:30.495] [76180] (engine.cpp:196): - Webcam C270 Mono ()
+[2023-12-23 01:48:30.495] [76180] (engine.cpp:198): * audioOutput:
+[2023-12-23 01:48:30.495] [76180] (engine.cpp:201): - default: Family 17h/19h HD Audio Controller Speaker + Headphones ()
+[2023-12-23 01:48:30.495] [76180] (engine.cpp:201): - Family 17h/19h HD Audio Controller Speaker + Headphones ()
+[2023-12-23 01:48:30.495] [76180] (engine.cpp:201): - Renoir Radeon High Definition Audio Controller HDMI / DisplayPort 2 Output ()
+[2023-12-23 01:48:30.495] [76180] (engine.cpp:201): - Renoir Radeon High Definition Audio Controller HDMI / DisplayPort 1 Output ()
+[2023-12-23 01:48:30.496] [76180] (audio_engine.cpp:168): Setting audio output device: 'default'
+[2023-12-23 01:48:30.496] [76180] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-12-23 01:48:30.496] [76180] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-12-23 01:48:30.496] [76180] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-12-23 01:48:30.496] [76180] (audio_device_impl.cc:619): output: 1
+[2023-12-23 01:48:30.496] [76180] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-12-23 01:48:30.496] [76180] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-12-23 01:58:31.081] [76180] (engine.cpp:192): *** OnDevicesChanged:
+[2023-12-23 01:58:31.081] [76180] (engine.cpp:193): * audioInput:
+[2023-12-23 01:58:31.081] [76180] (engine.cpp:196): - default: Family 17h/19h HD Audio Controller Digital Microphone ()
+[2023-12-23 01:58:31.081] [76180] (engine.cpp:196): - Family 17h/19h HD Audio Controller Headphones Stereo Microphone ()
+[2023-12-23 01:58:31.081] [76180] (engine.cpp:196): - Family 17h/19h HD Audio Controller Digital Microphone ()
+[2023-12-23 01:58:31.081] [76180] (engine.cpp:196): - Webcam C270 Mono ()
+[2023-12-23 01:58:31.081] [76180] (engine.cpp:198): * audioOutput:
+[2023-12-23 01:58:31.081] [76180] (engine.cpp:201): - default: Family 17h/19h HD Audio Controller Speaker + Headphones ()
+[2023-12-23 01:58:31.081] [76180] (engine.cpp:201): - Family 17h/19h HD Audio Controller Speaker + Headphones ()
+[2023-12-23 01:58:31.082] [76180] (audio_engine.cpp:168): Setting audio output device: 'default'
+[2023-12-23 01:58:31.082] [76180] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-12-23 01:58:31.082] [76180] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-12-23 01:58:31.082] [76180] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-12-23 01:58:31.083] [76180] (audio_device_impl.cc:619): output: 1
+[2023-12-23 01:58:31.083] [76180] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-12-23 01:58:31.083] [76180] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-12-23 04:42:22.559] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-b.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-12-23 04:42:23.313] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-b.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 754 ms"]
+[2023-12-23 04:42:23.313] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[RESUME] resuming session 7428615a6346c32c354e5ecb2d995bc5, seq: 524"]
+[2023-12-23 04:42:23.638] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[RESUMED] took 1079ms, replayed 1 events, new seq: 525"]
+[2023-12-23 04:42:23.678] [76115] (discord.cpp:763): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2023-12-23 05:39:19.208] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-b.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-12-23 05:39:19.781] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-b.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 573 ms"]
+[2023-12-23 05:39:19.781] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[RESUME] resuming session 7428615a6346c32c354e5ecb2d995bc5, seq: 550"]
+[2023-12-23 05:39:20.101] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[RESUMED] took 893ms, replayed 1 events, new seq: 551"]
+[2023-12-23 05:39:20.140] [76115] (discord.cpp:763): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2023-12-23 09:30:50.989] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-b.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-12-23 09:30:51.470] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-b.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 480 ms"]
+[2023-12-23 09:30:51.470] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[RESUME] resuming session 7428615a6346c32c354e5ecb2d995bc5, seq: 651"]
+[2023-12-23 09:30:51.788] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[RESUMED] took 799ms, replayed 1 events, new seq: 652"]
+[2023-12-23 09:30:51.827] [76115] (discord.cpp:763): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2023-12-23 12:15:03.366] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-b.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-12-23 12:15:03.905] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-b.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 539 ms"]
+[2023-12-23 12:15:03.906] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[RESUME] resuming session 7428615a6346c32c354e5ecb2d995bc5, seq: 1258"]
+[2023-12-23 12:15:04.225] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[RESUMED] took 858ms, replayed 1 events, new seq: 1259"]
+[2023-12-23 12:15:04.263] [76115] (discord.cpp:763): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2023-12-23 13:56:27.724] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-b.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-12-23 13:56:28.218] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-b.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 494 ms"]
+[2023-12-23 13:56:28.219] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[RESUME] resuming session 7428615a6346c32c354e5ecb2d995bc5, seq: 2022"]
+[2023-12-23 13:56:28.549] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[RESUMED] took 825ms, replayed 2 events, new seq: 2024"]
+[2023-12-23 13:56:28.575] [76115] (discord.cpp:763): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2023-12-23 17:14:42.173] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-b.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-12-23 17:14:42.894] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-b.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 721 ms"]
+[2023-12-23 17:14:42.895] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[RESUME] resuming session 7428615a6346c32c354e5ecb2d995bc5, seq: 2165"]
+[2023-12-23 17:14:43.239] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[RESUMED] took 1066ms, replayed 1 events, new seq: 2166"]
+[2023-12-23 17:14:43.278] [76115] (discord.cpp:763): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2023-12-23 19:13:50.468] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-b.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-12-23 19:13:52.223] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-b.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 1755 ms"]
+[2023-12-23 19:13:52.224] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[RESUME] resuming session 7428615a6346c32c354e5ecb2d995bc5, seq: 2222"]
+[2023-12-23 19:13:52.728] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[RESUMED] took 2260ms, replayed 1 events, new seq: 2223"]
+[2023-12-23 19:13:52.762] [76115] (discord.cpp:763): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2023-12-23 19:55:22.792] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 1006, ) retrying in 2.23 seconds."]
+[2023-12-23 19:55:25.025] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-b.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-12-23 19:55:25.592] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-b.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 567 ms"]
+[2023-12-23 19:55:25.592] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[RESUME] resuming session 7428615a6346c32c354e5ecb2d995bc5, seq: 2244"]
+[2023-12-23 19:55:25.921] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[RESUMED] took 896ms, replayed 1 events, new seq: 2245"]
+[2023-12-23 19:55:25.960] [76115] (discord.cpp:763): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2023-12-23 21:20:56.053] [2137468] (region_latency_tester.cpp:72): Sending 5 latency test pings to region india
+[2023-12-23 21:20:56.053] [2137468] (region_latency_tester.cpp:72): Sending 5 latency test pings to region hongkong
+[2023-12-23 21:20:56.053] [2137468] (region_latency_tester.cpp:72): Sending 5 latency test pings to region singapore
+[2023-12-23 21:20:56.053] [2137468] (region_latency_tester.cpp:72): Sending 5 latency test pings to region dubai
+[2023-12-23 21:20:56.053] [2137468] (region_latency_tester.cpp:72): Sending 5 latency test pings to region japan
+[2023-12-23 21:20:56.342] [2137468] (region_latency_tester.cpp:271): Average RTT for region india is 71
+[2023-12-23 21:20:56.342] [2137468] (region_latency_tester.cpp:271): Average RTT for region hongkong is 109
+[2023-12-23 21:20:56.342] [2137468] (region_latency_tester.cpp:271): Average RTT for region singapore is 79
+[2023-12-23 21:20:56.342] [2137468] (region_latency_tester.cpp:271): Average RTT for region dubai is 284.25
+[2023-12-23 21:20:56.342] [2137468] (region_latency_tester.cpp:271): Average RTT for region japan is 159.5
+[2023-12-23 22:02:09.973] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-b.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-12-23 22:02:10.663] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-b.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 690 ms"]
+[2023-12-23 22:02:10.663] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[RESUME] resuming session 7428615a6346c32c354e5ecb2d995bc5, seq: 2304"]
+[2023-12-23 22:02:10.994] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[RESUMED] took 1020ms, replayed 1 events, new seq: 2305"]
+[2023-12-23 22:02:11.032] [76115] (discord.cpp:763): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2023-12-23 22:17:55.995] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-b.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-12-23 22:17:56.558] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-b.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 562 ms"]
+[2023-12-23 22:17:56.558] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[RESUME] resuming session 7428615a6346c32c354e5ecb2d995bc5, seq: 2311"]
+[2023-12-23 22:17:56.886] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[RESUMED] took 891ms, replayed 1 events, new seq: 2312"]
+[2023-12-23 22:17:56.924] [76115] (discord.cpp:763): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2023-12-24 00:53:21.599] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-b.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-12-24 00:53:22.652] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-b.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 1052 ms"]
+[2023-12-24 00:53:22.652] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[RESUME] resuming session 7428615a6346c32c354e5ecb2d995bc5, seq: 2394"]
+[2023-12-24 00:53:22.987] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[RESUMED] took 1388ms, replayed 1 events, new seq: 2395"]
+[2023-12-24 00:53:23.022] [76115] (discord.cpp:763): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2023-12-24 01:54:23.315] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-b.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-12-24 01:54:23.822] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-b.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 507 ms"]
+[2023-12-24 01:54:23.823] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[RESUME] resuming session 7428615a6346c32c354e5ecb2d995bc5, seq: 2428"]
+[2023-12-24 01:54:24.146] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[RESUMED] took 831ms, replayed 1 events, new seq: 2429"]
+[2023-12-24 01:54:24.184] [76115] (discord.cpp:763): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2023-12-24 05:47:29.417] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-b.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-12-24 05:47:29.931] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-b.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 514 ms"]
+[2023-12-24 05:47:29.932] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[RESUME] resuming session 7428615a6346c32c354e5ecb2d995bc5, seq: 2530"]
+[2023-12-24 05:47:30.265] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[RESUMED] took 848ms, replayed 1 events, new seq: 2531"]
+[2023-12-24 05:47:30.300] [76115] (discord.cpp:763): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2023-12-24 06:13:20.359] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-b.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-12-24 06:13:20.886] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-b.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 527 ms"]
+[2023-12-24 06:13:20.887] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[RESUME] resuming session 7428615a6346c32c354e5ecb2d995bc5, seq: 2542"]
+[2023-12-24 06:13:21.205] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[RESUMED] took 846ms, replayed 1 events, new seq: 2543"]
+[2023-12-24 06:13:21.239] [76115] (discord.cpp:763): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2023-12-24 09:57:51.547] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-b.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-12-24 09:57:52.098] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-b.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 551 ms"]
+[2023-12-24 09:57:52.099] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[RESUME] resuming session 7428615a6346c32c354e5ecb2d995bc5, seq: 2659"]
+[2023-12-24 09:57:52.424] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[RESUMED] took 877ms, replayed 1 events, new seq: 2660"]
+[2023-12-24 09:57:52.458] [76115] (discord.cpp:763): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2023-12-24 11:59:37.715] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-b.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-12-24 11:59:39.017] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-b.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 1302 ms"]
+[2023-12-24 11:59:39.017] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[RESUME] resuming session 7428615a6346c32c354e5ecb2d995bc5, seq: 3095"]
+[2023-12-24 11:59:39.437] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[RESUMED] took 1722ms, replayed 1 events, new seq: 3096"]
+[2023-12-24 11:59:39.472] [76115] (discord.cpp:763): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2023-12-24 13:47:26.574] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-b.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-12-24 13:47:27.121] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-b.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 547 ms"]
+[2023-12-24 13:47:27.121] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[RESUME] resuming session 7428615a6346c32c354e5ecb2d995bc5, seq: 3158"]
+[2023-12-24 13:47:27.457] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[RESUMED] took 883ms, replayed 1 events, new seq: 3159"]
+[2023-12-24 13:47:27.495] [76115] (discord.cpp:763): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2023-12-24 15:47:22.982] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-b.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-12-24 15:47:23.498] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-b.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 516 ms"]
+[2023-12-24 15:47:23.498] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[RESUME] resuming session 7428615a6346c32c354e5ecb2d995bc5, seq: 3216"]
+[2023-12-24 15:47:23.867] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[RESUMED] took 884ms, replayed 1 events, new seq: 3217"]
+[2023-12-24 15:47:23.905] [76115] (discord.cpp:763): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2023-12-24 17:36:10.364] [76180] (engine.cpp:192): *** OnDevicesChanged:
+[2023-12-24 17:36:10.364] [76180] (engine.cpp:193): * audioInput:
+[2023-12-24 17:36:10.364] [76180] (engine.cpp:196): - default: Family 17h/19h HD Audio Controller Digital Microphone ()
+[2023-12-24 17:36:10.364] [76180] (engine.cpp:196): - Family 17h/19h HD Audio Controller Headphones Stereo Microphone ()
+[2023-12-24 17:36:10.364] [76180] (engine.cpp:196): - Family 17h/19h HD Audio Controller Digital Microphone ()
+[2023-12-24 17:36:10.364] [76180] (engine.cpp:196): - Webcam C270 Mono ()
+[2023-12-24 17:36:10.364] [76180] (engine.cpp:198): * audioOutput:
+[2023-12-24 17:36:10.364] [76180] (engine.cpp:201): - default: Family 17h/19h HD Audio Controller Speaker + Headphones ()
+[2023-12-24 17:36:10.364] [76180] (engine.cpp:201): - Family 17h/19h HD Audio Controller Speaker + Headphones ()
+[2023-12-24 17:36:10.364] [76180] (engine.cpp:201): - Renoir Radeon High Definition Audio Controller HDMI / DisplayPort 2 Output ()
+[2023-12-24 17:36:10.364] [76180] (engine.cpp:201): - Renoir Radeon High Definition Audio Controller HDMI / DisplayPort 1 Output ()
+[2023-12-24 17:36:10.369] [76180] (audio_engine.cpp:168): Setting audio output device: 'default'
+[2023-12-24 17:36:10.369] [76180] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-12-24 17:36:10.370] [76180] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-12-24 17:36:10.370] [76180] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-12-24 17:36:10.371] [76180] (audio_device_impl.cc:619): output: 1
+[2023-12-24 17:36:10.371] [76180] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-12-24 17:36:10.371] [76180] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-12-24 18:07:21.393] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-b.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-12-24 18:07:22.288] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-b.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 895 ms"]
+[2023-12-24 18:07:22.289] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[RESUME] resuming session 7428615a6346c32c354e5ecb2d995bc5, seq: 3291"]
+[2023-12-24 18:07:22.677] [76115] (discord.cpp:763): JS console: ["%c[GatewaySocket]","[RESUMED] took 1284ms, replayed 1 events, new seq: 3292"]
+[2023-12-24 18:07:22.715] [76115] (discord.cpp:763): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2023-12-24 18:09:52.364] [76180] (engine.cpp:192): *** OnDevicesChanged:
+[2023-12-24 18:09:52.364] [76180] (engine.cpp:193): * audioInput:
+[2023-12-24 18:09:52.364] [76180] (engine.cpp:196): - default: Family 17h/19h HD Audio Controller Digital Microphone ()
+[2023-12-24 18:09:52.364] [76180] (engine.cpp:196): - Family 17h/19h HD Audio Controller Headphones Stereo Microphone ()
+[2023-12-24 18:09:52.364] [76180] (engine.cpp:196): - Family 17h/19h HD Audio Controller Digital Microphone ()
+[2023-12-24 18:09:52.364] [76180] (engine.cpp:196): - Webcam C270 Mono ()
+[2023-12-24 18:09:52.364] [76180] (engine.cpp:198): * audioOutput:
+[2023-12-24 18:09:52.364] [76180] (engine.cpp:201): - default: Family 17h/19h HD Audio Controller Speaker + Headphones ()
+[2023-12-24 18:09:52.364] [76180] (engine.cpp:201): - Family 17h/19h HD Audio Controller Speaker + Headphones ()
+[2023-12-24 18:09:52.365] [76180] (audio_engine.cpp:168): Setting audio output device: 'default'
+[2023-12-24 18:09:52.365] [76180] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-12-24 18:09:52.365] [76180] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-12-24 18:09:52.365] [76180] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-12-24 18:09:52.365] [76180] (audio_device_impl.cc:619): output: 1
+[2023-12-24 18:09:52.365] [76180] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-12-24 18:09:52.365] [76180] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-12-24 18:29:19.501] [76180] (engine.cpp:192): *** OnDevicesChanged:
+[2023-12-24 18:29:19.501] [76180] (engine.cpp:193): * audioInput:
+[2023-12-24 18:29:19.501] [76180] (engine.cpp:196): - default: Family 17h/19h HD Audio Controller Digital Microphone ()
+[2023-12-24 18:29:19.501] [76180] (engine.cpp:196): - Family 17h/19h HD Audio Controller Headphones Stereo Microphone ()
+[2023-12-24 18:29:19.501] [76180] (engine.cpp:196): - Family 17h/19h HD Audio Controller Digital Microphone ()
+[2023-12-24 18:29:19.501] [76180] (engine.cpp:196): - Webcam C270 Mono ()
+[2023-12-24 18:29:19.501] [76180] (engine.cpp:198): * audioOutput:
+[2023-12-24 18:29:19.501] [76180] (engine.cpp:201): - default: Family 17h/19h HD Audio Controller Speaker + Headphones ()
+[2023-12-24 18:29:19.501] [76180] (engine.cpp:201): - Family 17h/19h HD Audio Controller Speaker + Headphones ()
+[2023-12-24 18:29:19.501] [76180] (engine.cpp:201): - Renoir Radeon High Definition Audio Controller HDMI / DisplayPort 2 Output ()
+[2023-12-24 18:29:19.501] [76180] (engine.cpp:201): - Renoir Radeon High Definition Audio Controller HDMI / DisplayPort 1 Output ()
+[2023-12-24 18:29:19.502] [76180] (audio_engine.cpp:168): Setting audio output device: 'default'
+[2023-12-24 18:29:19.502] [76180] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-12-24 18:29:19.502] [76180] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-12-24 18:29:19.502] [76180] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-12-24 18:29:19.503] [76180] (audio_device_impl.cc:619): output: 1
+[2023-12-24 18:29:19.503] [76180] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-12-24 18:29:19.503] [76180] (audio_device_buffer.cc:209): SetPlayoutChannels(2)

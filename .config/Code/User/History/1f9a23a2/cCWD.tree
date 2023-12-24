@@ -1,0 +1,10 @@
+\title{A data-based power transformation for compositional data}
+\tag{private}
+\author{Tsagris, Michail T. and Preston, Simon and Wood, Andrew T. A.}
+\meta{doi}{10.48550/ARXIV.1106.1451}
+\meta{url}{https://arxiv.org/abs/1106.1451}
+\meta{journal}{arXiv}
+\meta{volume}{1106.1451}
+\meta{year}{2011}
+\meta{copyright}{arXiv.org perpetual, non-exclusive license}
+\p{Let #{\alpha} be the scalar power transformation parameter in #{\R} then the inverse \em{power} based transformation is given by #{(V^{-1} \mathbf{x} \alpha + 1) / \alpha}.}

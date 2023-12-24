@@ -1,0 +1,67 @@
+---
+title: "Pathfinder Models"
+version: 0.0
+author: ""
+date: ""
+execute: 
+  daemon: 99999
+  cache: false
+toc: true
+monobackgroundcolor: "#FFFFFF"
+mainfont: "Palatino"
+---
+
+```julia
+using DataFrames, LinearAlgebra, Plots, ColorSchemes, LaTeXStrings, CSV
+Plots.theme(:default)
+```
+
+
+```julia
+include("utils.jl")
+```
+
+
+```julia
+function get_hessian_diagram(post)
+    unc_sample_array, hessian_df_cholesky, hessian_df_ZCA, hessian_df_PCA = retrieve_data_all("$post");
+    return scatter(hessian_df_cholesky[:, :CN_Hessian], hessian_df_cholesky[:, :CN_Transformed_Hessian], 
+    ylabel=L"\mathrm{\kappa(\mathbf{H_{T}})}", 
+    xlabel=L"\mathrm{\kappa(\mathbf{H})}", 
+    titlefontsize=10,
+    title = "Condition Number of Hessian vs Transformed Hessian (on a log scale)", 
+    xaxis=:log, yaxis=:log, alpha=0.1, label="$post", font="Palatino", fmt=:png)
+end
+
+posterior_names = [
+    "nes2000-nes", 
+    "earnings-logearn_interaction", 
+    "diamonds-diamonds", 
+    "sblrc-blr", 
+    "gp_pois_regr-gp_regr", 
+    "gp_pois_regr-gp_pois_regr", 
+    "mcycle_gp-accel_gp", 
+    "low_dim_gauss_mix-low_dim_gauss_mix", 
+    "one_comp_mm_elim_abs-one_comp_mm_elim_abs", 
+    "hudson_lynx_hare-lotka_volterra", 
+    "bball_drive_event_0-hmm_drive_0", 
+    "hmm_example-hmm_example", 
+    "bball_drive_event_1-hmm_drive_1", 
+    "arma-arma11", 
+    "arK-arK", 
+    "garch-garch11", 
+    "eight_schools-eight_schools_centered", 
+    "eight_schools-eight_schools_noncentered"
+];
+
+plots=[]
+for post_name in posterior_name
+    push!(plots, get_hessian_diagram(post_name))
+end
+```
+
+```{julia}
+for plot in plots
+    display(plot)
+end
+```

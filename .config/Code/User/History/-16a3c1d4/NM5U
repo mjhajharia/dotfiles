@@ -1,0 +1,9 @@
+**/*.hpp
+**/*.DS_Store
+**/*.ipynb
+**/*.so
+**/.vscode/**
+**/.jupyter_cache/**
+**/.quarto/**
+**/.gitignore
+/home/meenaljhajharia/github/mjhajharia/diagnosing-hmc/quarto/.jupyter_cache/**

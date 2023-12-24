@@ -1,0 +1,15 @@
+\title{Jacobian - Expanded Softmax Transform}
+\tag{private}
+\author{meenaljhajharia}
+\texpackage{preamble}
+\import{basic-macros}
+
+##{
+    \absdet{\jac_{\operatorname{expsoftmax}}} = \prod_{k=1}^N x_k = \left(\sum_{k=1}^N \exp(y_k)\right)^{-N} \exp\left(\sum_{k=1}^N y_k\right).
+}
+
+To complete the transform, we choose the default prior #{p_\mathcal{R}(r \mid x) = \mathcal{N}\left(r \big| \log(N), 1\right)}, so that the complete change of variables is
+
+##{
+    p_\mathcal{Y}(y) \propto p_\mathcal{X}(x) \exp\left(-\frac{1}{2}(r - \log(N))^2\right) \prod_{k=1}^N x_k.
+}

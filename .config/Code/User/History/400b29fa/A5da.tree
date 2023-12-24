@@ -1,0 +1,11 @@
+\title{Stickbreaking Transform}
+\tag{private}
+\author{meenaljhajharia}
+
+The stick-breaking transformation is derived from the standard construction for Dirichlet processes.
+The constraining transform proceeds through the following analogy.
+Given a vector of proportions $z \in (0, 1]^{N-1}$, and a stick of unit length, we break off a of length $x_1$ whose proportion of the total stick is $z_1$.
+From the remaining stick, we then break off a piece of length $x_2$, whose proportion of the length $1-x_1$ stick is $z_2$.
+We proceed until we have produced $N$ pieces, each of length $x_i$, where $\sum_{i=1}^N x_i = 1$, so that $x \in \simplex{N-1}$.
+
+As noted in \cite{betancourt2012cruising}, all stick-breaking transforms transform the Dirichlet distribution into $N-1$ independently distributed parameters.

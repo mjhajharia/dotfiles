@@ -1,0 +1,128 @@
+---
+title: "Funnel et al"
+author: ""
+date: ""
+format:
+  html:
+    code-fold: true
+execute: 
+  daemon: 99999
+  cache: false
+figures:
+  fig-format: png
+toc: false
+monobackgroundcolor: "#FFFFFF"
+mainfont: "Palatino Linotype"
+---
+
+```{julia}
+using Revise, DynamicHMC, PosteriorDB, Random, StanLogDensityProblems, JSON, BridgeStan, DataFrames, LinearAlgebra, StatsBase, Distributions
+using Plots, ColorSchemes, LaTeXStrings, Statistics, CSV, AdvancedHMC, DynamicObjects
+Plots.theme(:default)
+const BS = BridgeStan;
+```
+
+```{julia}
+@dynamic_type DynamicRNG <: AbstractRNG
+@dynamic_object InnerRNG <: DynamicRNG rng::AbstractRNG recorder
+@dynamic_object OuterRNG <: DynamicRNG rng::InnerRNG
+recorder(what::OuterRNG) = what.rng.recorder
+Base.rand(what::DynamicRNG, args...) = rand(what.rng, args...)
+Base.rand(what::DynamicRNG, args::Integer...) = rand(what.rng, args...)
+Base.rand(what::DynamicRNG, m::AdvancedHMC.AbstractMetric, k::AdvancedHMC.AbstractKinetic) = rand(what.rng, m, k)
+function AdvancedHMC.transition(
+    rng::OuterRNG,
+    h::AdvancedHMC.Hamiltonian,
+    κ::AdvancedHMC.HMCKernel,
+    z::AdvancedHMC.PhasePoint,
+)
+    push!(rng.recorder, [])
+    AdvancedHMC.transition(rng.rng, h, κ, z)
+end
+
+# "Adapted" from https://github.com/TuringLang/AdvancedHMC.jl/blob/ab0b078cff023db85ca96ddd8a3ccdd76c92ca82/src/trajectory.jl#L606-L656
+function AdvancedHMC.build_tree(
+    rng::InnerRNG,
+    nt::AdvancedHMC.Trajectory{TS,I,TC},
+    h::AdvancedHMC.Hamiltonian,
+    z::AdvancedHMC.PhasePoint,
+    sampler::AdvancedHMC.AbstractTrajectorySampler,
+    v::Int,
+    j::Int,
+    H0::AbstractFloat,
+) where {
+    TS<:AdvancedHMC.AbstractTrajectorySampler,
+    I<:AdvancedHMC.AbstractIntegrator,
+    TC<:AdvancedHMC.DynamicTerminationCriterion,
+}
+    step, energy, BinaryTree, TurnStatistic, Termination, isterminated, build_tree, combine = getproperty.([AdvancedHMC], [
+        :step, :energy, :BinaryTree, :TurnStatistic, :Termination, :isterminated, :build_tree, :combine
+    ])
+    if j == 0
+        # Base case - take one leapfrog step in the direction v.
+        z′ = step(nt.integrator, h, z, v)
+        H′ = energy(z′)
+        ΔH = H′ - H0
+        push!(rng.recorder[end], ΔH)
+        α′ = exp(min(0, -ΔH))
+        sampler′ = TS(sampler, H0, z′)
+        return BinaryTree(z′, z′, TurnStatistic(nt.termination_criterion, z′), α′, 1, ΔH),
+        sampler′,
+        Termination(sampler′, nt, H0, H′)
+    else
+        # Recursion - build the left and right subtrees.
+        tree′, sampler′, termination′ = build_tree(rng, nt, h, z, sampler, v, j - 1, H0)
+        # Expand tree if not terminated
+        if !isterminated(termination′)
+            # Expand left
+            if v == -1
+                tree′′, sampler′′, termination′′ =
+                    build_tree(rng, nt, h, tree′.zleft, sampler, v, j - 1, H0) # left tree
+                treeleft, treeright = tree′′, tree′
+                # Expand right
+            else
+                tree′′, sampler′′, termination′′ =
+                    build_tree(rng, nt, h, tree′.zright, sampler, v, j - 1, H0) # right tree
+                treeleft, treeright = tree′, tree′′
+            end
+            tree′ = combine(treeleft, treeright)
+            sampler′ = combine(rng, sampler′, sampler′′)
+            termination′ =
+                termination′ *
+                termination′′ *
+                isterminated(nt.termination_criterion, h, tree′, treeleft, treeright)
+        end
+        return tree′, sampler′, termination′
+    end
+end
+```
+
+```{julia}
+fullpath = abspath∘expanduser
+BS.set_bridgestan_path!(fullpath("~/github/roualdes/bridgestan"))
+sm = BS.StanModel(stan_file="funnel.stan", data="data_funnel.json");
+lp = StanProblem(sm);
+D = 4;
+initial_θ = rand(D);
+n_samples, n_adapts = 2_000, 1_000;
+metric = DiagEuclideanMetric(D);
+hamiltonian = Hamiltonian(metric, lp);
+initial_ϵ = find_good_stepsize(hamiltonian, initial_θ);
+integrator = Leapfrog(initial_ϵ);
+proposal = NUTS{MultinomialTS, GeneralisedNoUTurn}(integrator);
+adaptor = StanHMCAdaptor(MassMatrixAdaptor(metric), StepSizeAdaptor(0.8, integrator));
+samples, stats = sample(hamiltonian, proposal, initial_θ, n_samples, adaptor, n_adapts; progress=true);
+```
+
+```{julia}
+
+# function unconstrain_draws(bs_model, constrained_draws)
+#     unc_sample_array = vcat([
+#            param_unconstrain(bs_model, collect(row))' for row in eachrow(constrained_draws)
+#        ]...);
+#     return unc_sample_array
+# end
+
+# unconstrained_draws = unconstrain_draws(sm, samples)
+samples
+```

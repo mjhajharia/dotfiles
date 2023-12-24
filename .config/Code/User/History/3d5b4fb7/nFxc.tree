@@ -1,0 +1,23 @@
+\title{Normalized Gamma and Exponential transforms}
+\tag{private}
+\author{meenaljhajharia}
+\import{basic-macros}
+\meta{reference}{\citek{devroye_uniform_1986}}
+
+\p{The normalized gamma transform is a parameterized transform based on the expanded-softmax transform and related to a classical approach for drawing samples from a Dirichlet distribution [Theorem 4.1](devroye_uniform_1986).}
+
+\paragraph{Unconstraining transform} The inverse normalized gamma transform $f_\alpha^{-1}$ is defined as $f_\alpha^{-1} = h_\alpha^{-1} \circ \operatorname{expsoftmax}^{-1}$, where $h_\alpha^{-1}$ is defined by
+$$
+    y_i = h_\alpha^{-1}(z)_i = \probit(G_{\alpha_i}(\exp(z_i))).
+$$
+
+\paragraph{Change-of-variables adjustment} The Jacobian determinant is
+
+$$
+    \absdet{\jac_{f_\alpha}} = \mathrm{Gamma}(e^r \mid \sum_{i=1}^N \alpha_i, 1)^{-1}e^{-r} \mathrm{Dirichlet}(x \mid \alpha)^{-1} \prod_{i=1}^N \mathcal{N}(y_i).
+$$
+To complete the transform, we select the default prior $\exp(r) \sim \mathrm{Gamma}\left(\cdot \mid \sum_{i=1}^{N} \alpha_i, 1\right)$, so that the complete correction is
+$$
+p_\mathcal{R}(r) \absdet{\jac_{f_\alpha}} = \mathrm{Dirichlet}(x \mid \alpha)^{-1} \prod_{i=1}^{N}\mathcal{N}(y_i).
+$$
+The special case when $\alpha = \alpha_0 \onevec{N}$ for $\alpha_0 \in \Rpos$ is called the normalized exponential transform.

@@ -1,0 +1,54 @@
+  Activating project at `~/.vscode/extensions/julialang.language-julia-1.47.2/scripts/environments/languageserver/v1.9`
+[ Info: Starting the Julia Language Server
+[ Info: Symbol server store is at '/home/meenaljhajharia/.config/Code/User/globalStorage/julialang.language-julia/symbolstorev5'.
+[ Info: Starting LS at 1701682893
+[ Info: All cache files downloaded.
+[ Info: Loading JuliaFormatter from cache... (0%)
+[ Info: Loading Glob from cache... (0%)
+[ Info: Loading Pkg from cache... (0%)
+[ Info: Loading Downloads from cache... (0%)
+[ Info: Loading LibCURL from cache... (0%)
+[ Info: Loading MozillaCACerts_jll from cache... (0%)
+[ Info: Loading LibCURL_jll from cache... (0%)
+┌ Warning: LibSSH2_jll not stored on disc
+└ @ SymbolServer ~/.vscode/extensions/julialang.language-julia-1.47.2/scripts/packages/SymbolServer/src/SymbolServer.jl:247
+┌ Warning: MbedTLS_jll not stored on disc
+└ @ SymbolServer ~/.vscode/extensions/julialang.language-julia-1.47.2/scripts/packages/SymbolServer/src/SymbolServer.jl:247
+[ Info: Loading nghttp2_jll from cache... (0%)
+[ Info: Loading Libdl from cache... (0%)
+[ Info: Loading Artifacts from cache... (0%)
+[ Info: Loading Zlib_jll from cache... (0%)
+[ Info: Loading NetworkOptions from cache... (0%)
+[ Info: Loading FileWatching from cache... (0%)
+[ Info: Loading ArgTools from cache... (0%)
+[ Info: Loading Tar from cache... (0%)
+[ Info: Loading SHA from cache... (0%)
+[ Info: Loading Random from cache... (0%)
+[ Info: Loading Serialization from cache... (0%)
+[ Info: Loading UUIDs from cache... (0%)
+[ Info: Loading REPL from cache... (0%)
+[ Info: Loading InteractiveUtils from cache... (0%)
+[ Info: Loading Markdown from cache... (0%)
+[ Info: Loading Base64 from cache... (0%)
+[ Info: Loading Sockets from cache... (0%)
+[ Info: Loading Unicode from cache... (0%)
+[ Info: Loading LibGit2 from cache... (0%)
+[ Info: Loading Printf from cache... (0%)
+[ Info: Loading Dates from cache... (0%)
+[ Info: Loading p7zip_jll from cache... (0%)
+[ Info: Loading Logging from cache... (0%)
+[ Info: Loading TOML from cache... (0%)
+[ Info: Loading PrecompileTools from cache... (0%)
+[ Info: Loading Preferences from cache... (0%)
+[ Info: Loading CommonMark from cache... (0%)
+[ Info: Loading JSON from cache... (0%)
+[ Info: Loading Parsers from cache... (0%)
+[ Info: Loading Mmap from cache... (0%)
+[ Info: Loading URIs from cache... (0%)
+[ Info: Loading Crayons from cache... (0%)
+[ Info: Loading DataStructures from cache... (0%)
+[ Info: Loading Compat from cache... (0%)
+[ Info: Loading OrderedCollections from cache... (0%)
+[ Info: Loading CSTParser from cache... (0%)
+[ Info: Loading Tokenize from cache... (0%)
+[ Info: Received new data from Julia Symbol Server.

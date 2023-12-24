@@ -1,0 +1,96 @@
+{
+	"history": {
+		"lastFocusedWindowDisplayState": {
+			"normalBounds": {
+				"x": 962,
+				"y": 26,
+				"width": 956,
+				"height": 1010
+			},
+			"displayBounds": [
+				{
+					"x": 1920,
+					"y": 0,
+					"width": 1920,
+					"height": 1080
+				},
+				{
+					"x": 0,
+					"y": 0,
+					"width": 1920,
+					"height": 1080
+				}
+			],
+			"isMaximized": false,
+			"isFullscreen": false
+		},
+		"closeEvents": [
+			{
+				"type": "window",
+				"tabs": [
+					{
+						"tabId": "4ea77a03-db9f-4e4d-a3d4-6a580a0578c5",
+						"url": "notion://www.notion.so/f1e951dadf3c4999ae2e546f78fe5ff2",
+						"index": 0,
+						"isActive": true
+					}
+				],
+				"windowId": "9a7a84b2-6220-41b3-9e6f-2f4cdb13e18b",
+				"displayState": {
+					"normalBounds": {
+						"x": 962,
+						"y": 26,
+						"width": 956,
+						"height": 1010
+					},
+					"displayBounds": [
+						{
+							"x": 1920,
+							"y": 0,
+							"width": 1920,
+							"height": 1080
+						},
+						{
+							"x": 0,
+							"y": 0,
+							"width": 1920,
+							"height": 1080
+						}
+					],
+					"isMaximized": false,
+					"isFullscreen": false
+				}
+			}
+		]
+	},
+	"appState": {
+		"zoomFactor": 1,
+		"theme": {
+			"mode": "light",
+			"colors": {
+				"white": "white",
+				"blue": "#2383E2"
+			},
+			"borderRadius": 4,
+			"textColor": "rgba(55, 53, 47, 1)",
+			"popoverBackgroundColor": "white",
+			"popoverBoxShadow": "\n\t\t\t\t\t 0 0 0 1px rgba(15,15,15,.05),\n\t\t\t\t\t 0 3px 6px rgba(15,15,15,.1),\n\t\t\t\t\t 0 9px 24px rgba(15,15,15,.2)\n\t\t\t\t",
+			"inputBoxShadow": "\n\t\t\t\t\tinset 0 0 0 1px rgba(15,15,15,.1)\n\t\t\t\t",
+			"inputBackgroundColor": "rgba(242,241,238,0.6)",
+			"dividerColor": "rgba(55,53,47,.16)",
+			"shadowOpacity": 0.1
+		},
+		"preferences": {
+			"isClosingBrowserTabs": false,
+			"isHardwareAccelerationDisabled": false,
+			"updaterChannel": null,
+			"isQuickSearchEnabled": true,
+			"isAutoUpdaterDisabled": false,
+			"isOpenAtLoginEnabled": false,
+			"isHideLastWindowOnCloseEnabled": true,
+			"quickSearchReleaseFlag": true,
+			"quickSearchShortcut": "shift+ctrl+k",
+			"isMenuBarIconEnabled": true
+		}
+	}
+}

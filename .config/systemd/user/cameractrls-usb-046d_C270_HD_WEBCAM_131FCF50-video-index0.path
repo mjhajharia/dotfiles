@@ -1,0 +1,8 @@
+[Unit]
+Description=Watch /dev/v4l/by-id/usb-046d_C270_HD_WEBCAM_131FCF50-video-index0 and restore controls
+
+[Path]
+PathExists=/dev/v4l/by-id/usb-046d_C270_HD_WEBCAM_131FCF50-video-index0
+
+[Install]
+WantedBy=paths.target

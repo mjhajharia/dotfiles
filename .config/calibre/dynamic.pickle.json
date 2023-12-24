@@ -1,0 +1,24 @@
+{
+  "add fonts to calibre": "/home/meenaljhajharia/Athelas",
+  "database location dialog": "/home/meenaljhajharia/Dropbox/Calibre",
+  "sort_history": [
+    [
+      "authors",
+      true
+    ],
+    [
+      "title",
+      false
+    ],
+    [
+      "authors",
+      false
+    ],
+    [
+      "timestamp",
+      false
+    ]
+  ],
+  "welcome_wizard_device": "kindle_pw",
+  "welcome_wizard_was_run": true
+}

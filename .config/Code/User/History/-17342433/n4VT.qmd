@@ -1,0 +1,41 @@
+---
+title: "Funnel et al"
+author: ""
+date: ""
+format:
+  html:
+    code-fold: true
+execute: 
+  daemon: 99999
+  cache: false
+figures:
+  fig-format: png
+toc: false
+monobackgroundcolor: "#FFFFFF"
+mainfont: "Palatino Linotype"
+---
+
+```{julia}
+using Revise, DynamicHMC, PosteriorDB, Random, StanLogDensityProblems, JSON, BridgeStan, DataFrames, LinearAlgebra, StatsBase, Distributions
+using Plots, ColorSchemes, LaTeXStrings, Statistics, CSV, AdvancedHMC
+Plots.theme(:default)
+const BS = BridgeStan;
+```
+```{julia}
+fullpath = abspath∘expanduser
+BS.set_bridgestan_path!(fullpath("~/github/roualdes/bridgestan"))
+sm = BS.StanModel(stan_file="funnel.stan", data="data_funnel.json");
+# lp = StanProblem(bs_model);
+
+# D = 11;
+# initial_θ = rand(D);
+# n_samples, n_adapts = 2_000, 1_000;
+# metric = DiagEuclideanMetric(D);
+# hamiltonian = Hamiltonian(metric, lp);
+# initial_ϵ = find_good_stepsize(hamiltonian, initial_θ);
+# integrator = Leapfrog(initial_ϵ);
+# proposal = NUTS{MultinomialTS, GeneralisedNoUTurn}(integrator);
+# adaptor = StanHMCAdaptor(MassMatrixAdaptor(metric), StepSizeAdaptor(0.8, integrator));
+# sample(hamiltonian, proposal, initial_θ, n_samples, adaptor, n_adapts; progress=true);
+param_names(sm)
+```

@@ -1,0 +1,25 @@
+
+Host flatiron
+    Hostname gateway.flatironinstitute.org
+    Port 61022
+
+    #!!!CHANGE THIS!!! to your cluster username
+    User mjhajaria                  
+
+    ForwardX11 yes
+    # if you trust us (like -Y)
+    ForwardX11Trusted yes         
+
+    # if you want to use [[Public:Playbooks/ssh_as_a_socks_proxy]]
+    DynamicForward 127.0.0.1:61080
+
+    # allows you to connect from other windows without re-authenticating
+    ControlPath ~/.ssh/.%r@%h:%p
+    ControlMaster auto
+
+    # nudge the server every 100 seconds to keep the connection up
+    ServerAliveInterval 100        
+
+  Host Popeye
+    ProxyJump flatiron
+    Hostname popeye.flatironinstitute.org

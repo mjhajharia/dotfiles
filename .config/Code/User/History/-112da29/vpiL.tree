@@ -1,0 +1,12 @@
+The combined Jacobian determinant is
+\[
+  \absdet{J_{f^{-1}}} = \frac{1}{(N-1)!} \prod_{k=1}^{N-1} h(y_k).
+\]
+For the \emph{stick-breaking power-normal} transform,
+\[
+  h(y_i) = \mathcal{N}(y_i \mid 0, 1), \qquad H(y_i) = \invprobit(y_i),
+\]
+while for the \emph{stick-breaking power-logistic} transform,
+\[
+  h(y_i) = \mathrm{Logistic}(y_i \mid 0, 1), \qquad H(y_i) = \logistic(y_i).
+\]

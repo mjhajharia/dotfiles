@@ -1,0 +1,7 @@
+\title{Unconstraining Stickbreaking Transform}
+\tag{private}
+\author{meenaljhajharia}
+\texpackage{amsmath}
+
+\p{The inverse transformation #{f_1^{-1}} is ##{x_i = z_i \left( 1 - \sum_{k=1}^{i-1} x_k \right).}}
+   

@@ -1,0 +1,6 @@
+\title{Jacobian - Stickbreaking Transform}
+\tag{private}
+\author{meenaljhajharia}
+\texpackage{preamble}
+\import{basic-macros}
+\tex{The absolute determinant of the Jacobian of the constraining transformation is \displayeqn{E = mc^2}}

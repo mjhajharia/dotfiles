@@ -1,0 +1,40 @@
+2023-12-14 01:57:46.322 [info] [SharedProcess] using utility process
+2023-12-14 01:57:46.377 [info] update#setState idle
+2023-12-14 01:57:47.089 [info] [UtilityProcess type: shared-process, pid: <none>]: creating new...
+2023-12-14 01:57:47.097 [info] [UtilityProcess id: 1, type: fileWatcher, pid: <none>]: creating new...
+2023-12-14 01:57:47.143 [info] [UtilityProcess id: 1, type: extensionHost, pid: <none>]: creating new...
+2023-12-14 01:57:47.154 [info] [UtilityProcess type: shared-process, pid: 2762790]: successfully created
+2023-12-14 01:57:47.156 [info] [UtilityProcess id: 1, type: fileWatcher, pid: 2762800]: successfully created
+2023-12-14 01:57:47.157 [info] [UtilityProcess id: 1, type: extensionHost, pid: 2762801]: successfully created
+2023-12-14 01:58:16.378 [info] update#setState checking for updates
+2023-12-14 01:58:16.382 [info] update#setState available for download
+2023-12-14 03:23:41.873 [info] [UtilityProcess id: 2, type: fileWatcher, pid: <none>]: creating new...
+2023-12-14 03:23:41.882 [info] [UtilityProcess id: 2, type: fileWatcher, pid: 2892023]: successfully created
+2023-12-14 03:23:41.937 [info] [UtilityProcess id: 2, type: extensionHost, pid: <none>]: creating new...
+2023-12-14 03:23:41.946 [info] [UtilityProcess id: 2, type: extensionHost, pid: 2892034]: successfully created
+2023-12-14 03:23:55.250 [info] [UtilityProcess id: 2, type: fileWatcher, pid: 2892023]: attempting to kill the process...
+2023-12-14 03:23:55.251 [info] [UtilityProcess id: 2, type: fileWatcher, pid: 2892023]: successfully killed the process
+2023-12-14 03:23:55.251 [info] [UtilityProcess id: 2, type: extensionHost, pid: 2892034]: received exit event with code 0
+2023-12-14 03:23:55.252 [info] Extension host with pid 2892034 exited with code: 0, signal: unknown.
+2023-12-14 03:23:55.258 [info] [UtilityProcess id: 2, type: fileWatcher, pid: 2892023]: received exit event with code 15
+2023-12-14 03:23:55.259 [error] [UtilityProcessWorker]: terminated unexpectedly with code 15, signal: unknown
+2023-12-14 03:23:55.259 [error] [UtilityProcess id: 2, type: fileWatcher, pid: 2892023]: crashed with code 15 and reason 'killed'
+2023-12-14 03:23:55.921 [info] [UtilityProcess id: 2, type: fileWatcher, pid: <none>]: creating new...
+2023-12-14 03:23:55.929 [info] [UtilityProcess id: 3, type: extensionHost, pid: <none>]: creating new...
+2023-12-14 03:23:55.939 [info] [UtilityProcess id: 2, type: fileWatcher, pid: 2892394]: successfully created
+2023-12-14 03:23:55.940 [info] [UtilityProcess id: 3, type: extensionHost, pid: 2892395]: successfully created
+2023-12-14 06:12:55.342 [info] [UtilityProcess id: 1, type: extensionHost, pid: 2762801]: received exit event with code 0
+2023-12-14 06:12:55.342 [info] Extension host with pid 2762801 exited with code: 0, signal: unknown.
+2023-12-14 06:12:55.368 [info] [UtilityProcess id: 1, type: fileWatcher, pid: 2762800]: attempting to kill the process...
+2023-12-14 06:12:55.368 [info] [UtilityProcess id: 1, type: fileWatcher, pid: 2762800]: successfully killed the process
+2023-12-14 06:12:55.371 [error] Blocked vscode-file request vscode-file://vscode-app/home/meenaljhajharia/opt/VSCode-linux-x64/resources/app/out/vs/base/worker/workerMain.js#editorWorkerService
+2023-12-14 06:12:55.378 [info] [UtilityProcess id: 1, type: fileWatcher, pid: 2762800]: received exit event with code 15
+2023-12-14 06:12:55.378 [error] [UtilityProcessWorker]: terminated unexpectedly with code 15, signal: unknown
+2023-12-14 06:12:55.378 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 2762800]: crashed with code 15 and reason 'killed'
+2023-12-14 06:12:57.538 [info] [UtilityProcess id: 3, type: extensionHost, pid: 2892395]: received exit event with code 0
+2023-12-14 06:12:57.538 [info] Extension host with pid 2892395 exited with code: 0, signal: unknown.
+2023-12-14 06:12:57.545 [info] [UtilityProcess id: 2, type: fileWatcher, pid: 2892394]: attempting to kill the process...
+2023-12-14 06:12:57.545 [info] [UtilityProcess id: 2, type: fileWatcher, pid: 2892394]: successfully killed the process
+2023-12-14 06:12:57.562 [info] [UtilityProcess id: 2, type: fileWatcher, pid: 2892394]: received exit event with code 15
+2023-12-14 06:12:57.562 [error] [UtilityProcessWorker]: terminated unexpectedly with code 15, signal: unknown
+2023-12-14 06:12:57.562 [error] [UtilityProcess id: 2, type: fileWatcher, pid: 2892394]: crashed with code 15 and reason 'killed'

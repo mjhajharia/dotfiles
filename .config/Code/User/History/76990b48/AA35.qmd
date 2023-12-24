@@ -1,0 +1,97 @@
+---
+title: "Comparing Whitening Transforms"
+author: ""
+date: ""
+format:
+  html:
+    code-fold: true
+execute: 
+  daemon: 99999
+  cache: false
+toc: true
+
+monobackgroundcolor: "#FFFFFF"
+mainfont: "Palatino Linotype"
+---
+
+## Eight Schools Model
+```{julia}
+using Revise, CSV, Plots, ColorSchemes, LaTeXStrings, LinearAlgebra, DataFrames
+
+cholesky_hessian_df=CSV.read("cholesky_ref_draws_centered_julia_df.csv", DataFrame);
+cholesky_hessian_df_nc=CSV.read("cholesky_ref_draws_non_centered_julia_df.csv", DataFrame);
+
+ZCA_hessian_df=CSV.read("zca_ref_draws_centered_julia_df.csv", DataFrame);
+ZCA_hessian_df_nc=CSV.read("zca_ref_draws_non_centered_julia_df.csv",DataFrame );
+
+PCA_hessian_df=CSV.read("pca_ref_draws_centered_julia_df.csv", DataFrame);
+PCA_hessian_df_nc=CSV.read("pca_ref_draws_non_centered_julia_df.csv", DataFrame);
+```
+
+- Covariance Matrix: $\Sigma$
+- Eigendecomposition: $\Sigma = U\Lambda U^{H}$ , where $U$ ,  $\Lambda$ consist of eigenvectors and eigenvalues of $\Sigma$ .
+- Cholesky Decomposition: $\Sigma^{-1} = LL^{H}$ , where ^{ H} is the conjugate transpose or adjoint, for real matrices this is just $^{T}$
+- Also, $\Sigma^{-1} = U \Lambda^{-1} U^{-1}$
+- Now the unique inverse matrix square root of $\Sigma$ is defined as  $\Sigma^{−\frac{1}{2}} = U\Lambda^{-\frac{1}{2}}U^{T}$
+- For a whitening matrix $W$ , the Transformed Hessian is constructed as $H_{T} = W^{T}HW$
+
+- $W_{ZCA} = \Sigma^{−\frac{1}{2}}$ , can also be rewritten as $(\Sigma^{\frac{1}{2}} L) L^{T}$ (QR Decomposition)
+- $W_{PCA} = \Lambda^{-\frac{1}{2}}U^{T}$
+- $W_{Cholesky} = L^{T}$
+
+Note: Singular Value, Eigenvalue, Orthogonal and Schur Decomposition are equivalent for Symmetric matrices, if eigenvectors are defined only up to a sign
+
+
+```{julia}
+scatter(cholesky_hessian_df[:, :CN_Hessian], cholesky_hessian_df[:, :CN_Transformed_Hessian], xaxis=:log, yaxis=:log, alpha=0.1, label="Centered", font="Palatino Linotype")
+scatter!(cholesky_hessian_df_nc[:, :CN_Hessian], cholesky_hessian_df_nc[:, :CN_Transformed_Hessian], xaxis=:log, yaxis=:log, alpha=0.1, label="Non Centered")
+
+xaxis!(L"\mathrm{\kappa(\mathbf{H})}")
+yaxis!(L"\mathrm{\kappa(\mathbf{H_{T}})}")
+title!("Cholesky Whitening\n\n Condition Number of Hessian vs Transformed Hessian (on a log scale)")
+plot!(titlefontsize=10)
+plot!(fontfamily="Palatino")
+```
+
+
+```{julia}
+scatter(ZCA_hessian_df[:, :CN_Hessian], ZCA_hessian_df[:, :CN_Transformed_Hessian], xaxis=:log, yaxis=:log, alpha=0.1, label="Centered", font="Palatino Linotype")
+scatter!(ZCA_hessian_df_nc[:, :CN_Hessian], ZCA_hessian_df_nc[:, :CN_Transformed_Hessian], xaxis=:log, yaxis=:log, alpha=0.1, label="Non Centered")
+
+xaxis!(L"\mathrm{\kappa(\mathbf{H})}")
+yaxis!(L"\mathrm{\kappa(\mathbf{H_{T}})}")
+title!("ZCA Whitening\n\n Condition Number of Hessian vs Transformed Hessian (on a log scale)")
+plot!(titlefontsize=10)
+plot!(fontfamily="Palatino")
+```
+
+```{julia}
+scatter(PCA_hessian_df[:, :CN_Hessian], PCA_hessian_df[:, :CN_Transformed_Hessian], xaxis=:log, yaxis=:log, alpha=0.1, label="Centered", font="Palatino Linotype")
+scatter!(PCA_hessian_df_nc[:, :CN_Hessian], PCA_hessian_df_nc[:, :CN_Transformed_Hessian], xaxis=:log, yaxis=:log, alpha=0.1, label="Non Centered")
+
+xaxis!(L"\mathrm{\kappa(\mathbf{H})}")
+yaxis!(L"\mathrm{\kappa(\mathbf{H_{T}})}")
+title!("PCA Whitening\n\n Condition Number of Hessian vs Transformed Hessian (on a log scale)")
+plot!(titlefontsize=10)
+plot!(fontfamily="Palatino")
+```
+
+```{julia}
+scatter(PCA_hessian_df[:, :CN_Hessian], PCA_hessian_df[:, :CN_Transformed_Hessian], xaxis=:log, yaxis=:log, alpha=0.1, label="PCA", font="Palatino Linotype")
+scatter!(ZCA_hessian_df[:, :CN_Hessian], ZCA_hessian_df[:, :CN_Transformed_Hessian], xaxis=:log, yaxis=:log, alpha=0.1, label="ZCA", font="Palatino Linotype")
+scatter!(cholesky_hessian_df[:, :CN_Hessian], cholesky_hessian_df[:, :CN_Transformed_Hessian], xaxis=:log, yaxis=:log, alpha=0.1, label="Cholesky", font="Palatino Linotype")
+xaxis!(L"\mathrm{\kappa(\mathbf{H})}")
+yaxis!(L"\mathrm{\kappa(\mathbf{H_{T}})}")
+title!("Centered Model\n\n Condition Number of Hessian vs Transformed Hessian (on a log scale)")
+plot!(titlefontsize=10,fontfamily="Palatino")
+```
+
+```{julia}
+scatter(PCA_hessian_df_nc[:, :CN_Hessian], PCA_hessian_df_nc[:, :CN_Transformed_Hessian], xaxis=:log, yaxis=:log, alpha=0.1, label="PCA", font="Palatino Linotype")
+scatter!(ZCA_hessian_df_nc[:, :CN_Hessian], ZCA_hessian_df_nc[:, :CN_Transformed_Hessian], xaxis=:log, yaxis=:log, alpha=0.1, label="ZCA", font="Palatino Linotype")
+scatter!(cholesky_hessian_df_nc[:, :CN_Hessian], cholesky_hessian_df_nc[:, :CN_Transformed_Hessian], xaxis=:log, yaxis=:log, alpha=0.1, label="Cholesky", font="Palatino Linotype")
+xaxis!(L"\mathrm{\kappa(\mathbf{H})}")
+yaxis!(L"\mathrm{\kappa(\mathbf{H_{T}})}")
+title!("Non-Centered Model\n\n Condition Number of Hessian vs Transformed Hessian (on a log scale)")
+plot!(titlefontsize=10,fontfamily="Palatino")
+```

@@ -1,0 +1,13 @@
+\title{Jacobian - Isometric Log Ratio Transform}
+\tag{private}
+\author{meenaljhajharia}
+\texpackage{preamble}
+\import{basic-macros}
+
+\p{Given a density #{p_X(x)} defined over simplices #{x \in \simplex{N-1}},
+we can transform it to a density over unconstrained parameters #{y \in
+\R^{N-1}} by applying the inverse ILR transformation and adjusting
+for the change of variables, which yields
+##{
+  p_Y(y) = p_X(\textrm{ilr}^{-1}(y)) \absdet{\jac_{s}(y)},
+}}

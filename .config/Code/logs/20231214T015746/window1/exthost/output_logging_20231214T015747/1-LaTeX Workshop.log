@@ -1,0 +1,683 @@
+[01:57:47.827][Logger] New log placeholder %WS1% registered for /home/meenaljhajharia/Dropbox/Journal .
+[01:57:47.827][Server] Creating LaTeX Workshop http and websocket server.
+[01:57:47.921][Server] Server successfully started: {"address":"127.0.0.1","family":"IPv4","port":34477} .
+[01:57:47.965][Extension] Initializing LaTeX Workshop.
+[01:57:47.965][Extension] Extension root: /home/meenaljhajharia/.vscode/extensions/james-yu.latex-workshop-9.15.3
+[01:57:47.965][Extension] $PATH: /usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/var/lib/flatpak/exports/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin:/home/meenaljhajharia/bin:/usr/local/texlive/2023/bin/x86_64-linux:/home/meenaljhajharia/bin
+[01:57:47.965][Extension] $SHELL: /usr/bin/zsh
+[01:57:47.965][Extension] $LANG: C.UTF-8
+[01:57:47.966][Extension] $LC_ALL: undefined
+[01:57:47.966][Extension] process.platform: linux
+[01:57:47.966][Extension] process.arch: x64
+[01:57:47.967][Extension] vscode.env.appName: Visual Studio Code
+[01:57:47.967][Extension] vscode.env.remoteName: undefined
+[01:57:47.967][Extension] vscode.env.uiKind: 1
+[01:57:48.023][Extension] LaTeX Workshop initialized.
+[01:57:48.031][Format][Bib] Bibtex format config: {"tab":"  ","case":"lowercase","left":"{","right":"}","trailingComma":false,"sort":["key"],"alignOnEqual":true,"sortFields":false,"fieldsOrder":[],"firstEntries":["string","xdata"]}
+[01:57:48.032][Extension] Trigger characters for intellisense of LaTeX documents: ["\\",",","{"]
+[01:57:48.034][Root] Current workspace folders: ["file://%WS1%"]
+[01:57:48.035][Root] Found root file from active editor: %WS1%/main.tex
+[01:57:48.036][Root] Root file changed: from %WS1%/main.tex to %WS1%/main.tex, langID latex . Refresh dependencies
+[01:57:48.036][Event] ROOT_FILE_CHANGED: "%WS1%/main.tex"
+[01:57:48.037][Cacher][Watcher] Reset.
+[01:57:48.037][Cacher][Watcher] Reset.
+[01:57:48.037][Cacher][Watcher] Reset.
+[01:57:48.040][Cacher] Adding %WS1%/main.tex .
+[01:57:48.041][Cacher][Watcher] Watched %WS1%/main.tex with a new watcher on %WS1% .
+[01:57:48.041][Event] FILE_WATCHED: "%WS1%/main.tex"
+[01:57:48.043][Cacher] Caching %WS1%/main.tex .
+[01:57:48.045][Cacher] Updated inputs of %WS1%/main.tex .
+[01:57:48.045][Cacher] Parse LaTeX AST: %WS1%/main.tex .
+[01:57:48.046][Event] ROOT_FILE_SEARCHED
+[01:57:48.142][Cacher] Parsed LaTeX AST: %WS1%/main.tex .
+[01:57:48.143][File] Calling kpsewhich to resolve tufte-handout.cls .
+[01:57:48.290][Cacher] Bib %WS1%/references.bib from %WS1%/main.tex .
+[01:57:48.291][Intelli][Citation] Parsing .bib entries from %WS1%/references.bib
+[01:57:48.293][Intelli][Citation] Parse BibTeX AST from %WS1%/references.bib .
+[01:57:48.293][Cacher][Watcher] Watched %WS1%/references.bib with a new watcher on %WS1% .
+[01:57:48.294][Event] FILE_WATCHED: "%WS1%/references.bib"
+[01:57:48.294][Cacher] Updated elements in 151.47 ms: %WS1%/main.tex .
+[01:57:48.295][Event] FILE_PARSED: "%WS1%/main.tex"
+[01:57:48.296][Cacher] Parsing .fls %WS1%/main.fls .
+[01:57:48.305][Cacher] Adding %WS1%/tufte-handout.cls .
+[01:57:48.305][Cacher][Watcher] Watched %WS1%/tufte-handout.cls .
+[01:57:48.306][Event] FILE_WATCHED: "%WS1%/tufte-handout.cls"
+[01:57:48.338][Cacher] Adding %WS1%/2023/December/13.tex .
+[01:57:48.339][Cacher][Watcher] Watched %WS1%/2023/December/13.tex with a new watcher on %WS1%/2023/December .
+[01:57:48.339][Event] FILE_WATCHED: "%WS1%/2023/December/13.tex"
+[01:57:48.340][Cacher] Found %WS1%/2023/December/13.tex from .fls %WS1%/main.fls , caching.
+[01:57:48.341][Cacher] Caching %WS1%/2023/December/13.tex .
+[01:57:48.341][Cacher] Updated inputs of %WS1%/2023/December/13.tex .
+[01:57:48.342][Cacher] Parse LaTeX AST: %WS1%/2023/December/13.tex .
+[01:57:48.343][Cacher] Adding %WS1%/2023/December/4.tex .
+[01:57:48.343][Cacher][Watcher] Watched %WS1%/2023/December/4.tex .
+[01:57:48.344][Event] FILE_WATCHED: "%WS1%/2023/December/4.tex"
+[01:57:48.344][Cacher] Found %WS1%/2023/December/4.tex from .fls %WS1%/main.fls , caching.
+[01:57:48.345][Cacher] Caching %WS1%/2023/December/4.tex .
+[01:57:48.346][Cacher] Updated inputs of %WS1%/2023/December/4.tex .
+[01:57:48.346][Cacher] Parse LaTeX AST: %WS1%/2023/December/4.tex .
+[01:57:48.347][Cacher] Adding %WS1%/2023/December/1.tex .
+[01:57:48.348][Cacher][Watcher] Watched %WS1%/2023/December/1.tex .
+[01:57:48.348][Event] FILE_WATCHED: "%WS1%/2023/December/1.tex"
+[01:57:48.348][Cacher] Found %WS1%/2023/December/1.tex from .fls %WS1%/main.fls , caching.
+[01:57:48.349][Cacher] Caching %WS1%/2023/December/1.tex .
+[01:57:48.350][Cacher] Updated inputs of %WS1%/2023/December/1.tex .
+[01:57:48.351][Cacher] Parse LaTeX AST: %WS1%/2023/December/1.tex .
+[01:57:48.353][Cacher] Adding %WS1%/2023/November/1.tex .
+[01:57:48.354][Cacher][Watcher] Watched %WS1%/2023/November/1.tex with a new watcher on %WS1%/2023/November .
+[01:57:48.354][Event] FILE_WATCHED: "%WS1%/2023/November/1.tex"
+[01:57:48.354][Cacher] Found %WS1%/2023/November/1.tex from .fls %WS1%/main.fls , caching.
+[01:57:48.355][Cacher] Caching %WS1%/2023/November/1.tex .
+[01:57:48.356][Cacher] Updated inputs of %WS1%/2023/November/1.tex .
+[01:57:48.356][Cacher] Parse LaTeX AST: %WS1%/2023/November/1.tex .
+[01:57:48.357][Cacher] Adding %WS1%/2023/October/25.tex .
+[01:57:48.358][Cacher][Watcher] Watched %WS1%/2023/October/25.tex with a new watcher on %WS1%/2023/October .
+[01:57:48.358][Event] FILE_WATCHED: "%WS1%/2023/October/25.tex"
+[01:57:48.359][Cacher] Found %WS1%/2023/October/25.tex from .fls %WS1%/main.fls , caching.
+[01:57:48.359][Cacher] Caching %WS1%/2023/October/25.tex .
+[01:57:48.360][Cacher] Updated inputs of %WS1%/2023/October/25.tex .
+[01:57:48.360][Cacher] Parse LaTeX AST: %WS1%/2023/October/25.tex .
+[01:57:48.362][Cacher] Adding %WS1%/static/masakali.png .
+[01:57:48.362][Cacher][Watcher] Watched %WS1%/static/masakali.png with a new watcher on %WS1%/static .
+[01:57:48.363][Event] FILE_WATCHED: "%WS1%/static/masakali.png"
+[01:57:48.364][Cacher] Adding %WS1%/books.tex .
+[01:57:48.364][Cacher][Watcher] Watched %WS1%/books.tex .
+[01:57:48.364][Event] FILE_WATCHED: "%WS1%/books.tex"
+[01:57:48.365][Cacher] Found %WS1%/books.tex from .fls %WS1%/main.fls , caching.
+[01:57:48.365][Cacher] Caching %WS1%/books.tex .
+[01:57:48.366][Cacher] Updated inputs of %WS1%/books.tex .
+[01:57:48.366][Cacher] Parse LaTeX AST: %WS1%/books.tex .
+[01:57:48.367][Cacher] Found .aux %WS1%/main.tex from .fls %WS1%/main.fls , parsing.
+[01:57:48.368][Cacher] Parsed .aux %WS1%/main.tex .
+[01:57:48.368][Cacher] Parsed .fls %WS1%/main.fls .
+[01:57:48.370][Intelli][Citation] Parsed 1 bib entries from %WS1%/references.bib .
+[01:57:48.371][Event] FILE_PARSED: "%WS1%/references.bib"
+[01:57:48.374][Server] valdOrigin is http://127.0.0.1:34477
+[01:57:48.413][Cacher] Parsed LaTeX AST: %WS1%/2023/December/13.tex .
+[01:57:48.414][Cacher] Updated elements in 0.82 ms: %WS1%/2023/December/13.tex .
+[01:57:48.415][Event] FILE_PARSED: "%WS1%/2023/December/13.tex"
+[01:57:48.422][Cacher] Parsed LaTeX AST: %WS1%/2023/December/4.tex .
+[01:57:48.422][Cacher] Updated elements in 0.35 ms: %WS1%/2023/December/4.tex .
+[01:57:48.423][Event] FILE_PARSED: "%WS1%/2023/December/4.tex"
+[01:57:48.636][Cacher] Parsed LaTeX AST: %WS1%/2023/December/1.tex .
+[01:57:48.653][Cacher] Updated elements in 15.50 ms: %WS1%/2023/December/1.tex .
+[01:57:48.654][Event] FILE_PARSED: "%WS1%/2023/December/1.tex"
+[01:57:49.163][Cacher] Parsed LaTeX AST: %WS1%/2023/November/1.tex .
+[01:57:49.165][Cacher] Updated elements in 2.05 ms: %WS1%/2023/November/1.tex .
+[01:57:49.166][Event] FILE_PARSED: "%WS1%/2023/November/1.tex"
+[01:57:49.303][Cacher] Parsed LaTeX AST: %WS1%/2023/October/25.tex .
+[01:57:49.308][Cacher] Updated elements in 4.22 ms: %WS1%/2023/October/25.tex .
+[01:57:49.309][Event] FILE_PARSED: "%WS1%/2023/October/25.tex"
+[01:57:49.310][Cacher] Parsed LaTeX AST: %WS1%/books.tex .
+[01:57:49.311][Cacher] Updated elements in 0.15 ms: %WS1%/books.tex .
+[01:57:49.311][Event] FILE_PARSED: "%WS1%/books.tex"
+[01:57:49.312][Structure] Structure force updated with 0 root sections for %WS1%/main.tex .
+[01:57:49.312][Structure] Structure force updated with 0 root sections for %WS1%/main.tex .
+[01:57:49.313][Event] STRUCTURE_UPDATED
+[01:57:49.313][Event] STRUCTURE_UPDATED
+[01:57:49.315][Structure] Structure force updated with 0 root sections for %WS1%/main.tex .
+[01:57:49.315][Event] STRUCTURE_UPDATED
+[01:57:52.195][Viewer][Panel] Internal PDF viewer at http://127.0.0.1:34477/viewer.html?file=pdf..ZmlsZSUzQSUyRiUyRiUyRmhvbWUlMkZtZWVuYWxqaGFqaGFyaWElMkZEcm9wYm94JTJGSm91cm5hbCUyRm1haW4ucGRm .
+[01:57:52.196][Cacher][Watcher] Watched %WS1%/main.pdf with a new watcher on %WS1% .
+[01:57:52.196][Event] FILE_WATCHED: "%WS1%/main.pdf"
+[01:57:52.423][Viewer] Handle data type: open
+[01:57:52.482][Server] Preview PDF file: file://%WS1%/main.pdf
+[01:57:52.614][Viewer] Handle data type: loaded
+[01:57:52.614][Event] VIEWER_PAGE_LOADED
+[01:57:53.264][Event] STRUCTURE_UPDATED
+[01:57:57.203][Commander] VIEW command invoked with mode: file://%WS1%/main.tex.
+[01:57:57.203][Root] Current workspace folders: ["file://%WS1%"]
+[01:57:57.203][Root] Found root file from active editor: %WS1%/main.tex
+[01:57:57.204][Root] Keep using the same root file: %WS1%/main.tex
+[01:57:57.204][Event] ROOT_FILE_SEARCHED
+[01:57:57.204][Event] STRUCTURE_UPDATED
+[01:57:57.274][Viewer][Panel] Internal PDF viewer at http://127.0.0.1:34477/viewer.html?file=pdf..ZmlsZSUzQSUyRiUyRiUyRmhvbWUlMkZtZWVuYWxqaGFqaGFyaWElMkZEcm9wYm94JTJGSm91cm5hbCUyRm1haW4ucGRm .
+[01:57:57.274][Cacher][Watcher] Watched %WS1%/main.pdf .
+[01:57:57.275][Event] FILE_WATCHED: "%WS1%/main.pdf"
+[01:57:57.293][Viewer] Open PDF tab for file://%WS1%/main.pdf
+[01:57:57.466][Viewer] Handle data type: open
+[01:57:57.533][Server] Preview PDF file: file://%WS1%/main.pdf
+[01:57:57.638][Viewer] Handle data type: loaded
+[01:57:57.638][Event] VIEWER_PAGE_LOADED
+[01:58:04.197][Root] Current workspace folders: ["file://%WS1%"]
+[01:58:04.217][Root] Keep using the same root file: %WS1%/main.tex
+[01:58:04.218][Event] ROOT_FILE_SEARCHED
+[01:58:04.218][Event] STRUCTURE_UPDATED
+[01:58:04.219][Event] STRUCTURE_UPDATED
+[01:58:20.424][Extension] onDidSaveTextDocument triggered: file://%WS1%/2023/December/13.tex
+[01:58:20.487][Cacher][Watcher] "change" emitted on %WS1%/2023/December/13.tex.
+[01:58:20.489][Cacher] Caching %WS1%/2023/December/13.tex .
+[01:58:20.490][Cacher] Updated inputs of %WS1%/2023/December/13.tex .
+[01:58:20.490][Cacher] Parse LaTeX AST: %WS1%/2023/December/13.tex .
+[01:58:20.490][Build] Auto build starteddetecting the change of a file: %WS1%/2023/December/13.tex .
+[01:58:20.490][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/2023/December/13.tex"}
+[01:58:20.491][Build] The document of the active editor: file://%WS1%/2023/December/13.tex
+[01:58:20.491][Build] The languageId of the document: latex
+[01:58:20.491][Build] Building root file: %WS1%/main.tex
+[01:58:20.491][Build][Recipe] Build root file %WS1%/main.tex
+[01:58:20.492][Event] FILE_CHANGED: "%WS1%/2023/December/13.tex"
+[01:58:20.493][Build][Recipe] Preparing to run recipe: latexmk.
+[01:58:20.494][Build][Recipe] Prepared 1 tools.
+[01:58:20.516][Build][Recipe] outDir: %WS1% .
+[01:58:20.519][Build] Recipe step 1 The command is latexmk:["-synctex=1","-interaction=nonstopmode","-file-line-error","-pdf","-outdir=%WS1%","%WS1%/main"].
+[01:58:20.519][Build] env: {}
+[01:58:20.519][Build] root: %WS1%/main.tex
+[01:58:20.519][Build] cwd: %WS1%
+[01:58:20.533][Build] LaTeX build process spawned with PID 2763797.
+[01:58:20.536][Cacher] Parsed LaTeX AST: %WS1%/2023/December/13.tex .
+[01:58:20.538][Cacher] Updated elements in 0.88 ms: %WS1%/2023/December/13.tex .
+[01:58:20.538][Event] FILE_PARSED: "%WS1%/2023/December/13.tex"
+[01:58:20.539][Structure] Structure force updated with 0 root sections for %WS1%/main.tex .
+[01:58:20.540][Event] STRUCTURE_UPDATED
+[01:58:33.750][Parser][BibTeXLog] Logged 1 messages.
+[01:58:33.758][Parser][TexLog] Logged 31 messages.
+[01:58:33.759][Build] Finished a step in recipe with PID 2763797.
+[01:58:33.760][Build] Successfully built %WS1%/main.tex .
+[01:58:33.760][Event] BUILD_DONE
+[01:58:33.760][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[01:58:33.761][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[01:58:33.763][Cacher] Parsing .fls %WS1%/main.fls .
+[01:58:33.779][Cacher] Adding /home/meenaljhajharia/texmf/tex/generic/pgf/utilities/pgfutil-common.tex .
+[01:58:33.780][Cacher][Watcher] Watched /home/meenaljhajharia/texmf/tex/generic/pgf/utilities/pgfutil-common.tex with a new watcher on /home/meenaljhajharia/texmf/tex/generic/pgf/utilities .
+[01:58:33.780][Event] FILE_WATCHED: "/home/meenaljhajharia/texmf/tex/generic/pgf/utilities/pgfutil-common.tex"
+[01:58:33.781][Cacher] Found /home/meenaljhajharia/texmf/tex/generic/pgf/utilities/pgfutil-common.tex from .fls %WS1%/main.fls , caching.
+[01:58:33.781][Cacher] Caching /home/meenaljhajharia/texmf/tex/generic/pgf/utilities/pgfutil-common.tex .
+[01:58:33.782][Cacher] Updated inputs of /home/meenaljhajharia/texmf/tex/generic/pgf/utilities/pgfutil-common.tex .
+[01:58:33.783][Cacher] Parse LaTeX AST: /home/meenaljhajharia/texmf/tex/generic/pgf/utilities/pgfutil-common.tex .
+[01:58:33.784][Cacher] Adding /home/meenaljhajharia/texmf/tex/generic/pgf/pgf.revision.tex .
+[01:58:33.784][Cacher][Watcher] Watched /home/meenaljhajharia/texmf/tex/generic/pgf/pgf.revision.tex with a new watcher on /home/meenaljhajharia/texmf/tex/generic/pgf .
+[01:58:33.785][Event] FILE_WATCHED: "/home/meenaljhajharia/texmf/tex/generic/pgf/pgf.revision.tex"
+[01:58:33.785][Cacher] Found /home/meenaljhajharia/texmf/tex/generic/pgf/pgf.revision.tex from .fls %WS1%/main.fls , caching.
+[01:58:33.786][Cacher] Caching /home/meenaljhajharia/texmf/tex/generic/pgf/pgf.revision.tex .
+[01:58:33.786][Cacher] Updated inputs of /home/meenaljhajharia/texmf/tex/generic/pgf/pgf.revision.tex .
+[01:58:33.787][Cacher] Parse LaTeX AST: /home/meenaljhajharia/texmf/tex/generic/pgf/pgf.revision.tex .
+[01:58:33.795][Cacher] Adding /home/meenaljhajharia/.texlive2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map .
+[01:58:33.796][Cacher][Watcher] Watched /home/meenaljhajharia/.texlive2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map with a new watcher on /home/meenaljhajharia/.texlive2023/texmf-var/fonts/map/pdftex/updmap .
+[01:58:33.796][Event] FILE_WATCHED: "/home/meenaljhajharia/.texlive2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map"
+[01:58:33.799][Cacher] Found .aux %WS1%/main.tex from .fls %WS1%/main.fls , parsing.
+[01:58:33.800][Cacher] Parsed .aux %WS1%/main.tex .
+[01:58:33.800][Cacher] Parsed .fls %WS1%/main.fls .
+[01:58:33.883][Server] Preview PDF file: file://%WS1%/main.pdf
+[01:58:33.966][Viewer] Handle data type: loaded
+[01:58:33.967][Event] VIEWER_PAGE_LOADED
+[01:58:33.999][Cacher] Parsed LaTeX AST: /home/meenaljhajharia/texmf/tex/generic/pgf/utilities/pgfutil-common.tex .
+[01:58:34.006][Cacher] Updated elements in 7.15 ms: /home/meenaljhajharia/texmf/tex/generic/pgf/utilities/pgfutil-common.tex .
+[01:58:34.007][Event] FILE_PARSED: "/home/meenaljhajharia/texmf/tex/generic/pgf/utilities/pgfutil-common.tex"
+[01:58:34.008][Cacher] Parsed LaTeX AST: /home/meenaljhajharia/texmf/tex/generic/pgf/pgf.revision.tex .
+[01:58:34.008][Cacher] Updated elements in 0.10 ms: /home/meenaljhajharia/texmf/tex/generic/pgf/pgf.revision.tex .
+[01:58:34.008][Event] FILE_PARSED: "/home/meenaljhajharia/texmf/tex/generic/pgf/pgf.revision.tex"
+[01:58:34.009][Structure] Structure force updated with 0 root sections for %WS1%/main.tex .
+[01:58:34.009][Event] STRUCTURE_UPDATED
+[01:59:34.647][Extension] onDidSaveTextDocument triggered: file://%WS1%/2023/December/13.tex
+[01:59:34.709][Cacher][Watcher] "change" emitted on %WS1%/2023/December/13.tex.
+[01:59:34.710][Cacher] Caching %WS1%/2023/December/13.tex .
+[01:59:34.710][Cacher] Updated inputs of %WS1%/2023/December/13.tex .
+[01:59:34.710][Cacher] Parse LaTeX AST: %WS1%/2023/December/13.tex .
+[01:59:34.710][Build] Auto build starteddetecting the change of a file: %WS1%/2023/December/13.tex .
+[01:59:34.711][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/2023/December/13.tex"}
+[01:59:34.711][Build] The document of the active editor: file://%WS1%/2023/December/13.tex
+[01:59:34.711][Build] The languageId of the document: latex
+[01:59:34.711][Build] Building root file: %WS1%/main.tex
+[01:59:34.711][Build][Recipe] Build root file %WS1%/main.tex
+[01:59:34.712][Event] FILE_CHANGED: "%WS1%/2023/December/13.tex"
+[01:59:34.713][Build][Recipe] Preparing to run recipe: latexmk.
+[01:59:34.714][Build][Recipe] Prepared 1 tools.
+[01:59:34.714][Build][Recipe] outDir: %WS1% .
+[01:59:34.715][Build] Recipe step 1 The command is latexmk:["-synctex=1","-interaction=nonstopmode","-file-line-error","-pdf","-outdir=%WS1%","%WS1%/main"].
+[01:59:34.716][Build] env: {}
+[01:59:34.716][Build] root: %WS1%/main.tex
+[01:59:34.716][Build] cwd: %WS1%
+[01:59:34.730][Build] LaTeX build process spawned with PID 2765522.
+[01:59:34.755][Cacher] Parsed LaTeX AST: %WS1%/2023/December/13.tex .
+[01:59:34.757][Cacher] Updated elements in 1.53 ms: %WS1%/2023/December/13.tex .
+[01:59:34.758][Event] FILE_PARSED: "%WS1%/2023/December/13.tex"
+[01:59:34.760][Structure] Structure force updated with 0 root sections for %WS1%/main.tex .
+[01:59:34.760][Event] STRUCTURE_UPDATED
+[01:59:41.160][Parser][TexLog] Logged 31 messages.
+[01:59:41.161][Build] Finished a step in recipe with PID 2765522.
+[01:59:41.162][Build] Successfully built %WS1%/main.tex .
+[01:59:41.162][Event] BUILD_DONE
+[01:59:41.162][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[01:59:41.162][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[01:59:41.163][Cacher] Parsing .fls %WS1%/main.fls .
+[01:59:41.180][Cacher] Found .aux %WS1%/main.tex from .fls %WS1%/main.fls , parsing.
+[01:59:41.180][Cacher] Parsed .aux %WS1%/main.tex .
+[01:59:41.181][Cacher] Parsed .fls %WS1%/main.fls .
+[01:59:41.238][Server] Preview PDF file: file://%WS1%/main.pdf
+[01:59:41.319][Viewer] Handle data type: loaded
+[01:59:41.319][Event] VIEWER_PAGE_LOADED
+[01:59:55.876][Extension] onDidSaveTextDocument triggered: file://%WS1%/2023/December/13.tex
+[01:59:55.933][Cacher][Watcher] "change" emitted on %WS1%/2023/December/13.tex.
+[01:59:55.933][Cacher] Caching %WS1%/2023/December/13.tex .
+[01:59:55.934][Cacher] Updated inputs of %WS1%/2023/December/13.tex .
+[01:59:55.934][Cacher] Parse LaTeX AST: %WS1%/2023/December/13.tex .
+[01:59:55.934][Build] Auto build starteddetecting the change of a file: %WS1%/2023/December/13.tex .
+[01:59:55.934][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/2023/December/13.tex"}
+[01:59:55.934][Build] The document of the active editor: file://%WS1%/2023/December/13.tex
+[01:59:55.934][Build] The languageId of the document: latex
+[01:59:55.935][Build] Building root file: %WS1%/main.tex
+[01:59:55.935][Build][Recipe] Build root file %WS1%/main.tex
+[01:59:55.935][Event] FILE_CHANGED: "%WS1%/2023/December/13.tex"
+[01:59:55.950][Extension] onDidSaveTextDocument triggered: file://%WS1%/2023/December/13.tex
+[01:59:55.951][Build][Recipe] Preparing to run recipe: latexmk.
+[01:59:55.952][Build][Recipe] Prepared 1 tools.
+[01:59:55.953][Build][Recipe] outDir: %WS1% .
+[01:59:55.954][Build] Recipe step 1 The command is latexmk:["-synctex=1","-interaction=nonstopmode","-file-line-error","-pdf","-outdir=%WS1%","%WS1%/main"].
+[01:59:55.954][Build] env: {}
+[01:59:55.955][Build] root: %WS1%/main.tex
+[01:59:55.955][Build] cwd: %WS1%
+[01:59:55.969][Build] LaTeX build process spawned with PID 2766039.
+[01:59:55.974][Cacher] Parsed LaTeX AST: %WS1%/2023/December/13.tex .
+[01:59:55.975][Cacher] Updated elements in 0.77 ms: %WS1%/2023/December/13.tex .
+[01:59:55.976][Event] FILE_PARSED: "%WS1%/2023/December/13.tex"
+[01:59:55.976][Structure] Structure force updated with 0 root sections for %WS1%/main.tex .
+[01:59:55.977][Event] STRUCTURE_UPDATED
+[01:59:56.069][Cacher][Watcher] "change" emitted on %WS1%/2023/December/13.tex.
+[01:59:56.070][Cacher] Caching %WS1%/2023/December/13.tex .
+[01:59:56.070][Cacher] Updated inputs of %WS1%/2023/December/13.tex .
+[01:59:56.071][Cacher] Parse LaTeX AST: %WS1%/2023/December/13.tex .
+[01:59:56.071][Build] Auto build starteddetecting the change of a file: %WS1%/2023/December/13.tex .
+[01:59:56.071][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/2023/December/13.tex"}
+[01:59:56.072][Build] Autobuild temporarily disabled.
+[01:59:56.072][Event] FILE_CHANGED: "%WS1%/2023/December/13.tex"
+[01:59:56.095][Cacher] Parsed LaTeX AST: %WS1%/2023/December/13.tex .
+[01:59:56.097][Cacher] Updated elements in 1.43 ms: %WS1%/2023/December/13.tex .
+[01:59:56.098][Event] FILE_PARSED: "%WS1%/2023/December/13.tex"
+[01:59:56.099][Structure] Structure force updated with 0 root sections for %WS1%/main.tex .
+[01:59:56.100][Event] STRUCTURE_UPDATED
+[02:00:02.460][Parser][TexLog] Logged 31 messages.
+[02:00:02.461][Build] Finished a step in recipe with PID 2766039.
+[02:00:02.462][Build] Successfully built %WS1%/main.tex .
+[02:00:02.462][Event] BUILD_DONE
+[02:00:02.462][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[02:00:02.462][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[02:00:02.463][Cacher] Parsing .fls %WS1%/main.fls .
+[02:00:02.479][Cacher] Found .aux %WS1%/main.tex from .fls %WS1%/main.fls , parsing.
+[02:00:02.479][Cacher] Parsed .aux %WS1%/main.tex .
+[02:00:02.479][Cacher] Parsed .fls %WS1%/main.fls .
+[02:00:02.541][Server] Preview PDF file: file://%WS1%/main.pdf
+[02:00:02.615][Viewer] Handle data type: loaded
+[02:00:02.615][Event] VIEWER_PAGE_LOADED
+[02:00:28.632][Extension] onDidSaveTextDocument triggered: file://%WS1%/2023/December/13.tex
+[02:00:28.686][Cacher][Watcher] "change" emitted on %WS1%/2023/December/13.tex.
+[02:00:28.688][Cacher] Caching %WS1%/2023/December/13.tex .
+[02:00:28.689][Cacher] Updated inputs of %WS1%/2023/December/13.tex .
+[02:00:28.689][Cacher] Parse LaTeX AST: %WS1%/2023/December/13.tex .
+[02:00:28.689][Build] Auto build starteddetecting the change of a file: %WS1%/2023/December/13.tex .
+[02:00:28.689][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/2023/December/13.tex"}
+[02:00:28.689][Build] The document of the active editor: file://%WS1%/2023/December/13.tex
+[02:00:28.690][Build] The languageId of the document: latex
+[02:00:28.690][Build] Building root file: %WS1%/main.tex
+[02:00:28.690][Build][Recipe] Build root file %WS1%/main.tex
+[02:00:28.690][Event] FILE_CHANGED: "%WS1%/2023/December/13.tex"
+[02:00:28.692][Build][Recipe] Preparing to run recipe: latexmk.
+[02:00:28.692][Build][Recipe] Prepared 1 tools.
+[02:00:28.693][Build][Recipe] outDir: %WS1% .
+[02:00:28.694][Build] Recipe step 1 The command is latexmk:["-synctex=1","-interaction=nonstopmode","-file-line-error","-pdf","-outdir=%WS1%","%WS1%/main"].
+[02:00:28.694][Build] env: {}
+[02:00:28.694][Build] root: %WS1%/main.tex
+[02:00:28.694][Build] cwd: %WS1%
+[02:00:28.707][Build] LaTeX build process spawned with PID 2766793.
+[02:00:28.713][Cacher] Parsed LaTeX AST: %WS1%/2023/December/13.tex .
+[02:00:28.716][Cacher] Updated elements in 2.12 ms: %WS1%/2023/December/13.tex .
+[02:00:28.716][Event] FILE_PARSED: "%WS1%/2023/December/13.tex"
+[02:00:28.718][Structure] Structure force updated with 0 root sections for %WS1%/main.tex .
+[02:00:28.718][Event] STRUCTURE_UPDATED
+[02:00:35.154][Parser][TexLog] Logged 31 messages.
+[02:00:35.155][Build] Finished a step in recipe with PID 2766793.
+[02:00:35.156][Build] Successfully built %WS1%/main.tex .
+[02:00:35.156][Event] BUILD_DONE
+[02:00:35.157][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[02:00:35.157][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[02:00:35.158][Cacher] Parsing .fls %WS1%/main.fls .
+[02:00:35.182][Cacher] Found .aux %WS1%/main.tex from .fls %WS1%/main.fls , parsing.
+[02:00:35.183][Cacher] Parsed .aux %WS1%/main.tex .
+[02:00:35.183][Cacher] Parsed .fls %WS1%/main.fls .
+[02:00:35.238][Server] Preview PDF file: file://%WS1%/main.pdf
+[02:00:35.318][Viewer] Handle data type: loaded
+[02:00:35.319][Event] VIEWER_PAGE_LOADED
+[02:01:40.215][Extension] onDidSaveTextDocument triggered: file://%WS1%/2023/December/13.tex
+[02:01:40.284][Cacher][Watcher] "change" emitted on %WS1%/2023/December/13.tex.
+[02:01:40.285][Cacher] Caching %WS1%/2023/December/13.tex .
+[02:01:40.285][Cacher] Updated inputs of %WS1%/2023/December/13.tex .
+[02:01:40.285][Cacher] Parse LaTeX AST: %WS1%/2023/December/13.tex .
+[02:01:40.285][Build] Auto build starteddetecting the change of a file: %WS1%/2023/December/13.tex .
+[02:01:40.286][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/2023/December/13.tex"}
+[02:01:40.286][Build] The document of the active editor: file://%WS1%/2023/December/13.tex
+[02:01:40.286][Build] The languageId of the document: latex
+[02:01:40.286][Build] Building root file: %WS1%/main.tex
+[02:01:40.286][Build][Recipe] Build root file %WS1%/main.tex
+[02:01:40.286][Event] FILE_CHANGED: "%WS1%/2023/December/13.tex"
+[02:01:40.288][Build][Recipe] Preparing to run recipe: latexmk.
+[02:01:40.288][Build][Recipe] Prepared 1 tools.
+[02:01:40.288][Build][Recipe] outDir: %WS1% .
+[02:01:40.289][Build] Recipe step 1 The command is latexmk:["-synctex=1","-interaction=nonstopmode","-file-line-error","-pdf","-outdir=%WS1%","%WS1%/main"].
+[02:01:40.289][Build] env: {}
+[02:01:40.289][Build] root: %WS1%/main.tex
+[02:01:40.290][Build] cwd: %WS1%
+[02:01:40.304][Build] LaTeX build process spawned with PID 2768747.
+[02:01:40.317][Cacher] Parsed LaTeX AST: %WS1%/2023/December/13.tex .
+[02:01:40.318][Cacher] Updated elements in 0.85 ms: %WS1%/2023/December/13.tex .
+[02:01:40.319][Event] FILE_PARSED: "%WS1%/2023/December/13.tex"
+[02:01:40.320][Structure] Structure force updated with 0 root sections for %WS1%/main.tex .
+[02:01:40.320][Event] STRUCTURE_UPDATED
+[02:01:46.862][Parser][TexLog] Logged 31 messages.
+[02:01:46.863][Build] Finished a step in recipe with PID 2768747.
+[02:01:46.863][Build] Successfully built %WS1%/main.tex .
+[02:01:46.863][Event] BUILD_DONE
+[02:01:46.864][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[02:01:46.864][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[02:01:46.864][Cacher] Parsing .fls %WS1%/main.fls .
+[02:01:46.880][Cacher] Found .aux %WS1%/main.tex from .fls %WS1%/main.fls , parsing.
+[02:01:46.880][Cacher] Parsed .aux %WS1%/main.tex .
+[02:01:46.881][Cacher] Parsed .fls %WS1%/main.fls .
+[02:01:46.936][Server] Preview PDF file: file://%WS1%/main.pdf
+[02:01:47.004][Viewer] Handle data type: loaded
+[02:01:47.004][Event] VIEWER_PAGE_LOADED
+[02:01:50.208][Extension] onDidSaveTextDocument triggered: file://%WS1%/2023/December/13.tex
+[02:01:50.276][Cacher][Watcher] "change" emitted on %WS1%/2023/December/13.tex.
+[02:01:50.277][Cacher] Caching %WS1%/2023/December/13.tex .
+[02:01:50.277][Cacher] Updated inputs of %WS1%/2023/December/13.tex .
+[02:01:50.278][Cacher] Parse LaTeX AST: %WS1%/2023/December/13.tex .
+[02:01:50.278][Build] Auto build starteddetecting the change of a file: %WS1%/2023/December/13.tex .
+[02:01:50.278][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/2023/December/13.tex"}
+[02:01:50.278][Build] The document of the active editor: file://%WS1%/2023/December/13.tex
+[02:01:50.278][Build] The languageId of the document: latex
+[02:01:50.278][Build] Building root file: %WS1%/main.tex
+[02:01:50.278][Build][Recipe] Build root file %WS1%/main.tex
+[02:01:50.279][Event] FILE_CHANGED: "%WS1%/2023/December/13.tex"
+[02:01:50.280][Build][Recipe] Preparing to run recipe: latexmk.
+[02:01:50.280][Build][Recipe] Prepared 1 tools.
+[02:01:50.281][Build][Recipe] outDir: %WS1% .
+[02:01:50.282][Build] Recipe step 1 The command is latexmk:["-synctex=1","-interaction=nonstopmode","-file-line-error","-pdf","-outdir=%WS1%","%WS1%/main"].
+[02:01:50.282][Build] env: {}
+[02:01:50.282][Build] root: %WS1%/main.tex
+[02:01:50.283][Build] cwd: %WS1%
+[02:01:50.298][Build] LaTeX build process spawned with PID 2768949.
+[02:01:50.301][Cacher] Parsed LaTeX AST: %WS1%/2023/December/13.tex .
+[02:01:50.302][Cacher] Updated elements in 0.75 ms: %WS1%/2023/December/13.tex .
+[02:01:50.302][Event] FILE_PARSED: "%WS1%/2023/December/13.tex"
+[02:01:50.303][Structure] Structure force updated with 0 root sections for %WS1%/main.tex .
+[02:01:50.303][Event] STRUCTURE_UPDATED
+[02:01:56.657][Parser][TexLog] Logged 31 messages.
+[02:01:56.658][Build] Finished a step in recipe with PID 2768949.
+[02:01:56.658][Build] Successfully built %WS1%/main.tex .
+[02:01:56.658][Event] BUILD_DONE
+[02:01:56.659][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[02:01:56.659][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[02:01:56.659][Cacher] Parsing .fls %WS1%/main.fls .
+[02:01:56.676][Cacher] Found .aux %WS1%/main.tex from .fls %WS1%/main.fls , parsing.
+[02:01:56.676][Cacher] Parsed .aux %WS1%/main.tex .
+[02:01:56.676][Cacher] Parsed .fls %WS1%/main.fls .
+[02:01:56.737][Server] Preview PDF file: file://%WS1%/main.pdf
+[02:01:56.806][Viewer] Handle data type: loaded
+[02:01:56.807][Event] VIEWER_PAGE_LOADED
+[02:02:04.249][Extension] onDidSaveTextDocument triggered: file://%WS1%/2023/December/13.tex
+[02:02:04.314][Cacher][Watcher] "change" emitted on %WS1%/2023/December/13.tex.
+[02:02:04.315][Cacher] Caching %WS1%/2023/December/13.tex .
+[02:02:04.315][Cacher] Updated inputs of %WS1%/2023/December/13.tex .
+[02:02:04.316][Cacher] Parse LaTeX AST: %WS1%/2023/December/13.tex .
+[02:02:04.316][Build] Auto build starteddetecting the change of a file: %WS1%/2023/December/13.tex .
+[02:02:04.316][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/2023/December/13.tex"}
+[02:02:04.317][Build] The document of the active editor: file://%WS1%/2023/December/13.tex
+[02:02:04.317][Build] The languageId of the document: latex
+[02:02:04.317][Build] Building root file: %WS1%/main.tex
+[02:02:04.317][Build][Recipe] Build root file %WS1%/main.tex
+[02:02:04.317][Event] FILE_CHANGED: "%WS1%/2023/December/13.tex"
+[02:02:04.318][Build][Recipe] Preparing to run recipe: latexmk.
+[02:02:04.318][Build][Recipe] Prepared 1 tools.
+[02:02:04.319][Build][Recipe] outDir: %WS1% .
+[02:02:04.320][Build] Recipe step 1 The command is latexmk:["-synctex=1","-interaction=nonstopmode","-file-line-error","-pdf","-outdir=%WS1%","%WS1%/main"].
+[02:02:04.320][Build] env: {}
+[02:02:04.320][Build] root: %WS1%/main.tex
+[02:02:04.320][Build] cwd: %WS1%
+[02:02:04.334][Build] LaTeX build process spawned with PID 2769266.
+[02:02:04.339][Cacher] Parsed LaTeX AST: %WS1%/2023/December/13.tex .
+[02:02:04.341][Cacher] Updated elements in 1.01 ms: %WS1%/2023/December/13.tex .
+[02:02:04.341][Event] FILE_PARSED: "%WS1%/2023/December/13.tex"
+[02:02:04.344][Structure] Structure force updated with 0 root sections for %WS1%/main.tex .
+[02:02:04.344][Event] STRUCTURE_UPDATED
+[02:02:10.874][Parser][TexLog] Logged 31 messages.
+[02:02:10.876][Build] Finished a step in recipe with PID 2769266.
+[02:02:10.877][Build] Successfully built %WS1%/main.tex .
+[02:02:10.877][Event] BUILD_DONE
+[02:02:10.878][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[02:02:10.878][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[02:02:10.879][Cacher] Parsing .fls %WS1%/main.fls .
+[02:02:10.904][Cacher] Found .aux %WS1%/main.tex from .fls %WS1%/main.fls , parsing.
+[02:02:10.905][Cacher] Parsed .aux %WS1%/main.tex .
+[02:02:10.905][Cacher] Parsed .fls %WS1%/main.fls .
+[02:02:10.961][Server] Preview PDF file: file://%WS1%/main.pdf
+[02:02:11.038][Viewer] Handle data type: loaded
+[02:02:11.039][Event] VIEWER_PAGE_LOADED
+[02:04:52.700][Extension] onDidSaveTextDocument triggered: file://%WS1%/2023/December/13.tex
+[02:04:52.757][Cacher][Watcher] "change" emitted on %WS1%/2023/December/13.tex.
+[02:04:52.757][Cacher] Caching %WS1%/2023/December/13.tex .
+[02:04:52.758][Cacher] Updated inputs of %WS1%/2023/December/13.tex .
+[02:04:52.758][Cacher] Parse LaTeX AST: %WS1%/2023/December/13.tex .
+[02:04:52.758][Build] Auto build starteddetecting the change of a file: %WS1%/2023/December/13.tex .
+[02:04:52.758][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/2023/December/13.tex"}
+[02:04:52.759][Build] The document of the active editor: file://%WS1%/2023/December/13.tex
+[02:04:52.759][Build] The languageId of the document: latex
+[02:04:52.759][Build] Building root file: %WS1%/main.tex
+[02:04:52.759][Build][Recipe] Build root file %WS1%/main.tex
+[02:04:52.759][Event] FILE_CHANGED: "%WS1%/2023/December/13.tex"
+[02:04:52.760][Build][Recipe] Preparing to run recipe: latexmk.
+[02:04:52.761][Build][Recipe] Prepared 1 tools.
+[02:04:52.762][Build][Recipe] outDir: %WS1% .
+[02:04:52.763][Build] Recipe step 1 The command is latexmk:["-synctex=1","-interaction=nonstopmode","-file-line-error","-pdf","-outdir=%WS1%","%WS1%/main"].
+[02:04:52.763][Build] env: {}
+[02:04:52.763][Build] root: %WS1%/main.tex
+[02:04:52.763][Build] cwd: %WS1%
+[02:04:52.779][Build] LaTeX build process spawned with PID 2773284.
+[02:04:52.783][Cacher] Parsed LaTeX AST: %WS1%/2023/December/13.tex .
+[02:04:52.785][Cacher] Updated elements in 1.12 ms: %WS1%/2023/December/13.tex .
+[02:04:52.785][Event] FILE_PARSED: "%WS1%/2023/December/13.tex"
+[02:04:52.786][Structure] Structure force updated with 0 root sections for %WS1%/main.tex .
+[02:04:52.787][Event] STRUCTURE_UPDATED
+[02:04:59.186][Parser][TexLog] Logged 31 messages.
+[02:04:59.188][Build] Finished a step in recipe with PID 2773284.
+[02:04:59.188][Build] Successfully built %WS1%/main.tex .
+[02:04:59.188][Event] BUILD_DONE
+[02:04:59.188][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[02:04:59.189][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[02:04:59.189][Cacher] Parsing .fls %WS1%/main.fls .
+[02:04:59.205][Cacher] Found .aux %WS1%/main.tex from .fls %WS1%/main.fls , parsing.
+[02:04:59.206][Cacher] Parsed .aux %WS1%/main.tex .
+[02:04:59.206][Cacher] Parsed .fls %WS1%/main.fls .
+[02:04:59.266][Server] Preview PDF file: file://%WS1%/main.pdf
+[02:04:59.349][Viewer] Handle data type: loaded
+[02:04:59.349][Event] VIEWER_PAGE_LOADED
+[02:05:04.733][Extension] onDidSaveTextDocument triggered: file://%WS1%/2023/December/13.tex
+[02:05:04.794][Cacher][Watcher] "change" emitted on %WS1%/2023/December/13.tex.
+[02:05:04.795][Cacher] Caching %WS1%/2023/December/13.tex .
+[02:05:04.795][Cacher] Updated inputs of %WS1%/2023/December/13.tex .
+[02:05:04.795][Cacher] Parse LaTeX AST: %WS1%/2023/December/13.tex .
+[02:05:04.796][Build] Auto build starteddetecting the change of a file: %WS1%/2023/December/13.tex .
+[02:05:04.796][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/2023/December/13.tex"}
+[02:05:04.796][Build] The document of the active editor: file://%WS1%/2023/December/13.tex
+[02:05:04.796][Build] The languageId of the document: latex
+[02:05:04.796][Build] Building root file: %WS1%/main.tex
+[02:05:04.796][Build][Recipe] Build root file %WS1%/main.tex
+[02:05:04.796][Event] FILE_CHANGED: "%WS1%/2023/December/13.tex"
+[02:05:04.797][Build][Recipe] Preparing to run recipe: latexmk.
+[02:05:04.797][Build][Recipe] Prepared 1 tools.
+[02:05:04.798][Build][Recipe] outDir: %WS1% .
+[02:05:04.798][Build] Recipe step 1 The command is latexmk:["-synctex=1","-interaction=nonstopmode","-file-line-error","-pdf","-outdir=%WS1%","%WS1%/main"].
+[02:05:04.799][Build] env: {}
+[02:05:04.799][Build] root: %WS1%/main.tex
+[02:05:04.799][Build] cwd: %WS1%
+[02:05:04.813][Build] LaTeX build process spawned with PID 2773556.
+[02:05:04.820][Cacher] Parsed LaTeX AST: %WS1%/2023/December/13.tex .
+[02:05:04.821][Cacher] Updated elements in 1.05 ms: %WS1%/2023/December/13.tex .
+[02:05:04.822][Event] FILE_PARSED: "%WS1%/2023/December/13.tex"
+[02:05:04.824][Structure] Structure force updated with 0 root sections for %WS1%/main.tex .
+[02:05:04.824][Event] STRUCTURE_UPDATED
+[02:05:11.270][Parser][TexLog] Logged 31 messages.
+[02:05:11.272][Build] Finished a step in recipe with PID 2773556.
+[02:05:11.272][Build] Successfully built %WS1%/main.tex .
+[02:05:11.272][Event] BUILD_DONE
+[02:05:11.273][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[02:05:11.273][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[02:05:11.273][Cacher] Parsing .fls %WS1%/main.fls .
+[02:05:11.288][Cacher] Found .aux %WS1%/main.tex from .fls %WS1%/main.fls , parsing.
+[02:05:11.289][Cacher] Parsed .aux %WS1%/main.tex .
+[02:05:11.289][Cacher] Parsed .fls %WS1%/main.fls .
+[02:05:11.342][Server] Preview PDF file: file://%WS1%/main.pdf
+[02:05:11.418][Viewer] Handle data type: loaded
+[02:05:11.418][Event] VIEWER_PAGE_LOADED
+[02:05:51.089][Extension] onDidSaveTextDocument triggered: file://%WS1%/2023/December/13.tex
+[02:05:51.148][Cacher][Watcher] "change" emitted on %WS1%/2023/December/13.tex.
+[02:05:51.149][Cacher] Caching %WS1%/2023/December/13.tex .
+[02:05:51.149][Cacher] Updated inputs of %WS1%/2023/December/13.tex .
+[02:05:51.150][Cacher] Parse LaTeX AST: %WS1%/2023/December/13.tex .
+[02:05:51.150][Build] Auto build starteddetecting the change of a file: %WS1%/2023/December/13.tex .
+[02:05:51.150][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/2023/December/13.tex"}
+[02:05:51.150][Build] The document of the active editor: file://%WS1%/2023/December/13.tex
+[02:05:51.151][Build] The languageId of the document: latex
+[02:05:51.151][Build] Building root file: %WS1%/main.tex
+[02:05:51.151][Build][Recipe] Build root file %WS1%/main.tex
+[02:05:51.151][Event] FILE_CHANGED: "%WS1%/2023/December/13.tex"
+[02:05:51.152][Build][Recipe] Preparing to run recipe: latexmk.
+[02:05:51.152][Build][Recipe] Prepared 1 tools.
+[02:05:51.154][Build][Recipe] outDir: %WS1% .
+[02:05:51.154][Build] Recipe step 1 The command is latexmk:["-synctex=1","-interaction=nonstopmode","-file-line-error","-pdf","-outdir=%WS1%","%WS1%/main"].
+[02:05:51.155][Build] env: {}
+[02:05:51.155][Build] root: %WS1%/main.tex
+[02:05:51.155][Build] cwd: %WS1%
+[02:05:51.169][Build] LaTeX build process spawned with PID 2774540.
+[02:05:51.176][Cacher] Parsed LaTeX AST: %WS1%/2023/December/13.tex .
+[02:05:51.178][Cacher] Updated elements in 1.57 ms: %WS1%/2023/December/13.tex .
+[02:05:51.179][Event] FILE_PARSED: "%WS1%/2023/December/13.tex"
+[02:05:51.180][Structure] Structure force updated with 0 root sections for %WS1%/main.tex .
+[02:05:51.180][Event] STRUCTURE_UPDATED
+[02:06:03.838][Parser][BibTeXLog] Logged 1 messages.
+[02:06:03.843][Parser][TexLog] Logged 31 messages.
+[02:06:03.844][Build] Finished a step in recipe with PID 2774540.
+[02:06:03.845][Build] Successfully built %WS1%/main.tex .
+[02:06:03.845][Event] BUILD_DONE
+[02:06:03.845][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[02:06:03.846][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[02:06:03.846][Cacher] Parsing .fls %WS1%/main.fls .
+[02:06:03.864][Cacher] Found .aux %WS1%/main.tex from .fls %WS1%/main.fls , parsing.
+[02:06:03.864][Cacher] Parsed .aux %WS1%/main.tex .
+[02:06:03.864][Cacher] Parsed .fls %WS1%/main.fls .
+[02:06:03.920][Server] Preview PDF file: file://%WS1%/main.pdf
+[02:06:04.002][Viewer] Handle data type: loaded
+[02:06:04.002][Event] VIEWER_PAGE_LOADED
+[02:06:25.225][Extension] onDidSaveTextDocument triggered: file://%WS1%/2023/December/13.tex
+[02:06:25.286][Cacher][Watcher] "change" emitted on %WS1%/2023/December/13.tex.
+[02:06:25.287][Cacher] Caching %WS1%/2023/December/13.tex .
+[02:06:25.288][Cacher] Updated inputs of %WS1%/2023/December/13.tex .
+[02:06:25.288][Cacher] Parse LaTeX AST: %WS1%/2023/December/13.tex .
+[02:06:25.288][Build] Auto build starteddetecting the change of a file: %WS1%/2023/December/13.tex .
+[02:06:25.289][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/2023/December/13.tex"}
+[02:06:25.289][Build] The document of the active editor: file://%WS1%/2023/December/13.tex
+[02:06:25.289][Build] The languageId of the document: latex
+[02:06:25.289][Build] Building root file: %WS1%/main.tex
+[02:06:25.289][Build][Recipe] Build root file %WS1%/main.tex
+[02:06:25.289][Event] FILE_CHANGED: "%WS1%/2023/December/13.tex"
+[02:06:25.292][Build][Recipe] Preparing to run recipe: latexmk.
+[02:06:25.292][Build][Recipe] Prepared 1 tools.
+[02:06:25.292][Build][Recipe] outDir: %WS1% .
+[02:06:25.293][Build] Recipe step 1 The command is latexmk:["-synctex=1","-interaction=nonstopmode","-file-line-error","-pdf","-outdir=%WS1%","%WS1%/main"].
+[02:06:25.293][Build] env: {}
+[02:06:25.293][Build] root: %WS1%/main.tex
+[02:06:25.293][Build] cwd: %WS1%
+[02:06:25.308][Build] LaTeX build process spawned with PID 2775225.
+[02:06:25.340][Cacher] Parsed LaTeX AST: %WS1%/2023/December/13.tex .
+[02:06:25.343][Cacher] Updated elements in 2.86 ms: %WS1%/2023/December/13.tex .
+[02:06:25.344][Event] FILE_PARSED: "%WS1%/2023/December/13.tex"
+[02:06:25.344][Structure] Structure force updated with 0 root sections for %WS1%/main.tex .
+[02:06:25.344][Event] STRUCTURE_UPDATED
+[02:06:31.764][Parser][TexLog] Logged 31 messages.
+[02:06:31.765][Build] Finished a step in recipe with PID 2775225.
+[02:06:31.765][Build] Successfully built %WS1%/main.tex .
+[02:06:31.765][Event] BUILD_DONE
+[02:06:31.766][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[02:06:31.766][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[02:06:31.767][Cacher] Parsing .fls %WS1%/main.fls .
+[02:06:31.787][Cacher] Found .aux %WS1%/main.tex from .fls %WS1%/main.fls , parsing.
+[02:06:31.787][Cacher] Parsed .aux %WS1%/main.tex .
+[02:06:31.787][Cacher] Parsed .fls %WS1%/main.fls .
+[02:06:31.842][Server] Preview PDF file: file://%WS1%/main.pdf
+[02:06:31.918][Viewer] Handle data type: loaded
+[02:06:31.919][Event] VIEWER_PAGE_LOADED
+[02:09:01.605][Extension] onDidSaveTextDocument triggered: file://%WS1%/2023/December/13.tex
+[02:09:01.662][Cacher][Watcher] "change" emitted on %WS1%/2023/December/13.tex.
+[02:09:01.662][Cacher] Caching %WS1%/2023/December/13.tex .
+[02:09:01.663][Cacher] Updated inputs of %WS1%/2023/December/13.tex .
+[02:09:01.663][Cacher] Parse LaTeX AST: %WS1%/2023/December/13.tex .
+[02:09:01.663][Build] Auto build starteddetecting the change of a file: %WS1%/2023/December/13.tex .
+[02:09:01.663][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/2023/December/13.tex"}
+[02:09:01.663][Build] The document of the active editor: file://%WS1%/2023/December/13.tex
+[02:09:01.664][Build] The languageId of the document: latex
+[02:09:01.664][Build] Building root file: %WS1%/main.tex
+[02:09:01.664][Build][Recipe] Build root file %WS1%/main.tex
+[02:09:01.664][Event] FILE_CHANGED: "%WS1%/2023/December/13.tex"
+[02:09:01.665][Build][Recipe] Preparing to run recipe: latexmk.
+[02:09:01.665][Build][Recipe] Prepared 1 tools.
+[02:09:01.666][Build][Recipe] outDir: %WS1% .
+[02:09:01.667][Build] Recipe step 1 The command is latexmk:["-synctex=1","-interaction=nonstopmode","-file-line-error","-pdf","-outdir=%WS1%","%WS1%/main"].
+[02:09:01.667][Build] env: {}
+[02:09:01.667][Build] root: %WS1%/main.tex
+[02:09:01.668][Build] cwd: %WS1%
+[02:09:01.682][Build] LaTeX build process spawned with PID 2778911.
+[02:09:01.714][Cacher] Parsed LaTeX AST: %WS1%/2023/December/13.tex .
+[02:09:01.716][Cacher] Updated elements in 1.98 ms: %WS1%/2023/December/13.tex .
+[02:09:01.717][Event] FILE_PARSED: "%WS1%/2023/December/13.tex"
+[02:09:01.718][Structure] Structure force updated with 0 root sections for %WS1%/main.tex .
+[02:09:01.718][Event] STRUCTURE_UPDATED
+[02:09:06.563][Extension] onDidSaveTextDocument triggered: file://%WS1%/2023/December/13.tex
+[02:09:06.632][Cacher][Watcher] "change" emitted on %WS1%/2023/December/13.tex.
+[02:09:06.633][Cacher] Caching %WS1%/2023/December/13.tex .
+[02:09:06.634][Cacher] Updated inputs of %WS1%/2023/December/13.tex .
+[02:09:06.634][Cacher] Parse LaTeX AST: %WS1%/2023/December/13.tex .
+[02:09:06.634][Build] Auto build starteddetecting the change of a file: %WS1%/2023/December/13.tex .
+[02:09:06.634][Event] AUTO_BUILD_INITIATED: {"type":"onFileChange","file":"%WS1%/2023/December/13.tex"}
+[02:09:06.635][Build] The document of the active editor: file://%WS1%/2023/December/13.tex
+[02:09:06.635][Build] The languageId of the document: latex
+[02:09:06.635][Build] Building root file: %WS1%/main.tex
+[02:09:06.635][Build][Recipe] Build root file %WS1%/main.tex
+[02:09:06.635][Event] FILE_CHANGED: "%WS1%/2023/December/13.tex"
+[02:09:06.636][Build][Recipe] Preparing to run recipe: latexmk.
+[02:09:06.636][Build][Recipe] Prepared 1 tools.
+[02:09:06.637][Build][Recipe] outDir: %WS1% .
+[02:09:06.664][Cacher] Parsed LaTeX AST: %WS1%/2023/December/13.tex .
+[02:09:06.665][Cacher] Updated elements in 1.17 ms: %WS1%/2023/December/13.tex .
+[02:09:06.666][Event] FILE_PARSED: "%WS1%/2023/December/13.tex"
+[02:09:06.668][Structure] Structure force updated with 0 root sections for %WS1%/main.tex .
+[02:09:06.668][Event] STRUCTURE_UPDATED
+[02:09:14.683][Parser][TexLog] Logged 31 messages.
+[02:09:14.684][Build] Finished a step in recipe with PID 2778911.
+[02:09:14.685][Build] Successfully built %WS1%/main.tex .
+[02:09:14.685][Event] BUILD_DONE
+[02:09:14.685][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[02:09:14.686][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[02:09:14.686][Cacher] Parsing .fls %WS1%/main.fls .
+[02:09:14.703][Cacher] Found .aux %WS1%/main.tex from .fls %WS1%/main.fls , parsing.
+[02:09:14.704][Cacher] Parsed .aux %WS1%/main.tex .
+[02:09:14.704][Cacher] Parsed .fls %WS1%/main.fls .
+[02:09:14.704][Build] Recipe step 1 The command is latexmk:["-synctex=1","-interaction=nonstopmode","-file-line-error","-pdf","-outdir=%WS1%","%WS1%/main"].
+[02:09:14.704][Build] env: {}
+[02:09:14.705][Build] root: %WS1%/main.tex
+[02:09:14.705][Build] cwd: %WS1%
+[02:09:14.719][Build] LaTeX build process spawned with PID 2779669.
+[02:09:14.774][Server] Preview PDF file: file://%WS1%/main.pdf
+[02:09:14.801][Viewer] Handle data type: loaded
+[02:09:14.802][Event] VIEWER_PAGE_LOADED
+[02:09:14.828][Build] Finished a step in recipe with PID 2779669.
+[02:09:14.828][Build] Successfully built %WS1%/main.tex .
+[02:09:14.829][Event] BUILD_DONE
+[02:09:14.829][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[02:09:14.829][Viewer] Refresh PDF viewer: %WS1%/main.pdf
+[02:09:14.830][Cacher] Parsing .fls %WS1%/main.fls .
+[02:09:14.852][Cacher] Found .aux %WS1%/main.tex from .fls %WS1%/main.fls , parsing.
+[02:09:14.852][Cacher] Parsed .aux %WS1%/main.tex .
+[02:09:14.853][Cacher] Parsed .fls %WS1%/main.fls .
+[02:09:14.916][Server] Preview PDF file: file://%WS1%/main.pdf
+[02:09:14.945][Viewer] Handle data type: loaded
+[02:09:14.946][Event] VIEWER_PAGE_LOADED
+[06:12:55.336][Cacher][Watcher] Reset.
+[06:12:55.337][Cacher][Watcher] Reset.
+[06:12:55.337][Cacher][Watcher] Reset.

@@ -1,0 +1,10 @@
+\title{Stickbreaking Transform}
+\tag{private}
+\author{meenaljhajharia}
+
+\transclude{stickbreaking-0001}
+\transclude{stickbreaking-0002}
+\transclude{stickbreaking-0003}
+\p{To complete the unconstraining transform, we must select a collection of $N-1$ independent transforms #{g_i \colon \\lparen 0, 1\rbrack \to \R}, where we define #{g\colon \lparen 0, 1\rbrack^{N-1} \to \R^{N-1}} as the elementwise application of each function #{g_i}.}
+\p{Then the combined unconstraining transform is #{f = g \circ f_1 \colon x \mapsto y \in \R^{N-1}}.}
+\p{Each of the following transforms in this section differ only in their choice of #{g_i}.}

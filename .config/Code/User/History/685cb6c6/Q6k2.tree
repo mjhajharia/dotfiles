@@ -1,0 +1,4 @@
+\p{ Let #{r = \logsumexp(y)}. Then the constraining transform is defined as
+##{
+    \operatorname{expsoftmax}(y) = (\logsumexp(y), \softmax(y)_-) = (r, x_-)
+}}

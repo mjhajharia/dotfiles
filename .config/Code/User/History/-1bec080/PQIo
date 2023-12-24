@@ -1,0 +1,16 @@
+\begin{itemize}
+\item repo cleanup 
+		- [ ] quarto.yml
+		- [ ] quarto_script.py
+	- [ ] make all plots 
+	- [ ] all PosteriorDB models 
+	- [ ] low rank hessian 
+	- [ ] distances to normality 
+	- [ ] regression of condition number distribution
+
+
+
+
+neals funnel
+posteriordb models
+whitening transforms

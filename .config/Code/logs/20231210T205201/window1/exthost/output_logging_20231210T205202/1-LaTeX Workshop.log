@@ -1,0 +1,307 @@
+[20:52:03.424][Logger] New log placeholder %WS1% registered for /home/meenaljhajharia/Dropbox/Journal .
+[20:52:03.424][Manager] Set $LATEXWORKSHOP_DOCKER_LATEX: ""
+[20:52:03.468][Server] Creating LaTeX Workshop http and websocket server.
+[20:52:03.529][Server] Server successfully started: {"address":"127.0.0.1","family":"IPv4","port":45467} .
+[20:52:03.538][Extension] Initializing LaTeX Workshop.
+[20:52:03.538][Extension] Extension root: /home/meenaljhajharia/.vscode/extensions/james-yu.latex-workshop-9.15.0
+[20:52:03.539][Extension] $PATH: /home/meenaljhajharia/.opam/default/bin:/home/meenaljhajharia/anaconda3/bin:/home/meenaljhajharia/anaconda3/condabin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/var/lib/flatpak/exports/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin:/home/meenaljhajharia/bin:/usr/local/texlive/2023/bin/x86_64-linux:/home/meenaljhajharia/bin:/home/meenaljhajharia/bin:/usr/local/texlive/2023/bin/x86_64-linux:/home/meenaljhajharia/bin:/home/meenaljhajharia/bin:/home/meenaljhajharia/bin:/home/meenaljhajharia/bin
+[20:52:03.539][Extension] $SHELL: /usr/bin/zsh
+[20:52:03.539][Extension] $LANG: C.UTF-8
+[20:52:03.540][Extension] $LC_ALL: undefined
+[20:52:03.540][Extension] process.platform: linux
+[20:52:03.540][Extension] process.arch: x64
+[20:52:03.541][Extension] vscode.env.appName: Visual Studio Code
+[20:52:03.541][Extension] vscode.env.remoteName: undefined
+[20:52:03.541][Extension] vscode.env.uiKind: 1
+[20:52:03.542][Extension] LaTeX Workshop initialized.
+[20:52:03.547][Format][Bib] Bibtex format config: {"tab":"  ","case":"lowercase","left":"{","right":"}","trailingComma":false,"sort":["key"],"alignOnEqual":true,"sortFields":false,"fieldsOrder":[],"firstEntries":["string","xdata"]}
+[20:52:03.550][Extension] Trigger characters for intellisense of LaTeX documents: ["\\",",","{"]
+[20:52:03.552][Manager] Current workspace folders: ["file://%WS1%"]
+[20:52:03.553][Manager] Found root file from active editor: %WS1%/main.tex
+[20:52:03.554][Manager] Root file changed: from undefined to %WS1%/main.tex
+[20:52:03.554][Manager] Start to find all dependencies.
+[20:52:03.554][Manager] Root file languageId: latex
+[20:52:03.555][Event] ROOT_FILE_CHANGED: "%WS1%/main.tex"
+[20:52:03.555][Cacher][Watcher] Reset.
+[20:52:03.559][Cacher] Adding %WS1%/main.tex .
+[20:52:03.560][Cacher][Watcher] Watched %WS1%/main.tex with a new watcher on %WS1% .
+[20:52:03.561][Event] FILE_WATCHED: "%WS1%/main.tex"
+[20:52:03.564][Cacher] Caching %WS1%/main.tex .
+[20:52:03.566][Cacher] Input %WS1%/toggle.tex from %WS1%/main.tex .
+[20:52:03.568][Cacher] Adding %WS1%/toggle.tex .
+[20:52:03.568][Cacher][Watcher] Watched %WS1%/toggle.tex .
+[20:52:03.568][Event] FILE_WATCHED: "%WS1%/toggle.tex"
+[20:52:03.569][Cacher] Caching %WS1%/toggle.tex .
+[20:52:03.570][Cacher] Updated inputs of %WS1%/toggle.tex .
+[20:52:03.570][Cacher] Parse LaTeX AST: %WS1%/toggle.tex .
+[20:52:03.571][Cacher] Updated inputs of %WS1%/main.tex .
+[20:52:03.572][Cacher] Parse LaTeX AST: %WS1%/main.tex .
+[20:52:03.572][Event] ROOT_FILE_SEARCHED
+[20:52:03.585][Server] valdOrigin is http://127.0.0.1:45467
+[20:52:03.594][Cacher] Parsed LaTeX AST: %WS1%/toggle.tex .
+[20:52:03.594][Cacher] Updated elements in 0.38 ms: %WS1%/toggle.tex .
+[20:52:03.595][Event] FILE_PARSED: "%WS1%/toggle.tex"
+[20:52:03.685][Cacher] Parsed LaTeX AST: %WS1%/main.tex .
+[20:52:03.686][Cacher][Path] Calling kpsewhich to resolve tufte-handout.cls .
+[20:52:03.842][Cacher] Bib %WS1%/references.bib from %WS1%/main.tex .
+[20:52:03.843][Intelli][Citation] Parsing .bib entries from %WS1%/references.bib
+[20:52:03.845][Intelli][Citation] Parse BibTeX AST from %WS1%/references.bib .
+[20:52:03.845][Cacher][Watcher] Watched %WS1%/references.bib with a new watcher on %WS1% .
+[20:52:03.846][Event] FILE_WATCHED: "%WS1%/references.bib"
+[20:52:03.846][Cacher] Updated elements in 159.92 ms: %WS1%/main.tex .
+[20:52:03.846][Event] FILE_PARSED: "%WS1%/main.tex"
+[20:52:03.847][Cacher] Parsing .fls %WS1%/main.fls .
+[20:52:03.857][Cacher] Adding %WS1%/tufte-handout.cls .
+[20:52:03.858][Cacher][Watcher] Watched %WS1%/tufte-handout.cls .
+[20:52:03.858][Event] FILE_WATCHED: "%WS1%/tufte-handout.cls"
+[20:52:03.882][Cacher] Adding %WS1%/2023/December/5_personal.tex .
+[20:52:03.882][Cacher][Watcher] Watched %WS1%/2023/December/5_personal.tex with a new watcher on %WS1%/2023/December .
+[20:52:03.882][Event] FILE_WATCHED: "%WS1%/2023/December/5_personal.tex"
+[20:52:03.882][Cacher] Found %WS1%/2023/December/5_personal.tex from .fls %WS1%/main.fls , caching.
+[20:52:03.883][Cacher] Caching %WS1%/2023/December/5_personal.tex .
+[20:52:03.884][Cacher] Updated inputs of %WS1%/2023/December/5_personal.tex .
+[20:52:03.884][Cacher] Parse LaTeX AST: %WS1%/2023/December/5_personal.tex .
+[20:52:03.885][Cacher] Adding %WS1%/2023/December/4_personal.tex .
+[20:52:03.886][Cacher][Watcher] Watched %WS1%/2023/December/4_personal.tex .
+[20:52:03.886][Event] FILE_WATCHED: "%WS1%/2023/December/4_personal.tex"
+[20:52:03.886][Cacher] Found %WS1%/2023/December/4_personal.tex from .fls %WS1%/main.fls , caching.
+[20:52:03.887][Cacher] Caching %WS1%/2023/December/4_personal.tex .
+[20:52:03.888][Cacher] Updated inputs of %WS1%/2023/December/4_personal.tex .
+[20:52:03.888][Cacher] Parse LaTeX AST: %WS1%/2023/December/4_personal.tex .
+[20:52:03.888][Cacher] Adding %WS1%/2023/December/1_personal.tex .
+[20:52:03.889][Cacher][Watcher] Watched %WS1%/2023/December/1_personal.tex .
+[20:52:03.889][Event] FILE_WATCHED: "%WS1%/2023/December/1_personal.tex"
+[20:52:03.889][Cacher] Found %WS1%/2023/December/1_personal.tex from .fls %WS1%/main.fls , caching.
+[20:52:03.889][Cacher] Caching %WS1%/2023/December/1_personal.tex .
+[20:52:03.891][Cacher] Updated inputs of %WS1%/2023/December/1_personal.tex .
+[20:52:03.891][Cacher] Parse LaTeX AST: %WS1%/2023/December/1_personal.tex .
+[20:52:03.892][Cacher] Adding %WS1%/2023/November/1_personal.tex .
+[20:52:03.892][Cacher][Watcher] Watched %WS1%/2023/November/1_personal.tex with a new watcher on %WS1%/2023/November .
+[20:52:03.893][Event] FILE_WATCHED: "%WS1%/2023/November/1_personal.tex"
+[20:52:03.893][Cacher] Found %WS1%/2023/November/1_personal.tex from .fls %WS1%/main.fls , caching.
+[20:52:03.893][Cacher] Caching %WS1%/2023/November/1_personal.tex .
+[20:52:03.894][Cacher] Updated inputs of %WS1%/2023/November/1_personal.tex .
+[20:52:03.894][Cacher] Parse LaTeX AST: %WS1%/2023/November/1_personal.tex .
+[20:52:03.895][Cacher] Adding %WS1%/2023/October/25_personal.tex .
+[20:52:03.895][Cacher][Watcher] Watched %WS1%/2023/October/25_personal.tex with a new watcher on %WS1%/2023/October .
+[20:52:03.896][Event] FILE_WATCHED: "%WS1%/2023/October/25_personal.tex"
+[20:52:03.896][Cacher] Found %WS1%/2023/October/25_personal.tex from .fls %WS1%/main.fls , caching.
+[20:52:03.896][Cacher] Caching %WS1%/2023/October/25_personal.tex .
+[20:52:03.898][Cacher] Updated inputs of %WS1%/2023/October/25_personal.tex .
+[20:52:03.898][Cacher] Parse LaTeX AST: %WS1%/2023/October/25_personal.tex .
+[20:52:03.899][Cacher] Adding %WS1%/static/masakali.png .
+[20:52:03.899][Cacher][Watcher] Watched %WS1%/static/masakali.png with a new watcher on %WS1%/static .
+[20:52:03.899][Event] FILE_WATCHED: "%WS1%/static/masakali.png"
+[20:52:03.900][Cacher] Adding %WS1%/books.tex .
+[20:52:03.900][Cacher][Watcher] Watched %WS1%/books.tex .
+[20:52:03.900][Event] FILE_WATCHED: "%WS1%/books.tex"
+[20:52:03.900][Cacher] Found %WS1%/books.tex from .fls %WS1%/main.fls , caching.
+[20:52:03.901][Cacher] Caching %WS1%/books.tex .
+[20:52:03.902][Cacher] Updated inputs of %WS1%/books.tex .
+[20:52:03.902][Cacher] Parse LaTeX AST: %WS1%/books.tex .
+[20:52:03.902][Cacher] Found .aux %WS1%/main.tex from .fls %WS1%/main.fls , parsing.
+[20:52:03.903][Cacher] Parsed .aux %WS1%/main.tex .
+[20:52:03.904][Cacher] Found .aux %WS1%/main.tex from .fls %WS1%/main.fls , parsing.
+[20:52:03.904][Cacher] Parsed .aux %WS1%/main.tex .
+[20:52:03.904][Cacher] Parsed .fls %WS1%/main.fls .
+[20:52:03.907][Intelli][Citation] Parsed 1 bib entries from %WS1%/references.bib .
+[20:52:03.907][Event] FILE_PARSED: "%WS1%/references.bib"
+[20:52:03.933][Cacher] Parsed LaTeX AST: %WS1%/2023/December/5_personal.tex .
+[20:52:03.934][Cacher] Updated elements in 0.29 ms: %WS1%/2023/December/5_personal.tex .
+[20:52:03.935][Event] FILE_PARSED: "%WS1%/2023/December/5_personal.tex"
+[20:52:03.981][Cacher] Parsed LaTeX AST: %WS1%/2023/December/4_personal.tex .
+[20:52:03.982][Cacher] Updated elements in 0.33 ms: %WS1%/2023/December/4_personal.tex .
+[20:52:03.983][Event] FILE_PARSED: "%WS1%/2023/December/4_personal.tex"
+[20:52:04.133][Cacher] Parsed LaTeX AST: %WS1%/2023/December/1_personal.tex .
+[20:52:04.151][Cacher] Updated elements in 17.67 ms: %WS1%/2023/December/1_personal.tex .
+[20:52:04.152][Event] FILE_PARSED: "%WS1%/2023/December/1_personal.tex"
+[20:52:04.631][Cacher] Parsed LaTeX AST: %WS1%/2023/November/1_personal.tex .
+[20:52:04.635][Cacher] Updated elements in 3.30 ms: %WS1%/2023/November/1_personal.tex .
+[20:52:04.636][Event] FILE_PARSED: "%WS1%/2023/November/1_personal.tex"
+[20:52:04.794][Cacher] Parsed LaTeX AST: %WS1%/2023/October/25_personal.tex .
+[20:52:04.801][Cacher] Updated elements in 6.85 ms: %WS1%/2023/October/25_personal.tex .
+[20:52:04.802][Event] FILE_PARSED: "%WS1%/2023/October/25_personal.tex"
+[20:52:04.803][Cacher] Parsed LaTeX AST: %WS1%/books.tex .
+[20:52:04.803][Cacher] Updated elements in 0.19 ms: %WS1%/books.tex .
+[20:52:04.804][Event] FILE_PARSED: "%WS1%/books.tex"
+[20:52:04.805][Structure] Structure force updated with 0 root sections for %WS1%/main.tex .
+[20:52:04.805][Structure] Structure force updated with 0 root sections for %WS1%/main.tex .
+[20:52:04.805][Event] STRUCTURE_UPDATED
+[20:52:04.806][Event] STRUCTURE_UPDATED
+[20:52:04.807][Structure] Structure force updated with 0 root sections for %WS1%/main.tex .
+[20:52:04.807][Event] STRUCTURE_UPDATED
+[20:52:13.392][Manager] Current workspace folders: ["file://%WS1%"]
+[20:52:13.408][Event] STRUCTURE_UPDATED
+[20:52:13.410][Manager] Keep using the same root file: %WS1%/main.tex
+[20:52:13.410][Event] ROOT_FILE_SEARCHED
+[20:52:13.410][Event] STRUCTURE_UPDATED
+[20:52:17.222][Manager] Current workspace folders: ["file://%WS1%"]
+[20:52:17.239][Event] STRUCTURE_UPDATED
+[20:52:17.240][Manager] Found root file from active editor: %WS1%/main.tex
+[20:52:17.240][Manager] Keep using the same root file: %WS1%/main.tex
+[20:52:17.241][Event] ROOT_FILE_SEARCHED
+[20:52:17.241][Event] STRUCTURE_UPDATED
+[20:52:54.435][Extension] onDidSaveTextDocument triggered: file://%WS1%/main.tex
+[20:52:54.502][Cacher][Watcher] "change" emitted on %WS1%/main.tex .
+[20:52:54.504][Cacher] Caching %WS1%/main.tex .
+[20:52:54.505][Cacher] Input %WS1%/toggle.tex from %WS1%/main.tex .
+[20:52:54.506][Cacher] Updated inputs of %WS1%/main.tex .
+[20:52:54.507][Cacher] Parse LaTeX AST: %WS1%/main.tex .
+[20:52:54.507][Builder] Auto build started detecting the change of a file: %WS1%/main.tex .
+[20:52:54.507][Event] AUTO_BUILD_INITIATED: {"type":"onChange","file":"%WS1%/main.tex"}
+[20:52:54.508][Commander] BUILD command invoked.
+[20:52:54.508][Commander] The document of the active editor: file://%WS1%/main.tex
+[20:52:54.508][Commander] The languageId of the document: latex
+[20:52:54.508][Commander] Building root file: %WS1%/main.tex
+[20:52:54.508][Builder] Build root file %WS1%/main.tex
+[20:52:54.509][Event] FILE_CHANGED: "%WS1%/main.tex"
+[20:52:54.511][Builder] outDir: %WS1% .
+[20:52:54.512][Builder] Preparing to run recipe: latexmk.
+[20:52:54.513][Builder] Prepared 1 tools.
+[20:52:54.515][Builder] Recipe step 1 The command is latexmk:["-synctex=1","-interaction=nonstopmode","-file-line-error","-pdf","-outdir=%WS1%","%WS1%/main"].
+[20:52:54.515][Builder] env: {}
+[20:52:54.516][Builder] root: %WS1%/main.tex
+[20:52:54.516][Builder] cwd: %WS1%
+[20:52:54.533][Builder] LaTeX build process spawned with PID 5997.
+[20:52:54.566][Cacher] Parsed LaTeX AST: %WS1%/main.tex .
+[20:52:54.567][Cacher][Path] Calling kpsewhich to resolve tufte-handout.cls .
+[20:52:54.692][Cacher] Bib %WS1%/references.bib from %WS1%/main.tex .
+[20:52:54.693][Cacher] Updated elements in 125.92 ms: %WS1%/main.tex .
+[20:52:54.693][Event] FILE_PARSED: "%WS1%/main.tex"
+[20:52:54.695][Structure] Structure force updated with 0 root sections for %WS1%/main.tex .
+[20:52:54.695][Event] STRUCTURE_UPDATED
+[20:53:02.606][Parser][BibTeXLog] Logged 1 messages.
+[20:53:02.613][Parser][TexLog] Logged 31 messages.
+[20:53:02.615][Builder] Finished a step in recipe with PID 5997.
+[20:53:02.615][Builder] Successfully built %WS1%/main.tex .
+[20:53:02.616][Event] BUILD_DONE
+[20:53:02.616][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[20:53:02.617][Viewer] Not found PDF viewers to refresh: %WS1%/main.pdf
+[20:53:02.617][Cacher] Parsing .fls %WS1%/main.fls .
+[20:53:02.633][Cacher] Adding /home/meenaljhajharia/texmf/tex/generic/pgf/utilities/pgfutil-common.tex .
+[20:53:02.634][Cacher][Watcher] Watched /home/meenaljhajharia/texmf/tex/generic/pgf/utilities/pgfutil-common.tex with a new watcher on /home/meenaljhajharia/texmf/tex/generic/pgf/utilities .
+[20:53:02.635][Event] FILE_WATCHED: "/home/meenaljhajharia/texmf/tex/generic/pgf/utilities/pgfutil-common.tex"
+[20:53:02.635][Cacher] Found /home/meenaljhajharia/texmf/tex/generic/pgf/utilities/pgfutil-common.tex from .fls %WS1%/main.fls , caching.
+[20:53:02.636][Cacher] Caching /home/meenaljhajharia/texmf/tex/generic/pgf/utilities/pgfutil-common.tex .
+[20:53:02.637][Cacher] Updated inputs of /home/meenaljhajharia/texmf/tex/generic/pgf/utilities/pgfutil-common.tex .
+[20:53:02.637][Cacher] Parse LaTeX AST: /home/meenaljhajharia/texmf/tex/generic/pgf/utilities/pgfutil-common.tex .
+[20:53:02.638][Cacher] Adding /home/meenaljhajharia/texmf/tex/generic/pgf/pgf.revision.tex .
+[20:53:02.638][Cacher][Watcher] Watched /home/meenaljhajharia/texmf/tex/generic/pgf/pgf.revision.tex with a new watcher on /home/meenaljhajharia/texmf/tex/generic/pgf .
+[20:53:02.639][Event] FILE_WATCHED: "/home/meenaljhajharia/texmf/tex/generic/pgf/pgf.revision.tex"
+[20:53:02.639][Cacher] Found /home/meenaljhajharia/texmf/tex/generic/pgf/pgf.revision.tex from .fls %WS1%/main.fls , caching.
+[20:53:02.639][Cacher] Caching /home/meenaljhajharia/texmf/tex/generic/pgf/pgf.revision.tex .
+[20:53:02.640][Cacher] Updated inputs of /home/meenaljhajharia/texmf/tex/generic/pgf/pgf.revision.tex .
+[20:53:02.640][Cacher] Parse LaTeX AST: /home/meenaljhajharia/texmf/tex/generic/pgf/pgf.revision.tex .
+[20:53:02.647][Cacher] Adding /home/meenaljhajharia/.texlive2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map .
+[20:53:02.648][Cacher][Watcher] Watched /home/meenaljhajharia/.texlive2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map with a new watcher on /home/meenaljhajharia/.texlive2023/texmf-var/fonts/map/pdftex/updmap .
+[20:53:02.648][Event] FILE_WATCHED: "/home/meenaljhajharia/.texlive2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map"
+[20:53:02.651][Cacher] Found .aux %WS1%/main.tex from .fls %WS1%/main.fls , parsing.
+[20:53:02.652][Cacher] Parsed .aux %WS1%/main.tex .
+[20:53:02.652][Cacher] Parsed .fls %WS1%/main.fls .
+[20:53:02.843][Cacher] Parsed LaTeX AST: /home/meenaljhajharia/texmf/tex/generic/pgf/utilities/pgfutil-common.tex .
+[20:53:02.855][Cacher] Updated elements in 11.89 ms: /home/meenaljhajharia/texmf/tex/generic/pgf/utilities/pgfutil-common.tex .
+[20:53:02.858][Event] FILE_PARSED: "/home/meenaljhajharia/texmf/tex/generic/pgf/utilities/pgfutil-common.tex"
+[20:53:02.858][Cacher] Parsed LaTeX AST: /home/meenaljhajharia/texmf/tex/generic/pgf/pgf.revision.tex .
+[20:53:02.859][Cacher] Updated elements in 0.29 ms: /home/meenaljhajharia/texmf/tex/generic/pgf/pgf.revision.tex .
+[20:53:02.860][Event] FILE_PARSED: "/home/meenaljhajharia/texmf/tex/generic/pgf/pgf.revision.tex"
+[20:53:02.861][Structure] Structure force updated with 0 root sections for %WS1%/main.tex .
+[20:53:02.861][Event] STRUCTURE_UPDATED
+[20:57:16.216][Cacher][Watcher] "change" emitted on %WS1%/toggle.tex .
+[20:57:16.217][Cacher] Caching %WS1%/toggle.tex .
+[20:57:16.217][Cacher] Updated inputs of %WS1%/toggle.tex .
+[20:57:16.217][Cacher] Parse LaTeX AST: %WS1%/toggle.tex .
+[20:57:16.217][Builder] Auto build started detecting the change of a file: %WS1%/toggle.tex .
+[20:57:16.217][Event] AUTO_BUILD_INITIATED: {"type":"onChange","file":"%WS1%/toggle.tex"}
+[20:57:16.218][Commander] BUILD command invoked.
+[20:57:16.218][Commander] The document of the active editor: file://%WS1%/main.tex
+[20:57:16.218][Commander] The languageId of the document: latex
+[20:57:16.218][Commander] Building root file: %WS1%/main.tex
+[20:57:16.218][Builder] Build root file %WS1%/main.tex
+[20:57:16.218][Event] FILE_CHANGED: "%WS1%/toggle.tex"
+[20:57:16.220][Builder] outDir: %WS1% .
+[20:57:16.220][Builder] Preparing to run recipe: latexmk.
+[20:57:16.220][Builder] Prepared 1 tools.
+[20:57:16.221][Builder] Recipe step 1 The command is latexmk:["-synctex=1","-interaction=nonstopmode","-file-line-error","-pdf","-outdir=%WS1%","%WS1%/main"].
+[20:57:16.221][Builder] env: {}
+[20:57:16.221][Builder] root: %WS1%/main.tex
+[20:57:16.222][Builder] cwd: %WS1%
+[20:57:16.233][Builder] LaTeX build process spawned with PID 13070.
+[20:57:16.235][Cacher] Parsed LaTeX AST: %WS1%/toggle.tex .
+[20:57:16.235][Cacher] Updated elements in 0.14 ms: %WS1%/toggle.tex .
+[20:57:16.236][Event] FILE_PARSED: "%WS1%/toggle.tex"
+[20:57:16.237][Structure] Structure force updated with 0 root sections for %WS1%/main.tex .
+[20:57:16.237][Event] STRUCTURE_UPDATED
+[20:57:27.486][Parser][BibTeXLog] Logged 1 messages.
+[20:57:27.491][Parser][TexLog] Logged 21 messages.
+[20:57:27.492][Builder] Finished a step in recipe with PID 13070.
+[20:57:27.492][Builder] Successfully built %WS1%/main.tex .
+[20:57:27.492][Event] BUILD_DONE
+[20:57:27.493][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[20:57:27.493][Viewer] Not found PDF viewers to refresh: %WS1%/main.pdf
+[20:57:27.493][Cacher] Parsing .fls %WS1%/main.fls .
+[20:57:27.510][Cacher] Adding %WS1%/2023/December/5_work.tex .
+[20:57:27.510][Cacher][Watcher] Watched %WS1%/2023/December/5_work.tex .
+[20:57:27.510][Event] FILE_WATCHED: "%WS1%/2023/December/5_work.tex"
+[20:57:27.510][Cacher] Found %WS1%/2023/December/5_work.tex from .fls %WS1%/main.fls , caching.
+[20:57:27.510][Cacher] Caching %WS1%/2023/December/5_work.tex .
+[20:57:27.511][Cacher] Updated inputs of %WS1%/2023/December/5_work.tex .
+[20:57:27.511][Cacher] Parse LaTeX AST: %WS1%/2023/December/5_work.tex .
+[20:57:27.512][Cacher] Adding %WS1%/2023/December/4_work.tex .
+[20:57:27.512][Cacher][Watcher] Watched %WS1%/2023/December/4_work.tex .
+[20:57:27.512][Event] FILE_WATCHED: "%WS1%/2023/December/4_work.tex"
+[20:57:27.512][Cacher] Found %WS1%/2023/December/4_work.tex from .fls %WS1%/main.fls , caching.
+[20:57:27.512][Cacher] Caching %WS1%/2023/December/4_work.tex .
+[20:57:27.513][Cacher] Updated inputs of %WS1%/2023/December/4_work.tex .
+[20:57:27.513][Cacher] Parse LaTeX AST: %WS1%/2023/December/4_work.tex .
+[20:57:27.516][Cacher] Found .aux %WS1%/main.tex from .fls %WS1%/main.fls , parsing.
+[20:57:27.516][Cacher] Parsed .aux %WS1%/main.tex .
+[20:57:27.516][Cacher] Parsed .fls %WS1%/main.fls .
+[20:57:27.518][Cacher] Parsed LaTeX AST: %WS1%/2023/December/5_work.tex .
+[20:57:27.518][Cacher] Updated elements in 0.07 ms: %WS1%/2023/December/5_work.tex .
+[20:57:27.519][Event] FILE_PARSED: "%WS1%/2023/December/5_work.tex"
+[20:57:27.526][Cacher] Parsed LaTeX AST: %WS1%/2023/December/4_work.tex .
+[20:57:27.527][Cacher] Updated elements in 0.29 ms: %WS1%/2023/December/4_work.tex .
+[20:57:27.528][Event] FILE_PARSED: "%WS1%/2023/December/4_work.tex"
+[20:57:27.529][Structure] Structure force updated with 0 root sections for %WS1%/main.tex .
+[20:57:27.529][Event] STRUCTURE_UPDATED
+[20:57:43.757][Cacher][Watcher] "change" emitted on %WS1%/main.tex .
+[20:57:43.758][Cacher] Caching %WS1%/main.tex .
+[20:57:43.759][Cacher] Input %WS1%/toggle.tex from %WS1%/main.tex .
+[20:57:43.760][Cacher] Updated inputs of %WS1%/main.tex .
+[20:57:43.760][Cacher] Parse LaTeX AST: %WS1%/main.tex .
+[20:57:43.761][Builder] Auto build started detecting the change of a file: %WS1%/main.tex .
+[20:57:43.761][Event] AUTO_BUILD_INITIATED: {"type":"onChange","file":"%WS1%/main.tex"}
+[20:57:43.761][Commander] BUILD command invoked.
+[20:57:43.761][Commander] The document of the active editor: file://%WS1%/main.tex
+[20:57:43.762][Commander] The languageId of the document: latex
+[20:57:43.762][Commander] Building root file: %WS1%/main.tex
+[20:57:43.762][Builder] Build root file %WS1%/main.tex
+[20:57:43.762][Event] FILE_CHANGED: "%WS1%/main.tex"
+[20:57:43.781][Builder] outDir: %WS1% .
+[20:57:43.782][Builder] Preparing to run recipe: latexmk.
+[20:57:43.782][Builder] Prepared 1 tools.
+[20:57:43.783][Builder] Recipe step 1 The command is latexmk:["-synctex=1","-interaction=nonstopmode","-file-line-error","-pdf","-outdir=%WS1%","%WS1%/main"].
+[20:57:43.784][Builder] env: {}
+[20:57:43.784][Builder] root: %WS1%/main.tex
+[20:57:43.784][Builder] cwd: %WS1%
+[20:57:43.798][Builder] LaTeX build process spawned with PID 13718.
+[20:57:43.829][Cacher] Parsed LaTeX AST: %WS1%/main.tex .
+[20:57:43.830][Cacher][Path] Calling kpsewhich to resolve tufte-handout.cls .
+[20:57:43.947][Cacher] Bib %WS1%/references.bib from %WS1%/main.tex .
+[20:57:43.951][Cacher] Updated elements in 120.82 ms: %WS1%/main.tex .
+[20:57:43.951][Event] FILE_PARSED: "%WS1%/main.tex"
+[20:57:43.952][Structure] Structure force updated with 0 root sections for %WS1%/main.tex .
+[20:57:43.953][Event] STRUCTURE_UPDATED
+[20:57:47.489][Parser][TexLog] Logged 21 messages.
+[20:57:47.490][Builder] Finished a step in recipe with PID 13718.
+[20:57:47.490][Builder] Successfully built %WS1%/main.tex .
+[20:57:47.490][Event] BUILD_DONE
+[20:57:47.491][Viewer] Call refreshExistingViewer: "%WS1%/main.pdf" .
+[20:57:47.491][Viewer] Not found PDF viewers to refresh: %WS1%/main.pdf
+[20:57:47.492][Cacher] Parsing .fls %WS1%/main.fls .
+[20:57:47.508][Cacher] Found .aux %WS1%/main.tex from .fls %WS1%/main.fls , parsing.
+[20:57:47.508][Cacher] Parsed .aux %WS1%/main.tex .
+[20:57:47.509][Cacher] Parsed .fls %WS1%/main.fls .
+[01:34:28.784][Cacher][Watcher] Reset.
+[01:34:28.784][Cacher][Watcher] Reset.
+[01:34:28.784][Cacher][Watcher] Reset.

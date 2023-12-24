@@ -1,0 +1,123 @@
+---
+title: "Eight Schools"
+version: 0.0
+author: ""
+date: ""
+execute: 
+  daemon: 99999
+  cache: false
+toc: true
+monobackgroundcolor: "#FFFFFF"
+mainfont: "Palatino"
+---
+
+
+```{julia}
+using DataFrames, LinearAlgebra, Plots, ColorSchemes, LaTeXStrings, CSV
+Plots.theme(:mute)
+```
+
+
+```{julia}
+include("utils.jl")
+```
+
+
+```{julia}
+unc_sample_array, hessian_df_cholesky, hessian_df_ZCA, hessian_df_PCA = retrieve_data_all("eight_schools-eight_schools_centered");
+
+unc_sample_array_nc, hessian_df_cholesky_nc, hessian_df_ZCA_nc, hessian_df_PCA_nc = retrieve_data_all("eight_schools-eight_schools_noncentered");
+```
+
+
+```{julia}
+print(all(isapprox.(hessian_df_PCA_nc[:, 2], hessian_df_ZCA_nc[:, 2], atol=1e-5)))
+```
+
+
+```{julia}
+print(all(isapprox.(hessian_df_PCA_nc[:, 2], hessian_df_cholesky_nc[:, 2], atol=1e-5)))
+```
+
+
+```{julia}
+print(all(isapprox.(hessian_df_ZCA_nc[:, 2], hessian_df_cholesky_nc[:, 2], atol=1e-5)))
+```
+
+
+```{julia}
+print(all(isapprox.(hessian_df_PCA[:, 2], hessian_df_ZCA[:, 2], atol=1e-5)))
+```
+
+
+```{julia}
+print(all(isapprox.(hessian_df_PCA_nc[:, 2], hessian_df_cholesky_nc[:, 2], atol=1e-5)))
+```
+
+
+```{julia}
+print(all(isapprox.(hessian_df_ZCA_nc[:, 2], hessian_df_cholesky_nc[:, 2], atol=1e-5)))
+```
+
+
+```{julia}
+scatter(unc_sample_array[:, 1], unc_sample_array[:, end], alpha=0.1, label="Centered", fmt=:png)
+```
+
+
+```{julia}
+scatter(unc_sample_array_nc[:, 1], unc_sample_array_nc[:, end], alpha=0.1, label="Non-Centered")
+```
+
+## Whitening Transform
+
+Transformation: $L^{T} H L$, where $\Sigma^{-1} = L L^{T}$
+
+```{julia}
+plot(scatter(unc_sample_array[:, 1], unc_sample_array[:, end], alpha=0.1, label="log(Condition Number of Hessian)"), 
+zcolor=log.(hessian_df_cholesky[!, "CN_Hessian"]), title="Centered Model")
+```
+
+
+```{julia}
+plot(scatter(unc_sample_array_nc[:, 1], unc_sample_array_nc[:, end], alpha=0.1, label="log(Condition Number of Hessian)"), 
+zcolor=log.(hessian_df_cholesky_nc[!, "CN_Hessian"]), title="Non-Centered Model")
+```
+
+#### Comparing Whitening Transforms
+
+$\mathrm{ZCA}$ = $U\Lambda^{\frac{1}{2}}U^{T}$
+
+$\mathrm{PCA}$ = $\Lambda^{\frac{1}{2}}U^{T}$
+
+$\mathrm{Cholesky}$ = $L$
+
+#### Cholesky
+
+
+```{julia}
+scatter(hessian_df_cholesky[:, :CN_Hessian], hessian_df_cholesky[:, :CN_Transformed_Hessian], xaxis=:log, yaxis=:log, alpha=0.1, label="Centered", font="Palatino")
+scatter!(hessian_df_cholesky_nc[:, :CN_Hessian], hessian_df_cholesky_nc[:, :CN_Transformed_Hessian], xaxis=:log, yaxis=:log, alpha=0.1, label="Non Centered")
+
+
+title!("Cholesky Whitening\n\n Condition Number of Hessian vs Transformed Hessian (on a log scale)")
+
+Plots.abline!(1, 0, line=:dash, label="")
+plot!(xaxis = L"\mathrm{\kappa(\mathbf{H})}", yaxis = L"\mathrm{\kappa(\mathbf{H_{T}})}",
+titlefontsize=10, fontfamily="Palatino", fmt = :png)
+```
+
+#### Non-Centered: Comparing Cholesky, ZCA and PCA
+
+
+```{julia}
+scatter(hessian_df_PCA_nc[:, :CN_Hessian], hessian_df_PCA_nc[:, :CN_Transformed_Hessian], xaxis=:log, yaxis=:log,alpha=1, label="PCA", font="Palatino", c="red")
+scatter!(hessian_df_ZCA_nc[:, :CN_Hessian], hessian_df_ZCA_nc[:, :CN_Transformed_Hessian], xaxis=:log, yaxis=:log, alpha=1, label="ZCA", font="Palatino", c="cyan")
+scatter!(hessian_df_cholesky_nc[:, :CN_Hessian], hessian_df_cholesky_nc[:, :CN_Transformed_Hessian], xaxis=:log, yaxis=:log, alpha=1, label="Cholesky", font="Palatino", c="green")
+
+title!("Non-Centered Model\n\n Condition Number of Hessian vs Transformed Hessian (on a log scale)")
+
+Plots.abline!(1, 0, line=:dash, label="")
+plot!(xaxis = L"\mathrm{\kappa(\mathbf{H})}", yaxis = L"\mathrm{\kappa(\mathbf{H_{T}})}",
+titlefontsize=10, fontfamily="Palatino", fmt = :png)
+```

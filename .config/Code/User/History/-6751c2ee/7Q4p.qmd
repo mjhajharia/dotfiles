@@ -1,0 +1,84 @@
+---
+title: "Eight Schools"
+author: ""
+date: ""
+format:
+  html:
+    code-fold: true
+execute: 
+  daemon: 99999
+  cache: false
+toc: false
+monobackgroundcolor: "#FFFFFF"
+mainfont: "Palatino Linotype"
+---
+
+# Eight Schools
+
+
+```{julia}
+using Revise, DynamicHMC, PosteriorDB, Random, StanLogDensityProblems, JSON, BridgeStan, DataFrames, LinearAlgebra, StatsBase, Distributions
+using Plots, ColorSchemes, LaTeXStrings, Statistics
+```
+
+```{julia}
+Plots.theme(:default)
+const BS = BridgeStan;
+```
+
+```{julia}
+include("eightschools_pdb.jl");
+```
+
+```{julia}
+fullpath = abspath∘expanduser
+BS.set_bridgestan_path!(fullpath("~/github/roualdes/bridgestan"))
+bs_model = BS.StanModel(stan_file=path, data=s);
+bs_model_nc = BS.StanModel(stan_file=path_nc, data=s_nc);
+```
+
+
+```{julia}
+ref = PosteriorDB.reference_posterior(post)
+df=DataFrame(PosteriorDB.load(ref))
+constrained_draws = hcat([vcat(col...) for col in eachcol(df)]...)
+ref_nc = PosteriorDB.reference_posterior(post_nc)
+df_nc=DataFrame(PosteriorDB.load(ref_nc))
+constrained_draws_nc = hcat([vcat(col...) for col in eachcol(df_nc)]...);
+```
+
+
+```{julia}
+unc_sample_array_nc = vcat([
+           param_unconstrain(bs_model_nc, collect(row))' for row in eachrow(constrained_draws_nc)
+       ]...);
+
+unc_sample_array = vcat([
+           param_unconstrain(bs_model, collect(row))' for row in eachrow(constrained_draws)
+       ]...);
+
+```
+
+```{julia}
+mu, tau = constrained_draws_nc[:, end-1], constrained_draws_nc[:, end]
+for i in 1:8
+    unc_sample_array[:, i] = (unc_sample_array_nc[:, i] - mu) ./ tau
+end
+```
+
+
+
+```{julia}
+plot= scatter(unc_sample_array_nc[:, 1], unc_sample_array_nc[:, end], alpha=0.1, label="Non Centered")
+xaxis!(L"\Theta[0]")
+yaxis!(L"\mathrm{log(\tau)}")
+plot!(plot, fontfamily="Palatino")
+```
+
+
+```{julia}
+plot=scatter(unc_sample_array[:, 1], unc_sample_array[:, end], alpha=0.1, label="Centered")
+xaxis!(L"\Theta[0]")
+yaxis!(L"\mathrm{log(\tau)}")
+plot!(plot, fontfamily="Palatino")
+```

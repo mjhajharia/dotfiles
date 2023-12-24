@@ -8,8 +8,17 @@
 # i3 config file (v4)
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
-
+#screenshot
 set $mod Mod1
+
+exec_always --no-startup-id ~/.screenlayout/home.sh
+
+bindsym $mod+p exec \
+    import -window $( \
+        i3-msg -t get_tree | \
+        jq 'recurse(.nodes[]) | select(.focused).window' \
+    ) png:- | \
+    xclip -selection clipboard -t image/png
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -22,7 +31,7 @@ font pango:MesloLGS NF Regular 11
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 exec --no-startup-id nm-applet
-
+exec "sh -c 'sleep 1; exec dropbox'"
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
@@ -46,7 +55,7 @@ bindsym $mod+Shift+q kill
 # There also is i3-dmenu-desktop which only displays applications shipping a
 # .desktop file. It is a wrapper around dmenu, so you need that installed.
 #bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
-bindsym $mod+d exec --no-startup-id "rofi --icon-theme 'Papirus' --font --show-cons combi-modi window, drun -show combi -modi combi"
+bindsym $mod+d exec --no-startup-id "rofi -show drun"
 
 # change focus
 bindsym $mod+j focus left
@@ -191,12 +200,13 @@ exec_always --no-startup-id sleep 1 && ~/.config/polybar/launch.sh
 #}
 
 # Custom additions.
-bindsym $mod+b exec vivaldi-stable
+bindsym $mod+b exec firefox
 bindsym Print exec scrot ~/Downloads/%Y-%m-%d-%H-%M-%S.png
 exec --no-startup-id i3-msg 'exec /usr/bin/imwheel'
 exec --no-startup-id i3-msg 'exec /usr/bin/picom'
 exec --no-startup-id i3-msg 'exec /usr/bin/dunst'
 exec --no-startup-id i3-msg 'exec ~/.config/scripts/screenlock.sh'
+
 
 # class                 border  bground text    indicator child_border
 client.focused          #6272A4 #6272A4 #F8F8F2 #6272A4   #6272A4
@@ -213,3 +223,5 @@ for_window [window_role="Preferences"] floating enable
 for_window [window_type="dialog"] floating enable
 for_window [window_type="menu"] floating enable
 for_window [window_type="About"] floating enable
+
+

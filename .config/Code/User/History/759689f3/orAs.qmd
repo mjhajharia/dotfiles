@@ -1,0 +1,163 @@
+---
+title: "Fun-neal"
+version: 0.0
+author: ""
+date: ""
+execute: 
+  daemon: 99999
+  cache: false
+toc: true
+monobackgroundcolor: "#FFFFFF"
+mainfont: "Palatino"
+---
+
+```julia
+using Revise, PosteriorDB, Random, StanLogDensityProblems, JSON, BridgeStan, DataFrames, LinearAlgebra, StatsBase, Distributions
+using Plots, ColorSchemes, LaTeXStrings, Statistics, CSV, AdvancedHMC, DynamicObjects, DensityRatioEstimation
+Plots.theme(:default)
+const BS = BridgeStan;
+```
+
+
+```julia
+includet("Julia/dynamichmc.jl")
+```
+
+
+```julia
+fullpath = abspath∘expanduser
+BS.set_bridgestan_path!(get_bridgestan_path())
+sm = BS.StanModel(;stan_file="Julia/funnel.stan", data="Julia/data_funnel.json");
+```
+
+
+```julia
+lp = StanProblem(sm);
+D = 4;
+initial_θ = rand(D);
+n_samples, n_adapts = 2_000, 1_000;
+metric = DiagEuclideanMetric(D);
+hamiltonian = Hamiltonian(metric, lp);
+initial_ϵ = find_good_stepsize(hamiltonian, initial_θ);
+integrator = Leapfrog(initial_ϵ);
+kernel = HMCKernel(Trajectory{MultinomialTS}(integrator, GeneralisedNoUTurn()));
+adaptor = StanHMCAdaptor(MassMatrixAdaptor(metric), StepSizeAdaptor(0.8, integrator));
+samples, stats = sample(hamiltonian, kernel, initial_θ, n_samples, adaptor, n_adapts; progress=true);
+```
+
+
+```julia
+param_names(sm)
+```
+
+
+```julia
+unc_sample_array = vcat([
+           param_unconstrain(sm, collect(row[1]))' for row in eachrow(samples)
+       ]...);
+```
+
+
+```julia
+scatter(unc_sample_array[:, 2], unc_sample_array[:, 1], label=" Model", alpha = 0.3)
+plot!(yaxis=L"\mathrm{log\tau}", xaxis=L"\Theta[0]", fontfamily="Palatino", fmt=:png)
+```
+
+
+```julia
+logp=vcat(
+           hcat([log_density_gradient(sm, collect(row))[1] for row in eachrow(unc_sample_array)]...)
+       );
+
+loggrad=vcat(
+           hcat([log_density_gradient(sm, collect(row))[2] for row in eachrow(unc_sample_array)]...)
+       );
+```
+
+
+```julia
+scatter(unc_sample_array[:, 1], loggrad[1, :], label="tau", alpha = 0.3, fmt=:png)
+xaxis!("parameter")
+yaxis!("loggrad")
+```
+
+
+```julia
+scatter(unc_sample_array[:, 3], loggrad[3, :], label="theta2", alpha = 0.3, fmt=:png)
+xaxis!("parameter")
+yaxis!("loggrad")
+```
+
+
+```julia
+stats[1]
+```
+
+
+```julia
+scatter([row.hamiltonian_energy_error for row in stats], unc_sample_array[:, 1], label="", alpha = 0.3, fmt=:png)
+xaxis!("error")
+yaxis!("tau")
+```
+
+
+```julia
+function pairplot(df)
+    n_cols = ncol(df)
+    p = plot(layout = (n_cols, n_cols), 
+             xticks = false, 
+             yticks = false, 
+             legend = false,
+             size = (800, 800), fmt=:png)
+
+    for i in 1:n_cols
+        for j in 1:n_cols
+            scatter!(p[i, j], df[!, i], df[!, j], markersize = 2, xlabel=names(df)[i], ylabel=names(df)[j])
+        end
+    end
+    return p
+end
+```
+
+
+```julia
+U = svd(cov(unc_sample_array)).U;
+eigval = svd(cov(unc_sample_array)).S;
+Lambda = diagm(sqrt.(eigval));
+L = cholesky(cov(unc_sample_array)).L;
+```
+
+
+```julia
+transform = L*unc_sample_array'
+pairplot(DataFrame(transform',  :auto))
+```
+
+
+```julia
+transform = U*Lambda*unc_sample_array'
+pairplot(DataFrame(transform',  :auto))
+```
+
+
+```julia
+transform = U'*Lambda*unc_sample_array'
+pairplot(DataFrame(transform',  :auto))
+```
+
+
+```julia
+transform = U*Lambda*unc_sample_array'
+pairplot(DataFrame(transform',  :auto))
+```
+
+
+```julia
+transform = U'*Lambda*unc_sample_array'
+pairplot(DataFrame(transform',  :auto))
+```
+
+
+```julia
+
+```

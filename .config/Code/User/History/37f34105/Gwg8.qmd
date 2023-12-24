@@ -1,0 +1,14 @@
+---
+title: "Eight Schools"
+version: 0.1
+author: ""
+date: ""
+execute: 
+  daemon: 99999
+  cache: true
+figures:
+  fig-format: png
+toc: false
+monobackgroundcolor: "#FFFFFF"
+mainfont: "Palatino"
+---

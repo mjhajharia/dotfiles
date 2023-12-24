@@ -1,0 +1,11 @@
+\title{Stickbreaking CDF Transform}
+\tag{private}
+\author{meenaljhajharia}
+\texpackage{preamble}
+\import{basic-macros}
+
+\p{For this family of transforms, let #{H_i} be the CDF of any continuous distribution supported on the entire real line, #{H_i^{-1}} be its quantile function, and #{h_i} be its density function.}
+
+\transclude{stickbreakingcdf-0001}
+\transclude{stickbreakingcdf-0002}
+\transclude{stickbreakingcdf-0003}

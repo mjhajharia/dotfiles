@@ -1,0 +1,23 @@
+2023-12-05 03:12:01.256 [info] Log level: Info
+2023-12-05 03:12:01.256 [info] Validating found git in: "git"
+2023-12-05 03:12:01.256 [info] Using git "2.43.0" from "git"
+2023-12-05 03:12:01.256 [info] > git rev-parse --show-toplevel [3ms]
+2023-12-05 03:12:01.256 [info] > git rev-parse --git-dir --git-common-dir [48ms]
+2023-12-05 03:12:01.257 [info] Open repository: /home/meenaljhajharia/github/mjhajharia/diagnosing-hmc
+2023-12-05 03:12:01.268 [info] > git rev-parse --show-toplevel [13ms]
+2023-12-05 03:12:01.279 [info] > git rev-parse --show-toplevel [1ms]
+2023-12-05 03:12:01.292 [info] > git config --get commit.template [24ms]
+2023-12-05 03:12:01.364 [info] > git rev-parse --show-toplevel [72ms]
+2023-12-05 03:12:01.390 [info] > git rev-parse --show-toplevel [16ms]
+2023-12-05 03:12:01.432 [info] > git rev-parse --show-toplevel [31ms]
+2023-12-05 03:12:01.443 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/wip refs/remotes/wip [54ms]
+2023-12-05 03:12:01.457 [info] > git status -z -uall [3ms]
+2023-12-05 03:12:01.457 [info] > git rev-parse --show-toplevel [14ms]
+2023-12-05 03:12:01.495 [info] > git config --get commit.template [12ms]
+2023-12-05 03:12:01.496 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/wip refs/remotes/wip [3ms]
+2023-12-05 03:12:01.510 [info] > git status -z -uall [3ms]
+2023-12-05 03:12:01.907 [info] > git check-ignore -v -z --stdin [9ms]
+2023-12-05 03:12:02.010 [info] > git show --textconv :quarto/theme.scss [45ms]
+2023-12-05 03:12:02.011 [info] > git ls-files --stage -- /home/meenaljhajharia/github/mjhajharia/diagnosing-hmc/quarto/theme.scss [29ms]
+2023-12-05 03:12:30.966 [info] > git show --textconv :quarto/variation in condition number [14ms]
+2023-12-05 03:12:30.968 [info] > git ls-files --stage -- /home/meenaljhajharia/github/mjhajharia/diagnosing-hmc/quarto/variation in condition number [3ms]

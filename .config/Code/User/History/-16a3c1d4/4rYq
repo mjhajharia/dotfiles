@@ -1,0 +1,5 @@
+*.hpp
+*.DS_Store
+**/*.ipynb
+**/*.so
+*.vscode/

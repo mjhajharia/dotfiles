@@ -1,0 +1,11 @@
+**/.DS_Store
+.vscode/**
+*.hpp
+utils/__pycache__/*
+utils/.ipynb_checkpoints/*
+.ipynb_checkpoints/*
+**/__pycache__/*
+*.slurm
+*.nc
+*.log
+/stan_models/**

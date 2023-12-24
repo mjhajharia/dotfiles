@@ -1,0 +1,10 @@
+\title{Unconstraining Expanded Softmax Transform}
+\tag{private}
+\author{meenaljhajharia}
+\texpackage{preamble}
+\import{basic-macros}
+
+\p{The inverse expanded-softmax transform is 
+##{
+  \operatorname{expsoftmax}^{-1}(r, x) = \trans{\begin{bmatrix}\log(x_1) + r & \ldots & \log(x_N) + r\end{bmatrix}}.
+}}

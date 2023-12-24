@@ -1,0 +1,6 @@
+
+\paragraph{Unconstraining transform} The inverse normalized gamma transform $f_\alpha^{-1}$ is defined as $f_\alpha^{-1} = h_\alpha^{-1} \circ \operatorname{expsoftmax}^{-1}$, where $h_\alpha^{-1}$ is defined by
+$$
+    y_i = h_\alpha^{-1}(z)_i = \probit(G_{\alpha_i}(\exp(z_i))).
+$$
+

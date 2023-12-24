@@ -1,0 +1,26 @@
+
+
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Diagnosing HMC"
+  sidebar:
+      contents: auto
+
+format:
+  html:
+    theme: default
+    css: styles.css
+    toc: true
+    page-footer: 
+    background: light
+    left: 
+      - "Copyright 2021, Samantha Csik"
+    right: 
+      - icon: github
+        href: https://github.com/samanthacsik
+      - icon: twitter
+        href: https://twitter.com/SamanthaCsik
+editor: visual

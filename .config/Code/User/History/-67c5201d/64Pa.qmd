@@ -1,0 +1,42 @@
+---
+title: "Index"
+version: 0.0
+author: ""
+date: ""
+execute: 
+  enabled: true
+  daemon: 99999
+  cache: false
+toc: true
+monobackgroundcolor: "#FFFFFF"
+mainfont: "Palatino"
+---
+
+** Goal of this Project**: Diagnostics for sampling problems in Hamiltonian Monte Carlo, specially in regions of high curvature.
+
+### Models used
+- Simple models that lead to a Funnel (considering mostly low dimensional models) and looking ar various transformations to see if the funnel remains, linear transformations fail at this.
+
+- Models used in the PathFinder paper (taking reference draws from PosteriorDB) to compare various approaches.
+
+### Approaches
+#### Hessian Based Approaches
+- Variation of Condition Number of Hessian
+- Whitening transformations on Hessians and then looking comparing Condition Numbers
+
+#### Absolute error from HMC
+- AdvancedHMC.jl Patch
+
+### Other Transformations
+- Varying versions of grad vs sigma on the funnel plots
+
+### Distances to Normality
+- KL Divergence ends up being difficult to compute for Multivariate cases
+
+- Other Approaches ()
+
+### Identifying regions leading to divergences
+- Storing Initial point and momentum to recover the offending trajectory
+
+### Experimenting with Metric Tensors used for Riemannian HMC
+- Monge Metric for HMC instead of LMC

@@ -1,0 +1,10 @@
+\subsubsection{Stick-breaking power-CDF transforms}
+
+Let $H$ be the CDF of any continuous distribution supported on the entire real line, $H^{-1}$ be its quantile function, and $h$ be its density function.
+
+\paragraph{Unconstraining transform} $$
+
+\paragraph{Constraining transform} $$
+
+\paragraph{Change-of-variables adjustment}
+

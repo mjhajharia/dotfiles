@@ -1,0 +1,23 @@
+\title{Unconstraining Isometric Log Ratio Transform}
+\tag{private}
+\author{meenaljhajharia}
+\texpackage{amsmath}
+\import{basic-macros}
+We define a distance preserving transformation from #{ \operatorname{ilr}\colon \Delta^{N-1} \to \R^{N-1} } called an isometric log ratio transform \cite{egozcue2003isometric}.
+Note that the ALR transformation may be written as
+##{
+  \begin{aligned}
+ \operatorname{alr}(x) &= \trans{\begin{bmatrix}
+    \log \frac{x_1}{x_N}, \cdots , \log \frac{x_{N-1}}{x_N}
+  \end{bmatrix}} \\
+  &= \begin{bmatrix}
+    \idmat{N-1} & -\onevec{N-1}
+  \end{bmatrix} \log(x)
+  \end{aligned}
+}
+Similarly, for any semi-orthogonal matrix #{ V \in \R^{N \times N - 1} }, such that #{ \trans{V} V=\idmat{N-1} }, the ILR is defined for #{ x \in \simplex{N-1} } as
+\[
+  \operatorname{ilr}(x) = \trans{V} \log(x).
+\]
+
+Semi-orthogonal #{ V } matrices may be constructed through the Gram-Schmidt process or by normalizing the rows of a Helmert contrast matrix using the L2 norm.

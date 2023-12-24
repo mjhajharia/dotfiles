@@ -1,0 +1,97 @@
+2023-12-04 15:11:28.962 [info] Name: isort
+2023-12-04 15:11:28.962 [info] Module: isort
+2023-12-04 15:11:28.962 [info] Python extension loading
+2023-12-04 15:11:28.962 [info] Waiting for interpreter from python extension.
+2023-12-04 15:11:28.962 [info] No interpreter found from setting isort.interpreter
+2023-12-04 15:11:28.962 [info] Getting interpreter from ms-python.python extension for workspace /home/meenaljhajharia/github/mjhajharia/diagnosing-hmc
+2023-12-04 15:11:28.962 [info] Python extension loaded
+2023-12-04 15:11:28.962 [info] Interpreter from ms-python.python extension for /home/meenaljhajharia/github/mjhajharia/diagnosing-hmc: /home/meenaljhajharia/anaconda3/envs/stan/bin/python
+2023-12-04 15:11:28.962 [info] No interpreter found from setting isort.interpreter
+2023-12-04 15:11:28.962 [info] Getting interpreter from ms-python.python extension for workspace /home/meenaljhajharia/github/mjhajharia/diagnosing-hmc
+2023-12-04 15:11:28.962 [info] Interpreter from ms-python.python extension for /home/meenaljhajharia/github/mjhajharia/diagnosing-hmc: /home/meenaljhajharia/anaconda3/envs/stan/bin/python
+2023-12-04 15:11:28.962 [info] Server run command: /home/meenaljhajharia/anaconda3/envs/stan/bin/python /home/meenaljhajharia/.vscode/extensions/ms-python.isort-2023.10.1/bundled/tool/lsp_server.py
+2023-12-04 15:11:28.962 [info] Server: Start requested.
+2023-12-04 15:11:30.170 [info] CWD Server: /home/meenaljhajharia/github/mjhajharia/diagnosing-hmc
+2023-12-04 15:11:30.199 [info] sys.path used to run Server:
+   /home/meenaljhajharia/.vscode/extensions/ms-python.isort-2023.10.1/bundled/libs
+   /home/meenaljhajharia/.vscode/extensions/ms-python.isort-2023.10.1/bundled/tool
+   /home/meenaljhajharia/anaconda3/envs/stan/lib/python311.zip
+   /home/meenaljhajharia/anaconda3/envs/stan/lib/python3.11
+   /home/meenaljhajharia/anaconda3/envs/stan/lib/python3.11/lib-dynload
+   /home/meenaljhajharia/.local/lib/python3.11/site-packages
+   /home/meenaljhajharia/anaconda3/envs/stan/lib/python3.11/site-packages
+2023-12-04 15:11:30.201 [info] Settings used to run Server:
+[
+    {
+        "check": false,
+        "cwd": "/home/meenaljhajharia/github/mjhajharia/diagnosing-hmc",
+        "workspace": "file:///home/meenaljhajharia/github/mjhajharia/diagnosing-hmc",
+        "args": [],
+        "path": [],
+        "severity": {
+            "W": "Warning",
+            "E": "Hint"
+        },
+        "interpreter": [
+            "/home/meenaljhajharia/anaconda3/envs/stan/bin/python"
+        ],
+        "importStrategy": "useBundled",
+        "showNotifications": "off"
+    }
+]
+
+2023-12-04 15:11:30.207 [info] Global settings:
+{
+    "check": false,
+    "cwd": "/home/meenaljhajharia",
+    "workspace": "/home/meenaljhajharia",
+    "args": [],
+    "path": [],
+    "severity": {
+        "W": "Warning",
+        "E": "Hint"
+    },
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+
+2023-12-04 15:11:30.236 [info] /home/meenaljhajharia/anaconda3/envs/stan/bin/python -m isort --version-number
+2023-12-04 15:11:30.239 [info] CWD Linter: /home/meenaljhajharia/github/mjhajharia/diagnosing-hmc
+2023-12-04 15:11:30.240 [info] Version info for isort running for /home/meenaljhajharia/github/mjhajharia/diagnosing-hmc:
+5.11.5
+
+2023-12-04 15:11:30.258 [info] SUPPORTED isort>=5.10.1
+FOUND isort==5.11.5
+
+2023-12-04 15:11:30.278 [info] [Trace - 3:11:30 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-04 15:11:30.285 [info] [Trace - 3:11:30 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-04 15:11:30.287 [info] [Trace - 3:11:30 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-04 15:11:30.288 [info] [Trace - 3:11:30 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-04 15:11:30.289 [info] [Trace - 3:11:30 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-04 15:11:30.289 [info] [Trace - 3:11:30 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-04 15:11:30.290 [info] [Trace - 3:11:30 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-04 15:11:30.291 [info] [Trace - 3:11:30 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-04 15:11:30.291 [info] [Trace - 3:11:30 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-04 15:11:30.292 [info] [Trace - 3:11:30 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-04 15:11:30.293 [info] [Trace - 3:11:30 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-04 15:11:30.293 [info] [Trace - 3:11:30 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-04 15:11:30.294 [info] [Trace - 3:11:30 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-04 15:11:30.295 [info] [Trace - 3:11:30 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-04 15:11:30.374 [info] [Trace - 3:11:30 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-04 15:11:30.380 [info] [Trace - 3:11:30 PM] Sending request 'textDocument/codeAction - (1)'.
+2023-12-04 15:11:30.381 [info] [Trace - 3:11:30 PM] Sending request 'textDocument/codeAction - (2)'.
+2023-12-04 15:11:30.927 [info] [Trace - 3:11:30 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-04 15:11:30.965 [info] [Trace - 3:11:30 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-04 15:11:30.972 [info] [Trace - 3:11:30 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-04 15:11:30.975 [info] [Trace - 3:11:30 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-12-04 15:11:30.976 [info] [Trace - 3:11:30 PM] Received response 'textDocument/codeAction - (1)' in 596ms.
+2023-12-04 15:11:30.980 [info] [Trace - 3:11:30 PM] Received response 'textDocument/codeAction - (2)' in 599ms.
+2023-12-04 15:11:32.083 [info] [Trace - 3:11:32 PM] Sending request 'textDocument/codeAction - (3)'.
+2023-12-04 15:11:32.084 [info] [Trace - 3:11:32 PM] Sending request 'textDocument/codeAction - (4)'.
+2023-12-04 15:11:32.085 [info] [Trace - 3:11:32 PM] Received response 'textDocument/codeAction - (3)' in 2ms.
+2023-12-04 15:11:32.086 [info] [Trace - 3:11:32 PM] Received response 'textDocument/codeAction - (4)' in 2ms.
+2023-12-04 15:11:34.915 [info] [Trace - 3:11:34 PM] Sending request 'textDocument/codeAction - (5)'.
+2023-12-04 15:11:34.916 [info] [Trace - 3:11:34 PM] Sending request 'textDocument/codeAction - (6)'.
+2023-12-04 15:11:34.919 [info] [Trace - 3:11:34 PM] Received response 'textDocument/codeAction - (5)' in 3ms.
+2023-12-04 15:11:34.919 [info] [Trace - 3:11:34 PM] Received response 'textDocument/codeAction - (6)' in 3ms.

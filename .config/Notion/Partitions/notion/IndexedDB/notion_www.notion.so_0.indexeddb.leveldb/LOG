@@ -1,0 +1,27 @@
+2023/11/29-06:33:33.970 15638e Creating DB /home/meenaljhajharia/.config/Notion/Partitions/notion/IndexedDB/notion_www.notion.so_0.indexeddb.leveldb since it was missing.
+2023/11/29-06:33:33.983 15638e Reusing MANIFEST /home/meenaljhajharia/.config/Notion/Partitions/notion/IndexedDB/notion_www.notion.so_0.indexeddb.leveldb/MANIFEST-000001
+2023/11/29-06:33:34.467 1563b4 Level-0 table #5: started
+2023/11/29-06:33:34.471 1563b4 Level-0 table #5: 2601 bytes OK
+2023/11/29-06:33:34.477 1563b4 Delete type=0 #3
+2023/11/29-06:33:34.477 15638d Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/11/29-06:33:35.194 1563b3 Level-0 table #7: started
+2023/11/29-06:33:35.198 1563b3 Level-0 table #7: 525 bytes OK
+2023/11/29-06:33:35.204 1563b3 Delete type=0 #4
+2023/11/29-06:33:35.204 15638d Manual compaction at level-0 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/11/29-06:33:55.282 15638d Level-0 table #9: started
+2023/11/29-06:33:55.287 15638d Level-0 table #9: 3236 bytes OK
+2023/11/29-06:33:55.293 15638d Delete type=0 #6
+2023/11/29-06:33:55.293 15638d Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at '\x00\x05\x00\x00\xc8\x0f\x00p\x00e\x00n\x00d\x00i\x00n\x00g\x00C\x00a\x00p\x00t\x00u\x00r\x00e\x00s' @ 338 : 1
+2023/11/29-06:33:55.293 15638d Compacting 1@0 + 1@1 files
+2023/11/29-06:33:55.298 15638d Generated table #10@0: 148 keys, 1913 bytes
+2023/11/29-06:33:55.298 15638d Compacted 1@0 + 1@1 files => 1913 bytes
+2023/11/29-06:33:55.304 15638d compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/11/29-06:33:55.304 15638d Delete type=2 #9
+2023/11/29-06:33:55.304 15638d Manual compaction at level-0 from '\x00\x05\x00\x00\xc8\x0f\x00p\x00e\x00n\x00d\x00i\x00n\x00g\x00C\x00a\x00p\x00t\x00u\x00r\x00e\x00s' @ 338 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/11/29-06:42:58.462 15638d Compacting 1@1 + 1@2 files
+2023/11/29-06:42:58.472 15638d Generated table #11@1: 119 keys, 1852 bytes
+2023/11/29-06:42:58.472 15638d Compacted 1@1 + 1@2 files => 1852 bytes
+2023/11/29-06:42:58.478 15638d compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/11/29-06:42:58.479 15638d Delete type=2 #5
+2023/11/29-06:42:58.479 15638d Delete type=2 #10
+2023/11/29-06:42:58.479 15638d Delete type=2 #7

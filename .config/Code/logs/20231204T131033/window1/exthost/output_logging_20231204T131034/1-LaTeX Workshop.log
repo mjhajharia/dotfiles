@@ -1,0 +1,161 @@
+[13:10:35.113][Logger] New log placeholder %WS1% registered for /home/meenaljhajharia/Dropbox/MathJournal .
+[13:10:35.113][Manager] Set $LATEXWORKSHOP_DOCKER_LATEX: ""
+[13:10:35.140][Server] Creating LaTeX Workshop http and websocket server.
+[13:10:35.183][Server] Server successfully started: {"address":"127.0.0.1","family":"IPv4","port":37351} .
+[13:10:35.189][Extension] Initializing LaTeX Workshop.
+[13:10:35.189][Extension] Extension root: /home/meenaljhajharia/.vscode/extensions/james-yu.latex-workshop-9.15.0
+[13:10:35.189][Extension] $PATH: /usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/var/lib/flatpak/exports/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin:/home/meenaljhajharia/bin:/usr/local/texlive/2023/bin/x86_64-linux:/home/meenaljhajharia/bin
+[13:10:35.189][Extension] $SHELL: /usr/bin/zsh
+[13:10:35.190][Extension] $LANG: C.UTF-8
+[13:10:35.190][Extension] $LC_ALL: undefined
+[13:10:35.190][Extension] process.platform: linux
+[13:10:35.190][Extension] process.arch: x64
+[13:10:35.190][Extension] vscode.env.appName: Visual Studio Code
+[13:10:35.191][Extension] vscode.env.remoteName: undefined
+[13:10:35.191][Extension] vscode.env.uiKind: 1
+[13:10:35.191][Extension] LaTeX Workshop initialized.
+[13:10:35.195][Format][Bib] Bibtex format config: {"tab":"  ","case":"lowercase","left":"{","right":"}","trailingComma":false,"sort":["key"],"alignOnEqual":true,"sortFields":false,"fieldsOrder":[],"firstEntries":["string","xdata"]}
+[13:10:35.196][Extension] Trigger characters for intellisense of LaTeX documents: ["\\",",","{"]
+[13:10:35.198][Manager] Current workspace folders: ["file://%WS1%"]
+[13:10:35.198][Manager] Current workspaceRootDir: file://%WS1%
+[13:10:35.358][Server] valdOrigin is http://127.0.0.1:37351
+[13:10:35.479][Cacher][Path] Non-existent .fls for %WS1%/stuff.tex .
+[13:10:35.480][Cacher][Path] Non-existent .fls for %WS1%/aalto-hmc/whitening-transforms.tex .
+[13:10:35.481][Cacher][Path] Non-existent .fls for %WS1%/aalto-hmc/aalto-hmc.tex .
+[13:10:35.484][Manager] Found root file from '.fls': %WS1%/main.tex
+[13:10:35.484][Manager] Root file changed: from undefined to %WS1%/main.tex
+[13:10:35.485][Manager] Start to find all dependencies.
+[13:10:35.485][Manager] Root file languageId: latex
+[13:10:35.485][Event] ROOT_FILE_CHANGED: "%WS1%/main.tex"
+[13:10:35.486][Cacher][Watcher] Reset.
+[13:10:35.488][Cacher] Adding %WS1%/main.tex .
+[13:10:35.489][Cacher][Watcher] Watched %WS1%/main.tex with a new watcher on %WS1% .
+[13:10:35.490][Event] FILE_WATCHED: "%WS1%/main.tex"
+[13:10:35.491][Cacher] Caching %WS1%/main.tex .
+[13:10:35.492][Cacher] Input %WS1%/stuff.tex from %WS1%/main.tex .
+[13:10:35.494][Cacher] Adding %WS1%/stuff.tex .
+[13:10:35.494][Cacher][Watcher] Watched %WS1%/stuff.tex .
+[13:10:35.494][Event] FILE_WATCHED: "%WS1%/stuff.tex"
+[13:10:35.495][Cacher] Caching %WS1%/stuff.tex .
+[13:10:35.496][Cacher] Updated inputs of %WS1%/stuff.tex .
+[13:10:35.496][Cacher] Parse LaTeX AST: %WS1%/stuff.tex .
+[13:10:35.496][Cacher] Input %WS1%/aalto-hmc/aalto-hmc.tex from %WS1%/main.tex .
+[13:10:35.497][Cacher] Adding %WS1%/aalto-hmc/aalto-hmc.tex .
+[13:10:35.498][Cacher][Watcher] Watched %WS1%/aalto-hmc/aalto-hmc.tex with a new watcher on %WS1%/aalto-hmc .
+[13:10:35.498][Event] FILE_WATCHED: "%WS1%/aalto-hmc/aalto-hmc.tex"
+[13:10:35.498][Cacher] Caching %WS1%/aalto-hmc/aalto-hmc.tex .
+[13:10:35.499][Cacher] Updated inputs of %WS1%/aalto-hmc/aalto-hmc.tex .
+[13:10:35.503][Cacher] Parse LaTeX AST: %WS1%/aalto-hmc/aalto-hmc.tex .
+[13:10:35.504][Cacher] Input %WS1%/aalto-hmc/whitening-transforms.tex from %WS1%/main.tex .
+[13:10:35.504][Cacher] Adding %WS1%/aalto-hmc/whitening-transforms.tex .
+[13:10:35.505][Cacher][Watcher] Watched %WS1%/aalto-hmc/whitening-transforms.tex .
+[13:10:35.505][Event] FILE_WATCHED: "%WS1%/aalto-hmc/whitening-transforms.tex"
+[13:10:35.505][Cacher] Caching %WS1%/aalto-hmc/whitening-transforms.tex .
+[13:10:35.506][Cacher] Updated inputs of %WS1%/aalto-hmc/whitening-transforms.tex .
+[13:10:35.506][Cacher] Parse LaTeX AST: %WS1%/aalto-hmc/whitening-transforms.tex .
+[13:10:35.506][Cacher] Input %WS1%/flatiron-transforms/simplex-paper.tex from %WS1%/main.tex .
+[13:10:35.507][Cacher] Adding %WS1%/flatiron-transforms/simplex-paper.tex .
+[13:10:35.507][Cacher][Watcher] Watched %WS1%/flatiron-transforms/simplex-paper.tex with a new watcher on %WS1%/flatiron-transforms .
+[13:10:35.507][Event] FILE_WATCHED: "%WS1%/flatiron-transforms/simplex-paper.tex"
+[13:10:35.508][Cacher] Caching %WS1%/flatiron-transforms/simplex-paper.tex .
+[13:10:35.508][Cacher] Updated inputs of %WS1%/flatiron-transforms/simplex-paper.tex .
+[13:10:35.508][Cacher] Parse LaTeX AST: %WS1%/flatiron-transforms/simplex-paper.tex .
+[13:10:35.509][Cacher] Updated inputs of %WS1%/main.tex .
+[13:10:35.509][Cacher] Parse LaTeX AST: %WS1%/main.tex .
+[13:10:35.509][Event] ROOT_FILE_SEARCHED
+[13:10:35.532][Cacher] Parsed LaTeX AST: %WS1%/stuff.tex .
+[13:10:35.533][Cacher] Updated elements in 0.32 ms: %WS1%/stuff.tex .
+[13:10:35.533][Event] FILE_PARSED: "%WS1%/stuff.tex"
+[13:10:35.533][Cacher] Parsed LaTeX AST: %WS1%/aalto-hmc/aalto-hmc.tex .
+[13:10:35.534][Cacher] Updated elements in 0.33 ms: %WS1%/aalto-hmc/aalto-hmc.tex .
+[13:10:35.534][Event] FILE_PARSED: "%WS1%/aalto-hmc/aalto-hmc.tex"
+[13:10:35.535][Cacher] Parsed LaTeX AST: %WS1%/aalto-hmc/whitening-transforms.tex .
+[13:10:35.535][Cacher] Updated elements in 0.07 ms: %WS1%/aalto-hmc/whitening-transforms.tex .
+[13:10:35.535][Event] FILE_PARSED: "%WS1%/aalto-hmc/whitening-transforms.tex"
+[13:10:35.542][Cacher] Parsed LaTeX AST: %WS1%/flatiron-transforms/simplex-paper.tex .
+[13:10:35.542][Cacher] Updated elements in 0.26 ms: %WS1%/flatiron-transforms/simplex-paper.tex .
+[13:10:35.543][Event] FILE_PARSED: "%WS1%/flatiron-transforms/simplex-paper.tex"
+[13:10:35.680][Cacher] Parsed LaTeX AST: %WS1%/main.tex .
+[13:10:35.681][Cacher][Path] Calling kpsewhich to resolve tufte-handout.cls .
+[13:10:35.811][Cacher] Bib %WS1%/references.bib from %WS1%/main.tex .
+[13:10:35.811][Intelli][Citation] Parsing .bib entries from %WS1%/references.bib
+[13:10:35.812][Intelli][Citation] Parse BibTeX AST from %WS1%/references.bib .
+[13:10:35.812][Cacher][Watcher] Watched %WS1%/references.bib with a new watcher on %WS1% .
+[13:10:35.812][Event] FILE_WATCHED: "%WS1%/references.bib"
+[13:10:35.812][Cacher] Updated elements in 131.94 ms: %WS1%/main.tex .
+[13:10:35.813][Event] FILE_PARSED: "%WS1%/main.tex"
+[13:10:35.814][Cacher] Parsing .fls %WS1%/main.fls .
+[13:10:35.816][Cacher] Adding %WS1%/tufte-handout.cls .
+[13:10:35.817][Cacher][Watcher] Watched %WS1%/tufte-handout.cls .
+[13:10:35.817][Event] FILE_WATCHED: "%WS1%/tufte-handout.cls"
+[13:10:35.830][Cacher] Adding /home/meenaljhajharia/texmf/tex/generic/pgf/utilities/pgfutil-common.tex .
+[13:10:35.831][Cacher][Watcher] Watched /home/meenaljhajharia/texmf/tex/generic/pgf/utilities/pgfutil-common.tex with a new watcher on /home/meenaljhajharia/texmf/tex/generic/pgf/utilities .
+[13:10:35.831][Event] FILE_WATCHED: "/home/meenaljhajharia/texmf/tex/generic/pgf/utilities/pgfutil-common.tex"
+[13:10:35.831][Cacher] Found /home/meenaljhajharia/texmf/tex/generic/pgf/utilities/pgfutil-common.tex from .fls %WS1%/main.fls , caching.
+[13:10:35.832][Cacher] Caching /home/meenaljhajharia/texmf/tex/generic/pgf/utilities/pgfutil-common.tex .
+[13:10:35.833][Cacher] Updated inputs of /home/meenaljhajharia/texmf/tex/generic/pgf/utilities/pgfutil-common.tex .
+[13:10:35.834][Cacher] Parse LaTeX AST: /home/meenaljhajharia/texmf/tex/generic/pgf/utilities/pgfutil-common.tex .
+[13:10:35.835][Cacher] Adding /home/meenaljhajharia/texmf/tex/generic/pgf/pgf.revision.tex .
+[13:10:35.835][Cacher][Watcher] Watched /home/meenaljhajharia/texmf/tex/generic/pgf/pgf.revision.tex with a new watcher on /home/meenaljhajharia/texmf/tex/generic/pgf .
+[13:10:35.836][Event] FILE_WATCHED: "/home/meenaljhajharia/texmf/tex/generic/pgf/pgf.revision.tex"
+[13:10:35.836][Cacher] Found /home/meenaljhajharia/texmf/tex/generic/pgf/pgf.revision.tex from .fls %WS1%/main.fls , caching.
+[13:10:35.836][Cacher] Caching /home/meenaljhajharia/texmf/tex/generic/pgf/pgf.revision.tex .
+[13:10:35.837][Cacher] Updated inputs of /home/meenaljhajharia/texmf/tex/generic/pgf/pgf.revision.tex .
+[13:10:35.837][Cacher] Parse LaTeX AST: /home/meenaljhajharia/texmf/tex/generic/pgf/pgf.revision.tex .
+[13:10:35.845][Cacher] Adding /home/meenaljhajharia/.texlive2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map .
+[13:10:35.845][Cacher][Watcher] Watched /home/meenaljhajharia/.texlive2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map with a new watcher on /home/meenaljhajharia/.texlive2023/texmf-var/fonts/map/pdftex/updmap .
+[13:10:35.846][Event] FILE_WATCHED: "/home/meenaljhajharia/.texlive2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map"
+[13:10:35.848][Cacher] Adding %WS1%/2023/November/1.tex .
+[13:10:35.848][Cacher][Watcher] Watched %WS1%/2023/November/1.tex with a new watcher on %WS1%/2023/November .
+[13:10:35.849][Event] FILE_WATCHED: "%WS1%/2023/November/1.tex"
+[13:10:35.849][Cacher] Found %WS1%/2023/November/1.tex from .fls %WS1%/main.fls , caching.
+[13:10:35.849][Cacher] Caching %WS1%/2023/November/1.tex .
+[13:10:35.850][Cacher] Updated inputs of %WS1%/2023/November/1.tex .
+[13:10:35.850][Cacher] Parse LaTeX AST: %WS1%/2023/November/1.tex .
+[13:10:35.851][Cacher] Adding %WS1%/2023/December/30.tex .
+[13:10:35.852][Cacher][Watcher] Watched %WS1%/2023/December/30.tex with a new watcher on %WS1%/2023/December .
+[13:10:35.852][Event] FILE_WATCHED: "%WS1%/2023/December/30.tex"
+[13:10:35.852][Cacher] Found %WS1%/2023/December/30.tex from .fls %WS1%/main.fls , caching.
+[13:10:35.853][Cacher] Caching %WS1%/2023/December/30.tex .
+[13:10:35.853][Cacher] Updated inputs of %WS1%/2023/December/30.tex .
+[13:10:35.853][Cacher] Parse LaTeX AST: %WS1%/2023/December/30.tex .
+[13:10:35.854][Cacher] Found .aux %WS1%/main.tex from .fls %WS1%/main.fls , parsing.
+[13:10:35.855][Cacher] Parsed .aux %WS1%/main.tex .
+[13:10:35.856][Cacher] Found .aux %WS1%/main.tex from .fls %WS1%/main.fls , parsing.
+[13:10:35.856][Cacher] Parsed .aux %WS1%/main.tex .
+[13:10:35.856][Cacher] Found .aux %WS1%/main.tex from .fls %WS1%/main.fls , parsing.
+[13:10:35.857][Cacher] Parsed .aux %WS1%/main.tex .
+[13:10:35.857][Cacher] Found .aux %WS1%/main.tex from .fls %WS1%/main.fls , parsing.
+[13:10:35.858][Cacher] Parsed .aux %WS1%/main.tex .
+[13:10:35.858][Cacher] Found .aux %WS1%/main.tex from .fls %WS1%/main.fls , parsing.
+[13:10:35.858][Cacher] Parsed .aux %WS1%/main.tex .
+[13:10:35.858][Cacher] Parsed .fls %WS1%/main.fls .
+[13:10:35.860][Structure][LaTeX] Error loading content during structuring: %WS1%/aalto-hmc/aalto-hmc.tex .
+[13:10:35.860][Structure][LaTeX] Error loading content during structuring: %WS1%/aalto-hmc/whitening-transforms.tex .
+[13:10:35.861][Structure] Structure force updated with 0 root sections for %WS1%/main.tex .
+[13:10:35.862][Event] STRUCTURE_UPDATED
+[13:10:35.862][Intelli][Citation] Parsed 1 bib entries from %WS1%/references.bib .
+[13:10:35.863][Event] FILE_PARSED: "%WS1%/references.bib"
+[13:10:35.863][Structure][LaTeX] Error loading content during structuring: %WS1%/aalto-hmc/aalto-hmc.tex .
+[13:10:35.864][Structure][LaTeX] Error loading content during structuring: %WS1%/aalto-hmc/whitening-transforms.tex .
+[13:10:35.864][Structure] Structure force updated with 3 root sections for %WS1%/main.tex .
+[13:10:35.865][Event] STRUCTURE_UPDATED
+[13:10:36.417][Cacher] Parsed LaTeX AST: /home/meenaljhajharia/texmf/tex/generic/pgf/utilities/pgfutil-common.tex .
+[13:10:36.424][Cacher] Updated elements in 5.90 ms: /home/meenaljhajharia/texmf/tex/generic/pgf/utilities/pgfutil-common.tex .
+[13:10:36.425][Event] FILE_PARSED: "/home/meenaljhajharia/texmf/tex/generic/pgf/utilities/pgfutil-common.tex"
+[13:10:36.425][Cacher] Parsed LaTeX AST: /home/meenaljhajharia/texmf/tex/generic/pgf/pgf.revision.tex .
+[13:10:36.426][Cacher] Updated elements in 0.28 ms: /home/meenaljhajharia/texmf/tex/generic/pgf/pgf.revision.tex .
+[13:10:36.426][Event] FILE_PARSED: "/home/meenaljhajharia/texmf/tex/generic/pgf/pgf.revision.tex"
+[13:10:36.427][Cacher] Parsed LaTeX AST: %WS1%/2023/November/1.tex .
+[13:10:36.427][Cacher] Updated elements in 0.12 ms: %WS1%/2023/November/1.tex .
+[13:10:36.428][Event] FILE_PARSED: "%WS1%/2023/November/1.tex"
+[13:10:36.428][Cacher] Parsed LaTeX AST: %WS1%/2023/December/30.tex .
+[13:10:36.429][Cacher] Updated elements in 0.10 ms: %WS1%/2023/December/30.tex .
+[13:10:36.429][Event] FILE_PARSED: "%WS1%/2023/December/30.tex"
+[13:10:36.430][Structure][LaTeX] Error loading content during structuring: %WS1%/aalto-hmc/aalto-hmc.tex .
+[13:10:36.430][Structure][LaTeX] Error loading content during structuring: %WS1%/aalto-hmc/whitening-transforms.tex .
+[13:10:36.431][Structure] Structure force updated with 3 root sections for %WS1%/main.tex .
+[13:10:36.431][Event] STRUCTURE_UPDATED
+[13:10:39.030][Cacher][Watcher] Reset.
+[13:10:39.031][Cacher][Watcher] Reset.
+[13:10:39.031][Cacher][Watcher] Reset.

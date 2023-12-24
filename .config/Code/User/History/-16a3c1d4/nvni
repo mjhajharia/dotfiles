@@ -1,0 +1,7 @@
+**/*.hpp
+**/*.DS_Store
+**/*.ipynb
+**/*.so
+**/.vscode/**
+**/.jupyter_cache/**
+**/.quarto/**

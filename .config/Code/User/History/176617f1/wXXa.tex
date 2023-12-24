@@ -1,0 +1,178 @@
+\documentclass{tufte-handout}
+
+%\geometry{showframe}% for debugging purposes -- displays the margins
+\usepackage[en-GB,showdow]{datetime2}
+\usepackage{amsmath}
+\usepackage{tikz}
+
+% Set up the images/graphics package
+\usepackage{graphicx}
+\setkeys{Gin}{width=\linewidth,totalheight=\textheight,keepaspectratio}
+\graphicspath{{graphics/}}
+
+\title{\Huge{Journal}}
+\author{2023}
+\date{}  % if the \date{} command is left out, the current date will be used
+
+% The following package makes prettier tables.  We're all about the bling!
+\usepackage{booktabs}
+
+% The units package provides nice, non-stacked fractions and better spacing
+% for units.
+\usepackage{units}
+
+% The fancyvrb package lets us customize the formatting of verbatim
+% environments.  We use a slightly smaller font.
+\usepackage{fancyvrb}
+\fvset{fontsize=\normalsize}
+
+% Small sections of multiple columns
+\usepackage{multicol}
+
+% Provides paragraphs of dummy text
+\usepackage{lipsum}
+\usepackage{xstring}
+% These commands are used to pretty-print LaTeX commands
+\newcommand{\doccmd}[1]{\texttt{\textbackslash#1}}% command name -- adds backslash automatically
+\newcommand{\docopt}[1]{\ensuremath{\langle}\textrm{\textit{#1}}\ensuremath{\rangle}}% optional command argument
+\newcommand{\docarg}[1]{\textrm{\textit{#1}}}% (required) command argument
+\newenvironment{docspec}{\begin{quote}\noindent}{\end{quote}}% command specification environment
+\newcommand{\docenv}[1]{\textsf{#1}}% environment name
+\newcommand{\docpkg}[1]{\texttt{#1}}% package name
+\newcommand{\doccls}[1]{\texttt{#1}}% document class name
+\newcommand{\docclsopt}[1]{\texttt{#1}}% document class option name
+
+\definecolor{halfgray}{gray}{0.55}
+
+\newenvironment{loggentry}[2]% date, heading
+{\noindent\textbf{#2}\marginnote{#1}\par}{\vspace{0.5cm}}
+
+\def\?#1{}
+
+\pgfmathtruncatemacro{\StartYear}{2023}
+\pgfmathtruncatemacro{\EndYear}{2024}
+
+\newcommand{\writetitle}{0}
+\newcommand{\mytitle}[1]
+{   \ifthenelse{\writetitle=1}{#1}{}
+}
+
+\newread\mysource
+
+\newcommand{\monthToInt}[1]{%
+  \ifnum\pdfstrcmp{#1}{January}=0 1\else
+  \ifnum\pdfstrcmp{#1}{February}=0 2\else
+  \ifnum\pdfstrcmp{#1}{March}=0 3\else
+  \ifnum\pdfstrcmp{#1}{April}=0 4\else
+  \ifnum\pdfstrcmp{#1}{May}=0 5\else
+  \ifnum\pdfstrcmp{#1}{June}=0 6\else
+  \ifnum\pdfstrcmp{#1}{July}=0 7\else
+  \ifnum\pdfstrcmp{#1}{August}=0 8\else
+  \ifnum\pdfstrcmp{#1}{September}=0 9\else
+  \ifnum\pdfstrcmp{#1}{October}=0 10\else
+  \ifnum\pdfstrcmp{#1}{November}=0 11\else
+  \ifnum\pdfstrcmp{#1}{December}=0 12\else
+  1 % Invalid month
+  \fi\fi\fi\fi\fi\fi\fi\fi\fi\fi\fi
+  \fi
+}
+
+\newcommand{\monthsections}{}
+\newcommand{\createSectionIfNotExists}[1]{%
+  \ifcsname monthsection-#1\endcsname
+    % Section already exists, do nothing
+  \else
+    \section{#1}
+    \expandafter\global\expandafter\let\csname monthsection-#1\endcsname\relax
+  \fi
+}
+\usepackage{color}
+\usepackage{soul}
+
+
+\usepackage{todonotes}
+\definecolor{clightgray}{gray}{0.95}
+\presetkeys{todonotes}{backgroundcolor=clightgray, size=\small, linecolor=clightgray, bordercolor=white}{}
+\let\annotate\todo
+\let\annotations\listoftodos
+
+\begin{document}
+% {\dn skuula}
+\begin{minipage}{1pt}
+\begin{tikzpicture}[remember picture,overlay,shorten >= -10pt]
+
+\coordinate (aux1) at ([yshift=-15pt]current page.north east);
+\coordinate (aux2) at ([yshift=-410pt]current page.north east);
+\coordinate (aux3) at ([xshift=-4.5cm]current page.north east);
+\coordinate (aux4) at ([yshift=-150pt]current page.north east);
+
+\begin{scope}[halfgray!40,line width=12pt,rounded corners=12pt]
+\draw
+  (aux1) -- coordinate (a)
+  ++(225:5) --
+  ++(-45:5.1) coordinate (b);
+\draw[shorten <= -10pt]
+  (aux3) --
+  (a) --
+  (aux1);
+\draw[opacity=0.6,halfgray,shorten <= -10pt]
+  (b) --
+  ++(225:2.2) --
+  ++(-45:2.2);
+\end{scope}
+\draw[halfgray,line width=8pt,rounded corners=8pt,shorten <= -10pt]
+  (aux4) --
+  ++(225:0.8) --
+  ++(-45:0.8);
+\begin{scope}[halfgray!70,line width=6pt,rounded corners=8pt]
+\draw[shorten <= -10pt]
+  (aux2) --
+  ++(225:3) coordinate[pos=0.45] (c) --
+  ++(-45:3.1);
+\draw
+  (aux2) --
+  (c) --
+  ++(135:2.5) --
+  ++(45:2.5) --
+  ++(-45:2.5) coordinate[pos=0.3] (d);   
+\draw 
+  (d) -- +(45:1);
+\end{scope}
+\end{tikzpicture}
+\end{minipage}
+\hfill
+\begin{minipage}{.99\textwidth}
+
+\maketitle
+\end{minipage}
+\clearpage
+\foreach \Year in {\StartYear,...,\EndYear}
+{   \foreach \Month in {January,February,March,April,May,June,July,August,September,October,November,December}
+    {   \foreach \Day in {1,...,31}
+        {   \IfFileExists{\Year/\Month/\Day}
+                {   \createSectionIfNotExists{\Month}
+                \openin\mysource=\Year/\Month/\Day.tex
+                    \read\mysource to \firstline
+                    \closein\mysource
+                    \xdef\writetitle{1}
+                    \DTMsavedate{mydate}{\Year-\monthToInt{\Month}-\Day}
+                    \begin{loggentry}{
+                    \DTMusedate{mydate}
+                    }
+                    {\firstline}    
+                        \xdef\writetitle{0}
+                        \input{\Year/\Month/\Day}
+                        \xdef\monthh{\Month}
+                        \lhead{\monthh}
+                    \end{loggentry} 
+        }
+        {   % files do not exist
+        }
+
+        }  
+    }
+}
+\clearpage
+\bibliography{references}
+\bibliographystyle{plainnat}
+\end{document}

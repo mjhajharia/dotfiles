@@ -1,0 +1,21 @@
+[Desktop Entry]
+FullScreen=false
+
+[General]
+LockSidebar=true
+ShowSidebar=true
+
+[MainWindow]
+2 screens: Height=1010
+2 screens: Width=636
+2 screens: XPosition=1282
+2 screens: YPosition=26
+HDMI-A-0 eDP=HDMI-A-0
+State=AAAA/wAAAAD9AAAAAQAAAAAAAABaAAADt/wCAAAAAfsAAAAcAG8AawB1AGwAYQByAF8AcwBpAGQAZQBiAGEAcgEAAAA7AAADtwAAAOoA///+AAACHAAAA7cAAAAEAAAABAAAAAgAAAAI/AAAAAMAAAABAAAAAQAAACwAcQB1AGkAYwBrAEEAbgBuAG8AdABhAHQAaQBvAG4AVABvAG8AbABCAGEAcgIAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAiAGEAbgBuAG8AdABhAHQAaQBvAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+
+[Recent Files]
+File1[$e]=$HOME/sop-3.pdf
+File2[$e]=$HOME/pathfinder-models.md
+Name1[$e]=sop-3.pdf
+Name2[$e]=pathfinder-models.md

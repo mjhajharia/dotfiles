@@ -1,0 +1,104 @@
+---
+title: "Eight Schools"
+author: ""
+date: ""
+format:
+  html:
+    code-fold: true
+execute: 
+  daemon: 99999
+  cache: false
+figures:
+  fig-format: png
+toc: false
+monobackgroundcolor: "#FFFFFF"
+mainfont: "Palatino Linotype"
+---
+
+```{julia}
+using Revise, DynamicHMC, PosteriorDB, Random, StanLogDensityProblems, JSON, BridgeStan, DataFrames, LinearAlgebra, StatsBase, Distributions
+using Plots, ColorSchemes, LaTeXStrings, Statistics, CSV
+Plots.theme(:mute)
+const BS = BridgeStan;
+```
+
+```{julia}
+include("snippets/utils.jl"); 
+```
+
+```{julia}
+post, path, data = extract_pdb("eight_schools_centered", "eight_schools-eight_schools_centered");
+post_nc, path_nc, data_nc = extract_pdb("eight_schools_noncentered", "eight_schools-eight_schools_noncentered");
+```
+
+```{julia}
+#| warning: false
+fullpath = abspath∘expanduser
+BS.set_bridgestan_path!(fullpath("~/github/roualdes/bridgestan"));
+bs_model = BS.StanModel(stan_file=path, data=data);
+bs_model_nc = BS.StanModel(stan_file=path_nc, data=data_nc);
+```
+
+```{julia}
+constrained_draws = get_draws(post);
+constrained_draws_nc = get_draws(post_nc);
+
+mu, tau = constrained_draws_nc[:, end-1], constrained_draws_nc[:, end]
+for i in 1:8
+    constrained_draws_nc[:, i] = (constrained_draws_nc[:, i] - mu) ./ tau
+end
+```
+
+```{julia}
+unconstrained_draws = unconstrain_draws(bs_model, constrained_draws);
+unconstrained_draws_nc = unconstrain_draws(bs_model_nc, constrained_draws_nc);
+include("snippets/whitening_eightschools.jl");
+```
+
+#### Centered Model
+
+```{julia}
+display(funnel_plots(scatter(theta0, logtau, alpha=0.1, label=L"\mathrm{Centered: \kappa(H)}", markerstrokewidth=0, c="Gray")));
+
+# CN_Hessian
+display(funnel_plots(scatter(theta0, logtau, alpha=0.1, zcolor=CN_Hessian, label=L"\mathrm{Centered: \kappa(H)}", markerstrokewidth=0)));
+
+# CN_Hessian_cholesky
+display(funnel_plots(scatter(theta0, logtau, alpha=0.1, zcolor=CN_Hessian_cholesky, label=L"\mathrm{Centered: \kappa(H_T)}", markerstrokewidth=0)));
+```
+
+#### Non Centered Model
+
+```{julia}
+display(funnel_plots(scatter(theta0_nc, logtau_nc, 
+                            alpha=0.1, 
+                            label=L"\mathrm{Non-Centered: \kappa(H)}", 
+                            markerstrokewidth=0, 
+                            c="Gray")));
+
+# CN Hessian
+display(funnel_plots(scatter(theta0_nc, logtau_nc, 
+                            alpha=0.1, 
+                            c=distinguishable_colors(CN_Hessian_cholesky_nc), 
+                            label=L"\mathrm{Non-Centered: \kappa(H)}", 
+                            markerstrokewidth=0)));
+
+# CN Cholesky Hessian
+display(funnel_plots(scatter(theta0_nc, logtau_nc, 
+                            alpha=0.1, 
+                            zcolor=log.(CN_Hessian_cholesky_nc),
+                            label=L"\mathrm{Non-Centered: \kappa(H_T)}", 
+                            markerstrokewidth=0)));
+```
+
+### Hessian vs Transformed Hessian
+
+```{julia}
+Plots.theme(:default)
+plot1 = scatter(CN_Hessian, CN_Hessian_cholesky, xaxis=:log, yaxis=:log, alpha=0.1, label="Centered Eight Schools", font="Palatino Linotype")
+
+plot2 = scatter!(CN_Hessian_nc, CN_Hessian_cholesky_nc, xaxis=:log, yaxis=:log, alpha=0.1, label="Non-Centered Eight Schools", font="Palatino Linotype")
+
+display(hessian_transformed_plot(plot1, plot2));
+```
+

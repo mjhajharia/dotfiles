@@ -1,0 +1,22 @@
+\title{Isometric logratio transformations for compositional data analysis}
+\author{Egozcue, J. J. and Pawlowsky-Glahn, V. and Mateu-Figueras, G. and Barceló-Vidal, C.}
+\taxon{reference}
+\tag{refereed}
+\meta{venue}{Mathematical geology}
+\meta{volume}{35}
+\meta{number}{3}
+\meta{pages}{279--300}
+\meta{year}{2003}
+\meta{publisher}{Springer}
+\meta{bibtex}{\startverb%
+@article{egozcue2003isometric,
+	title = {Isometric logratio transformations for compositional data analysis},
+	author = {Egozcue, 2003},
+	journal = {Mathematical geology},
+	volume = {35},
+	number = {3},
+	pages = {279--300},
+	year = {2003},
+	publisher = {Springer}
+}
+\stopverb}

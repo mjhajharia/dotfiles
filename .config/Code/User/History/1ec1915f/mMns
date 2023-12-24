@@ -1,0 +1,5 @@
+/.quarto/
+**/*.html
+/_*.local
+**/*.ipynb
+!quarto/_site/**

@@ -1,0 +1,39 @@
+{
+   "action": {
+      "default_icon": {
+         "19": "icon19.png",
+         "38": "icon38.png"
+      },
+      "default_title": "Open Abstract / PDF"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "commands": {
+      "_execute_action": {
+         "suggested_key": {
+            "default": "Alt+A"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "js": [ "content.js" ],
+      "matches": [ "*://arxiv.org/*pdf*", "*://arxiv.org/abs/*", "*://export.arxiv.org/*pdf*", "*://export.arxiv.org/abs/*", "*://browse.arxiv.org/*pdf*", "*://browse.arxiv.org/abs/*", "*://ar5iv.labs.arxiv.org/html/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Easy access on ArXiv! Rename the title to the paper's title. Add a button to navigate easily. Download PDF with meaningful filename.",
+   "differential_fingerprint": "1.f7d9aaf6facdbffc0f6788f5dcc6228626e7623335d1143a3267e21bff4e7f5e",
+   "host_permissions": [ "*://arxiv.org/*", "*://export.arxiv.org/*", "*://browse.arxiv.org/*", "*://ar5iv.labs.arxiv.org/*" ],
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqva4Ca4ZutwqyJMzlwfW/pI6ik7keHheQ2MTuv7LdZyHAN/jQPf/iWhuGAJh5GbjULspRKBlyr3SVIFtLDZRlBnfLC44OhS0m9CS5sbStx1Ci8gVfj0SnGx8iqudYKZqufXV/Go1lSv3Np4A8QkPa+UEW/9Z8vBWiMmXsOXyL+wbU2tqik0bvyH1dpEmtOGxP+aAIuqw0xBnO0ggKh5JT1r7php1wRaUwVGxYo9+VfXGBbi+Nyjc+kDgJM1didq9KGeNVwk3+AHkC6MU0HJPPLSPeTAyfpqSzfJZkLfCyIpOqe8zfw1kh/v5q+ji10ljLr1bLz0GiS4PjJ8iake4bQIDAQAB",
+   "manifest_version": 3,
+   "name": "arxiv-utils",
+   "options_page": "options.html",
+   "permissions": [ "tabs", "activeTab", "storage", "contextMenus", "scripting", "downloads" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.8.2"
+}

@@ -1,0 +1,52 @@
+---
+title: "AdvancedHMC with PosteriorDB"
+author: ""
+date: ""
+format:
+  html:
+    code-fold: true
+execute: 
+  daemon: 99999
+  cache: false
+figures:
+  fig-format: png
+toc: false
+monobackgroundcolor: "#FFFFFF"
+mainfont: "Palatino Linotype"
+---
+
+
+
+```{julia}
+using Revise, DynamicHMC, PosteriorDB, Random, StanLogDensityProblems, JSON, BridgeStan, DataFrames, LinearAlgebra, StatsBase, Distributions
+using Plots, ColorSchemes, LaTeXStrings, Statistics, CSV, 
+using AdvancedHMC, PosteriorDB, Random, ForwardDiff
+Plots.theme(:default)
+const BS = BridgeStan;
+```
+
+```{julia}
+include("snippets/eightschools_pdb.jl");
+fullpath = abspath∘expanduser
+BS.set_bridgestan_path!(fullpath("~/github/roualdes/bridgestan"));
+bs_model = BS.StanModel(stan_file=path, data=s);
+
+lp = StanProblem(bs_model);
+
+D = 10;
+initial_θ = rand(D);
+n_samples, n_adapts = 2_000, 1_000;
+metric = DiagEuclideanMetric(D);
+hamiltonian = Hamiltonian(metric, lp);
+```
+
+```{julia}
+initial_ϵ = find_good_stepsize(hamiltonian, initial_θ);
+```
+
+```{julia}
+integrator = Leapfrog(initial_ϵ);
+proposal = NUTS{MultinomialTS, GeneralisedNoUTurn}(integrator);
+adaptor = StanHMCAdaptor(MassMatrixAdaptor(metric), StepSizeAdaptor(0.8, integrator));
+samples, stats = sample(hamiltonian, proposal, initial_θ, n_samples, adaptor, n_adapts; progress=true);
+```

@@ -1,0 +1,4 @@
+\ProvidesFile{AvenirNextLTPro-Regular.fd}
+\DeclareFontFamily{T1}{AvenirNextLTPro}{}
+\DeclareFontShape{T1}{AvenirNextLTPro}{m}{n}{ <-> AvenirNextLTPro-Regular}{}
+% Add similar lines for other font variations

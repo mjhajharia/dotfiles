@@ -1,0 +1,38 @@
+\title{Stickbreaking Unconstraining Transform}
+\tag{private}
+\author{meenaljhajharia}
+
+\newcommand{\setcomp}[2]{\left\{ #1 \ \Big|\ #2 \right\}}
+\newcommand{\rngto}[1]{1{:}#1}
+\newcommand{\abs}[1]{\left| #1 \right|}
+\newcommand{\absdet}[1]{\abs{#1}}
+\newcommand{\dv}[1]{\mathrm{d}{#1}}
+\newcommand{\pdv}[1]{\partial {#1}}
+\newcommand{\Exp}{\mathrm{Exp}}
+\newcommand{\vect}{\mathrm{vec}}
+\newcommand{\vectu}{\mathrm{vecu}}
+\newcommand{\onevec}[1]{1_{#1}}
+\newcommand{\onehot}[1]{e_{#1}}
+\newcommand{\trans}[1]{{#1}^\mathrm{T}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Rpos}{\R_{>0}}
+\newcommand{\simplex}[1]{\Delta^{#1}}
+\newcommand{\sphere}[1]{\mathbb{S}^{#1}}
+\newcommand{\sphereorthant}[1]{\sphere{#1}_{>0}}
+\newcommand{\jac}{J}
+\NewDocumentCommand{\idmat}{m g}{%
+    \IfNoValueTF{#2}{I_{#1}}{I_{#1,#2}}
+}
+\newcommand{\logit}{\operatorname{logit}}
+\newcommand{\logistic}{\logit^{-1}}
+\newcommand{\probit}{\operatorname{probit}}
+\newcommand{\invprobit}{\probit^{-1}}
+\newcommand{\softmax}{\operatorname{softmax}}
+\newcommand{\logsumexp}{\operatorname{logsumexp}}
+\newcommand{\diag}{\operatorname{diag}}
+
+\tex{The unconstraining transformation $f_1 \colon \simplex{N-1} \to (0, 1]^{N-1}$ is defined so that if $z = f_1(x)$, then
+\[
+  z_i = \frac{x_i}{1 - \sum_{k = 1}^{i-1} x_{k}}.
+\]
+}
