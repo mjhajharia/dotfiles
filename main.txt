@@ -1,0 +1,4 @@
+paru -S firefox lightdm-gtk-greeter ttf-meslo-nerd-font-powerlevel10k ranger rofi dunst kitty\
+lxappearance i3-wm i3lock i3blocks i3status imwheel picom scrot gimp bumblebee-status i3ipc-python \
+python-tzlocal redshift dnf xorg-xbacklight network-manager-applet papirus-icon-theme ttf-opensans \
+xautolock tmux thunar gvfs libfdk-aac gtkmm3 dracula-gtk-theme
